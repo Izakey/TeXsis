@@ -30,7 +30,7 @@
 \graphicspath{{Pictures/}} % Specifies the directory where pictures are stored
 
 \usepackage[square, numbers, comma, sort&compress]{natbib} % Use the natbib reference package - read up on this to edit the reference style; if you want text (e.g. Smith et al., 2012) for the in-text references (instead of numbers), remove 'numbers' 
-\hypersetup{urlcolor=blue, colorlinks=true} % Colors hyperlinks in blue - change to black if annoying
+\hypersetup{urlcolor=black, colorlinks=true} % Colors hyperlinks in blue - change to black if annoying
 \title{\ttitle} % Defines the thesis title - don't touch this
 
 \begin{document}
@@ -61,36 +61,31 @@
 \begin{titlepage}
 \begin{center}
 
-\textsc{\LARGE \univname}\\[1.5cm] % University name
-\textsc{\Large Doctoral Thesis}\\[0.5cm] % Thesis type
+\textsc{\Huge \univname}\\[25pt]\\[2.13cm] % University name
+\textsc{\LARGE \facname}\\[20pt]\\[2.13cm] % University name
+\textsc{\Large \deptname}\\[1.1cm] % Thesis type
 
-\HRule \\[0.4cm] % Horizontal line
-{\huge \bfseries \ttitle}\\[0.4cm] % Thesis title
-\HRule \\[1.5cm] % Horizontal line
+\HRule  \\[0.5cm]% Horizontal line
+{\huge \bfseries \textit{\ttitle}}\\[0.4cm] % Thesis title
+\HRule \\[1.0cm] % Horizontal line
+
+\Large \textit{A thesis submitted to the \facname \\ in partial fulfilment of the requirements for the degree of \\ \degreename \\ By \\ \authornames \\ \textsc{\textit{( SC09B676 )}} }\\[2.2cm] % University requirement text
  
-\begin{minipage}{0.4\textwidth}
-\begin{flushleft} \large
-\emph{Author:}\\
-\href{http://www.johnsmith.com}{\authornames} % Author name - remove the \href bracket to remove the link
+\begin{minipage}{0.5\textwidth}
+\begin{flushleft} \Large
+\emph{Supervisor:}\\
+\href{https://plus.google.com/110910335511198809682}{\supname} % Author name - remove the \href bracket to remove the link
 \end{flushleft}
 \end{minipage}
 \begin{minipage}{0.4\textwidth}
-\begin{flushright} \large
-\emph{Supervisor:} \\
-\href{http://www.jamessmith.com}{\supname} % Supervisor name - remove the \href bracket to remove the link  
+\begin{flushright} \Large
+\emph{Date:} \\
+\Large \today % Supervisor name - remove the \href bracket to remove the link 
 \end{flushright}
-\end{minipage}\\[3cm]
- 
-\large \textit{A thesis submitted in fulfilment of the requirements\\ for the degree of \degreename}\\[0.3cm] % University requirement text
-\textit{in the}\\[0.4cm]
-\groupname\\\deptname\\[2cm] % Research group name and department name
- 
-{\large \today}\\[4cm] % Date
-%\includegraphics{Logo} % University/department logo - uncomment to place it
- 
-\vfill
-\end{center}
+\end{minipage}
 
+%\includegraphics{Logo} % University/department logo - uncomment to place it
+\end{center}
 \end{titlepage}
 
 %----------------------------------------------------------------------------------------
