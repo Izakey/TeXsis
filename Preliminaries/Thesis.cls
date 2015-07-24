@@ -50,12 +50,9 @@
 \addtotoc{Declaration}
 \thispagestyle{plain}
 \null\vfil
-%\vskip 60\p@
 \begin{center}{\huge\bf Declaration\par}\end{center}
-%\vskip 60\p@
 {\normalsize #1}
 \vfil\vfil\null
-%\cleardoublepage
 }
 
 \newcommand\Dedication[1]{
@@ -63,12 +60,10 @@
 \addtotoc{Dedication}
 \thispagestyle{plain}
 \null\vfil
-%\vskip 60\p@
 \begin{center}{\huge\bf Dedication \par}\end{center}
-%\vskip 60\p@
 {\normalsize #1}
 \vfil\vfil\null
-%\cleardoublepage
+
 }
 
 \newcommand\Certification[1]{
@@ -76,12 +71,9 @@
 \addtotoc{Certification}
 \thispagestyle{plain}
 \null\vfil
-%\vskip 60\p@
 \begin{center}{\huge\bf Certification \par}\end{center}
-%\vskip 60\p@
 {\normalsize #1}
 \vfil\vfil\null
-%\cleardoublepage
 }
 
 \newcommand\btypeout[1]{\bhrule\typeout{\space #1}\bhrule}
