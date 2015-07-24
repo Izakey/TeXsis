@@ -46,8 +46,8 @@
 \newcommand\bhrule{\typeout{------------------------------------------------------------------------------}}
 
 \newcommand\Declaration[1]{
-\btypeout{Declaration of Authorship}
-\addtotoc{Declaration of Authorship}
+\btypeout{Declaration}
+\addtotoc{Declaration}
 \thispagestyle{plain}
 \null\vfil
 %\vskip 60\p@
