@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.7.20)  24 JUL 2015 11:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.7.20)  24 JUL 2015 12:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -254,7 +254,7 @@ Now handling font encoding U ...
    defining Unicode char U+2423 (decimal 9251)
 ))
 ! Undefined control sequence.
-l.108 \setmarginsrb
+l.103 \setmarginsrb
                      { 1.5in}  % left margin
 ? 
 
@@ -264,7 +264,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.108 \setmarginsrb  { 1
+l.103 \setmarginsrb  { 1
                         .5in}  % left margin
 ? 
 (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
@@ -955,43 +955,41 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.244 }
+l.241 }
        
 ? 
 
-Overfull \hbox (4.14883pt too wide) in paragraph at lines 244--245
+Overfull \hbox (4.14883pt too wide) in paragraph at lines 241--242
 []\OT1/cmr/m/n/10.95 Many thanks go to my fam-ily for their as-sis-tance and en
 -cour-age-ment through-
  []
 
 [4
 
-] [5
-
 ]
 ------------------------------------------------------------------------------
  Abstract Page
 ------------------------------------------------------------------------------
-[6
+[5
 
 ]
 ------------------------------------------------------------------------------
  Acknowledgements
 ------------------------------------------------------------------------------
-[7
+[6
 
 ]
 ------------------------------------------------------------------------------
  Table of Contents
 ------------------------------------------------------------------------------
-(./main.toc [8
+(./main.toc [7
 
 
 ])
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [9]
+ [8]
 ------------------------------------------------------------------------------
  List of Figures
 ------------------------------------------------------------------------------
@@ -999,7 +997,7 @@ Overfull \hbox (4.14883pt too wide) in paragraph at lines 244--245
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
- [10
+ [9
 
 
 ]
@@ -1010,14 +1008,14 @@ Overfull \hbox (4.14883pt too wide) in paragraph at lines 244--245
 \tf@lot=\write6
 \openout6 = `main.lot'.
 
- [11
+ [10
 
 
 ]
 ------------------------------------------------------------------------------
  Abbreviations
 ------------------------------------------------------------------------------
-[12
+[11
 
 
 
@@ -1025,7 +1023,7 @@ Overfull \hbox (4.14883pt too wide) in paragraph at lines 244--245
 ------------------------------------------------------------------------------
  Physical Constants
 ------------------------------------------------------------------------------
-[13
+[12
 
 
 
@@ -1033,7 +1031,7 @@ Overfull \hbox (4.14883pt too wide) in paragraph at lines 244--245
 ------------------------------------------------------------------------------
  Symbols
 ------------------------------------------------------------------------------
-[14
+[13
 
 
 
@@ -1041,7 +1039,7 @@ Overfull \hbox (4.14883pt too wide) in paragraph at lines 244--245
 ------------------------------------------------------------------------------
  Dedicatory
 ------------------------------------------------------------------------------
-[15
+[14
 
 ] (./Chapters/Chapter1.tex
 Chapter 1.
@@ -1097,7 +1095,7 @@ e 197.
 Package natbib Warning: Citation `Reference3' on page 11 undefined on input lin
 e 197.
 
-[11] <Figures/Electron.pdf, id=355, 398.3386pt x 284.52756pt>
+[11] <Figures/Electron.pdf, id=351, 398.3386pt x 284.52756pt>
 File: Figures/Electron.pdf Graphic file (type pdf)
 
 <use Figures/Electron.pdf>
@@ -1128,18 +1126,18 @@ No file main.bbl.
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 416.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 416.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 395.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 395.
 (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 416.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 416.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 395.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 395.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 255C92AACE635FB5F4D7073E765ED371;5712.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 416.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 395.
  ) 
 Here is how much of TeX's memory you used:
- 13060 strings out of 495025
- 182364 string characters out of 6181515
+ 13059 strings out of 495025
+ 182357 string characters out of 6181515
  247886 words of memory out of 5000000
  16000 multiletter control sequences out of 15000+600000
  22326 words of font info for 83 fonts, out of 8000000 for 9000
@@ -1162,10 +1160,10 @@ e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (33 pages, 284464 bytes).
+Output written on main.pdf (32 pages, 282720 bytes).
 PDF statistics:
- 519 PDF objects out of 1000 (max. 8388607)
- 452 compressed objects within 5 object streams
- 81 named destinations out of 1000 (max. 500000)
+ 515 PDF objects out of 1000 (max. 8388607)
+ 449 compressed objects within 5 object streams
+ 80 named destinations out of 1000 (max. 500000)
  286 words of extra memory for PDF output out of 10000 (max. 10000000)
 
