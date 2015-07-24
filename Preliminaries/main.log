@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.7.20)  24 JUL 2015 12:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.7.20)  24 JUL 2015 12:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -974,22 +974,16 @@ Overfull \hbox (4.14883pt too wide) in paragraph at lines 241--242
 
 ]
 ------------------------------------------------------------------------------
- Acknowledgements
-------------------------------------------------------------------------------
-[6
-
-]
-------------------------------------------------------------------------------
  Table of Contents
 ------------------------------------------------------------------------------
-(./main.toc [7
+(./main.toc [6
 
 
 ])
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [8]
+ [7]
 ------------------------------------------------------------------------------
  List of Figures
 ------------------------------------------------------------------------------
@@ -997,7 +991,7 @@ Overfull \hbox (4.14883pt too wide) in paragraph at lines 241--242
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
- [9
+ [8
 
 
 ]
@@ -1008,14 +1002,14 @@ Overfull \hbox (4.14883pt too wide) in paragraph at lines 241--242
 \tf@lot=\write6
 \openout6 = `main.lot'.
 
- [10
+ [9
 
 
 ]
 ------------------------------------------------------------------------------
  Abbreviations
 ------------------------------------------------------------------------------
-[11
+[10
 
 
 
@@ -1023,7 +1017,7 @@ Overfull \hbox (4.14883pt too wide) in paragraph at lines 241--242
 ------------------------------------------------------------------------------
  Physical Constants
 ------------------------------------------------------------------------------
-[12
+[11
 
 
 
@@ -1031,7 +1025,7 @@ Overfull \hbox (4.14883pt too wide) in paragraph at lines 241--242
 ------------------------------------------------------------------------------
  Symbols
 ------------------------------------------------------------------------------
-[13
+[12
 
 
 
@@ -1039,7 +1033,7 @@ Overfull \hbox (4.14883pt too wide) in paragraph at lines 241--242
 ------------------------------------------------------------------------------
  Dedicatory
 ------------------------------------------------------------------------------
-[14
+[13
 
 ] (./Chapters/Chapter1.tex
 Chapter 1.
@@ -1095,7 +1089,7 @@ e 197.
 Package natbib Warning: Citation `Reference3' on page 11 undefined on input lin
 e 197.
 
-[11] <Figures/Electron.pdf, id=351, 398.3386pt x 284.52756pt>
+[11] <Figures/Electron.pdf, id=361, 398.3386pt x 284.52756pt>
 File: Figures/Electron.pdf Graphic file (type pdf)
 
 <use Figures/Electron.pdf>
@@ -1126,44 +1120,114 @@ No file main.bbl.
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 395.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 395.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 383.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 383.
 (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 395.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 395.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 255C92AACE635FB5F4D7073E765ED371;5712.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 395.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 383.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 383.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 255C92AACE635FB5F4D7073E765ED371;5712
+(rerunfilecheck)             After:  FC20E04C45BCC9BF7132E2F5E5763181;5590.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 383.
  ) 
 Here is how much of TeX's memory you used:
- 13059 strings out of 495025
- 182357 string characters out of 6181515
+ 13077 strings out of 495025
+ 182554 string characters out of 6181515
  247886 words of memory out of 5000000
  16000 multiletter control sequences out of 15000+600000
  22326 words of font info for 83 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  49i,12n,45p,776b,428s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (32 pages, 282720 bytes).
+pdfTeX warning (dest): name{figure.caption.42} has been referenced but does n
+ot exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{appendix.47} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.46} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.43} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.41} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.39} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.36} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.33} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.31} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.30} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.29} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.28} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.24} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.22} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{dummy.19} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{dummy.16} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{dummy.13} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{dummy.11} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{dummy.9} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{dummy.7} has been referenced but does not exist, re
+placed by a fixed one
+
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on main.pdf (31 pages, 282320 bytes).
 PDF statistics:
- 515 PDF objects out of 1000 (max. 8388607)
- 449 compressed objects within 5 object streams
- 80 named destinations out of 1000 (max. 500000)
+ 533 PDF objects out of 1000 (max. 8388607)
+ 468 compressed objects within 5 object streams
+ 98 named destinations out of 1000 (max. 500000)
  286 words of extra memory for PDF output out of 10000 (max. 10000000)
 

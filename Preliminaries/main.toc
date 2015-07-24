@@ -7,37 +7,35 @@
 \vspace {1em}
 \contentsline {chapter}{Abstract}{v}{dummy.5}
 \vspace {1em}
-\contentsline {chapter}{Acknowledgements}{vi}{dummy.6}
-\vspace {1em}
-\contentsline {chapter}{Contents}{vii}{dummy.7}
-\contentsline {chapter}{List of Figures}{ix}{dummy.9}
-\contentsline {chapter}{List of Tables}{x}{dummy.11}
-\contentsline {chapter}{Abbreviations}{xi}{dummy.13}
-\contentsline {chapter}{Physical Constants}{xii}{dummy.16}
-\contentsline {chapter}{Symbols}{xiii}{dummy.19}
+\contentsline {chapter}{Contents}{vi}{dummy.6}
+\contentsline {chapter}{List of Figures}{viii}{dummy.8}
+\contentsline {chapter}{List of Tables}{ix}{dummy.10}
+\contentsline {chapter}{Abbreviations}{x}{dummy.12}
+\contentsline {chapter}{Physical Constants}{xi}{dummy.15}
+\contentsline {chapter}{Symbols}{xii}{dummy.18}
 \vspace {2em}
-\contentsline {chapter}{\numberline {1}Chapter Title Here}{1}{chapter.22}
-\contentsline {section}{\numberline {1.1}Welcome and Thank You}{1}{section.23}
-\contentsline {section}{\numberline {1.2}Learning \LaTeX {}}{2}{section.24}
-\contentsline {subsection}{\numberline {1.2.1}A (not so short) Introduction to \LaTeX {}}{2}{subsection.25}
-\contentsline {subsection}{\numberline {1.2.2}A Short Math Guide for \LaTeX {}}{2}{subsection.26}
-\contentsline {subsection}{\numberline {1.2.3}Common \LaTeX {} Math Symbols}{3}{subsection.27}
-\contentsline {subsection}{\numberline {1.2.4}\LaTeX {} on a Mac}{3}{subsection.28}
-\contentsline {section}{\numberline {1.3}Getting Started with this Template}{3}{section.29}
-\contentsline {subsection}{\numberline {1.3.1}About this Template}{4}{subsection.30}
-\contentsline {section}{\numberline {1.4}What this Template Includes}{4}{section.31}
-\contentsline {subsection}{\numberline {1.4.1}Folders}{4}{subsection.32}
-\contentsline {subsection}{\numberline {1.4.2}Files}{5}{subsection.33}
-\contentsline {section}{\numberline {1.5}Filling in the `\texttt {Thesis.cls}' File}{7}{section.34}
-\contentsline {section}{\numberline {1.6}The `\texttt {Thesis.tex}' File Explained}{8}{section.35}
-\contentsline {section}{\numberline {1.7}Thesis Features and Conventions}{9}{section.36}
-\contentsline {subsection}{\numberline {1.7.1}Printing Format}{10}{subsection.37}
-\contentsline {subsection}{\numberline {1.7.2}Using US Letter Paper}{10}{subsection.38}
-\contentsline {subsection}{\numberline {1.7.3}References}{11}{subsection.39}
-\contentsline {subsection}{\numberline {1.7.4}Figures}{12}{subsection.41}
-\contentsline {subsection}{\numberline {1.7.5}Typesetting mathematics}{13}{subsection.43}
-\contentsline {section}{\numberline {1.8}Sectioning and Subsectioning}{14}{section.45}
-\contentsline {section}{\numberline {1.9}In Closing}{15}{section.46}
+\contentsline {chapter}{\numberline {1}Chapter Title Here}{1}{chapter.21}
+\contentsline {section}{\numberline {1.1}Welcome and Thank You}{1}{section.22}
+\contentsline {section}{\numberline {1.2}Learning \LaTeX {}}{2}{section.23}
+\contentsline {subsection}{\numberline {1.2.1}A (not so short) Introduction to \LaTeX {}}{2}{subsection.24}
+\contentsline {subsection}{\numberline {1.2.2}A Short Math Guide for \LaTeX {}}{2}{subsection.25}
+\contentsline {subsection}{\numberline {1.2.3}Common \LaTeX {} Math Symbols}{3}{subsection.26}
+\contentsline {subsection}{\numberline {1.2.4}\LaTeX {} on a Mac}{3}{subsection.27}
+\contentsline {section}{\numberline {1.3}Getting Started with this Template}{3}{section.28}
+\contentsline {subsection}{\numberline {1.3.1}About this Template}{4}{subsection.29}
+\contentsline {section}{\numberline {1.4}What this Template Includes}{4}{section.30}
+\contentsline {subsection}{\numberline {1.4.1}Folders}{4}{subsection.31}
+\contentsline {subsection}{\numberline {1.4.2}Files}{5}{subsection.32}
+\contentsline {section}{\numberline {1.5}Filling in the `\texttt {Thesis.cls}' File}{7}{section.33}
+\contentsline {section}{\numberline {1.6}The `\texttt {Thesis.tex}' File Explained}{8}{section.34}
+\contentsline {section}{\numberline {1.7}Thesis Features and Conventions}{9}{section.35}
+\contentsline {subsection}{\numberline {1.7.1}Printing Format}{10}{subsection.36}
+\contentsline {subsection}{\numberline {1.7.2}Using US Letter Paper}{10}{subsection.37}
+\contentsline {subsection}{\numberline {1.7.3}References}{11}{subsection.38}
+\contentsline {subsection}{\numberline {1.7.4}Figures}{12}{subsection.40}
+\contentsline {subsection}{\numberline {1.7.5}Typesetting mathematics}{13}{subsection.42}
+\contentsline {section}{\numberline {1.8}Sectioning and Subsectioning}{14}{section.44}
+\contentsline {section}{\numberline {1.9}In Closing}{15}{section.45}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Appendix Title Here}{16}{appendix.47}
+\contentsline {chapter}{\numberline {A}Appendix Title Here}{16}{appendix.46}
 \vspace {2em}
