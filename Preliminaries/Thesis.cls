@@ -392,7 +392,7 @@
 \newcommand\listsymbolname{Abbreviations}
 \usepackage{longtable}
 \newcommand\listofsymbols[2]{
-\btypeout{\listsymbolname}
+%\btypeout{\listsymbolname}
 \addtotoc{\listsymbolname}
     \chapter*{\listsymbolname
       \@mkboth{
