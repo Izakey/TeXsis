@@ -404,7 +404,7 @@
 \usepackage{longtable}
 \newcommand\listofconstants[2]{
 \btypeout{\listconstants}
-\addtotoc{\listconstants}
+%\addtotoc{\listconstants}
     \chapter*{\listconstants
       \@mkboth{
           \MakeUppercase\listconstants}{\MakeUppercase\listconstants}}
@@ -415,7 +415,7 @@
 \usepackage{longtable}
 \newcommand\listofnomenclature[2]{
 \btypeout{\listnomenclature}
-\addtotoc{\listnomenclature}
+%\addtotoc{\listnomenclature}
     \chapter*{\listnomenclature
       \@mkboth{
           \MakeUppercase\listnomenclature}{\MakeUppercase\listnomenclature}}
