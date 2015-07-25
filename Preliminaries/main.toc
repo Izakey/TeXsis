@@ -1,12 +1,12 @@
 \contentsline {chapter}{Declaration}{i}{dummy.1}
-\vspace {1em}
+\par 
 \contentsline {chapter}{Dedication}{ii}{dummy.2}
 \contentsline {chapter}{Certification}{iii}{dummy.3}
-\vspace {1em}
+\par 
 \contentsline {chapter}{Acknowledgement}{iv}{dummy.4}
-\vspace {1em}
+\par 
 \contentsline {chapter}{Abstract}{v}{dummy.5}
-\vspace {1em}
+\par 
 \contentsline {chapter}{Contents}{vi}{dummy.6}
 \contentsline {chapter}{List of Figures}{viii}{dummy.8}
 \contentsline {chapter}{List of Tables}{ix}{dummy.10}

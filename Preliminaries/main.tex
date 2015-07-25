@@ -95,7 +95,7 @@
 
 \Declaration{
 
-\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
+\addtocontents{toc}%{\vspace{1em}} % Add a gap in the Contents, for aesthetics
 
 I, \textsc{\authornames}, Matriculation Number (SC09B676) declare that this thesis titled, \textit{\ttitle} and the work presented in it are my own. I confirm that this work was done wholly while in candidature for a \degreename\hspace{2}at the \univname. Where I consulted the published work of others, this has been clearly acknowledged. This work has not been previously submitted for a degree or any other qualification at this University or any other institution.\\[6.0cm]
  
@@ -144,7 +144,7 @@ Signed:\\
 
 \Certification{
 
-\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
+\addtocontents{toc}%{\vspace{1em}} % Add a gap in the Contents, for aesthetics
 
 This is to certify that this research project titled \textit{\ttitle} is the original work of \textsc{\authornames}, Matriculation Number (SC09B676), a \degreename\hspace{2} student of the \deptname\hspace{2} in the \facname\hspace{2} at the \univname\hspace{1}.\\[2.5cm]
  
@@ -200,7 +200,8 @@ Dean/FS:\\
 %----------------------------------------------------------------------------------------
 \Acknowledgement{
 
-\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
+\addtocontents{toc}%{\vspace{1em}} % Add a gap in the Contents, for aesthetics
+
 Firstly, I thank our Lord Jesus Christ for giving me
 life and good health during my stay at University Of Buea and for
 granting me the patience to go through this program.
@@ -244,14 +245,13 @@ company and I'm happy to know I was not alone.
 %----------------------------------------------------------------------------------------
 %	ABSTRACT PAGE
 %----------------------------------------------------------------------------------------
+\Abstract{
 
-\addtotoc{Abstract} % Add the "Abstract" page entry to the Contents
+\abstract{\addtocontents{toc}%{\vspace{1em}} % Add a gap in the Contents, for aesthetics
 
-\abstract{\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
-
-\textit{In this thesis titled \textit{\ttitle}, we aimed at demonstrating the engineering of a heart-shaped primitive within BRL-CAD package.Using a case study approach, we designed the heart-shaped primitive's data structure, wrote necessary callback functions and tested them using BRL-CAD's testing infrastructure. We showed that the Laguerre-based root solver is indeed a sure-fire iterative method for finding roots of polynomials and ascertained it's stability on sextic equations. This work provides a guideline for the development of primitives within Computer-Aided Design (CAD) software by highlighting the implementation of geometrically-useful properties for any primitive within BRL-CAD.}
+\\\\\\\\\textit{In this thesis titled \textit{\ttitle}, we aimed at demonstrating the engineering of a heart-shaped primitive within BRL-CAD package.Using a case study approach, we designed the heart-shaped primitive's data structure, wrote necessary callback functions and tested them using BRL-CAD's testing infrastructure. We showed that the Laguerre-based root solver is indeed a sure-fire iterative method for finding roots of polynomials and ascertained it's stability on sextic equations. This work provides a guideline for the development of primitives within Computer-Aided Design (CAD) software by highlighting the implementation of geometrically-useful properties for any primitive within BRL-CAD.}
 }
-
+}
 \clearpage % Start a new page
 
 %----------------------------------------------------------------------------------------

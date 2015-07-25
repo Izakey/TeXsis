@@ -84,6 +84,19 @@
 {\normalsize #1}
 }
 
+\newcommand\Abstract[1]{
+\btypeout{Abstract}
+\addtotoc{Abstract}
+\thispagestyle{plain}
+\thispagestyle{empty}
+\null%\vfil
+\begin{center}
+\bigskip
+{\Huge{\textit{\textbf{Abstract}}} \par}
+\bigskip\end{center}
+{\normalsize #1}
+}
+
 \newcommand\btypeout[1]{\bhrule\typeout{\space #1}\bhrule}
 \def\today{\ifcase\month\or
   January\or February\or March\or April\or May\or June\or
@@ -314,17 +327,17 @@
 %----------------------------------------------------------------------------------------
 %	ABSTRACT PAGE DESIGN
 %----------------------------------------------------------------------------------------
-\newenvironment{abstract}
-{
-  \btypeout{Abstract}
-  \thispagestyle{empty}
-  \null\vfil
-  \begin{center}
-    \bigskip
-    {\Huge{\textit{\textbf{Abstract}}} \par}
-    \bigskip
-  \end{center}
-}
+%\newenvironment{abstract}
+%{
+%  \btypeout{Abstract}
+%  \thispagestyle{empty}
+%  \null\vfil
+%  \begin{center}
+%    \bigskip
+%    {\Huge{\textit{\textbf{Abstract}}} \par}
+%    \bigskip
+%  \end{center}
+%}
 %----------------------------------------------------------------------------------------
 {
   \vfil\vfil\vfil\null
