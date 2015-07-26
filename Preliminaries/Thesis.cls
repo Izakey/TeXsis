@@ -97,6 +97,19 @@
 {\normalsize #1}
 }
 
+\newcommand\Abbreviations[1]{
+\btypeout{Abbreviations}
+\addtotoc{Abbreviations}
+\thispagestyle{plain}
+\thispagestyle{empty}
+\null%\vfil
+\begin{center}
+\bigskip
+{\Huge{\textit{\textbf{Abbreviations}}} \par}
+\bigskip\end{center}
+{\normalsize #1}
+}
+
 \newcommand\btypeout[1]{\bhrule\typeout{\space #1}\bhrule}
 \def\today{\ifcase\month\or
   January\or February\or March\or April\or May\or June\or
