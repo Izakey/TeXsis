@@ -37,7 +37,7 @@
 \contentsline {chapter}{\numberline {2}LITERATURE REVIEW OF GEOMETRIC MODELING}{20}{chapter.40}
 \contentsline {section}{\numberline {2.1}Main Section 1}{21}{section.41}
 \contentsline {subsection}{\numberline {2.1.1}Subsection 1}{21}{subsection.42}
-\contentsline {subsection}{\numberline {2.1.2}Subsection 2}{21}{subsection.43}
+\contentsline {subsection}{\numberline {2.1.2}Subsection 2}{22}{subsection.43}
 \contentsline {section}{\numberline {2.2}Main Section 2}{22}{section.44}
 \vspace {2em}
 \contentsline {chapter}{\numberline {A}Appendix Title Here}{23}{appendix.45}
