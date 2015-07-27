@@ -36,9 +36,9 @@
 \contentsline {section}{\numberline {1.10}In Closing}{19}{section.39}
 \contentsline {chapter}{\numberline {2}LITERATURE REVIEW OF GEOMETRIC MODELING}{20}{chapter.40}
 \contentsline {section}{\numberline {2.1}Representation Schemes}{21}{section.41}
-\contentsline {subsection}{\numberline {2.1.1}Subsection 1}{22}{subsection.42}
-\contentsline {subsection}{\numberline {2.1.2}Subsection 2}{23}{subsection.43}
-\contentsline {section}{\numberline {2.2}Main Section 2}{23}{section.44}
+\contentsline {section}{\numberline {2.2}Wireframe Modeling}{22}{section.42}
+\contentsline {subsection}{\numberline {2.2.1}Subsection 2}{23}{subsection.43}
+\contentsline {section}{\numberline {2.3}Main Section 2}{23}{section.44}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Appendix Title Here}{24}{appendix.45}
+\contentsline {chapter}{\numberline {A}Appendix Title Here}{25}{appendix.45}
 \vspace {2em}

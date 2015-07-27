@@ -78,12 +78,18 @@ according to [5]. An \textit{\textbf{r-­set}} is simply a regular and bounded s
 \item \textit{\textbf{Closure}}: A Representation scheme which transforms (reflects, scales, rotates) a representation should yield other representations too.
 \item \textit{\textbf{Compactness}}: Representation schemes should yield representations which save space and allow efficient algorithms to   determine desirable physical characteristics.
 \end{itemize}
-%-----------------------------------
-%	SUBSECTION 1
-%-----------------------------------
-\subsection{Subsection 1}
+%--------------------------------------------------------------------------------------------------
+%	WIREFRAME MODELING
+%-----------------------------------------------------------------------------------------------------
+\section{Wireframe Modeling}
 
-Nunc posuere quam at lectus tristique eu ultrices augue venenatis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam erat volutpat. Vivamus sodales tortor eget quam adipiscing in vulputate ante ullamcorper. Sed eros ante, lacinia et sollicitudin et, aliquam sit amet augue. In hac habitasse platea dictumst.
+For rectilinear objects whose edges are straight lines and whose faces are planar, the ordered pair of vertices
+ $\textbf{\mathfrak{V}} \in \mathbb{E}^3$ and edges $\textbf{\mathfrak{E}} \in \mathbb{E}^3$ denoted by $(\textbf{\mathfrak{V}} , \textbf{\mathfrak{E}})$ is the object's wireframe.  
+In a practical sense, it is the skeleton of an object wherein joints are vertices
+and bones are edges. In [6], a six ­step algorithm to generate an object's
+wireframe was developed wherein an object's wireframe was represented by a vertex table and an edge table. 
+Although the work in [6] had drawbacks such as not checking the validity of input data, wireframe modeling has always provided designers with a chance to experiment with the final result of their models through sketching and it is frequently used to preview complex models. However, the use of only edge information left wireframe models ambiguous
+on rectilinear polyhedra talk less of topological ones. Figure 2 below shows the wireframe of a sphere in greyscale.
 
 %-----------------------------------
 %	SUBSECTION 2
