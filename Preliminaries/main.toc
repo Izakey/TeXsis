@@ -34,6 +34,11 @@
 \contentsline {subsection}{\numberline {1.8.5}Typesetting mathematics}{17}{subsection.36}
 \contentsline {section}{\numberline {1.9}Sectioning and Subsectioning}{18}{section.38}
 \contentsline {section}{\numberline {1.10}In Closing}{19}{section.39}
+\contentsline {chapter}{\numberline {2}LITERATURE REVIEW OF GEOMETRIC MODELING}{20}{chapter.40}
+\contentsline {section}{\numberline {2.1}Main Section 1}{20}{section.41}
+\contentsline {subsection}{\numberline {2.1.1}Subsection 1}{20}{subsection.42}
+\contentsline {subsection}{\numberline {2.1.2}Subsection 2}{21}{subsection.43}
+\contentsline {section}{\numberline {2.2}Main Section 2}{21}{section.44}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Appendix Title Here}{20}{appendix.40}
+\contentsline {chapter}{\numberline {A}Appendix Title Here}{22}{appendix.45}
 \vspace {2em}
