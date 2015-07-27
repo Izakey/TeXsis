@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.7.20)  27 JUL 2015 11:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.7.20)  27 JUL 2015 11:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1824,12 +1824,45 @@ Type  H <return>  for immediate help.
 l.121 ... Shapes]{BRL­CAD Solid Primitive Shapes}
                                                   
 ? 
-) [24 <./Figures/Primitives.png>] (./Appendices/AppendixA.tex [25]
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.127 ...of some primitives used within the BRL-­
+                                                  CAD package before the hea...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.127 ...the BRL-­CAD package before the heart-­
+                                                  shaped primitive   was dev...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.127 ...nted by algebraic equations.On the BRL-­
+                                                  CAD's   ideas page[7], the...
+
+? 
+) (./Appendices/AppendixA.tex [24 <./Figures/Primitives.png>]
 Appendix A.
 ------------------------------------------------------------------------------
  A Appendix Title Here
 ------------------------------------------------------------------------------
-) [26
+) [25
 
 ]
 ------------------------------------------------------------------------------
@@ -1849,13 +1882,13 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 336.
  ) 
 Here is how much of TeX's memory you used:
- 13083 strings out of 495025
- 182821 string characters out of 6181515
+ 13082 strings out of 495025
+ 182814 string characters out of 6181515
  248994 words of memory out of 5000000
  16013 multiletter control sequences out of 15000+600000
  21990 words of font info for 82 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 49i,12n,45p,857b,424s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,12n,45p,777b,424s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texli
@@ -1873,10 +1906,10 @@ e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (38 pages, 2234937 bytes).
+Output written on main.pdf (37 pages, 2234200 bytes).
 PDF statistics:
- 563 PDF objects out of 1000 (max. 8388607)
- 482 compressed objects within 5 object streams
- 84 named destinations out of 1000 (max. 500000)
+ 559 PDF objects out of 1000 (max. 8388607)
+ 479 compressed objects within 5 object streams
+ 83 named destinations out of 1000 (max. 500000)
  335 words of extra memory for PDF output out of 10000 (max. 10000000)
 
