@@ -8,38 +8,19 @@
 \contentsline {chapter}{Abstract}{v}{dummy.5}
 \par 
 \contentsline {chapter}{Contents}{vi}{dummy.6}
-\contentsline {chapter}{List of Figures}{viii}{dummy.8}
-\contentsline {chapter}{List of Tables}{ix}{dummy.10}
-\contentsline {chapter}{Abbreviations}{x}{dummy.12}
+\contentsline {chapter}{List of Figures}{vii}{dummy.8}
+\contentsline {chapter}{List of Tables}{viii}{dummy.10}
+\contentsline {chapter}{Abbreviations}{ix}{dummy.12}
 \contentsline {chapter}{\numberline {1}INTRODUCTION}{1}{chapter.13}
 \contentsline {section}{\numberline {1.1}Historical Background}{1}{section.14}
 \contentsline {section}{\numberline {1.2}Importance Of This Work}{4}{section.15}
 \contentsline {section}{\numberline {1.3}Thesis Organisation}{5}{section.16}
-\contentsline {subsection}{\numberline {1.3.1}A (not so short) Introduction to \LaTeX {}}{6}{subsection.18}
-\contentsline {subsection}{\numberline {1.3.2}A Short Math Guide for \LaTeX {}}{6}{subsection.19}
-\contentsline {subsection}{\numberline {1.3.3}Common \LaTeX {} Math Symbols}{6}{subsection.20}
-\contentsline {subsection}{\numberline {1.3.4}\LaTeX {} on a Mac}{7}{subsection.21}
-\contentsline {section}{\numberline {1.4}Getting Started with this Template}{7}{section.22}
-\contentsline {subsection}{\numberline {1.4.1}About this Template}{7}{subsection.23}
-\contentsline {section}{\numberline {1.5}What this Template Includes}{8}{section.24}
-\contentsline {subsection}{\numberline {1.5.1}Folders}{8}{subsection.25}
-\contentsline {subsection}{\numberline {1.5.2}Files}{9}{subsection.26}
-\contentsline {section}{\numberline {1.6}Filling in the `\texttt {Thesis.cls}' File}{11}{section.27}
-\contentsline {section}{\numberline {1.7}The `\texttt {Thesis.tex}' File Explained}{12}{section.28}
-\contentsline {section}{\numberline {1.8}Thesis Features and Conventions}{13}{section.29}
-\contentsline {subsection}{\numberline {1.8.1}Printing Format}{14}{subsection.30}
-\contentsline {subsection}{\numberline {1.8.2}Using US Letter Paper}{14}{subsection.31}
-\contentsline {subsection}{\numberline {1.8.3}References}{15}{subsection.32}
-\contentsline {subsection}{\numberline {1.8.4}Figures}{16}{subsection.34}
-\contentsline {subsection}{\numberline {1.8.5}Typesetting mathematics}{17}{subsection.36}
-\contentsline {section}{\numberline {1.9}Sectioning and Subsectioning}{18}{section.38}
-\contentsline {section}{\numberline {1.10}In Closing}{19}{section.39}
-\contentsline {chapter}{\numberline {2}LITERATURE REVIEW OF GEOMETRIC MODELING}{20}{chapter.40}
-\contentsline {section}{\numberline {2.1}Representation Schemes}{21}{section.41}
-\contentsline {section}{\numberline {2.2}Wireframe Modeling}{22}{section.42}
-\contentsline {section}{\numberline {2.3}Surface Modeling}{24}{section.44}
-\contentsline {subsection}{\numberline {2.3.1}Implicit Representation}{25}{subsection.46}
-\contentsline {subsection}{\numberline {2.3.2}Parametric Representation}{25}{subsection.47}
+\contentsline {chapter}{\numberline {2}LITERATURE REVIEW OF GEOMETRIC MODELING}{6}{chapter.18}
+\contentsline {section}{\numberline {2.1}Representation Schemes}{7}{section.19}
+\contentsline {section}{\numberline {2.2}Wireframe Modeling}{8}{section.20}
+\contentsline {section}{\numberline {2.3}Surface Modeling}{10}{section.22}
+\contentsline {subsection}{\numberline {2.3.1}Implicit Representation}{11}{subsection.24}
+\contentsline {subsection}{\numberline {2.3.2}Parametric Representation}{11}{subsection.25}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Appendix Title Here}{27}{appendix.48}
+\contentsline {chapter}{\numberline {A}Appendix Title Here}{13}{appendix.26}
 \vspace {2em}
