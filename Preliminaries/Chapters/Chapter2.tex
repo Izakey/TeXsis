@@ -126,3 +126,19 @@ as it is the basis for Bezier surfaces and NURBS.
 
 Figure 2.2 above shows a collection of some primitives used within the BRL-­CAD package before the heart-­shaped primitive   was developed – several of which are implicitly and/or parameterically represented by algebraic equations.On the BRL-­CAD's   ideas page[7], there is a list of primitives which have not yet been implemented such as the Steiner surface, the ring 
 cyclide surface, the quartoid, Wallis' conical edge solid, etc.  
+
+%----------------------------------------------------------------------------------------------------
+%	Implicit Representations
+%----------------------------------------------------------------------------------------------------
+
+\subsection{Implicit Representation}
+
+An algebraic surface in $\mathbb{E}^3$ is expressed as the set of points satisfying an irreducible polynomial equation
+\begin{equation*}
+\textbf{g(x,y,z) = 0}
+\end{equation*} in the unknowns x,y and z.\\
+A polynomial \textit{\textbf{f(x,y,z)}} over a field $\textbf{\mathbb{F}}$ is said to be irreducible over $\textbf{\mathbb{F}}$ if the degree of \textit{\textbf{f(x,y,z)}} is positive and its only factors are \textit{c} and \textit{cf(x,y,z)} where \textit{c} is a non­zero constant in $\textbf{\mathbb{F}}$.
+
+The requirement of irreducibility is so that a surface represented by an equation
+should not be decomposed into two separate surfaces, each of which can be
+described by an implicit equation.
