@@ -22,6 +22,7 @@
 \contentsline {subsection}{\numberline {2.3.1}Implicit Representation}{11}{subsection.24}
 \contentsline {subsection}{\numberline {2.3.2}Parametric Representation}{11}{subsection.25}
 \contentsline {subsection}{\numberline {2.3.3}Implicitization}{12}{subsection.26}
+\contentsline {subsection}{\numberline {2.3.4}Parameterization}{13}{subsection.27}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Appendix Title Here}{14}{appendix.27}
+\contentsline {chapter}{\numberline {A}Appendix Title Here}{14}{appendix.28}
 \vspace {2em}
