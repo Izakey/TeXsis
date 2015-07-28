@@ -184,3 +184,47 @@ Thus, the problem of how to convert from one representation to the other is of
 great practical importance.
 
 %------------------------------------------------------------------------------------------------------
+
+%------------------------------------------------------------------------------------------------------
+%		IMPLICITISATION
+%------------------------------------------------------------------------------------------------------
+
+\subsection{Implicitization}
+
+Implicitization is the process of converting a parametric representation into an implicit representation.
+
+Sederberg[7] demonstrated in his thesis that, in principle, it is always
+possible to convert a parametric surface or curve into implicit form using
+classical elimination theory developed in the early $20^{th}$ century. In fact,
+Sylvester resultants require evaluating a determinant whose entries are
+coefficients of powers of the variable to be eliminated in several phases.
+ 
+Although Sederberg’s work stimulated lots of research interests in resultant­-based methods, 
+this sense of enjoyment within the research community was short­lived due to the following factors;
+\begin{itemize}  
+\item ✦ Unfaithfulness: Polynomials derived using resultant-­based methods give
+birth to phantom solutions.
+\item ✦ Ineffectiveness: Using floating ­point arithmetic, resultant­-based methods  
+become inaccurate.
+\item ✦ Inefficiency: Evaluating resultants entail huge amounts of computation
+and is expensive.
+\end{itemize}
+Another method of Implicitization is the Grobner basis technique introduced by
+Buchberger[8] where it was learned that expressing a polynomial as a linear
+combination of a Grobner basis facilitates finding the solution of the nonlinear
+system of equations as  much as an $\textbf{\mathbb{LU}}$ - ­decomposition brings a system of
+linear equations to heel. A polynomial basis is a set of polynomials which
+can be used to express any polynomial and can be viewed as a vector space
+over the field of coefficients $\mathbb{F}$. In [9], Lazard constructed a Grobner basis with  
+respect to a term ordering known as the elimination order. In [10], Hoffmann
+improved upon a basis conversion algorithm developed in [11] by first
+constructing a Grobner basis with respect to a term ordering different from the  
+elimination order and finally built the final polynomial in which all variables have
+been eliminated term ­by ­term. This algorithm was known to be the fastest
+elimination technique for geometry applications that was implemented before
+the 1990s.
+
+Although Grobner basis methods are more efficient and effective than
+resultant-­based ones, implicitization is fairly expensive and limited in practice.  
+
+%------------------------------------------------------------------------------------------------------

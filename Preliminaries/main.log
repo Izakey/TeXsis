@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.7.20)  28 JUL 2015 02:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.7.20)  28 JUL 2015 03:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -990,7 +990,7 @@ l.254 }
  [6
 
 
-]
+] [7]
 ------------------------------------------------------------------------------
  List of Figures
 ------------------------------------------------------------------------------
@@ -1015,7 +1015,7 @@ l.5 ...d Primitive Shapes}}{10}{figure.caption.23}
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
- [7
+ [8
 
 
 ]
@@ -1026,7 +1026,7 @@ l.5 ...d Primitive Shapes}}{10}{figure.caption.23}
 \tf@lot=\write6
 \openout6 = `main.lot'.
 
- [8
+ [9
 
 
 ]
@@ -1062,7 +1062,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 283--284
 
  []
 
-[9
+[10
 
 ] (./Chapters/Chapter1.tex
 Chapter 1.
@@ -1448,7 +1448,7 @@ Type  H <return>  for immediate help.
 l.128 heart­-shaped primitive gives BRL-­
                                            CAD a more loving aura – an
 ? 
-[4] <Figures/Goliath.png, id=198, 1435.3625pt x 1217.54875pt>
+[4] <Figures/Goliath.png, id=207, 1435.3625pt x 1217.54875pt>
 File: Figures/Goliath.png Graphic file (type png)
 
 <use Figures/Goliath.png>
@@ -1713,7 +1713,7 @@ l.89 and bones are edges. In [6], a six ­
                                           step algorithm to generate an obje...
 
 ? 
-[8] <Figures/Sphere.png, id=222, 294.09875pt x 294.09875pt>
+[8] <Figures/Sphere.png, id=231, 294.09875pt x 294.09875pt>
 File: Figures/Sphere.png Graphic file (type png)
 
 <use Figures/Sphere.png>
@@ -1741,7 +1741,7 @@ l.113 ...aic surfaces and curves used within BRL­
                                                   -CAD
 ? 
 [9 <./Figures/Sphere.png>]
-<Figures/Primitives.png, id=231, 460.72125pt x 596.2275pt>
+<Figures/Primitives.png, id=240, 460.72125pt x 596.2275pt>
 File: Figures/Primitives.png Graphic file (type png)
 
 <use Figures/Primitives.png>
@@ -2292,12 +2292,159 @@ Underfull \hbox (badness 10000) in paragraph at lines 174--177
 
  []
 
-) (./Appendices/AppendixA.tex [12]
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.202 ...lots of research interests in resultant­
+                                                  -based methods,
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.203 ...within the research community was short­
+                                                  lived due to the following...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:✦ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.205 \item ✦
+                Unfaithfulness: Polynomials derived using resultant-­based ...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.205 ...s: Polynomials derived using resultant-­
+                                                  based methods give
+? 
+
+! Package inputenc Error: Unicode char \u8:✦ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.207 \item ✦
+                Ineffectiveness: Using floating ­point arithmetic, resultan...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.207 \item ✦ Ineffectiveness: Using floating ­
+                                                  point arithmetic, resultan...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.207 ... floating ­point arithmetic, resultant­
+                                                  -based methods
+? 
+[12]
+
+! Package inputenc Error: Unicode char \u8:✦ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.209 \item ✦
+                Inefficiency: Evaluating resultants entail huge amounts of c...
+
+? 
+
+! LaTeX Error: \mathbb allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.215 ...ions as  much as an $\textbf{\mathbb{LU}}
+                                                  $ - ­decomposition brings...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.215 ...s  much as an $\textbf{\mathbb{LU}}$ - ­
+                                                  decomposition brings a sys...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.223 been eliminated term ­
+                             by ­term. This algorithm was known to be the f...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.223 been eliminated term ­by ­
+                                  term. This algorithm was known to be the f...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.228 resultant-­
+                  based ones, implicitization is fairly expensive and limite...
+
+? 
+
+Overfull \hbox (11.85942pt too wide) in paragraph at lines 227--229
+[]\OT1/cmr/m/n/10.95 Although Grob-ner ba-sis meth-ods are more ef-fi-cient and
+ ef-fec-tive than resultant-
+ []
+
+) (./Appendices/AppendixA.tex [13]
 Appendix A.
 ------------------------------------------------------------------------------
  A Appendix Title Here
 ------------------------------------------------------------------------------
-) [13
+) [14
 
 ]
 ------------------------------------------------------------------------------
@@ -2310,14 +2457,14 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 336.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 336.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 336.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3481304D69CC9AF4C3ACB79C7C1DF940;2976.
+(rerunfilecheck)             Checksum: 3F61818BB4B7C9EB6977814BB84B3B37;3142.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 336.
  ) 
 Here is how much of TeX's memory you used:
- 13000 strings out of 495025
- 181830 string characters out of 6181515
+ 13005 strings out of 495025
+ 181878 string characters out of 6181515
  247776 words of memory out of 5000000
- 15973 multiletter control sequences out of 15000+600000
+ 15975 multiletter control sequences out of 15000+600000
  19463 words of font info for 71 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  49i,12n,45p,712b,404s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2334,10 +2481,10 @@ onts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
 12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm1
 0.pfb>
-Output written on main.pdf (24 pages, 2140693 bytes).
+Output written on main.pdf (26 pages, 2143929 bytes).
 PDF statistics:
- 309 PDF objects out of 1000 (max. 8388607)
- 258 compressed objects within 3 object streams
- 50 named destinations out of 1000 (max. 500000)
- 194 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 323 PDF objects out of 1000 (max. 8388607)
+ 270 compressed objects within 3 object streams
+ 53 named destinations out of 1000 (max. 500000)
+ 202 words of extra memory for PDF output out of 10000 (max. 10000000)
 

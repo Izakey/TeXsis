@@ -8,9 +8,9 @@
 \contentsline {chapter}{Abstract}{v}{dummy.5}
 \par 
 \contentsline {chapter}{Contents}{vi}{dummy.6}
-\contentsline {chapter}{List of Figures}{vii}{dummy.8}
-\contentsline {chapter}{List of Tables}{viii}{dummy.10}
-\contentsline {chapter}{Abbreviations}{ix}{dummy.12}
+\contentsline {chapter}{List of Figures}{viii}{dummy.8}
+\contentsline {chapter}{List of Tables}{ix}{dummy.10}
+\contentsline {chapter}{Abbreviations}{x}{dummy.12}
 \contentsline {chapter}{\numberline {1}INTRODUCTION}{1}{chapter.13}
 \contentsline {section}{\numberline {1.1}Historical Background}{1}{section.14}
 \contentsline {section}{\numberline {1.2}Importance Of This Work}{4}{section.15}
@@ -21,6 +21,7 @@
 \contentsline {section}{\numberline {2.3}Surface Modeling}{10}{section.22}
 \contentsline {subsection}{\numberline {2.3.1}Implicit Representation}{11}{subsection.24}
 \contentsline {subsection}{\numberline {2.3.2}Parametric Representation}{11}{subsection.25}
+\contentsline {subsection}{\numberline {2.3.3}Implicitization}{12}{subsection.26}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Appendix Title Here}{13}{appendix.26}
+\contentsline {chapter}{\numberline {A}Appendix Title Here}{14}{appendix.27}
 \vspace {2em}
