@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.7.20)  28 JUL 2015 01:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.7.20)  28 JUL 2015 02:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1448,7 +1448,7 @@ Type  H <return>  for immediate help.
 l.128 heart­-shaped primitive gives BRL-­
                                            CAD a more loving aura – an
 ? 
-[4] <Figures/Goliath.png, id=296, 1435.3625pt x 1217.54875pt>
+[4] <Figures/Goliath.png, id=301, 1435.3625pt x 1217.54875pt>
 File: Figures/Goliath.png Graphic file (type png)
 
 <use Figures/Goliath.png>
@@ -1499,7 +1499,7 @@ e 327.
 Package natbib Warning: Citation `Reference3' on page 15 undefined on input lin
 e 327.
 
-[15] <Figures/Electron.pdf, id=366, 398.3386pt x 284.52756pt>
+[15] <Figures/Electron.pdf, id=371, 398.3386pt x 284.52756pt>
 File: Figures/Electron.pdf Graphic file (type pdf)
 
 <use Figures/Electron.pdf>
@@ -1769,7 +1769,7 @@ l.89 and bones are edges. In [6], a six ­
                                           step algorithm to generate an obje...
 
 ? 
-[22] <Figures/Sphere.png, id=463, 294.09875pt x 294.09875pt>
+[22] <Figures/Sphere.png, id=468, 294.09875pt x 294.09875pt>
 File: Figures/Sphere.png Graphic file (type png)
 
 <use Figures/Sphere.png>
@@ -1797,7 +1797,7 @@ l.113 ...aic surfaces and curves used within BRL­
                                                   -CAD
 ? 
 [23 <./Figures/Sphere.png>]
-<Figures/Primitives.png, id=471, 460.72125pt x 596.2275pt>
+<Figures/Primitives.png, id=476, 460.72125pt x 596.2275pt>
 File: Figures/Primitives.png Graphic file (type png)
 
 <use Figures/Primitives.png>
@@ -1901,12 +1901,459 @@ Type  H <return>  for immediate help.
 l.140 ...on­zero constant in $\textbf{\mathbb{F}}
                                                   $.
 ? 
-) (./Appendices/AppendixA.tex [25]
+
+! LaTeX Error: Environment IEEEeqnarray* undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.157 \begin{IEEEeqnarray*}
+                           
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.158 x = h_
+            1(u,v)  \\
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.159 y = h_2(u,v) ­
+                     ­­­­­­­­­­­­­­­­­­­­­­­­­­­�...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.159 y = h_2(u,v) ­­
+                       ­­­­­­­­­­­­­­­­­­­­­­­­­­�...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.159 y = h_2(u,v) ­­­
+                         ­­­­­­­­­­­­­­­­­­­­­­­­­�...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.159 y = h_2(u,v) ­­­­
+                           ­­­­­­­­­­­­­­­­­­­­­­­­�...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.159 y = h_2(u,v) ­­­­­
+                             ­­­­­­­­­­­­­­­­­­­­­­­�...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.159 y = h_2(u,v) ­­­­­­
+                               ­­­­­­­­­­­­­­­­­­­­­­�...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.159 y = h_2(u,v) ­­­­­­­
+                                 ­­­­­­­­­­­­­­­­­­­­­�...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.159 y = h_2(u,v) ­­­­­­­­
+                                   ­­­­­­­­­­­­­­­­­­­­�...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.159 y = h_2(u,v) ­­­­­­­­­
+                                     ­­­­­­­­­­­­­­­­­­­�...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.159 y = h_2(u,v) ­­­­­­­­­­
+                                       ­­­­­­­­­­­­­­­­­­�...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.159 y = h_2(u,v) ­­­­­­­­­­­
+                                         ­­­­­­­­­­­­­­­­­�...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.159 y = h_2(u,v) ­­­­­­­­­­­­
+                                           ­­­­­­­­­­­­­­­­�...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.159 y = h_2(u,v) ­­­­­­­­­­­­­
+                                             ­­­­­­­­­­­­­­­�...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.159 y = h_2(u,v) ­­­­­­­­­­­­­­
+                                               ­­­­­­­­­­­­­­�...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.159 y = h_2(u,v) ­­­­­­­­­­­­­­­
+                                                 ­­­­­­­­­­­­­�...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.159 ...h_2(u,v) ­­­­­­­­­­­­­­­­
+                                                  ­­­­­­­­­­­­­...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.159 ...2(u,v) ­­­­­­­­­­­­­­­­­
+                                                  ­­­­­­­­­­­­\I...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.159 ...u,v) ­­­­­­­­­­­­­­­­­­
+                                                  ­­­­­­­­­­­\IEE...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.159 ...v) ­­­­­­­­­­­­­­­­­­­
+                                                  ­­­­­­­­­­\IEEEy...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.159 ... ­­­­­­­­­­­­­­­­­­­­
+                                                  ­­­­­­­­­\IEEEyes...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.159 ...�­­­­­­­­­­­­­­­­­­­­
+                                                  ­­­­­­­­\IEEEyesnu...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.159 ...�­­­­­­­­­­­­­­­­­­­­
+                                                  ­­­­­­­\IEEEyesnumb...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.159 ...�­­­­­­­­­­­­­­­­­­­­
+                                                  ­­­­­­\IEEEyesnumber \\
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.159 ...�­­­­­­­­­­­­­­­­­­­­
+                                                  ­­­­­\IEEEyesnumber \\
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.159 ...�­­­­­­­­­­­­­­­­­­­­
+                                                  ­­­­\IEEEyesnumber \\
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.159 ...�­­­­­­­­­­­­­­­­­­­­
+                                                  ­­­\IEEEyesnumber \\
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.159 ...�­­­­­­­­­­­­­­­­­­­­
+                                                  ­­\IEEEyesnumber \\
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.159 ...�­­­­­­­­­­­­­­­­­­­­
+                                                  ­\IEEEyesnumber \\
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.159 ...�­­­­­­­­­­­­­­­­­­­­
+                                                  \IEEEyesnumber \\
+? 
+! Undefined control sequence.
+l.159 ...�­­­­­­­­­­­­­\IEEEyesnumber
+                                                   \\
+? 
+
+! LaTeX Error: \begin{document} ended by \end{IEEEeqnarray*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.161 \end{IEEEeqnarray*}
+                          where $h_i$ are rational functions and, u and v ar...
+
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.161 \end{IEEEeqnarray*}
+                          where $h_i$ are rational functions and, u and v ar...
+
+? 
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 163.
+
+
+! LaTeX Error: Environment IEEEeqnarray* undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.165 \begin{IEEEeqnarray*}
+                           
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.166 x = (1 – s^
+                   2 - t^2)/(1 + s^2 + t^2) \\
+? 
+! Undefined control sequence.
+l.167 y = 2s / (1 + s^2 + t^2) \IEEEyesnumber
+                                              \\
+? 
+
+! LaTeX Error: \begin{document} ended by \end{IEEEeqnarray*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{IEEEeqnarray*}
+                         
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.169 \end{IEEEeqnarray*}
+                         
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--170
+
+ []
+
+
+! LaTeX Error: Environment IEEEeqnarray* undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.173 \begin{IEEEeqnarray*}
+                           
+? 
+[25]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.174 x = (1 – t^
+                   2)/ (1 + t^2)­ \\
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.174 x = (1 – t^2)/ (1 + t^2)­
+                                   \\
+? 
+! Undefined control sequence.
+l.175 y = 2t / (1 + t^2) \IEEEyesnumber
+                                        \\
+? 
+
+! LaTeX Error: \begin{document} ended by \end{IEEEeqnarray*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 \end{IEEEeqnarray*}
+                         
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.176 \end{IEEEeqnarray*}
+                         
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 174--177
+
+ []
+
+) (./Appendices/AppendixA.tex [26]
 Appendix A.
 ------------------------------------------------------------------------------
  A Appendix Title Here
 ------------------------------------------------------------------------------
-) [26
+) [27
 
 ]
 ------------------------------------------------------------------------------
@@ -1922,14 +2369,14 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 336.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 336.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 336.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 5F133B1D007C075B46F4E45ACAD10CF9;6563.
+(rerunfilecheck)             Checksum: 3942344B601DE83A26E66B402DCCFF35;6782.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 336.
  ) 
 Here is how much of TeX's memory you used:
- 13085 strings out of 495025
- 182849 string characters out of 6181515
+ 13090 strings out of 495025
+ 182913 string characters out of 6181515
  248994 words of memory out of 5000000
- 16014 multiletter control sequences out of 15000+600000
+ 16017 multiletter control sequences out of 15000+600000
  21990 words of font info for 82 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  49i,12n,45p,777b,424s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1939,21 +2386,22 @@ e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (38 pages, 2237123 bytes).
+onts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (39 pages, 2248794 bytes).
 PDF statistics:
- 569 PDF objects out of 1000 (max. 8388607)
- 488 compressed objects within 5 object streams
- 85 named destinations out of 1000 (max. 500000)
- 343 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 582 PDF objects out of 1000 (max. 8388607)
+ 499 compressed objects within 5 object streams
+ 87 named destinations out of 1000 (max. 500000)
+ 351 words of extra memory for PDF output out of 10000 (max. 10000000)
 

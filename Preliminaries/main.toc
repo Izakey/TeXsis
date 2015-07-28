@@ -39,6 +39,7 @@
 \contentsline {section}{\numberline {2.2}Wireframe Modeling}{22}{section.42}
 \contentsline {section}{\numberline {2.3}Surface Modeling}{24}{section.44}
 \contentsline {subsection}{\numberline {2.3.1}Implicit Representation}{25}{subsection.46}
+\contentsline {subsection}{\numberline {2.3.2}Parametric Representation}{25}{subsection.47}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Appendix Title Here}{26}{appendix.47}
+\contentsline {chapter}{\numberline {A}Appendix Title Here}{27}{appendix.48}
 \vspace {2em}
