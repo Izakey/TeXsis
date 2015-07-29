@@ -155,14 +155,16 @@ Some algebraic surfaces possess a parametric representation which
 consists of a system of equations similar to the ones listed in (1) below;  
 
 \begin{IEEEeqnarray*}
+\centering
 x = h_1(u,v)  \\
 y = h_2(u,v) ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­\IEEEyesnumber \\
 z = h_3(u,v) \\
 \end{IEEEeqnarray*} where $h_i$ are rational functions and, u and v are restricted to particular closed intervals in $\mathbb{R}$.
 
-As an example, the unit sphere given implicitly by $x^2 + y^2 + z^2 – 1 = 0$ can be parameterized by equation (2) viz
+As an example, the unit sphere given implicitly by $x^2 + y^2 + z^2 – 1 = 0$ can be parameterized by equation (2) viz;
 
 \begin{IEEEeqnarray*}
+\centering
 x = (1 – s^2 - t^2)/(1 + s^2 + t^2) \\  
 y = 2s / (1 + s^2 + t^2) \IEEEyesnumber \\
 z = 2t / (1 + s^2 + t^2) \\
@@ -171,6 +173,7 @@ z = 2t / (1 + s^2 + t^2) \\
 Also, some algebraic curves possess parametric forms. A parameterization of the unit circle is given by the system of  equations in (3) below;
 
 \begin{IEEEeqnarray*}
+\centering
 x = (1 – t^2)/ (1 + t^2)­ \\
 y = 2t / (1 + t^2) \IEEEyesnumber \\
 \end{IEEEeqnarray*}
@@ -343,9 +346,21 @@ equation (5) below.
 \centering
  V – E + F -­ ( L – F ) - 2(S – G ) = 0 ­­­­­­­­­­­­­­ \tag{5}
 \end{equation*}
-
-\hspace{30} Mantyla   showed   that   any   topologically   valid   polyhedron   can   be   constructed  
+Mantyla   showed   that   any   topologically   valid   polyhedron   can   be   constructed  
 from   an   initial   polyhedron   by   a   finite   sequence   of   Euler   operations   viz   \textit{\textbf{make}}  
-and \textit{\textbf{kill}}.  
+and \textit{\textbf{kill}}.
+
+\hspace{30} Some   representation   schemes   are   hybrids   such   as   the   B-­rep   index   which  
+is   a   mixture   of   the   boundary   representation   and   cell   decomposition   schemes.  
+BRL-­CAD   is   one   of   the   few   solid   modeling   systems   which   supports   the  
+BREP and NURBS   representation   format.  The   image   shown   in   Figure   2.3   below   is   the   classic   computer   graphics   Utah  teapot model prepared for 3D printing and rendered via BRL-­CAD ray tracing.\\
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[trim=0.0cm 0.3cm 0.3cm 0.3cm, clip=true, totalheight=0.5\textheight]{Pictures/Teapot.png}
+\caption[The Utah Tea Pot model]{The Utah Tea Pot model}
+\label{Teapot}
+\end{figure}
+ 
 \clearpage
 %------------------------------------------------------------------------------------------------------

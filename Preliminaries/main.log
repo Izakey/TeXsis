@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.7.20)  29 JUL 2015 14:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.7.20)  29 JUL 2015 14:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1471,7 +1471,7 @@ Type  H <return>  for immediate help.
 l.128 heart­-shaped primitive gives BRL-­
                                            CAD a more loving aura – an
 ? 
-[4] <Figures/Goliath.png, id=224, 1435.3625pt x 1217.54875pt>
+[4] <Figures/Goliath.png, id=226, 1435.3625pt x 1217.54875pt>
 File: Figures/Goliath.png Graphic file (type png)
 
 <use Figures/Goliath.png>
@@ -1736,7 +1736,7 @@ l.89 and bones are edges. In [6], a six ­
                                           step algorithm to generate an obje...
 
 ? 
-[8] <Figures/Sphere.png, id=248, 294.09875pt x 294.09875pt>
+[8] <Figures/Sphere.png, id=250, 294.09875pt x 294.09875pt>
 File: Figures/Sphere.png Graphic file (type png)
 
 <use Figures/Sphere.png>
@@ -1764,7 +1764,7 @@ l.113 ...aic surfaces and curves used within BRL­
                                                   -CAD
 ? 
 [9 <./Figures/Sphere.png>]
-<Figures/Primitives.png, id=257, 460.72125pt x 596.2275pt>
+<Figures/Primitives.png, id=259, 460.72125pt x 596.2275pt>
 File: Figures/Primitives.png Graphic file (type png)
 
 <use Figures/Primitives.png>
@@ -1881,8 +1881,31 @@ l.157 \begin{IEEEeqnarray*}
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.158 x = h_
+l.159 x = h_
             1(u,v)  \\
+? 
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.159 x = h_1(u,v)  \\
+                      
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.159 x = h_1(u,v)  \\
+                      
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.160 y = h_
+            2(u,v) ­­­­­­­­­­­­­­­­­­­­­­­­­­­­�...
+
 ? 
 
 ! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
@@ -1891,7 +1914,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.159 y = h_2(u,v) ­
+l.160 y = h_2(u,v) ­
                      ­­­­­­­­­­­­­­­­­­­­­­­­­­­�...
 
 ? 
@@ -1902,7 +1925,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.159 y = h_2(u,v) ­­
+l.160 y = h_2(u,v) ­­
                        ­­­­­­­­­­­­­­­­­­­­­­­­­­�...
 
 ? 
@@ -1913,7 +1936,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.159 y = h_2(u,v) ­­­
+l.160 y = h_2(u,v) ­­­
                          ­­­­­­­­­­­­­­­­­­­­­­­­­�...
 
 ? 
@@ -1924,7 +1947,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.159 y = h_2(u,v) ­­­­
+l.160 y = h_2(u,v) ­­­­
                            ­­­­­­­­­­­­­­­­­­­­­­­­�...
 
 ? 
@@ -1935,7 +1958,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.159 y = h_2(u,v) ­­­­­
+l.160 y = h_2(u,v) ­­­­­
                              ­­­­­­­­­­­­­­­­­­­­­­­�...
 
 ? 
@@ -1946,7 +1969,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.159 y = h_2(u,v) ­­­­­­
+l.160 y = h_2(u,v) ­­­­­­
                                ­­­­­­­­­­­­­­­­­­­­­­�...
 
 ? 
@@ -1957,7 +1980,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.159 y = h_2(u,v) ­­­­­­­
+l.160 y = h_2(u,v) ­­­­­­­
                                  ­­­­­­­­­­­­­­­­­­­­­�...
 
 ? 
@@ -1968,7 +1991,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.159 y = h_2(u,v) ­­­­­­­­
+l.160 y = h_2(u,v) ­­­­­­­­
                                    ­­­­­­­­­­­­­­­­­­­­�...
 
 ? 
@@ -1979,7 +2002,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.159 y = h_2(u,v) ­­­­­­­­­
+l.160 y = h_2(u,v) ­­­­­­­­­
                                      ­­­­­­­­­­­­­­­­­­­�...
 
 ? 
@@ -1990,7 +2013,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.159 y = h_2(u,v) ­­­­­­­­­­
+l.160 y = h_2(u,v) ­­­­­­­­­­
                                        ­­­­­­­­­­­­­­­­­­�...
 
 ? 
@@ -2001,7 +2024,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.159 y = h_2(u,v) ­­­­­­­­­­­
+l.160 y = h_2(u,v) ­­­­­­­­­­­
                                          ­­­­­­­­­­­­­­­­­�...
 
 ? 
@@ -2012,7 +2035,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.159 y = h_2(u,v) ­­­­­­­­­­­­
+l.160 y = h_2(u,v) ­­­­­­­­­­­­
                                            ­­­­­­­­­­­­­­­­�...
 
 ? 
@@ -2023,7 +2046,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.159 y = h_2(u,v) ­­­­­­­­­­­­­
+l.160 y = h_2(u,v) ­­­­­­­­­­­­­
                                              ­­­­­­­­­­­­­­­�...
 
 ? 
@@ -2034,7 +2057,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.159 y = h_2(u,v) ­­­­­­­­­­­­­­
+l.160 y = h_2(u,v) ­­­­­­­­­­­­­­
                                                ­­­­­­­­­­­­­­�...
 
 ? 
@@ -2045,7 +2068,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.159 y = h_2(u,v) ­­­­­­­­­­­­­­­
+l.160 y = h_2(u,v) ­­­­­­­­­­­­­­­
                                                  ­­­­­­­­­­­­­�...
 
 ? 
@@ -2056,7 +2079,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.159 ...h_2(u,v) ­­­­­­­­­­­­­­­­
+l.160 ...h_2(u,v) ­­­­­­­­­­­­­­­­
                                                   ­­­­­­­­­­­­­...
 
 ? 
@@ -2067,7 +2090,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.159 ...2(u,v) ­­­­­­­­­­­­­­­­­
+l.160 ...2(u,v) ­­­­­­­­­­­­­­­­­
                                                   ­­­­­­­­­­­­\I...
 
 ? 
@@ -2078,7 +2101,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.159 ...u,v) ­­­­­­­­­­­­­­­­­­
+l.160 ...u,v) ­­­­­­­­­­­­­­­­­­
                                                   ­­­­­­­­­­­\IEE...
 
 ? 
@@ -2089,7 +2112,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.159 ...v) ­­­­­­­­­­­­­­­­­­­
+l.160 ...v) ­­­­­­­­­­­­­­­­­­­
                                                   ­­­­­­­­­­\IEEEy...
 
 ? 
@@ -2100,7 +2123,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.159 ... ­­­­­­­­­­­­­­­­­­­­
+l.160 ... ­­­­­­­­­­­­­­­­­­­­
                                                   ­­­­­­­­­\IEEEyes...
 
 ? 
@@ -2111,7 +2134,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.159 ...�­­­­­­­­­­­­­­­­­­­­
+l.160 ...�­­­­­­­­­­­­­­­­­­­­
                                                   ­­­­­­­­\IEEEyesnu...
 
 ? 
@@ -2122,7 +2145,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.159 ...�­­­­­­­­­­­­­­­­­­­­
+l.160 ...�­­­­­­­­­­­­­­­­­­­­
                                                   ­­­­­­­\IEEEyesnumb...
 
 ? 
@@ -2133,7 +2156,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.159 ...�­­­­­­­­­­­­­­­­­­­­
+l.160 ...�­­­­­­­­­­­­­­­­­­­­
                                                   ­­­­­­\IEEEyesnumber \\
 
 ? 
@@ -2144,7 +2167,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.159 ...�­­­­­­­­­­­­­­­­­­­­
+l.160 ...�­­­­­­­­­­­­­­­­­­­­
                                                   ­­­­­\IEEEyesnumber \\
 ? 
 
@@ -2154,7 +2177,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.159 ...�­­­­­­­­­­­­­­­­­­­­
+l.160 ...�­­­­­­­­­­­­­­­­­­­­
                                                   ­­­­\IEEEyesnumber \\
 ? 
 
@@ -2164,7 +2187,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.159 ...�­­­­­­­­­­­­­­­­­­­­
+l.160 ...�­­­­­­­­­­­­­­­­­­­­
                                                   ­­­\IEEEyesnumber \\
 ? 
 
@@ -2174,7 +2197,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.159 ...�­­­­­­­­­­­­­­­­­­­­
+l.160 ...�­­­­­­­­­­­­­­­­­­­­
                                                   ­­\IEEEyesnumber \\
 ? 
 
@@ -2184,7 +2207,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.159 ...�­­­­­­­­­­­­­­­­­­­­
+l.160 ...�­­­­­­­­­­­­­­­­­­­­
                                                   ­\IEEEyesnumber \\
 ? 
 
@@ -2194,33 +2217,64 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.159 ...�­­­­­­­­­­­­­­­­­­­­
+l.160 ...�­­­­­­­­­­­­­­­­­­­­
                                                   \IEEEyesnumber \\
 ? 
 ! Undefined control sequence.
-l.159 ...�­­­­­­­­­­­­­\IEEEyesnumber
+l.160 ...�­­­­­­­­­­­­­\IEEEyesnumber
                                                    \\
 ? 
 
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.160 ...­­­­­­­­­­­­\IEEEyesnumber \\
+                                                  
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.160 ...­­­­­­­­­­­­\IEEEyesnumber \\
+                                                  
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.161 z = h_
+            3(u,v) \\
+? 
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.161 z = h_3(u,v) \\
+                     
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.161 z = h_3(u,v) \\
+                     
+? 
+
 ! LaTeX Error: \begin{document} ended by \end{IEEEeqnarray*}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.161 \end{IEEEeqnarray*}
-                          where $h_i$ are rational functions and, u and v ar...
-
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.161 \end{IEEEeqnarray*}
+l.162 \end{IEEEeqnarray*}
                           where $h_i$ are rational functions and, u and v ar...
 
 ? 
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 163.
+LaTeX Warning: Command \textendash invalid in math mode on input line 164.
 
 
 ! LaTeX Error: Environment IEEEeqnarray* undefined.
@@ -2229,40 +2283,89 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.165 \begin{IEEEeqnarray*}
+l.166 \begin{IEEEeqnarray*}
                            
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.166 x = (1 – s^
+l.168 x = (1 – s^
                    2 - t^2)/(1 + s^2 + t^2) \\
 ? 
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.168 x = (1 – s^2 - t^2)/(1 + s^2 + t^2) \\
+                                              
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.168 x = (1 – s^2 - t^2)/(1 + s^2 + t^2) \\
+                                              
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.169 y = 2s / (1 + s^
+                      2 + t^2) \IEEEyesnumber \\
+? 
 ! Undefined control sequence.
-l.167 y = 2s / (1 + s^2 + t^2) \IEEEyesnumber
+l.169 y = 2s / (1 + s^2 + t^2) \IEEEyesnumber
                                               \\
 ? 
 
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 y = 2s / (1 + s^2 + t^2) \IEEEyesnumber \\
+                                                
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.169 y = 2s / (1 + s^2 + t^2) \IEEEyesnumber \\
+                                                
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.170 z = 2t / (1 + s^
+                      2 + t^2) \\
+? 
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.170 z = 2t / (1 + s^2 + t^2) \\
+                                 
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.170 z = 2t / (1 + s^2 + t^2) \\
+                                 
+? 
+
 ! LaTeX Error: \begin{document} ended by \end{IEEEeqnarray*}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.169 \end{IEEEeqnarray*}
+l.171 \end{IEEEeqnarray*}
                          
 ? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.169 \end{IEEEeqnarray*}
-                         
-? 
-
-Underfull \hbox (badness 10000) in paragraph at lines 166--170
-
- []
-
 
 ! LaTeX Error: Environment IEEEeqnarray* undefined.
 
@@ -2270,14 +2373,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.173 \begin{IEEEeqnarray*}
+l.175 \begin{IEEEeqnarray*}
                            
 ? 
-[11]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.174 x = (1 – t^
+l.177 x = (1 – t^
                    2)/ (1 + t^2)­ \\
 ? 
 
@@ -2287,12 +2389,51 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.174 x = (1 – t^2)/ (1 + t^2)­
+l.177 x = (1 – t^2)/ (1 + t^2)­
                                    \\
 ? 
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.177 x = (1 – t^2)/ (1 + t^2)­ \\
+                                     
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.177 x = (1 – t^2)/ (1 + t^2)­ \\
+                                     
+? 
+[11]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.178 y = 2t / (1 + t^
+                      2) \IEEEyesnumber \\
+? 
 ! Undefined control sequence.
-l.175 y = 2t / (1 + t^2) \IEEEyesnumber
+l.178 y = 2t / (1 + t^2) \IEEEyesnumber
                                         \\
+? 
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.178 y = 2t / (1 + t^2) \IEEEyesnumber \\
+                                          
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.178 y = 2t / (1 + t^2) \IEEEyesnumber \\
+                                          
 ? 
 
 ! LaTeX Error: \begin{document} ended by \end{IEEEeqnarray*}.
@@ -2301,20 +2442,9 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.176 \end{IEEEeqnarray*}
+l.179 \end{IEEEeqnarray*}
                          
 ? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.176 \end{IEEEeqnarray*}
-                         
-? 
-
-Underfull \hbox (badness 10000) in paragraph at lines 174--177
-
- []
-
 
 ! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
 
@@ -2322,7 +2452,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.202 ...lots of research interests in resultant­
+l.205 ...lots of research interests in resultant­
                                                   -based methods,
 ? 
 
@@ -2332,7 +2462,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.203 ...within the research community was short­
+l.206 ...within the research community was short­
                                                   lived due to the following...
 
 ? 
@@ -2343,7 +2473,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.205 \item ✦
+l.208 \item ✦
                 Unfaithfulness: Polynomials derived using resultant-­based ...
 
 ? 
@@ -2354,7 +2484,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.205 ...s: Polynomials derived using resultant-­
+l.208 ...s: Polynomials derived using resultant-­
                                                   based methods give
 ? 
 
@@ -2364,7 +2494,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.207 \item ✦
+l.210 \item ✦
                 Ineffectiveness: Using floating ­point arithmetic, resultan...
 
 ? 
@@ -2375,7 +2505,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.207 \item ✦ Ineffectiveness: Using floating ­
+l.210 \item ✦ Ineffectiveness: Using floating ­
                                                   point arithmetic, resultan...
 
 ? 
@@ -2386,10 +2516,9 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.207 ... floating ­point arithmetic, resultant­
+l.210 ... floating ­point arithmetic, resultant­
                                                   -based methods
 ? 
-[12]
 
 ! Package inputenc Error: Unicode char \u8:✦ not set up for use with LaTeX.
 
@@ -2397,7 +2526,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.209 \item ✦
+l.212 \item ✦
                 Inefficiency: Evaluating resultants entail huge amounts of c...
 
 ? 
@@ -2408,7 +2537,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.215 ...ions as  much as an $\textbf{\mathbb{LU}}
+l.218 ...ions as  much as an $\textbf{\mathbb{LU}}
                                                   $ - ­decomposition brings...
 
 ? 
@@ -2419,7 +2548,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.215 ...s  much as an $\textbf{\mathbb{LU}}$ - ­
+l.218 ...s  much as an $\textbf{\mathbb{LU}}$ - ­
                                                   decomposition brings a sys...
 
 ? 
@@ -2430,7 +2559,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.223 been eliminated term ­
+l.226 been eliminated term ­
                              by ­term. This algorithm was known to be the f...
 
 ? 
@@ -2441,10 +2570,11 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.223 been eliminated term ­by ­
+l.226 been eliminated term ­by ­
                                   term. This algorithm was known to be the f...
 
 ? 
+[12]
 
 ! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
 
@@ -2452,12 +2582,12 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.228 resultant-­
+l.231 resultant-­
                   based ones, implicitization is fairly expensive and limite...
 
 ? 
 
-Overfull \hbox (11.85942pt too wide) in paragraph at lines 227--229
+Overfull \hbox (11.85942pt too wide) in paragraph at lines 230--232
 []\OT1/cmr/m/n/10.95 Although Grob-ner ba-sis meth-ods are more ef-fi-cient and
  ef-fec-tive than resultant-
  []
@@ -2469,7 +2599,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.249 ...c equations of some BRL­-CAD primitives}
+l.252 ...c equations of some BRL­-CAD primitives}
                                                   
 ? 
 
@@ -2479,26 +2609,26 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.249 ...c equations of some BRL­-CAD primitives}
+l.252 ...c equations of some BRL­-CAD primitives}
                                                   
 ? 
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.253    & Implicit Form & Parametric Form &
+l.256    & Implicit Form & Parametric Form &
                                               \\
 ? 
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 255.
+LaTeX Warning: Command \textendash invalid in math mode on input line 258.
 
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 257.
+LaTeX Warning: Command \textendash invalid in math mode on input line 260.
 
 [13] [14]
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.276 \hspace{30}
+l.279 \hspace{30}
                   A solid can be represented explicitly by its boundary, its...
 
 ? 
@@ -2509,7 +2639,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.278 BRL-­
+l.281 BRL-­
             CAD focuses on solid modeling by emphasizing physical accuracy and
 ? 
 
@@ -2519,7 +2649,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.281 There are 3 main well­
+l.284 There are 3 main well­
                               established paradigms for representing solids ...
 
 ? 
@@ -2530,7 +2660,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.282 within BRL-­
+l.285 within BRL-­
                    CAD based on their boundaries, volumes or constructing from
 ? 
 
@@ -2540,14 +2670,14 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.284 operations applied to the context of r­
+l.287 operations applied to the context of r­
                                               sets which were developed in [4].
 
 ? 
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.292 \hspace{30}
+l.295 \hspace{30}
                   Just as Rome was not built in a day, the transition from s...
 
 ? 
@@ -2558,14 +2688,14 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.295 ...tions   popularly   known   as   as   B­
+l.298 ...tions   popularly   known   as   as   B­
                                                   REPS   describe   a   soli...
 
 ? 
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.298 \hspace{30}
+l.301 \hspace{30}
                   With   B­REPS,   the   boundary   of   a   solid   consis...
 
 ? 
@@ -2576,7 +2706,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.298 \hspace{30} With   B­
+l.301 \hspace{30} With   B­
                             REPS,   the   boundary   of   a   solid   consis...
 
 ? 
@@ -2587,7 +2717,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.308 ...   his   work   ,a   space/time   trade­
+l.311 ...   his   work   ,a   space/time   trade­
                                                   off   arose:   Maintaining...
 
 ? 
@@ -2598,7 +2728,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.312 trade­
+l.315 trade­
              offs of different boundary representations was conducted by Woo...
 
 ? 
@@ -2608,7 +2738,7 @@ l.312 trade­
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.314 \hspace{30}
+l.317 \hspace{30}
                   For   solids   with   a   manifold   surface,   several   ...
 
 ? 
@@ -2619,7 +2749,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.315 ... of   which   was   Baumgart's   winged­
+l.318 ... of   which   was   Baumgart's   winged­
                                                   edge   data   structure   ...
 
 ? 
@@ -2630,7 +2760,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.319 ...re   simply   connected.   The   winged­
+l.322 ...re   simply   connected.   The   winged­
                                                   edge   data   structure   ...
 
 ? 
@@ -2641,7 +2771,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.321 ...aid   et   al   modified   the   winged­
+l.324 ...aid   et   al   modified   the   winged­
                                                   edge   data   structure   by
 ? 
 
@@ -2651,14 +2781,14 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.325 the   winged­
+l.328 the   winged­
                     edge   data   structure   by   introducing   yet   anoth...
 
 ? 
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.329 \hspace{30}
+l.332 \hspace{30}
                   The   reader   is   invited   to   explore   other   exist...
 
 ? 
@@ -2669,7 +2799,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.330 such   as   the   half­
+l.333 such   as   the   half­
                               edge   data   structure   by   Mantyla   [19],...
 
 ? 
@@ -2680,7 +2810,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.330 ...y   Mantyla   [19],   Hanharan's   face­
+l.333 ...y   Mantyla   [19],   Hanharan's   face­
                                                   edge
 ? 
 
@@ -2690,13 +2820,13 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.336 representation in two-­
+l.339 representation in two-­
                               dimensional space.
 ? 
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.338 \hspace{30}
+l.341 \hspace{30}
                   The   Euler - ­Poincare   characterization   has   been  ...
 
 ? 
@@ -2707,12 +2837,12 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.338 \hspace{30} The   Euler - ­
+l.341 \hspace{30} The   Euler - ­
                                   Poincare   characterization   has   been  ...
 
 ? 
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 344.
+LaTeX Warning: Command \textendash invalid in math mode on input line 347.
 
 
 ! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
@@ -2721,15 +2851,15 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.344  V – E + F -­
+l.347  V – E + F -­
                        ( L – F ) - 2(S – G ) = 0 ­­­­­­­­­­­�...
 
 ? 
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 344.
+LaTeX Warning: Command \textendash invalid in math mode on input line 347.
 
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 344.
+LaTeX Warning: Command \textendash invalid in math mode on input line 347.
 
 
 ! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
@@ -2738,7 +2868,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.344 ... + F -­ ( L – F ) - 2(S – G ) = 0 ­
+l.347 ... + F -­ ( L – F ) - 2(S – G ) = 0 ­
                                                   ­­­­­­­­­­­­­...
 
 ? 
@@ -2749,7 +2879,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.344 ... F -­ ( L – F ) - 2(S – G ) = 0 ­­
+l.347 ... F -­ ( L – F ) - 2(S – G ) = 0 ­­
                                                   ­­­­­­­­­­­­ \...
 
 ? 
@@ -2760,7 +2890,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.344 ... -­ ( L – F ) - 2(S – G ) = 0 ­­­
+l.347 ... -­ ( L – F ) - 2(S – G ) = 0 ­­­
                                                   ­­­­­­­­­­­ \ta...
 
 ? 
@@ -2771,7 +2901,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.344 ...­ ( L – F ) - 2(S – G ) = 0 ­­­­
+l.347 ...­ ( L – F ) - 2(S – G ) = 0 ­­­­
                                                   ­­­­­­­­­­ \tag{5}
 ? 
 
@@ -2781,7 +2911,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.344 ... ( L – F ) - 2(S – G ) = 0 ­­­­­
+l.347 ... ( L – F ) - 2(S – G ) = 0 ­­­­­
                                                   ­­­­­­­­­ \tag{5}
 ? 
 
@@ -2791,7 +2921,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.344 ... L – F ) - 2(S – G ) = 0 ­­­­­­
+l.347 ... L – F ) - 2(S – G ) = 0 ­­­­­­
                                                   ­­­­­­­­ \tag{5}
 ? 
 
@@ -2801,7 +2931,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.344 ... – F ) - 2(S – G ) = 0 ­­­­­­­
+l.347 ... – F ) - 2(S – G ) = 0 ­­­­­­­
                                                   ­­­­­­­ \tag{5}
 ? 
 
@@ -2811,7 +2941,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.344 ...�� F ) - 2(S – G ) = 0 ­­­­­­­­
+l.347 ...�� F ) - 2(S – G ) = 0 ­­­­­­­­
                                                   ­­­­­­ \tag{5}
 ? 
 
@@ -2821,7 +2951,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.344 ... F ) - 2(S – G ) = 0 ­­­­­­­­­
+l.347 ... F ) - 2(S – G ) = 0 ­­­­­­­­­
                                                   ­­­­­ \tag{5}
 ? 
 
@@ -2831,7 +2961,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.344 ... ) - 2(S – G ) = 0 ­­­­­­­­­­
+l.347 ... ) - 2(S – G ) = 0 ­­­­­­­­­­
                                                   ­­­­ \tag{5}
 ? 
 
@@ -2841,7 +2971,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.344 ... - 2(S – G ) = 0 ­­­­­­­­­­­
+l.347 ... - 2(S – G ) = 0 ­­­­­­­­­­­
                                                   ­­­ \tag{5}
 ? 
 
@@ -2851,7 +2981,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.344 ... 2(S – G ) = 0 ­­­­­­­­­­­­
+l.347 ... 2(S – G ) = 0 ­­­­­­­­­­­­
                                                   ­­ \tag{5}
 ? 
 
@@ -2861,7 +2991,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.344 ...(S – G ) = 0 ­­­­­­­­­­­­­
+l.347 ...(S – G ) = 0 ­­­­­­­­­­­­­
                                                   ­ \tag{5}
 ? 
 
@@ -2871,18 +3001,65 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.344 ... – G ) = 0 ­­­­­­­­­­­­­­
+l.347 ... – G ) = 0 ­­­­­­­­­­­­­­
                                                    \tag{5}
 ? 
 [16]
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.347 \hspace{30}
-                  Mantyla   showed   that   any   topologically   valid   po...
+l.353 \hspace{30}
+                  Some   representation   schemes   are   hybrids   such   a...
 
 ? 
-[17]) (./Appendices/AppendixA.tex
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.353 ...   are   hybrids   such   as   the   B-­
+                                                  rep   index   which
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.355 BRL-­
+            CAD   is   one   of   the   few   solid   modeling   systems   w...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.356 ...d for 3D printing and rendered via BRL-­
+                                                  CAD ray tracing.\\
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 353--357
+
+ []
+
+<Pictures/Teapot.png, id=296, 406.683pt x 301.2345pt>
+File: Pictures/Teapot.png Graphic file (type png)
+
+<use Pictures/Teapot.png>
+Package pdftex.def Info: Pictures/Teapot.png used on input line 360.
+(pdftex.def)             Requested size: 417.39851pt x 297.90013pt.
+
+Overfull \hbox (57.39851pt too wide) in paragraph at lines 360--361
+ [][] 
+ []
+
+[17 <./Pictures/Teapot.png>]) (./Appendices/AppendixA.tex
 Appendix A.
 ------------------------------------------------------------------------------
  A Appendix Title Here
@@ -2901,14 +3078,14 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 337.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 337.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 337.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 0A472C016A72E950D2990156FDD91B53;3732.
+(rerunfilecheck)             Checksum: 82AE0FD1F88420B1BFF52DB98CDB18E2;3732.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 337.
  ) 
 Here is how much of TeX's memory you used:
- 13019 strings out of 495025
- 182058 string characters out of 6181515
- 249871 words of memory out of 5000000
- 15980 multiletter control sequences out of 15000+600000
+ 13027 strings out of 495025
+ 182197 string characters out of 6181515
+ 248927 words of memory out of 5000000
+ 15985 multiletter control sequences out of 15000+600000
  19463 words of font info for 71 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  49i,12n,45p,712b,408s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2926,10 +3103,10 @@ cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (30 pages, 2172298 bytes).
+Output written on main.pdf (30 pages, 2914795 bytes).
 PDF statistics:
- 368 PDF objects out of 1000 (max. 8388607)
- 308 compressed objects within 4 object streams
- 62 named destinations out of 1000 (max. 500000)
- 226 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 373 PDF objects out of 1000 (max. 8388607)
+ 311 compressed objects within 4 object streams
+ 63 named destinations out of 1000 (max. 500000)
+ 237 words of extra memory for PDF output out of 10000 (max. 10000000)
 
