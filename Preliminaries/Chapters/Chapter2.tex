@@ -393,5 +393,22 @@ regularized boolean operations result to new shapes.
 \label{Boolean}
 \end{figure}
 
+\hspace{30} One of the most widely used representation schemes of our time
+combines the volumes occupied by overlapping r­sets using regularized
+boolean operations. This representation scheme is called Constructive Solid
+Geometry (CSG) and its signature is the CSG tree – a binary tree data
+structure whose leaves are primitives and whose internal nodes are either
+regularized boolean operations or linear transformations. By a primitive, we
+simply mean a regular set of points in $\mathbb{E}^3$ satisfying an irreducible
+polynomial equation \textit{f(x,y,z) = 0} in the unknowns x, y and z. Examples of
+primitives used in BRL-­CAD include blocks, pyramids, circles, cones,
+cylinders,etc which can be seen in Figure 2.2 above and the recently developed
+heart­-shaped primitive. 
+
+\hspace{30} Although   BRL-­CAD   has   become   a   fully   hybrid   modeling   system,   it   has  
+always   had   its   roots   in   CSG.   The   image   below   depicts   a   detailed   M1A1   tank   on  
+a   pedestal   in   a   mirrored   showcase   room   which   is   entirely   constructed   from  
+implicit primitives and CSG boolean operations.  
+
 \clearpage
 %------------------------------------------------------------------------------------------------------
