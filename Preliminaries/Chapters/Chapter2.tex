@@ -245,7 +245,7 @@ a numerically stable Jacobi rotation adapted from [12] to parameterize several
 conics and parametric surfaces. Table 2.1 below shows a list of
 parameterizations of some popular conics – circle, ellipse, hyperbola and
 parabola.
-\begin{table}[t]
+\begin{table}[thbp]
 \caption[Implicit and parametric equations of some BRL-­CAD primitives]{Implicit and parametric equations of some BRL­-CAD primitives}
 \centering
 \begin{tabular}{| l | c | c |}
@@ -273,6 +273,19 @@ parabola.
 
 \section{Solid Modeling}
 
+\hspace{30} A solid can be represented explicitly by its boundary, its volume, or
+implicitly by specifying operations on volumetric properties that construct it.
+BRL-­CAD focuses on solid modeling by emphasizing physical accuracy and
+fully describing $\mathbb{E}^3$.
+
+There are 3 main well­ established paradigms for representing solids used
+within BRL-­CAD based on their boundaries, volumes or constructing from
+primitives using regularized boolean operations, a boolean set theoretic
+operations applied to the context of r­sets which were developed in [4].
+
+In   this   section,   we   review   the   literature   that   has   grown   around   classical  
+representation   paradigms   such   as   \textit{Boundary   Representations},   \textit{Constructive  
+Solid Geometry} and \textit{Spatial subdivision.}
 
 \clearpage
 %------------------------------------------------------------------------------------------------------
