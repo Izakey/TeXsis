@@ -283,13 +283,33 @@ within BRL-­CAD based on their boundaries, volumes or constructing from
 primitives using regularized boolean operations, a boolean set theoretic
 operations applied to the context of r­sets which were developed in [4].
 
-In   this   section,   we   review   the   literature   that   has   grown   around   classical  
-representation   paradigms   such   as   \textit{Boundary   Representations},   \textit{Constructive  
+In this section, we review the literature that has grown around classical
+representation paradigms such as \textit{Boundary   Representations}, \textit{Constructive  
 Solid Geometry} and \textit{Spatial subdivision.}
 
 \subsection{Boundary Representations (B-REPS)}
 
+\hspace{30} Just as Rome was not built in a day, the transition from surface modeling
+representation schemes   to   solid   modeling   representation   schemes   was   a  
+gradual   process   which   started   off   with   boundary   representations.   The   boundary  
+representations   popularly   known   as   as   B­REPS   describe   a   solid   as   a   set   of  
+surfaces which separate an object's interior from its exterior. 
 
+\hspace{30} With   B­REPS,   the   boundary   of   a   solid   consists   of   vertices,   edges   and  
+faces.   For   each   vertex,   edge   and   face,   the   geometric   section   of   the  
+representation   holds   the   shape   and   location   of   the   object   in   space   possibly  
+using   an   equation   while   the   topological   section   of   the   representation   holds   the  
+adjacency   relationships   between   the   vertices,   edges   and   faces   as   well   as   their  
+orientation.   There   are   nine   (9)   ordered   adjacency   relationships   between   the  
+three   (3)   aforementioned   topological   entities.   In   order   to   build   a   complete  
+representation,   it   is   normal   for   one   to   allow   the   retrieval   of   any   topological   entity  
+and   any   of   the   nine   (9)   ordered   adjacency   relationships.   Kevin   Weiler   [14]  
+showed   that   only   three   (3)   ordered   adjacency   relationships   are   sufficient   to  
+obtain   the   others.   From   his   work   ,a   space/time   trade­off   arose:   Maintaining   all   9  
+adjacency   relationships   required   more   space   but   little   time   for   retrieval   while  
+maintaining   only   sufficient   adjacency   relationships   required   little   space   but  
+more   time   for   retrieval.   A   more   indepth   comparison   of   the   space/time  
+trade­offs of different boundary representations was conducted by Woo [15].  
 
 \clearpage
 %------------------------------------------------------------------------------------------------------
