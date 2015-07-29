@@ -242,16 +242,26 @@ always possible since not all implicit surfaces can be expressed as rational
 parameterizations. According to Noether's theorem, a plane algebraic curve
 possesses a rational parameterization if and only if it has genus zero. [13] used
 a numerically stable Jacobi rotation adapted from [12] to parameterize several
-conics and parametric surfaces. Table 1 below shows a list of
+conics and parametric surfaces. Table 2.1 below shows a list of
 parameterizations of some popular conics – circle, ellipse, hyperbola and
 parabola.
-
-\begin{tabular}{|c|c|c|}
-\hline
-\multicolumn{3}{|c|}{ Implicit Form }{ Parametric Form } \\
-\hline
-     Circle    &  Implicit Form &  Parametric Form\\
-\hline
+\begin{table}[h!]
+\caption[Implicit and parametric equations of some BRL-­CAD primitives]{Implicit and parametric equations of some BRL­-CAD primitives}
+\centering
+\begin{tabular}{| l | c | c |}
+  \hline
+   & Implicit Form & Parametric Form &  \\
+  \hline
+  Circle & $x^2 + y^2 - r^2 = 0$ &    $x =  \frac{r(1 – t^2)}{(1 + t^2)}$ , $y = \frac{2rt}{(1 + t^2)}$ \\
+  \hline
+  Ellipse & $\frac{x^2}{a^2} + \frac{y^2}{b^2} - 1 = 0$ &     $x = \frac{a(1 – t^2)}{(1 + t^2)}$, $y = \frac{2bt}{(1 + t^2)}$ \\
+  \hline
+  Hyperbola & $\frac{x^2}{a^2} - \frac{y^2}{b^2} - 1 = 0$ &     $x = \frac{a(1 + t^2)}{(1 - t^2)}$, $y = \frac{2bt}{(1 - t^2)}$ \\
+  \hline
+  Parabola & $y^2 - 2px = 0$ &     $ x = \frac{t^2}{2p}$, $ y = t$ \\
+  \hline
 \end{tabular}
+\label{Implicit and Parametric equations}
+\end{table}
 
 %------------------------------------------------------------------------------------------------------
