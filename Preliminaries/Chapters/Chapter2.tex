@@ -524,5 +524,22 @@ occlusion, and soft shadows.
 %-------------------------------------------------------------------------------------------------------
 \section{Non-manifold Geometry}
 
+\hspace{30} So   far,   we   have   explored   the   modeling   of   manifold   objects – objects   with  
+the   property   that   each   of   its   points   have   neighbourhoods   which   are  
+homeomorphic   to   $\mathbb{E}^3$.   These   manifolds   can  also   be   seen   as   
+r-­sets   which   were   defined   by   Requicha   in   [5].   Lines   and   circles  are   
+one-­dimensional   manifolds   while   primitives   such   as   tori,   spheres,   cones, 
+cylinders,heart­-shape,etc are examples of three­-dimensional manifolds.
+
+\hspace{30} We   now   throw   some   light   on   geometric   algorithms   used   to   represent  
+non­manifolds   ­   objects   which   have   points   with   neighbourhoods   which   are   not  
+homeomorphic   to   $\mathbb{E}^3$ .   While   lines   and   circles   are   one-­dimensional   manifolds,  
+figure   eights   are   one­-dimensional   non­-manifolds.   Examples   of   two-­dimensional  
+non­-manifolds   may   include   a   cone   touching   another   surface   at   a   single   point,  
+faces   meeting   along   a   common   edge,   etc.   Non-­manifolds   usually   arise   when  
+topological   structures   such   as   vertices,   edges,   and   faces   hang­off   the   mapped  
+boundary   graph   of   an   object.   They   also   naturally   result   from   regularized  
+boolean operations in CSG even when input is restricted to manifolds only.  
+
 \clearpage
 %-------------------------------------------------------------------------------------------------------
