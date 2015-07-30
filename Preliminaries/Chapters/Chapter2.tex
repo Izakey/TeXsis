@@ -419,5 +419,20 @@ implicit primitives and CSG boolean operations.
 
 \subsection{Cell Decomposition}
 
+\hspace{30} Despite   the   wide   applicability   and   attention   received   by   boundary  
+representations,   it   gradually   became   exciting   to   research   new   ways   of  
+representing   objects   explicitly   by   their   volume   –   a   collection   of   minute   cells   of   a  
+partition   of   $\mathbb{E}^3 $.   Some   widely   used   data   structures   under  
+this   representational   paradigm   are   hierarchical   in   nature   and   recursively  
+decompose   space   until   they   obtain   atomic   blocks   for   which   no   further  
+ decomposition   is   necessary.   Although   this   representation   scheme   is   not   widely  
+used   within   the   BRL-­CAD   package,   we   thought   it   important   to   highlight   the   prolific  
+developments   in   this   area   of   research.   Due   to   the   frequent   use   of   hierarchical  
+data   structures   in   representing   images   in   the   domains   of   computer   vision,  
+image   processing   and   computer   graphics,   the   atomic   blocks   obtained   from  
+recursive decomposition are called \textit{picture elements} or \textbf{\textit{pixels}} for short. 
+
+
+
 \clearpage
 %------------------------------------------------------------------------------------------------------
