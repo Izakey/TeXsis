@@ -469,7 +469,28 @@ required,   it   has   been   shown   to   be   faster   than   the   former   f
 nodes   representing   images   in   higher   dimensional   space   using   an   efficient  
 pointer­-based implementation.
 
-
+\hspace{30} Rectangular   data   is   often   used   to   approximate   objects   in   an   image   for  
+which   they   serve   as   the   minimum   rectilinear   enclosing   object.   Indeed,   bounding  
+rectangles   are   used   in   cartographic   applications   to   approximate   lakes,   forests,  
+hills,   etc.   The   first   representation   of   quadtrees   holding   rectangular   data   was  
+due   to   Hinrichs   and   Nievergelt[29].   In   this   representation,   each   rectangle   is  
+seen   as   a   cartesian   product   of   two   line   intervals   each   analogous   to   an   interval  
+tree   holding   the   interval's   centroid   and   extent.   The   rectangles   are   reduced   to  
+points   in   three­dimensional   space   and   then   the   problem   is   treated   as   if   dealing  
+with   a   collection   of   points.   Another   such   representation   is   the   region­-based  
+\textit{MX­CIF   quadtree}   in   which   each   rectangle   is   associated   with   the   quadtree   node  
+corresponding   to   the   smallest   block   containing   it   entirely.   The   subdivision  
+ceases   whenever   a   node's   block   contains   no   rectangles   or   is   smaller   than   a  
+predetermined   threshold   size.   Yet   another   such   data   structure   arose   called   the  
+\textit{R­-tree}   developed   by   Guttman[30]   in   which   each   node   in   the   R-­tree   is   a  
+d - ­dimensional   rectangle   enclosing   its   child   nodes.   Its   leaf   nodes   are   the  
+rectangles   in   the   database.   Each   rectangle   may   be   contained   in   several   nodes  
+each   of   which   had   to   be   visited   before   ascertaining   the   presence   or   absence   of  
+a   particular   rectangle.   This   lead   the   retrieval   of   rectangles   to   be   to   slow;a  
+problem   which   was   alleviated   by   the   implementation   of   an   \textit{${R^{+}}$-tree}   in   which  
+each   rectangle   is   associated   with   with   several   non­overlapping   bounding  
+rectangles.   The   retrieval   time   of   the   R­-tree   is   sped   up   at   the   expense   of   an  
+increase in the tree's height.
 
 \clearpage
 %------------------------------------------------------------------------------------------------------
