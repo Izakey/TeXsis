@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.7.20)  30 JUL 2015 06:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.7.20)  30 JUL 2015 06:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1014,6 +1014,22 @@ Type  H <return>  for immediate help.
 l.5 ...d Primitive Shapes}}{10}{figure.caption.23}
                                                   
 ? 
+
+! Package inputenc Error: Unicode char \u 8:\GenericError {(inputenc)          
+      }{Package inputenc Error: Unicode char \u8:­ not set up for use with LaT
+eX}{See the inputenc package documentation for explanation.}{Your command was i
+gnored.
+(inputenc) Type  I <command> <return>  to replace it with another command,
+(inputenc) or  <return>  to continue without it.} not set up for use with LaTeX
+.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 ...Manifold Geometry}}{24}{figure.caption.39}
+                                                  
+? 
 )
 \tf@lof=\write5
 \openout5 = `main.lof'.
@@ -1474,7 +1490,7 @@ Type  H <return>  for immediate help.
 l.128 heart­-shaped primitive gives BRL-­
                                            CAD a more loving aura – an
 ? 
-[4] <Figures/Goliath.png, id=248, 1435.3625pt x 1217.54875pt>
+[4] <Figures/Goliath.png, id=250, 1435.3625pt x 1217.54875pt>
 File: Figures/Goliath.png Graphic file (type png)
 
 <use Figures/Goliath.png>
@@ -1739,7 +1755,7 @@ l.89 and bones are edges. In [6], a six ­
                                           step algorithm to generate an obje...
 
 ? 
-[8] <Figures/Sphere.png, id=272, 294.09875pt x 294.09875pt>
+[8] <Figures/Sphere.png, id=274, 294.09875pt x 294.09875pt>
 File: Figures/Sphere.png Graphic file (type png)
 
 <use Figures/Sphere.png>
@@ -1767,7 +1783,7 @@ l.113 ...aic surfaces and curves used within BRL­
                                                   -CAD
 ? 
 [9 <./Figures/Sphere.png>]
-<Figures/Primitives.png, id=281, 460.72125pt x 596.2275pt>
+<Figures/Primitives.png, id=283, 460.72125pt x 596.2275pt>
 File: Figures/Primitives.png Graphic file (type png)
 
 <use Figures/Primitives.png>
@@ -3051,7 +3067,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 353--357
 
  []
 
-<Pictures/Teapot.png, id=318, 406.683pt x 301.2345pt>
+<Pictures/Teapot.png, id=320, 406.683pt x 301.2345pt>
 File: Pictures/Teapot.png Graphic file (type png)
 
 <use Pictures/Teapot.png>
@@ -3121,7 +3137,7 @@ l.385 operations   on   r­
                            sets   which   are   linear   transformations   v...
 
 ? 
-<Pictures/Boolean.png, id=326, 1606.0pt x 345.29pt>
+<Pictures/Boolean.png, id=328, 1606.0pt x 345.29pt>
 File: Pictures/Boolean.png Graphic file (type png)
  <use Pictures/Boolean.png>
 Package pdftex.def Info: Pictures/Boolean.png used on input line 391.
@@ -3183,7 +3199,7 @@ l.408 \hspace{30} Although   BRL-­
                                    CAD   has   become   a   fully   hybrid  ...
 
 ? 
-<Pictures/M1A1.png, id=334, 1094.0875pt x 1154.3125pt>
+<Pictures/M1A1.png, id=336, 1094.0875pt x 1154.3125pt>
 File: Pictures/M1A1.png Graphic file (type png)
  <use Pictures/M1A1.png>
 Package pdftex.def Info: Pictures/M1A1.png used on input line 415.
@@ -3477,7 +3493,7 @@ Type  H <return>  for immediate help.
 l.507 ...  Sphere   Flake   drawn   using   BRL-­
                                                   CAD   represented
 ? 
-<Pictures/Sphere.png, id=351, 1061.9675pt x 1204.5pt>
+<Pictures/Sphere.png, id=353, 1061.9675pt x 1204.5pt>
 File: Pictures/Sphere.png Graphic file (type png)
 
 <use Pictures/Sphere.png>
@@ -3637,10 +3653,36 @@ Type  H <return>  for immediate help.
 l.540 ...vertices,   edges,   and   faces   hang­
                                                   off   the   mapped
 ? 
+<Pictures/NMG.png, id=365, 602.25pt x 130.4875pt>
+File: Pictures/NMG.png Graphic file (type png)
+ <use Pictures/NMG.png>
+Package pdftex.def Info: Pictures/NMG.png used on input line 546.
+(pdftex.def)             Requested size: 314.90247pt x 59.58365pt.
+
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.547 ...y]{Examples of Non - ­Manifold Geometry}
+                                                  
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.547 ...y]{Examples of Non - ­Manifold Geometry}
+                                                  
+? 
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.544 \hspace{30}
+l.551 \hspace{30}
                   According   to   [2],   non­-manifold   representations  ...
 
 ? 
@@ -3651,7 +3693,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.544 \hspace{30} According   to   [2],   non­
+l.551 \hspace{30} According   to   [2],   non­
                                                -manifold   representations  ...
 
 ? 
@@ -3662,7 +3704,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.545 allow   volume,   manifold   and   non­
+l.552 allow   volume,   manifold   and   non­
                                               -manifold   curves,   surfaces...
 
 ? 
@@ -3673,14 +3715,14 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.546 ...  uniform   environment.   Thus,   non-­
+l.553 ...  uniform   environment.   Thus,   non-­
                                                   manifold   modeling   is  ...
 
 ? 
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.552 \hspace{30}
+l.559 \hspace{30}
                   In   [2],   Weiler   developed   the   radial-­edge   dat...
 
 ? 
@@ -3691,7 +3733,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.552 ...],   Weiler   developed   the   radial-­
+l.559 ...],   Weiler   developed   the   radial-­
                                                   edge   data   structure   ...
 
 ? 
@@ -3702,7 +3744,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.553 used   to   represent   non­
+l.560 used   to   represent   non­
                                    manifold   geometry.   NMG   topological ...
 
 ? 
@@ -3713,14 +3755,17 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.555 information   stored   in   a   non­
+l.562 information   stored   in   a   non­
                                            manifold   model   consists   of ...
 
 ? 
+[24
+
+ <./Pictures/NMG.png>]
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.559 \hspace{30}
+l.566 \hspace{30}
                   Thirty­-six   (36)   adjacency   relationships   are   po...
 
 ? 
@@ -3731,7 +3776,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.559 \hspace{30} Thirty­
+l.566 \hspace{30} Thirty­
                           -six   (36)   adjacency   relationships   are   po...
 
 ? 
@@ -3742,7 +3787,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.559 ...lationships   are   possible   in   non­
+l.566 ...lationships   are   possible   in   non­
                                                   manifold   boundary
 ? 
 
@@ -3752,7 +3797,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.560 representations.   The   radial­
+l.567 representations.   The   radial­
                                        edge   data   structure   employs   u...
 
 ? 
@@ -3763,7 +3808,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.560 ...�edge   data   structure   employs   up­
+l.567 ...�edge   data   structure   employs   up­
                                                   pointers   and
 ? 
 
@@ -3773,7 +3818,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.561 down­
+l.568 down­
             pointers   to   depict   the   relative   “hierarchy”   whic...
 
 ? 
@@ -3784,12 +3829,10 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.563 non­
-           manifold geometric modeling at references [32] and [33].
+l.570 non-­
+            manifold geometric modeling at references [32] and [33].
 ? 
-[24
-
-] [25]) (./Appendices/AppendixA.tex
+[25]) (./Appendices/AppendixA.tex
 Appendix A.
 ------------------------------------------------------------------------------
  A Appendix Title Here
@@ -3808,7 +3851,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 337.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 337.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 337.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 4747FE4C290FDAFF12BFDD1A4A9559AE;4373.
+(rerunfilecheck)             Checksum: EB2A058CFF9EE59F5E1E1E7AD5E3C1BB;4373.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -3816,10 +3859,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 337.
  ) 
 Here is how much of TeX's memory you used:
- 13066 strings out of 495025
- 182769 string characters out of 6181515
- 250119 words of memory out of 5000000
- 16006 multiletter control sequences out of 15000+600000
+ 13073 strings out of 495025
+ 182881 string characters out of 6181515
+ 250188 words of memory out of 5000000
+ 16011 multiletter control sequences out of 15000+600000
  20882 words of font info for 75 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  49i,12n,45p,712b,424s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3837,10 +3880,10 @@ cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (38 pages, 6993668 bytes).
+Output written on main.pdf (38 pages, 7018977 bytes).
 PDF statistics:
- 446 PDF objects out of 1000 (max. 8388607)
- 367 compressed objects within 4 object streams
- 77 named destinations out of 1000 (max. 500000)
- 294 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 452 PDF objects out of 1000 (max. 8388607)
+ 370 compressed objects within 4 object streams
+ 78 named destinations out of 1000 (max. 500000)
+ 305 words of extra memory for PDF output out of 10000 (max. 10000000)
 
