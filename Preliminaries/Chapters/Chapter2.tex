@@ -432,7 +432,20 @@ data   structures   in   representing   images   in   the   domains   of   compu
 image   processing   and   computer   graphics,   the   atomic   blocks   obtained   from  
 recursive decomposition are called \textit{picture elements} or \textbf{\textit{pixels}} for short. 
 
-
+\hspace{30} The   term   \textit{quadtree}   has   been   used   to   describe   hierarchical   data  
+structures   which   are   based   on   the   common   property   of   recursive  
+decomposition   and   can   be   differentiated   by   the   type   of   data   being   represented,  
+the   principle   guiding   the   decomposition   process   and   the   resolution   of   that  
+decomposition   (the   number   of   times   the   decomposition   is   applied   –   whether  
+fixed   or   variable).   The   most   common   quadtree   is   the   region   quadtree   due   to  
+Klinger   and   Dyer[25]   and   was   coined   by   Hunter[26].It   is   based   on   the  
+successive   subdivision   of   the   image   array   into   four   (4)   equal-­sized   quadrants  
+which   may   be   recursively   subdivided   until   pixels   are   obtained.   In   the   tree  
+representation,   the   root   node   corresponds   to   the   entire   array,   each   child   of   a  
+node   represents   a   quadrant   of   the   region   the   parent   node   represents   while   a  
+leaf   node   represents   an   atomic   block   (usually   a   pixel).   A   leaf   node   may   be  
+black   or   white   depending   on   whether   its   pixel   is   entirely   inside   or   outside   the  
+represented region. It may be gray if it is an internal node of the tree.  
 
 \clearpage
 %------------------------------------------------------------------------------------------------------
