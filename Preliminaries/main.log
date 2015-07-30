@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.7.20)  30 JUL 2015 06:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.7.20)  30 JUL 2015 06:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3637,14 +3637,164 @@ Type  H <return>  for immediate help.
 l.540 ...vertices,   edges,   and   faces   hang­
                                                   off   the   mapped
 ? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.544 \hspace{30}
+                  According   to   [2],   non­-manifold   representations  ...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.544 \hspace{30} According   to   [2],   non­
+                                               -manifold   representations  ...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.545 allow   volume,   manifold   and   non­
+                                              -manifold   curves,   surfaces...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.546 ...  uniform   environment.   Thus,   non-­
+                                                  manifold   modeling   is  ...
+
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.552 \hspace{30}
+                  In   [2],   Weiler   developed   the   radial-­edge   dat...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.552 ...],   Weiler   developed   the   radial-­
+                                                  edge   data   structure   ...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.553 used   to   represent   non­
+                                   manifold   geometry.   NMG   topological ...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.555 information   stored   in   a   non­
+                                           manifold   model   consists   of ...
+
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.559 \hspace{30}
+                  Thirty­-six   (36)   adjacency   relationships   are   po...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.559 \hspace{30} Thirty­
+                          -six   (36)   adjacency   relationships   are   po...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.559 ...lationships   are   possible   in   non­
+                                                  manifold   boundary
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.560 representations.   The   radial­
+                                       edge   data   structure   employs   u...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.560 ...�edge   data   structure   employs   up­
+                                                  pointers   and
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.561 down­
+            pointers   to   depict   the   relative   “hierarchy”   whic...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.563 non­
+           manifold geometric modeling at references [32] and [33].
+? 
 [24
 
-]) (./Appendices/AppendixA.tex
+] [25]) (./Appendices/AppendixA.tex
 Appendix A.
 ------------------------------------------------------------------------------
  A Appendix Title Here
 ------------------------------------------------------------------------------
-) [25
+) [26
 
 
 ]
@@ -3666,8 +3816,8 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 337.
  ) 
 Here is how much of TeX's memory you used:
- 13065 strings out of 495025
- 182762 string characters out of 6181515
+ 13066 strings out of 495025
+ 182769 string characters out of 6181515
  250119 words of memory out of 5000000
  16006 multiletter control sequences out of 15000+600000
  20882 words of font info for 75 fonts, out of 8000000 for 9000
@@ -3687,10 +3837,10 @@ cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (37 pages, 6992503 bytes).
+Output written on main.pdf (38 pages, 6993668 bytes).
 PDF statistics:
- 442 PDF objects out of 1000 (max. 8388607)
- 364 compressed objects within 4 object streams
- 76 named destinations out of 1000 (max. 500000)
+ 446 PDF objects out of 1000 (max. 8388607)
+ 367 compressed objects within 4 object streams
+ 77 named destinations out of 1000 (max. 500000)
  294 words of extra memory for PDF output out of 10000 (max. 10000000)
 
