@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.7.20)  31 JUL 2015 13:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.7.20)  31 JUL 2015 14:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1507,7 +1507,7 @@ Type  H <return>  for immediate help.
 l.128 heart­-shaped primitive gives BRL-­
                                            CAD a more loving aura – an
 ? 
-[4] <Figures/Goliath.png, id=280, 1435.3625pt x 1217.54875pt>
+[4] <Figures/Goliath.png, id=287, 1435.3625pt x 1217.54875pt>
 File: Figures/Goliath.png Graphic file (type png)
 
 <use Figures/Goliath.png>
@@ -1772,7 +1772,7 @@ l.89 and bones are edges. In [6], a six ­
                                           step algorithm to generate an obje...
 
 ? 
-[8] <Figures/Sphere.png, id=305, 294.09875pt x 294.09875pt>
+[8] <Figures/Sphere.png, id=312, 294.09875pt x 294.09875pt>
 File: Figures/Sphere.png Graphic file (type png)
 
 <use Figures/Sphere.png>
@@ -1800,7 +1800,7 @@ l.113 ...aic surfaces and curves used within BRL­
                                                   -CAD
 ? 
 [9 <./Figures/Sphere.png>]
-<Figures/Primitives.png, id=314, 460.72125pt x 596.2275pt>
+<Figures/Primitives.png, id=321, 460.72125pt x 596.2275pt>
 File: Figures/Primitives.png Graphic file (type png)
 
 <use Figures/Primitives.png>
@@ -3084,7 +3084,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 353--357
 
  []
 
-<Pictures/Teapot.png, id=350, 406.683pt x 301.2345pt>
+<Pictures/Teapot.png, id=357, 406.683pt x 301.2345pt>
 File: Pictures/Teapot.png Graphic file (type png)
 
 <use Pictures/Teapot.png>
@@ -3154,7 +3154,7 @@ l.385 operations   on   r­
                            sets   which   are   linear   transformations   v...
 
 ? 
-<Pictures/Boolean.png, id=358, 1606.0pt x 345.29pt>
+<Pictures/Boolean.png, id=365, 1606.0pt x 345.29pt>
 File: Pictures/Boolean.png Graphic file (type png)
  <use Pictures/Boolean.png>
 Package pdftex.def Info: Pictures/Boolean.png used on input line 391.
@@ -3216,7 +3216,7 @@ l.408 \hspace{30} Although   BRL-­
                                    CAD   has   become   a   fully   hybrid  ...
 
 ? 
-<Pictures/M1A1.png, id=366, 1094.0875pt x 1154.3125pt>
+<Pictures/M1A1.png, id=373, 1094.0875pt x 1154.3125pt>
 File: Pictures/M1A1.png Graphic file (type png)
  <use Pictures/M1A1.png>
 Package pdftex.def Info: Pictures/M1A1.png used on input line 415.
@@ -3510,7 +3510,7 @@ Type  H <return>  for immediate help.
 l.507 ...  Sphere   Flake   drawn   using   BRL-­
                                                   CAD   represented
 ? 
-<Pictures/Sphere.png, id=383, 1061.9675pt x 1204.5pt>
+<Pictures/Sphere.png, id=390, 1061.9675pt x 1204.5pt>
 File: Pictures/Sphere.png Graphic file (type png)
 
 <use Pictures/Sphere.png>
@@ -3670,7 +3670,7 @@ Type  H <return>  for immediate help.
 l.540 ...vertices,   edges,   and   faces   hang­
                                                   off   the   mapped
 ? 
-<Pictures/NMG.png, id=395, 602.25pt x 130.4875pt>
+<Pictures/NMG.png, id=402, 602.25pt x 130.4875pt>
 File: Pictures/NMG.png Graphic file (type png)
  <use Pictures/NMG.png>
 Package pdftex.def Info: Pictures/NMG.png used on input line 546.
@@ -4841,12 +4841,182 @@ Type  H <return>  for immediate help.
 l.213 ...ry   to   tag   the   incoming   heart-­
                                                   shaped
 ? 
-) (./Appendices/AppendixA.tex [32]
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.220 \hspace{30}
+                  The   heart-­shape   has   two   lobes   which   are   sy...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.220 \hspace{30} The   heart-­
+                                shape   has   two   lobes   which   are   sy...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.220 ...ich   are   symmetric   about   the   z­
+                                                  axis   and
+? 
+<Pictures/Heart.png, id=441, 718.685pt x 586.19pt>
+File: Pictures/Heart.png Graphic file (type png)
+ <use Pictures/Heart.png>
+Package pdftex.def Info: Pictures/Heart.png used on input line 225.
+(pdftex.def)             Requested size: 299.7549pt x 238.31647pt.
+
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.230 The   heart-­
+                    shape   was   stored   in   the   \textit{\textbf{includ...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.231 Type   ( C-­
+                   like   structure )   called   \textit{rt\_hrt\_internal} ...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:✦ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.234 \item✦
+               A magic number \textit{\textbf{hrt\_magic }}
+? 
+
+! Package inputenc Error: Unicode char \u8:✦ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.235 \item✦
+               A center point \textit{\textbf{v }}
+? 
+
+! Package inputenc Error: Unicode char \u8:✦ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.236 \item✦
+               A vector in the direction of the X-­axis \textit{\textbf{xdir}}
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.236 ...✦ A vector in the direction of the X-­
+                                                  axis \textit{\textbf{xdir}}
+? 
+
+! Package inputenc Error: Unicode char \u8:✦ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.237 \item✦
+               A vector in the directions of the Y­-axis \textit{\textbf{yd...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.237 ...✦ A vector in the directions of the Y­
+                                                  -axis \textit{\textbf{ydir}}
+? 
+
+! Package inputenc Error: Unicode char \u8:✦ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.238 \item✦
+               A vector in the direction of the Z­-axis \textit{\textbf{zdir}}
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.238 ...m✦ A vector in the direction of the Z­
+                                                  -axis \textit{\textbf{zdir}}
+? 
+
+! Package inputenc Error: Unicode char \u8:✦ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.239 \item✦
+               Distance from center point to either cusps \textit{\textbf{d}}
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.241 ...tructure   is   also   known   in  BRL-­
+                                                  CAD's parlance as the hear...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.241 ... in  BRL-­CAD's parlance as the heart-­
+                                                  shape's internal format.
+? 
+[32]) (./Appendices/AppendixA.tex [33 <./Pictures/Heart.png>]
 Appendix A.
 ------------------------------------------------------------------------------
  A Appendix Title Here
 ------------------------------------------------------------------------------
-) [33
+) [34
 
 ]
 ------------------------------------------------------------------------------
@@ -4859,7 +5029,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 337.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 337.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 337.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3D88BF42E8D3FF1ECFF947343E4B7210;5471.
+(rerunfilecheck)             Checksum: F0642F77A8316A27FC29FBCBCFD91EE3;5782.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -4867,10 +5037,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 337.
  ) 
 Here is how much of TeX's memory you used:
- 13096 strings out of 495025
- 183141 string characters out of 6181515
- 250232 words of memory out of 5000000
- 16018 multiletter control sequences out of 15000+600000
+ 13107 strings out of 495025
+ 183318 string characters out of 6181515
+ 249303 words of memory out of 5000000
+ 16025 multiletter control sequences out of 15000+600000
  20882 words of font info for 75 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  49i,12n,45p,857b,424s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -4888,10 +5058,10 @@ cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (45 pages, 7034924 bytes).
+Output written on main.pdf (46 pages, 7079401 bytes).
 PDF statistics:
- 515 PDF objects out of 1000 (max. 8388607)
- 425 compressed objects within 5 object streams
- 91 named destinations out of 1000 (max. 500000)
- 353 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 529 PDF objects out of 1000 (max. 8388607)
+ 436 compressed objects within 5 object streams
+ 94 named destinations out of 1000 (max. 500000)
+ 372 words of extra memory for PDF output out of 10000 (max. 10000000)
 
