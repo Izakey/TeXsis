@@ -30,9 +30,9 @@
 \contentsline {section}{\numberline {2.5}Non-manifold Geometry}{24}{section.38}
 \contentsline {chapter}{\numberline {3}ANALYSIS AND DESIGN}{26}{chapter.40}
 \contentsline {section}{\numberline {3.1}The Open Source Community}{26}{section.41}
-\contentsline {subsection}{\numberline {3.1.1}Subsection 1}{26}{subsection.42}
-\contentsline {subsection}{\numberline {3.1.2}Subsection 2}{27}{subsection.43}
-\contentsline {section}{\numberline {3.2}Main Section 2}{27}{section.44}
+\contentsline {subsection}{\numberline {3.1.1}Subsection 1}{27}{subsection.42}
+\contentsline {subsection}{\numberline {3.1.2}Subsection 2}{28}{subsection.43}
+\contentsline {section}{\numberline {3.2}Main Section 2}{28}{section.44}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Appendix Title Here}{28}{appendix.45}
+\contentsline {chapter}{\numberline {A}Appendix Title Here}{29}{appendix.45}
 \vspace {2em}

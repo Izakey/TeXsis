@@ -14,9 +14,43 @@
 and   explain   how   we   implemented   a   heart­shaped   primitive   in   the   project   design  
 section.   Firstly,   we   introduce   the   concept   of   free   and   open   source   software. Secondly,   we   do   an   overview   of   the   BRL-­CAD   software   package.   After,   we  state   our   aim   of   contributing   to   the   BRL-­CAD   project.   Finally,   we   give   a   detailed  explanation   of   the   design   which   we   employed   to   implement   the   heart-­shaped primitive for BRL-­CAD.
 
+%------------------------------------------------------------------------------------------------------------------------------
+%		OPEN SOURCE COMMUNITY
+%------------------------------------------------------------------------------------------------------------------------------
 \section{The Open Source Community}
 
+\hspace{30} Depending   on   how   we   choose   to   call   it,   \textit{Free/Libre/Open   Source  
+Software   (FLOSS)},   \textit{Free   and   Open   Source   Software   (FOSS)}   or   simply   \textit{Open  
+Source   Software   OSS)}   is   software   for   which   users   have   access   to   both   the  
+source   code   and   binary   executables   and   is   licensed   under   a   license   which  
+permits   its   users   to   read,   edit   and   distribute   the   software   to   anyone   and   for   any  
+reason.   This   distinguishes   open   source   software   from   commercial   software  
+which   is   distributed   by   giving   away   its   binary   executable   version   only.   Usually,  
+OSS   is   distributed   at   no   cost   with   limited   restrictions   on   how   it   can   be   used.  
+According   to   Eric   S.   Raymond[34],   one   of   the   most   prominent   evangelists   of  
+the   open   source   movement,   hackerdom   can   be   likened   to   what   anthropologists  
+call   a   gift   culture–   a   culture   wherein   members   gain   status   and   reputation   by  
+giving   away   their   time,   creativity   and   skills   to   reading,   writing   and   debugging  
+software,   publishing   useful   information   in   blogs   or   documents   like   Frequently  
+Asked   Questions   (FAQs)   lists   as   well   as   handling   unglamorous   tasks   like  
+maintaining   mailing   lists,   moderating   news   groups,   etc   without   any   monetary  
+compensation.   The   word   \textit{hacker}   was   coined   by   a   shared   community   of   expert  
+programmers   and   networking   masters   which   traces   its   history   back   to   the   days  
+of   the   earliest   ARPAnet   experiments   and   time­sharing   minicomputers   who  
+made   the   unix   operating   systems   and   the   world­wide   web   work.   As   opposed   to  
+hackers,   \textit{crackers}   who   are   more   interested   in   breaking   software   and   perturbing  
+phone systems.   
 
+\hspace{30} Today,   the   open   source   community   has   become   a   self­organizing  
+collaborative   social   network   of   hackers   driven   by   a   passion   to   solve   problems  
+using   free   software   with   thousands   of   projects   hosted   on   Sourceforge[35]   and  
+Github[36].   It   has   singularly   developed   some   software   packages   and   tools  
+which   are   the   best   in   the   world   such   as   the   firefox   web   browser,   Apache  
+web­server,   Linux   operating   systems   like   BSD,   Ubuntu,   Debian,etc,   the   MySQL  
+database   management   system,   the   VLC   media   player,   programming  languages   and   tools   like   gcc,   C,   Perl,   Python,   Java,   etc   and   much   more.   Some  Examples   of   CAD   packages   within   the   open   source  community   include   BRL­CAD,   Blender,   FreeCAD,   openSCAD   and   LibreCAD,  
+etc.
+
+%--------------------------------------------------------------------------------------------------------------------------------
 
 %-----------------------------------
 %	SUBSECTION 1
