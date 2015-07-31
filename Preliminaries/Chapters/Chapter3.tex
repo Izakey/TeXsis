@@ -86,6 +86,38 @@ tools,   various   ray   tracing   applications,geometry   manipulators,   and  
 They   will   also   be   used   to   test   that   the   geometric   properties   of   the   heart­shaped  
 primitive works as we will see in Chapter Four.
 
+\hspace{30} The   basic   layout   of   its   code   places   public   API   headers   in   the   top­level  
+\textit{\textbf{include/}}   directory   and   source   code   for   both   applications   and   libraries   in   the  
+\textit{\textbf{src/}}   directory.   The   following   is   a   partial   listing   of   how   BRL-­CAD's   source   code  
+is organised in a typical checkout or source distribution. 
+
+\textbf{Applications and Resources}  
+
+\begin{itemize} 
+\item✦ \textbf{db/} for Example Geometry.  
+\item✦ \textbf{doc/} for project Documentation.  
+\item✦ \textbf{include/} for Public API headers.  
+\item✦ \textbf{regress/} for Regression test scripts  
+\item✦ \textbf{src/} for Application and library source.  
+\item✦ \textbf{src/conv} for Geometry converters.  
+\item✦ \textbf{src/fb} for Displaying data in windows.  
+\item✦ \textbf{src/mged} for the Multi­device geometry editor, the main GUI application.   
+\item✦ \textbf{src/rt} for Ray tracing applications.  
+\item✦ \textbf{src/util} for Image processing utilities.
+\end{itemize}  
+
+\textbf{Libraries}
+  
+\begin{itemize} 
+\item✦ \textbf{src/libbn} for Numerics library.  
+\item✦ \textbf{src/libbu} for Utility library.  
+\item✦ \textbf{src/libgcv} for Geometry conversion library.  
+\item✦ \textbf{src/libged} for Geometry Editing library.  
+\item✦ \textbf{src/icv} for Image conversion library.  
+\item✦ \textbf{src/libpkg} for Network Package library.  
+\item✦ \textbf{src/librt} for Ray­tracing library.  
+\item✦ \textbf{src/libwbd} for Geometry creation library.
+\end{itemize}
 %-----------------------------------
 %	SUBSECTION 2
 %-----------------------------------
