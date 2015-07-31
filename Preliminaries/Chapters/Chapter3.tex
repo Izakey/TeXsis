@@ -158,13 +158,32 @@ to traditional ones such as cones, cylinders, spheres, tori, etc.
 \item BRL­-CAD   is   widely   used   within   agencies   within   the   United   States  
 Government   for   the   modeling   of   military   artillery   and   simulating   combat  vehicle   systems   and   environments.   This   severely   limits   is   user   base   to  the   military   sector   and   gives   it   an   “­warring”   flare   which   repels   users   who  would have used it for more entertainment purposes.
 \end{itemize}
-%-----------------------------------
-%	SUBSECTION 2
-%-----------------------------------
 
-\subsection{Subsection 2}
-Morbi rutrum odio eget arcu adipiscing sodales. Aenean et purus a est pulvinar pellentesque. Cras in elit neque, quis varius elit. Phasellus fringilla, nibh eu tempus venenatis, dolor elit posuere quam, quis adipiscing urna leo nec orci. Sed nec nulla auctor odio aliquet consequat. Ut nec nulla in ante ullamcorper aliquam at sed dolor. Phasellus fermentum magna in augue gravida cursus. Cras sed pretium lorem. Pellentesque eget ornare odio. Proin accumsan, massa viverra cursus pharetra, ipsum nisi lobortis velit, a malesuada dolor lorem eu neque.
+In   a   bid   to   solve   the   aforementioned   problems,   we   embarked   on   a   journey   to  
+develop   a   heart-­shaped   primitive   for   BRL­-CAD.   In   the   following   section,   we  
+document   how   we   wrote   various   callback   functions   which   compute   useful  
+geometric   properties   for   the   heart­shaped   primitive   such   as   formatted  
+description,   database   importation   and   exportation,   computation   of   the   bounding  
+box, plotting the wireframe and ray tracing.
 
+%---------------------------------------------------------------------------------------------------------------------------------
+%	DESIGN
+%---------------------------------------------------------------------------------------------------------------------------------
+
+\section{Design}
+
+\hspace{30} After   having   stated   our   goal   of   contributing   to   the   BRL-­CAD   project,   we  
+now   explain   how   we   implemented   the   heart­shaped   primitive.   Currently,  
+BRL­-CAD   aspires   to   become   the   most   widely   used   open   source  
+CAD   software   package   in   existence.   Presently,   it   is   mostly  
+used   by   the   United   States   of   America's   government   agencies   which   fund   its  
+development   as   well   as   academic   institutes   which   use   use   it   for   computer  
+graphics   educations   and   scientific   research.   Aljazeera   news   Channel's   recent  
+revelation   that   less   than   1\%   of   the   world's   population   works   in   the   military   sector  
+is   indicative   of   the   fact   that   BRL-­CAD's   usage   must   go   beyond   the   military  
+sector to break the status­ quo.   
+
+%-----------------------------------------------------------------------------------------------------------------------------------
 %----------------------------------------------------------------------------------------
 %	SECTION 2
 %----------------------------------------------------------------------------------------
