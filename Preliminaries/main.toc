@@ -32,7 +32,7 @@
 \contentsline {section}{\numberline {3.1}The Open Source Community}{26}{section.41}
 \contentsline {section}{\numberline {3.2}Analysis Of The Work}{27}{section.42}
 \contentsline {section}{\numberline {3.3}Design}{31}{section.43}
-\contentsline {section}{\numberline {3.4}Main Section 2}{31}{section.44}
+\contentsline {section}{\numberline {3.4}Main Section 2}{32}{section.44}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Appendix Title Here}{32}{appendix.45}
+\contentsline {chapter}{\numberline {A}Appendix Title Here}{33}{appendix.45}
 \vspace {2em}
