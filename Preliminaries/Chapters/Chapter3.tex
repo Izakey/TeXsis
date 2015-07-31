@@ -94,30 +94,50 @@ is organised in a typical checkout or source distribution.
 \textbf{Applications and Resources}  
 
 \begin{itemize} 
-\item✦ \textbf{db/} for Example Geometry.  
-\item✦ \textbf{doc/} for project Documentation.  
-\item✦ \textbf{include/} for Public API headers.  
-\item✦ \textbf{regress/} for Regression test scripts  
-\item✦ \textbf{src/} for Application and library source.  
-\item✦ \textbf{src/conv} for Geometry converters.  
-\item✦ \textbf{src/fb} for Displaying data in windows.  
-\item✦ \textbf{src/mged} for the Multi­device geometry editor, the main GUI application.   
-\item✦ \textbf{src/rt} for Ray tracing applications.  
-\item✦ \textbf{src/util} for Image processing utilities.
+\item✦ \textit{\textbf{db/}} for Example Geometry.  
+\item✦ \textit{\textbf{doc/}} for project Documentation.  
+\item✦ \textit{\textbf{include/}} for Public API headers.  
+\item✦ \textit{\textbf{regress/}} for Regression test scripts  
+\item✦ \textit{\textbf{src/}} for Application and library source.  
+\item✦ \textit{\textbf{src/conv}} for Geometry converters.  
+\item✦ \textit{\textbf{src/fb}} for Displaying data in windows.  
+\item✦ \textit{\textbf{src/mged}} for the Multi­device geometry editor, the main GUI application.   
+\item✦ \textit{\textbf{src/rt}} for Ray tracing applications.  
+\item✦ \textit{\textbf{src/util}} for Image processing utilities.
 \end{itemize}  
 
 \textbf{Libraries}
   
 \begin{itemize} 
-\item✦ \textbf{src/libbn} for Numerics library.  
-\item✦ \textbf{src/libbu} for Utility library.  
-\item✦ \textbf{src/libgcv} for Geometry conversion library.  
-\item✦ \textbf{src/libged} for Geometry Editing library.  
-\item✦ \textbf{src/icv} for Image conversion library.  
-\item✦ \textbf{src/libpkg} for Network Package library.  
-\item✦ \textbf{src/librt} for Ray­tracing library.  
-\item✦ \textbf{src/libwbd} for Geometry creation library.
+\item✦ \textit{\textbf{src/libbn}} for Numerics library.  
+\item✦ \textit{\textbf{src/libbu}} for Utility library.  
+\item✦ \textit{\textbf{src/libgcv}} for Geometry conversion library.  
+\item✦ \textit{\textbf{src/libged}} for Geometry Editing library.  
+\item✦ \textit{\textbf{src/icv}} for Image conversion library.  
+\item✦ \textit{\textbf{src/libpkg}} for Network Package library.  
+\item✦ \textit{\textbf{src/librt}} for Ray­tracing library.  
+\item✦ \textit{\textbf{src/libwbd}} for Geometry creation library.
 \end{itemize}
+
+\hspace{30} The   majority   of   BRL-­CAD's   source   code   is   written   in   ANSI/POSIX   C   with   the  
+intent   of   strictly   conforming   with   the   C   standard.   The   core   libraries   are   all   C   API  
+though   several   such   as   the   Utility   and   Ray­tracing   libraries   use   C++   for  
+implementation   details.   Major   components   of   the   system   are   written   in   C,   C++,  
+Tcl/Tk,   Bash   and   Php   with   source   code   files   using   extensions   such   as   *.c,   *.h,  
+*.cpp,   *.tcl,   *.tk,   *.sh   and   *.php.   BRL­CAD   uses   the   CMake   build   system   for  
+compilation and an inbuilt testing infrastructure in regress/ for unit testing.  
+
+\hspace{30} BRL-­CAD   has   a   long­lasting   heritage   of   maintaining   verifiable,   validated  
+and   repeatable   results   in   critical   portions   of   the   software   package,   particularly  
+within   the   ray   tracing   library.   It   has   an   inbuilt   testing   infrastructure   which  
+compares   all   program   output   against   benchmark   results   during   each   build.   The  
+ray   tracing   library   is   a   multi­representational   library   which   lies   at   the   heart   of  
+BRL­-CAD   and   uses   a   suite   of   other   libraries   for   other   basic   application  
+functionality.   Considerable   attention   is   put   into   verification   and   validation  
+throughout   the   package   which   includes   regression   tests   that   compare   runtime  
+behaviour   against   known   results   and   reports   any   adverse   variances   from  
+standard results as failures.  
+
 %-----------------------------------
 %	SUBSECTION 2
 %-----------------------------------
