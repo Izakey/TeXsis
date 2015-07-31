@@ -203,6 +203,18 @@ inbuilt testing infrastructure in the \textit{\textbf{regress/}} directory.
 display interfaces viz mged or archer.
 \end{itemize}
 
+In   order   to   make   room   for   the   heart­-shape   in   BRL-­CAD,   we   tagged   the   heart  
+primitive,   designed   a   data   structure   for   it   and   stubbed   a   skeletal   \textit{hrt.c}   file   into  
+the source code repository in \textit{src/librt/primitives/hrt/hrt.c.}
+
+\subsection{Tagging the heart­-shaped primitive}
+
+Given   that   each   of   the   primitives   in   Figure   2.2   above   is   uniquely   stored   in  
+BRL-­CAD's   database,   it   was   necessary   to   tag   the   incoming   heart-­shaped  
+primitive   with   a   unique   magic   number,   Ox6872743f,   which   is   the   hexadecimal  
+equivalent   of   “?hrt?”   and   increment   the   maximum   number   of   primitives   in  
+\textbf{\textit{src/libbu/magic.c}}, \textbf{\textit{include/magic.h}} and \textbf{\textit{include/raytrace.h}}.  
+
 %-----------------------------------------------------------------------------------------------------------------------------------
 %----------------------------------------------------------------------------------------
 %	SECTION 2

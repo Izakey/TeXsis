@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.7.20)  31 JUL 2015 13:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.7.20)  31 JUL 2015 13:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -989,7 +989,24 @@ l.254 }
 (./main.toc [6
 
 
-])
+]
+
+! Package inputenc Error: Unicode char \u 8:\GenericError {(inputenc)          
+      }{Package inputenc Error: Unicode char \u8:­ not set up for use with LaT
+eX}{See the inputenc package documentation for explanation.}{Your command was i
+gnored.
+(inputenc) Type  I <command> <return>  to replace it with another command,
+(inputenc) or  <return>  to continue without it.} not set up for use with LaTeX
+.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 ... it.}-shaped primitive}{32}{subsection.44}
+                                                  
+? 
+)
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
@@ -1490,7 +1507,7 @@ Type  H <return>  for immediate help.
 l.128 heart­-shaped primitive gives BRL-­
                                            CAD a more loving aura – an
 ? 
-[4] <Figures/Goliath.png, id=275, 1435.3625pt x 1217.54875pt>
+[4] <Figures/Goliath.png, id=280, 1435.3625pt x 1217.54875pt>
 File: Figures/Goliath.png Graphic file (type png)
 
 <use Figures/Goliath.png>
@@ -1755,7 +1772,7 @@ l.89 and bones are edges. In [6], a six ­
                                           step algorithm to generate an obje...
 
 ? 
-[8] <Figures/Sphere.png, id=300, 294.09875pt x 294.09875pt>
+[8] <Figures/Sphere.png, id=305, 294.09875pt x 294.09875pt>
 File: Figures/Sphere.png Graphic file (type png)
 
 <use Figures/Sphere.png>
@@ -1783,7 +1800,7 @@ l.113 ...aic surfaces and curves used within BRL­
                                                   -CAD
 ? 
 [9 <./Figures/Sphere.png>]
-<Figures/Primitives.png, id=309, 460.72125pt x 596.2275pt>
+<Figures/Primitives.png, id=314, 460.72125pt x 596.2275pt>
 File: Figures/Primitives.png Graphic file (type png)
 
 <use Figures/Primitives.png>
@@ -3067,7 +3084,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 353--357
 
  []
 
-<Pictures/Teapot.png, id=345, 406.683pt x 301.2345pt>
+<Pictures/Teapot.png, id=350, 406.683pt x 301.2345pt>
 File: Pictures/Teapot.png Graphic file (type png)
 
 <use Pictures/Teapot.png>
@@ -3137,7 +3154,7 @@ l.385 operations   on   r­
                            sets   which   are   linear   transformations   v...
 
 ? 
-<Pictures/Boolean.png, id=353, 1606.0pt x 345.29pt>
+<Pictures/Boolean.png, id=358, 1606.0pt x 345.29pt>
 File: Pictures/Boolean.png Graphic file (type png)
  <use Pictures/Boolean.png>
 Package pdftex.def Info: Pictures/Boolean.png used on input line 391.
@@ -3199,7 +3216,7 @@ l.408 \hspace{30} Although   BRL-­
                                    CAD   has   become   a   fully   hybrid  ...
 
 ? 
-<Pictures/M1A1.png, id=361, 1094.0875pt x 1154.3125pt>
+<Pictures/M1A1.png, id=366, 1094.0875pt x 1154.3125pt>
 File: Pictures/M1A1.png Graphic file (type png)
  <use Pictures/M1A1.png>
 Package pdftex.def Info: Pictures/M1A1.png used on input line 415.
@@ -3493,7 +3510,7 @@ Type  H <return>  for immediate help.
 l.507 ...  Sphere   Flake   drawn   using   BRL-­
                                                   CAD   represented
 ? 
-<Pictures/Sphere.png, id=378, 1061.9675pt x 1204.5pt>
+<Pictures/Sphere.png, id=383, 1061.9675pt x 1204.5pt>
 File: Pictures/Sphere.png Graphic file (type png)
 
 <use Pictures/Sphere.png>
@@ -3653,7 +3670,7 @@ Type  H <return>  for immediate help.
 l.540 ...vertices,   edges,   and   faces   hang­
                                                   off   the   mapped
 ? 
-<Pictures/NMG.png, id=390, 602.25pt x 130.4875pt>
+<Pictures/NMG.png, id=395, 602.25pt x 130.4875pt>
 File: Pictures/NMG.png Graphic file (type png)
  <use Pictures/NMG.png>
 Package pdftex.def Info: Pictures/NMG.png used on input line 546.
@@ -4770,7 +4787,61 @@ l.202 ...g   in   parameters   for   the   heart­
                                                   shaped   primitive   in   the
 
 ? 
-[31]) (./Appendices/AppendixA.tex [32]
+[31]
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.206 ...   to   make   room   for   the   heart­
+                                                  -shape   in   BRL-­CAD,  ...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.206 ...  for   the   heart­-shape   in   BRL-­
+                                                  CAD,   we   tagged   the  ...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.210 ...ion{Tagging the heart­-shaped primitive}
+                                                  
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.213 BRL-­
+            CAD's   database,   it   was   necessary   to   tag   the   inco...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.213 ...ry   to   tag   the   incoming   heart-­
+                                                  shaped
+? 
+) (./Appendices/AppendixA.tex [32]
 Appendix A.
 ------------------------------------------------------------------------------
  A Appendix Title Here
@@ -4788,7 +4859,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 337.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 337.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 337.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 268C390D722D67F5E541C74BD8408EB7;5193.
+(rerunfilecheck)             Checksum: 3D88BF42E8D3FF1ECFF947343E4B7210;5471.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -4796,10 +4867,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 337.
  ) 
 Here is how much of TeX's memory you used:
- 13094 strings out of 495025
- 183113 string characters out of 6181515
+ 13096 strings out of 495025
+ 183141 string characters out of 6181515
  250232 words of memory out of 5000000
- 16017 multiletter control sequences out of 15000+600000
+ 16018 multiletter control sequences out of 15000+600000
  20882 words of font info for 75 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  49i,12n,45p,857b,424s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -4817,10 +4888,10 @@ cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (45 pages, 7033861 bytes).
+Output written on main.pdf (45 pages, 7034924 bytes).
 PDF statistics:
- 509 PDF objects out of 1000 (max. 8388607)
- 419 compressed objects within 5 object streams
- 90 named destinations out of 1000 (max. 500000)
- 345 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 515 PDF objects out of 1000 (max. 8388607)
+ 425 compressed objects within 5 object streams
+ 91 named destinations out of 1000 (max. 500000)
+ 353 words of extra memory for PDF output out of 10000 (max. 10000000)
 
