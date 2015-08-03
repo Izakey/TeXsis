@@ -375,7 +375,32 @@ with   more   iso­contours.   Along   the  XY   and   XZ   planes   (when   Z  
 heart­shape   primitive's   wireframe   is   indeed   heart­-shaped.   The   algorithm   below  
 was used to develop the wireframe of the heart­-shape.  
 
-
+%\begin{verbatim}
+%1. for points in the +Z directions starting at the upper cusp 
+%locate centres of ellipses which constitute the upper half of the left lobe 
+%determine radial vectors in X, Y and Z directions as need be 
+%determine the 24 points for each ellipse 
+%draw each ellipse
+%// Connect the 24 points 
+%make connections between ellipses 
+%end at highest point of left lobe  // the maximum turning point 
+%2. for points in the +Z directions starting at the upper cusp 
+%locate centres of ellipses which constitute the upper half of the right lobe 
+%determine radial vectors in X, Y and Z directions as need be 
+%determine the 24 points for each ellipse 
+%draw each ellipse
+%// Connect the 24 points make connections between ellipses 
+%end at highest point of right lobe  // the maximum turning point   
+%3. for chosen levels in the +Z direction starting at the lower cusp 
+%locate centres of ellipses 
+%determine radial vectors in X, Y and Z directions as need be 
+%determine the 24 points for each ellipse 
+%draw each ellipse
+%// Connect the 24 points 
+%make connections between ellipses 
+%     end at upper cusp
+%// the maximum turning point 
+%\end{verbatim}
 
 %-----------------------------------------------------------------------------------------------------------------------------------
 %----------------------------------------------------------------------------------------
