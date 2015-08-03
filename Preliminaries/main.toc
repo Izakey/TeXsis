@@ -37,7 +37,8 @@
 \contentsline {subsection}{\numberline {3.3.3}A bare bones heart\GenericError {(inputenc) }{Package inputenc Error: Unicode char \u 8:­ not set up for use with LaTeX}{See the inputenc package documentation for explanation.}{Your command was ignored.\MessageBreak Type I <command> <return> to replace it with another command,\MessageBreak or <return> to continue without it.}-shape}{33}{subsection.47}
 \contentsline {subsection}{\numberline {3.3.4}Formatted description of the heart\GenericError {(inputenc) }{Package inputenc Error: Unicode char \u 8:­ not set up for use with LaTeX}{See the inputenc package documentation for explanation.}{Your command was ignored.\MessageBreak Type I <command> <return> to replace it with another command,\MessageBreak or <return> to continue without it.}-shaped primitive}{35}{subsection.48}
 \contentsline {subsection}{\numberline {3.3.5}Database importation and exportation of the heart\GenericError {(inputenc) }{Package inputenc Error: Unicode char \u 8:­ not set up for use with LaTeX}{See the inputenc package documentation for explanation.}{Your command was ignored.\MessageBreak Type I <command> <return> to replace it with another command,\MessageBreak or <return> to continue without it.}-shaped primitive}{35}{subsection.49}
-\contentsline {section}{\numberline {3.4}Main Section 2}{36}{section.50}
+\contentsline {subsection}{\numberline {3.3.6}Computing the bounding box of the heart-\GenericError {(inputenc) }{Package inputenc Error: Unicode char \u 8:­ not set up for use with LaTeX}{See the inputenc package documentation for explanation.}{Your command was ignored.\MessageBreak Type I <command> <return> to replace it with another command,\MessageBreak or <return> to continue without it.}shaped primitive}{36}{subsection.50}
+\contentsline {section}{\numberline {3.4}Main Section 2}{37}{section.51}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Appendix Title Here}{37}{appendix.51}
+\contentsline {chapter}{\numberline {A}Appendix Title Here}{38}{appendix.52}
 \vspace {2em}

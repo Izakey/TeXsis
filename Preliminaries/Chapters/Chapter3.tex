@@ -316,6 +316,48 @@ Z   directions.   It   is   not   really   useful   storing   value   for   d   
 equivalent   to   some   components   of   the   radial   vectors.   After   checking   that   the  
 primitive   in   question   is   the   heart,   we   store   the   values   for   \textit{v},   \textit{xdir},   \textit{ydir}   and   \textit{zdir} in an array buffer holding the integer values for the heart's parameters
 
+\subsection{Computing the bounding box of the heart-­shaped primitive}
+
+The   bounding   box   of   a   geometric   model   refers   to   the   box   with   the  
+smallest   volume   within   which   the   model   lies   –   more   like   the   least   upper   bound  
+of   the   set   of   all   enclosing   volumes.   The   spherical   equivalent   of   the   bounding  
+box   is   the   bounding   sphere   which   is   the   smallest   sphere   within   which   a   model  
+lies.   It   is   a   useful   property   to   compute   for   a   model   as   it   is   used   to   appropriately  
+orient   an   object   (within   its   model   coordinates)   while   positioning   the   camera  
+(within its world coordinates) and casting lights towards it.   
+
+\hspace{30} In   order   to   compute   the   bounding   box   of   the   heart­-shape,   we   wrote   the  
+\textit{rt\_hrt\_bbox()}   function   which   had   two   interesting   three­-dimensional   points   as  
+parameters.   These   points   are   the   minimal   and   maximal   points   located   at   the  
+closest   lower   left   hand   corner   and   the   furthest   upper   right   hand   corner   of   the  
+bounding   box.   Obtaining   the   coordinates   of   these   two   points   suffices   to  
+compute   the   bounding   as   they   are   located   at   opposite   ends   of   the   box,  
+equidistant   from   the   heart-­shape's   center   and   differ   from   the   other   6   edges   by  
+a single  component.  
+
+\hspace{30} The   X   component   of   the   minimal   point   (closest   lower   left   hand   corner  
+point)   is   obtained   by   subtracting   a   factor   of   2/3   from   the   unit   vector   from   the  
+heart-­shape's   center.   The   X   component   of   the   maximal   point   (closest   lower   left  
+hand   corner   point)   is   obtained   by   adding   a   factor   of   2/3   of   the   X   component   of  
+the   unit   vector   to   the   heart-­shape's   center.
+
+\hspace{30} The   Y   component   of   the   minimal  point   (closest   lower   left   hand   corner   point)
+and   maximal   point   is   obtained   by  subtracting   and   adding   the   unit   vector   from   the   
+heart-­shape's   center.   
+
+\hspace{30} The   Z component   of   the   minimal   point   (closest   lower   left   hand   corner   point)   is  
+obtained   by   subtracting   the   unit   vector   from   the   heart-­shape's   center   while   the   Z  
+component   of   the   maximal   point   (furthest   upper   right   hand   corner   point)   is  
+obtained   by   adding   another   factor   of   1.25   to   the   unit   vector   to   the   heart­-shape's  
+center   in   a   component­wise   manner.   The   factor   of   1.25   in   the   calculation   of   the  
+Z   component   of   the   maximal   point   represents   the   distance   from   the   heart's  
+center   to   either   of   its   cusps   (which   is   1.0)   and   the   additional   0.25   closely  
+approximates   the   displacement   from   the   upper   cusp   to   the   highest   point   on  
+either   of   its   lobes.
+
+With   the   coordinates   of   the   maximal   and   minimal   points  
+obtained, we obtain the bounding box of the heart-­shape.  
+
 %-----------------------------------------------------------------------------------------------------------------------------------
 %----------------------------------------------------------------------------------------
 %	SECTION 2
