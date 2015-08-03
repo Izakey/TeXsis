@@ -296,6 +296,26 @@ The   radial   vectors   in   the   X,   Y   and   Z   directions   are   printe
 magnitudes   and   the   distance   from   the   heart-shape's   center   to   either   of   its   cusps   is  
 also printed.
 
+\subsection{Database importation and exportation of the heart­-shaped primitive}
+
+\hspace{30} BRL-­CAD   provides   CSG   modeling   features   and   its   models   are   usually  
+stored   in   it's   Geometric   Editing   database   called   GED.   For   the   heart­shaped  
+primitive   to   be   used   in   CSG,   we   wrote   functions   that  
+import and export data in between the database format and the internal format. 
+  
+The   \textit{rt\_hrt\_import5()}   function   imports   a   heart   from   the   database   format   to   the  
+internal   format.   Firstly,   we   check   that   the   primitive   being   imported   is   the  
+heart-­shaped   primitive   by   verifying   that   the   primitive's   magic   number   is   the  
+same   as   the   heart­shape's.   Then,   this   function   assigns   integers   held   in   an   array  
+buffer to the different parameters of the \textit{rt\_hrt\_internal} structure.
+   
+We   wrote   the   \textit{rt\_hrt\_export5()}   function   to   export   the   heart­shape's   internal  
+format   into   the   database   format.   The   database   format   for   the   heart­shape  
+consists   rather   of   only   the   heart's   center   and   the   3   radial   vectors   in   the   X,   Y   and  
+Z   directions.   It   is   not   really   useful   storing   value   for   d   in   the   database   as   it   is  
+equivalent   to   some   components   of   the   radial   vectors.   After   checking   that   the  
+primitive   in   question   is   the   heart,   we   store   the   values   for   \textit{v},   \textit{xdir},   \textit{ydir}   and   \textit{zdir} in an array buffer holding the integer values for the heart's parameters
+
 %-----------------------------------------------------------------------------------------------------------------------------------
 %----------------------------------------------------------------------------------------
 %	SECTION 2
