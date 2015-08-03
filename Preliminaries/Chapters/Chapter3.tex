@@ -240,6 +240,52 @@ representing its parameters.
 \end{itemize} 
 These   3    vectors viz \textit{\textbf{xdir}}, \textit{\textbf{ydir}} and \textit{\textbf{zdir}}   are   also   called   radial   vectors   because   they   radiate   in   the  X,   Y   and   Z   directions   and   the   aforementioned   structure   is   also   known   in  BRL-­CAD's parlance as the heart-­shape's internal format.
 
+\subsection{A bare bones heart­-shape}
+
+The   signatures   of   the   functions   which   are   called   to   compute   the  
+geometric   properties   for   the   heart­shaped   primitive   were   casted   and   enlisted   in  
+a   function   table   in   \textit{src/librt/primitives/table.c}.   Then,   we   added   the  
+\textit{src/librt/primitives/hrt/}   directory   to   the   source   code   repository   and   committed  
+the   hrt.c   file   to   it.   The   hrt.c   file   consisted   of   introductory   comments,   include  
+files,   structures   for   raytracing   and   storage   of   the   heart­-shaped   primitive   in   the  
+database   as   well   as   stubs   for   all   callback   functions   which   all   print   a  
+\textit{\textbf{\“rt\_hrt\_???:Not   implemented   yet!\”}}   message   when   called.   For   surface  
+representation   and   raytracing   reasons,   the   heart-­shape   is   stored   in   a   more  
+elaborate C-­like structure called \textit{hrt\_specific} with the following parameters;  
+
+\begin{itemize}
+\item A position vector for the heart-shape's center \textbf{\textit{hrt\_V}}  
+\item A unit vector in the X ­axis direction \textbf{\textit{hrt\_X}}  
+\item A unit vector in the Y axis direction \textbf{\textit{hrt\_Y}}  
+\item A unit vector in the Z axis direction \textbf{\textit{hrt\_Z}}  
+\item A unit vector in the Z ­axis direction \textit{\textbf{hrt\_d}}  
+\item A matrix for scaling and rotating \textit{\textbf{hrt\_SoR}}  
+\item A matrix for scaling and transposing a rotated heart \textbf{\textit{hrt\_invRSSR}}  
+\item A matrix for transposing a rotated heart \textit{\textbf{hrt\_invR}}  
+\item A vector for the inverse of the squared magnitudes of the three (3) aforementioned unit vectors \textit{\textbf{hrt\_invsq}}  
+\end{itemize}
+
+The   location   of   the   hrt.c   file   in   the   raytracing   library   was   added   to  
+\textit{src/librt/CMakeLists.txt} for compilation purposes  and test ­driven development.\\
+   
+\hspace{30} After   hooking   the   heart-­shaped   primitive   into   BRL-­CAD's   source   code  
+repository,   we   wrote   callback   functions   which   compute   geometrically   useful  
+properties for the primitive such as;   
+\begin{verbatim}
+1. Formatted description  
+2. Database importation and exportation  
+3. Computing the bounding box of the heart­-shaped primitive  
+4. Plotting the wireframe of the heart­-shaped primitive  
+5. Implicit surface representation of the heart-­shaped primitive  
+\end{verbatim}
+
+\hspace{30} We   now   explain   how   the   functions   we   wrote   actually   compute   each
+of   these properties.   Each   property   was   tested   using   BRL-­CAD's   commands[37]   after  having   
+written   the   requisite   function(s)   that   compute   it.   It   is   worth   highlighting  
+here   that   the   \textit{“rt\_hrt\_”}   prefix   is   attached   to   the   heart­-shaped   primitive's   structure  
+and   its   functions'   signatures   because   \textit{“rt”}   and   \textit{“hrt”}   denote   the   raytracing   library  
+and the heart-shape respectively.  
+
 %-----------------------------------------------------------------------------------------------------------------------------------
 %----------------------------------------------------------------------------------------
 %	SECTION 2
