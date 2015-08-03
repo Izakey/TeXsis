@@ -358,6 +358,25 @@ either   of   its   lobes.
 With   the   coordinates   of   the   maximal   and   minimal   points  
 obtained, we obtain the bounding box of the heart-­shape.  
 
+\subsection{Plotting the wireframe of the heart-­shaped primitive}
+
+\hspace{30} As   we   earlier   discussed,   the   wireframe   of   an   object   enables   the  
+sketching   and   preview   of   objects   before   adding   colour   and   texture   to   them.   In  
+order   to   build   the   wireframe   of   the   heart­shaped   primitive   into   BRL-­CAD's  
+functionality,   we   wrote   the   \textit{rt\_hrt\_plot()}   and   \textit{rt\_hrt\_24pts()}   functions.   The  
+heart-­shaped   primitive's   wireframe   is   made   up   of   several   ellipses   aligned   along  
+the   Z   axis   each   of   which   consists   of   24   edges.   As   we   progress   in   the   positive  
+ Z - ­axis   direction,   we   use   8   ellipses   (with   decreasing   radii)   to   frame   the   upper  
+portions   of   the   left   and   right   lobes.   The   24   required   points   for   each   ellipse   are  
+computed   by   the   \textit{rt\_hrt\_24pts()} function which computes 24 points which are $15^{\circ}$ apart.
+Finally,   the   different   ellipses   are  connected   together   to   enrich   the   wireframe   
+with   more   iso­contours.   Along   the  XY   and   XZ   planes   (when   Z   =   0   and   Y   =   0   respectively),
+   the   heart-­shape's  wireframe   appears   like   an   ellipse.   Along   the   YZ   plane   (when   X   =   0),   the  
+heart­shape   primitive's   wireframe   is   indeed   heart­-shaped.   The   algorithm   below  
+was used to develop the wireframe of the heart­-shape.  
+
+
+
 %-----------------------------------------------------------------------------------------------------------------------------------
 %----------------------------------------------------------------------------------------
 %	SECTION 2
