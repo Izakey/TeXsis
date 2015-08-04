@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.7.20)  4 AUG 2015 16:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.7.20)  4 AUG 2015 17:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6518,12 +6518,780 @@ Overfull \hbox (117.14108pt too wide) in paragraph at lines 480--480
 very small imaginary parts[] 
  []
 
-) (./Appendices/AppendixA.tex [40] [41]
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.482 \hspace{30}
+                  The   normal   to   the   surface   $N$   at   the   point...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.485 ...  to   the   surface   of   the  heart-­
+                                                  shaped primitive.
+? 
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 487.
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.489 \hspace{100}
+                   $w^3 – z^3(x^2 + 9/80y^2) = 0$
+? 
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 489.
+
+
+! LaTeX Error: Environment IEEEeqnarray* undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.493 \begin{IEEEeqnarray*}
+                           
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.495 $f_x(x,y,z)$ = 6x(w^
+                          2 – z^3/3) \\
+? 
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 495.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.495 $f_x(x,y,z)$ = 6x(w^2 – z^3/3) \\
+                                         
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.495 $f_x(x,y,z)$ = 6x(w^2 – z^3/3) \\
+                                         
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.496 $f_y(x,y,z)$ = 6y(12/27w^
+                               2 – 88/3z^3) ­­­­­­­­­­­­­­­...
+
+? 
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 496.
+
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.496 $f_y(x,y,z)$ = 6y(12/27w^2 – 88/3z^3) ­
+                                                ­­­­­­­­­­­­­­...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.496 $f_y(x,y,z)$ = 6y(12/27w^2 – 88/3z^3) ­­
+                                                  ­­­­­­­­­­­­­...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.496 ...x,y,z)$ = 6y(12/27w^2 – 88/3z^3) ­­­
+                                                  ­­­­­­­­­­­­­...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.496 ...y,z)$ = 6y(12/27w^2 – 88/3z^3) ­­­­
+                                                  ­­­­­­­­­­­­­...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.496 ...z)$ = 6y(12/27w^2 – 88/3z^3) ­­­­­
+                                                  ­­­­­­­­­­­­­...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.496 ...$ = 6y(12/27w^2 – 88/3z^3) ­­­­­­
+                                                  ­­­­­­­­­­­­­...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.496 ...= 6y(12/27w^2 – 88/3z^3) ­­­­­­­
+                                                  ­­­­­­­­­­­­­...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.496 ...6y(12/27w^2 – 88/3z^3) ­­­­­­­­
+                                                  ­­­­­­­­­­­­­...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.496 ...(12/27w^2 – 88/3z^3) ­­­­­­­­­
+                                                  ­­­­­­­­­­­­­...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.496 ...2/27w^2 – 88/3z^3) ­­­­­­­­­­
+                                                  ­­­­­­­­­­­­­...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.496 ...27w^2 – 88/3z^3) ­­­­­­­­­­­
+                                                  ­­­­­­­­­­­­­...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.496 ...w^2 – 88/3z^3) ­­­­­­­­­­­­
+                                                  ­­­­­­­­­­­­­...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.496 ...2 – 88/3z^3) ­­­­­­­­­­­­­
+                                                  ­­­­­­­­­­­­­...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.496 ...– 88/3z^3) ­­­­­­­­­­­­­­
+                                                  ­­­­­­­­­­­­­...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.496 ...� 88/3z^3) ­­­­­­­­­­­­­­­
+                                                  ­­­­­­­­­­­­­...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.496 ...88/3z^3) ­­­­­­­­­­­­­­­­
+                                                  ­­­­­­­­­­­­­...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.496 .../3z^3) ­­­­­­­­­­­­­­­­­
+                                                  ­­­­­­­­­­­­\I...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.496 ...z^3) ­­­­­­­­­­­­­­­­­­
+                                                  ­­­­­­­­­­­\IEE...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.496 ...3) ­­­­­­­­­­­­­­­­­­­
+                                                  ­­­­­­­­­­\IEEEy...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.496 ... ­­­­­­­­­­­­­­­­­­­­
+                                                  ­­­­­­­­­\IEEEyes...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.496 ...�­­­­­­­­­­­­­­­­­­­­
+                                                  ­­­­­­­­\IEEEyesnu...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.496 ...�­­­­­­­­­­­­­­­­­­­­
+                                                  ­­­­­­­\IEEEyesnumb...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.496 ...�­­­­­­­­­­­­­­­­­­­­
+                                                  ­­­­­­\IEEEyesnumber \\
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.496 ...�­­­­­­­­­­­­­­­­­­­­
+                                                  ­­­­­\IEEEyesnumber \\
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.496 ...�­­­­­­­­­­­­­­­­­­­­
+                                                  ­­­­\IEEEyesnumber \\
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.496 ...�­­­­­­­­­­­­­­­­­­­­
+                                                  ­­­\IEEEyesnumber \\
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.496 ...�­­­­­­­­­­­­­­­­­­­­
+                                                  ­­\IEEEyesnumber \\
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.496 ...�­­­­­­­­­­­­­­­­­­­­
+                                                  ­\IEEEyesnumber \\
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.496 ...�­­­­­­­­­­­­­­­­­­­­
+                                                  \IEEEyesnumber \\
+? 
+! Undefined control sequence.
+l.496 ...�­­­­­­­­­­­­­\IEEEyesnumber
+                                                   \\
+? 
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.496 ...­­­­­­­­­­­­\IEEEyesnumber \\
+                                                  
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.496 ...­­­­­­­­­­­­\IEEEyesnumber \\
+                                                  
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.497 $f_z(x,y,z)$ = 6z(w^
+                          2 – z/2(x^2 + 9/80y^2))   \\
+? 
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 497.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.497 ...z)$ = 6z(w^2 – z/2(x^2 + 9/80y^2))   \\
+                                                  
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.497 ...z)$ = 6z(w^2 – z/2(x^2 + 9/80y^2))   \\
+                                                  
+? 
+
+! LaTeX Error: \begin{document} ended by \end{IEEEeqnarray*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.498 \end{IEEEeqnarray*}
+                         
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.500 \hspace{30}
+                  Computing   the   exact   algebraic   expression   for   t...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.501 cumbersome   and   error-­
+                                 prone.   Instead,   we   use   several   po...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.503 ...mials   for   $x^2$, $9/4y^2$ and $z^2 ­
+                                                  - 1$,   we   obtain   w. W...
+
+? 
+[40]
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.506 \hspace{30}
+                  Once   the   coefficients   of   (7)   are   determined,  ...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.507 BRL­
+           -CAD's   root   finder.   For   polynomials   with   degrees   le...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.520 Fortunately,   BRL-­
+                           CAD   has   a   root­solver   which   is   based...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.520 Fortunately,   BRL-­CAD   has   a   root­
+                                                 solver   which   is   based...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.522 ...the   Laguerre   method   is   a   root­
+                                                  finding   algorithm   used...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 close   to   being   a   sure­
+                                     fire   method   because   it   almost  ...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.526 ...  other   methods   like   the   Newton­
+                                                  -Raphson   method   which ...
+
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.530 \hspace{85}
+                  \textit{Algorithm 3. The Laguerre Root­-finding Method  }
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.530 ... 3. The Laguerre Root­-finding Method  }
+                                                  
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.534 \hspace{10}
+                 2.1. for k = 0$\div$N \\
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.535 \hspace{30}
+                 Compute  G := f'($x_k$)/f($x_k$) \\
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.536 \hspace{30}
+                 Compute  H := G^2 – f''($x_k$)/f($x_k$) \\
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.536 \hspace{30}Compute  H := G^
+                                 2 – f''($x_k$)/f($x_k$) \\
+? 
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 536.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.536 \hspace{30}Compute  H := G^2 – f''($x_
+                                              k$)/f($x_k$) \\
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.537 \hspace{30}
+                 Compute  a := $n/G + \sqrt{(n–1)(nH – G^2f(x))}$ ,n = d...
+
+? 
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 537.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 537.
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.538 \hspace{10}
+                 end for loop \\
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.539 \hspace{10}
+                 2.2 Set $x_{k+1}$ := $x_{k – a}$\\
+? 
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 539.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 532--541
+
+ []
+
+[41]
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.546 \hspace{30}
+                  BRL-­CAD's   root­finder   \textit{rt\_poly\_findroot()}...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.546 \hspace{30} BRL-­
+                        CAD's   root­finder   \textit{rt\_poly\_findroot()}...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.546 \hspace{30} BRL-­CAD's   root­
+                                      finder   \textit{rt\_poly\_findroot()}...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.552  x^6 -­
+               8x^5 + 32x^4 - 78x^3 + 121x^2 - ­110x + 50 = 0­­­­­ \ta...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.552  x^6 -­ 8x^5 + 32x^4 - 78x^3 + 121x^2 - ­
+                                                 110x + 50 = 0­­­­­ \ta...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.552 ...2x^4 - 78x^3 + 121x^2 - ­110x + 50 = 0­
+                                                  ­­­­ \tag{8}
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.552 ...^4 - 78x^3 + 121x^2 - ­110x + 50 = 0­­
+                                                  ­­­ \tag{8}
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.552 ... - 78x^3 + 121x^2 - ­110x + 50 = 0­­­
+                                                  ­­ \tag{8}
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.552 ... 78x^3 + 121x^2 - ­110x + 50 = 0­­­­
+                                                  ­ \tag{8}
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.552 ...8x^3 + 121x^2 - ­110x + 50 = 0­­­­­
+                                                   \tag{8}
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.554 Equation (8) is parsed through the   root­
+                                                 finder   to   obtain   its ...
+
+? 
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 554.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 554.
+
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.555 i$, $x_5 = 1­
+                     - 2i$, $x_6 = 1 + 2i$. This   test   is   implemented  ...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.556 ...   test,   the   call   to   the   root­
+                                                  finder   by   (6)   worked...
+
+? 
+) [42] (./Appendices/AppendixA.tex [43]
 Appendix A.
 ------------------------------------------------------------------------------
  A Appendix Title Here
 ------------------------------------------------------------------------------
-) [42
+) [44
 
 ]
 ------------------------------------------------------------------------------
@@ -6536,7 +7304,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 337.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 337.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 337.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 868BC40FB7B70FE280E6CF690202EE56;8061.
+(rerunfilecheck)             Checksum: 5AE4E72032B9E40DE47A620DB3EBBB08;8061.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -6544,8 +7312,8 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 337.
  ) 
 Here is how much of TeX's memory you used:
- 13131 strings out of 495025
- 183578 string characters out of 6181515
+ 13134 strings out of 495025
+ 183598 string characters out of 6181515
  250303 words of memory out of 5000000
  16032 multiletter control sequences out of 15000+600000
  21050 words of font info for 76 fonts, out of 8000000 for 9000
@@ -6555,21 +7323,22 @@ Here is how much of TeX's memory you used:
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (54 pages, 7144336 bytes).
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (56 pages, 7158700 bytes).
 PDF statistics:
- 606 PDF objects out of 1000 (max. 8388607)
- 503 compressed objects within 6 object streams
- 110 named destinations out of 1000 (max. 500000)
+ 620 PDF objects out of 1000 (max. 8388607)
+ 514 compressed objects within 6 object streams
+ 113 named destinations out of 1000 (max. 500000)
  420 words of extra memory for PDF output out of 10000 (max. 10000000)
 

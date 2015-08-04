@@ -479,6 +479,82 @@ The   Algorithm   below   shows   the   intersection   of   an   arbitrary   lig
        Determine the entry and exit points of the light ray 
 \end{verbatim}
 
+\hspace{30} The   normal   to   the   surface   $N$   at   the   point   of   intersection   is   in   the   direction  
+of   the   gradient   of   \textit{f(x,y,z)}. N := ($f_x$,$f_y$,$f_z$)   where   $f_x$, $f_y$ and $f_z$   are   the   partials  
+derivative   functions   of   \textit{f(x,y,z)}   with   respect   to   x,   y   and   z   respectively.   The  
+function   \textit{rt\_hrt\_norm()}   computes   the   surface   normal   N   to   the   surface   of   the  heart-­shaped primitive.
+
+By substituting   $w = x^2 + 9/4y^2 + z^2 – 1$,   (6)   becomes   
+
+\hspace{100} $w^3 – z^3(x^2 + 9/80y^2) = 0$ 
+
+and the surface normal is given by the system of equations in below.
+
+\begin{IEEEeqnarray*}
+\centering
+$f_x(x,y,z)$ = 6x(w^2 – z^3/3) \\
+$f_y(x,y,z)$ = 6y(12/27w^2 – 88/3z^3) ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­\IEEEyesnumber \\
+$f_z(x,y,z)$ = 6z(w^2 – z/2(x^2 + 9/80y^2))   \\
+\end{IEEEeqnarray*}
+
+\hspace{30} Computing   the   exact   algebraic   expression   for   the   coefficients   of   (7) above   is  
+cumbersome   and   error-­prone.   Instead,   we   use   several   polynomial   variables   to  
+hold   the   coefficients   of   (7)   and   gradually   build   equation   (7).   Starting   with  
+polynomials   for   $x^2$, $9/4y^2$ and $z^2 ­- 1$,   we   obtain   w. With   $y^2$ + $9/4x^3$   and   $z^3$ ,   we  
+obtain $z^3(x^3 + 9/80x^3)$. Hence, we obtain coefficients of (7). 
+
+\hspace{30} Once   the   coefficients   of   (7)   are   determined,   it   is   parsed   through  
+BRL­-CAD's   root   finder.   For   polynomials   with   degrees   less   than   five,   there  
+exists   exact   solutions   in   radicals.   Indeed,   linear   and   quadratic   equations   can   be  
+trivially   solved   by   the   substitution   method   and   the   quadratic   formula  
+respectively.   A   method   for   solving   cubics   was   discovered   by   Cardan   and   a  
+method   for   solving   quartics   was   discovered   by   Ferrari.   Although   some  
+methods   exist   to   determine   the   exact   solutions   of   higher   order   polynomials  
+(with   degrees   greater   than   4)   in   radicals   from   Galois   theory,   the   equation   (7)  
+does   not   satisfy   these   conditions.   Indeed,   the   Galois   group   of   equation   (7)   is  
+contained   neither   in   the   group   of   order   48   which   stabilizes   a   partition   of   the   set  
+of   the   roots   into   three   subsets   of   two   roots   nor   in   the   group   of   order   72   which  
+stabilizes   a   partition   of   the   set   of   the   roots   into   two   subsets   of   three   roots.   As   a  
+result, only numerical methods can be employed to solve it.  
+ 
+Fortunately,   BRL-­CAD   has   a   root­solver   which   is   based   on   a   numerical  
+method   called   the   Laguerre   method.   Named   after   the   French   mathematician  
+Edmund   Laguerre,   the   Laguerre   method   is   a   root­finding   algorithm   used   to  
+solve   polynomials.   Extensive   empirical   studies   show   that   this   method   has   come  
+close   to   being   a   sure­fire   method   because   it   almost   always   converges   to   some  
+root   of   the   polynomial   no   matter   what   initial   guess   is   chosen.   This   is   in   contrast  
+to   the   other   methods   like   the   Newton­-Raphson   method   which   may   fail   to  
+converge   for   poorly   chosen   initial   guesses.   Algorithm   3   below   shows   how   the  
+Laguerre method works;  
+
+\hspace{85} \textit{Algorithm 3. The Laguerre Root­-finding Method  }
+
+1. Choose an initial guess $x_0$  \\
+2. while (k < N or a is not sufficiently small) \\
+\hspace{10}2.1. for k = 0$\div$N \\
+\hspace{30}Compute  G := f'($x_k$)/f($x_k$) \\ 
+\hspace{30}Compute  H := G^2 – f''($x_k$)/f($x_k$) \\ 
+\hspace{30}Compute  a := $n/G + \sqrt{(n–1)(nH – G^2f(x))}$ ,n = degree of f(x) \\
+\hspace{10}end for loop \\
+\hspace{10}2.2 Set $x_{k+1}$ := $x_{k – a}$\\ 
+end while loop \\
+
+If   a   root   is   found,   then   the   corresponding   linear   factor   is   removed   from   the  
+polynomial.   This   deflation   step   reduces   the   degree   of   the   polynomial   by   one  
+and approximations for all roots of the polynomial are obtained. 
+ 
+\hspace{30} BRL-­CAD's   root­finder   \textit{rt\_poly\_findroot()}   function   is   found   in  
+\textit{\textbf{src/librt/roots.c}}.   We   tested   the   root   solver   to   show   that   it   solves   sextic  
+equations by parsing an arbitrarily chosen equation (8) below  
+
+\begin{equation*}
+\centering
+ x^6 -­ 8x^5 + 32x^4 - 78x^3 + 121x^2 - ­110x + 50 = 0­­­­­ \tag{8}  
+\end{equation*}
+Equation (8) is parsed through the   root­finder   to   obtain   its   roots   $x_1 = 1 – i$, $x_2 = 1 + i$, $x_3 = 2 – i$, $x_4 = 2 +
+i$, $x_5 = 1­ - 2i$, $x_6 = 1 + 2i$. This   test   is   implemented   in   \textit{\textbf{src/util/roots\_example.c}}.  
+Besides   this   test,   the   call   to   the   root­finder   by   (6)   worked   and   rendered   the  
+heart-shape as our discussion of results in the next chapter will show.  
 
 %-----------------------------------------------------------------------------------------------------------------------------------
 %----------------------------------------------------------------------------------------
