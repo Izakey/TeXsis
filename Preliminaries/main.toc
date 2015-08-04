@@ -39,7 +39,8 @@
 \contentsline {subsection}{\numberline {3.3.5}Database importation and exportation of the heart\GenericError {(inputenc) }{Package inputenc Error: Unicode char \u 8:­ not set up for use with LaTeX}{See the inputenc package documentation for explanation.}{Your command was ignored.\MessageBreak Type I <command> <return> to replace it with another command,\MessageBreak or <return> to continue without it.}-shaped primitive}{35}{subsection.49}
 \contentsline {subsection}{\numberline {3.3.6}Computing the bounding box of the heart-\GenericError {(inputenc) }{Package inputenc Error: Unicode char \u 8:­ not set up for use with LaTeX}{See the inputenc package documentation for explanation.}{Your command was ignored.\MessageBreak Type I <command> <return> to replace it with another command,\MessageBreak or <return> to continue without it.}shaped primitive}{36}{subsection.50}
 \contentsline {subsection}{\numberline {3.3.7}Plotting the wireframe of the heart-\GenericError {(inputenc) }{Package inputenc Error: Unicode char \u 8:­ not set up for use with LaTeX}{See the inputenc package documentation for explanation.}{Your command was ignored.\MessageBreak Type I <command> <return> to replace it with another command,\MessageBreak or <return> to continue without it.}shaped primitive}{37}{subsection.51}
-\contentsline {section}{\numberline {3.4}Main Section 2}{38}{section.52}
+\contentsline {subsection}{\numberline {3.3.8}Surface representation and raytracing of the heart\GenericError {(inputenc) }{Package inputenc Error: Unicode char \u 8:­ not set up for use with LaTeX}{See the inputenc package documentation for explanation.}{Your command was ignored.\MessageBreak Type I <command> <return> to replace it with another command,\MessageBreak or <return> to continue without it.}-shaped primitive}{38}{subsection.52}
+\contentsline {section}{\numberline {3.4}Main Section 2}{39}{section.53}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Appendix Title Here}{39}{appendix.53}
+\contentsline {chapter}{\numberline {A}Appendix Title Here}{40}{appendix.54}
 \vspace {2em}

@@ -398,6 +398,33 @@ was used to develop the wireframe of the heart­-shape.
         end at upper cusp level        //the maximum turning point 
 \end{verbatim}
 
+\subsection{Surface   representation   and   raytracing   of   the   heart­-shaped primitive}
+
+The   heart-­shaped   primitive   endowed   with   a   surface   representation   by  
+raytracing   it.   Ray­tracing   at   its   very   core   consists   of   solving   for   the   intersection  
+points   of   a   line   and   a   surface.   Many   interesting   surfaces   have   been   written   as  
+polynomial   functions   of   position   and   the   heart­-shape   is   not   left   out.   The  
+peculiarity   of   our   work   is   that   we   proved   that   ray­tracing   using   the  
+Laguerre­-based   root­finder   works   for   sextic   equations   (those   with   a   degree   of  
+6).   In   order   to   do   this,   we   wrote   \textit{rt\_hrt\_prep()},   \textit{rt\_hrt\_norm()},   \textit{rt\_hrt\_shot()}   and  
+\textit{rt\_hrt\_print()} functions.
+
+The   \textit{rt\_hrt\_prep()}   function   prepares   a   heart-­shape   for   ray­tracing   by  
+verifying   that   the   object   in   question   is   a   valid   heart-­shape.   If   the   primitive   is   a  
+valid   heart,   then   a   specific   heart   structure   called   \textit{hrt\_specific}   is   created   and  
+stored   in   memory   for   use   by   the   \textit{rt\_hrt\_shot()}   function.   To   check   the   validity   of  
+the   heart,   we   first   check   that   atleast   one   of   the   three   radial   vectors   has   a  
+positive   magnitude.   Secondly,   we   check   that   the   value   for   parameter   d   is  
+non­zero   and   is   not   too   large.   After,   we   check   that   the   3   radial   vectors   are  
+perpendicular   to   eachother.   If   they   are   indeed   perpendicular   to   each   other,   then  
+the   heart­-shaped   primitive   is   a   valid   hear.   Finally,   we   compute   values   for   \textit{d},   \textit{v},  
+\textit{hrt\_invRSSR},   \textit{hrt\_invsq}   and   the   heart-shape's   bounding   sphere   centered   at   \textit{v}.   After  
+computing   these   requisite   parameters   for   the   heart   in   \textit{rt\_hrt\_prep()},   the  
+\textit{rt\_hrt\_print()}   function   prints   the   position   vector   of   the   heart-­shape's   center   and  
+the   two   (2)   matrices   for   transposing,   rotating   and   scaling   just   to   make   sure   that  
+are correct.
+
+
 %-----------------------------------------------------------------------------------------------------------------------------------
 %----------------------------------------------------------------------------------------
 %	SECTION 2
