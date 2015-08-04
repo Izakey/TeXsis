@@ -400,7 +400,7 @@ was used to develop the wireframe of the heart­-shape.
 
 \subsection{Surface   representation   and   raytracing   of   the   heart­-shaped primitive}
 
-The   heart-­shaped   primitive   endowed   with   a   surface   representation   by  
+\hspace{30} The   heart-­shaped   primitive   endowed   with   a   surface   representation   by  
 raytracing   it.   Ray­tracing   at   its   very   core   consists   of   solving   for   the   intersection  
 points   of   a   line   and   a   surface.   Many   interesting   surfaces   have   been   written   as  
 polynomial   functions   of   position   and   the   heart­-shape   is   not   left   out.   The  
@@ -409,7 +409,7 @@ Laguerre­-based   root­finder   works   for   sextic   equations   (those   wi
 6).   In   order   to   do   this,   we   wrote   \textit{rt\_hrt\_prep()},   \textit{rt\_hrt\_norm()},   \textit{rt\_hrt\_shot()}   and  
 \textit{rt\_hrt\_print()} functions.
 
-The   \textit{rt\_hrt\_prep()}   function   prepares   a   heart-­shape   for   ray­tracing   by  
+\hspace{30} The   \textit{rt\_hrt\_prep()}   function   prepares   a   heart-­shape   for   ray­tracing   by  
 verifying   that   the   object   in   question   is   a   valid   heart-­shape.   If   the   primitive   is   a  
 valid   heart,   then   a   specific   heart   structure   called   \textit{hrt\_specific}   is   created   and  
 stored   in   memory   for   use   by   the   \textit{rt\_hrt\_shot()}   function.   To   check   the   validity   of  
@@ -423,6 +423,12 @@ computing   these   requisite   parameters   for   the   heart   in   \textit{rt
 \textit{rt\_hrt\_print()}   function   prints   the   position   vector   of   the   heart-­shape's   center   and  
 the   two   (2)   matrices   for   transposing,   rotating   and   scaling   just   to   make   sure   that  
 are correct.
+
+\hspace{30} Millions   of   light   rays   are   shot   at   the   surface   of   the   heart   and   the   pixels  
+where   intersections   occur   are   rendered.   The   \textit{rt\_hrt\_shot()}   function   came   in  
+handy   at   this   point   of   our   development   of   the   heart-­shape.   Each   point   in $ \mathbb{E}^3 $
+   is   represented   by   a   treble   (x,y,z)   and   the heart-­shaped   primitive's   surface   is   implicitly   represented   as   a   sextic   equation as shown below.  
+
 
 
 %-----------------------------------------------------------------------------------------------------------------------------------
