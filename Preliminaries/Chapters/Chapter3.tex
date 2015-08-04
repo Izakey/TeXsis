@@ -374,6 +374,7 @@ with   more   iso­contours.   Along   the  XY   and   XZ   planes   (when   Z  
 heart-­shape   primitive's   wireframe   is   indeed   heart­-shaped.   The   algorithm   below  
 was used to develop the wireframe of the heart­-shape.  
 
+\hspace{50} \textit{Algorithm 1. Plotting the wireframe of the heart­-shape }
 \begin{verbatim}
 1. for points in the +Z directions starting at the upper cusp 
         locate centres of ellipses which constitute the upper half of the left lobe 
@@ -463,6 +464,20 @@ zeroes   and   are   also   used   as   values   for   t   in   intersection   p
 If   there   are   no  real   solutions,   then   the   ray   does   not   intersect   the   heart's   surface.   We   determine  
 the   coordinates   of   the   intersection   points   by   substituting   the   values   for   real   $t_i$ in $ W $ above.  
 
+The   Algorithm   below   shows   the   intersection   of   an   arbitrary   light   ray   and   the  heart­-shape's surface.
+
+\hspace{50} \textit{Algorithm 2. Intersect a ray with the heart­-shape's surface }
+\begin{verbatim}
+1. Normalize distance from the heart-­shape 
+2. Generate sextic equation 
+3. Pass equation through Laguerre-­based root finder  
+4. if (root finder returns other than 6 roots) 
+      throw exceptions  // root finder did not find roots 
+   else         // Real roots indicate an intersection in real space 
+      select real roots among the 6 //complex roots with very small imaginary parts 
+5. for each real root returned by root finder 
+       Determine the entry and exit points of the light ray 
+\end{verbatim}
 
 
 %-----------------------------------------------------------------------------------------------------------------------------------
