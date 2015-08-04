@@ -434,7 +434,28 @@ handy   at   this   point   of   our   development   of   the   heart-­shape.  
   ­­­­­­­­­­­­­­f(x,y,z) = {(x^2 + 9/4y^2 + z^2 - 1 )}^3 - z^3(x^2 + 9/80y^2) \tag{6}
 \end{equation*}
 
+Each   light   ray   is   modeled   as   a   line   in   $ \mathbb{E}^3 $   written  
+as   a   linear   equation   written   in   the   form   $W   =   Dt   +   P$   where   W   =   (x,y,z),   D   =   (a,b,c),  
+P   =   ($x_0,y_0 ,z_0$) and $a$,$ b$, $ c$,$x_0$,$y_0$ and $z_0$ are constants in $ \mathbb{R} $.   The   system   of  
+equations for the components of W is given below
 
+\begin{IEEEeqnarray*}
+\centering
+x = at + $x_0$ \\
+y = bt + $y_0$ ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­\IEEEyesnumber \\
+z = ct + $z_0$ \\
+\end{IEEEeqnarray*} 
+
+This   equation   (6)   indicates   that   each   point   on   the   line   is   represented   by   a  
+unique   value   for   t.   To   find   the   points   of   intersection   of   the   light   ray   and   the  
+surface   of   the   heart-­shaped   primitive,   we   substituted   x,   y   and   z   from   (6)   above  
+into equation (5). This yielded a new sextic equation (7) in t shown below
+\begin{equation*}
+\centering
+S(t) = C_6t^6  + C_5t^5 + C_4t^4 + C_3t^3 + C_2t^2 + C_1t + C_0  = 0 ­­­­­ \tag{7}  
+\end{equation*}
+where   Ci,i   =   0   to   6   are   the   coefficients   of   equation   (7)   which   can   be   viewed   in  
+the Appendix
 
 %-----------------------------------------------------------------------------------------------------------------------------------
 %----------------------------------------------------------------------------------------
