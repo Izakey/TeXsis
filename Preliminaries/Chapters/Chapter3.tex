@@ -556,6 +556,14 @@ i$, $x_5 = 1­ - 2i$, $x_6 = 1 + 2i$. This   test   is   implemented   in   \tex
 Besides   this   test,   the   call   to   the   root­finder   by   (6)   worked   and   rendered   the  
 heart-shape as our discussion of results in the next chapter will show.  
 
+\subsection{Type in support for the heart-­shaped primitive}
+
+Finally,   appropriate   support   for   typing   the   parameters   of   the   heart­-shaped  
+primitive   using   the   keyboard   into   the   mged   or   archer   interfaces   was  
+implemented.   To   do   this,   we   first   wrote   the   \textit{p\_hrt[]}   array   and   \textit{hrt\_in()}   routine   in  
+\textit{\textbf{src/libged/typein.c}}   to   prompt   users   to   input   parameters   for   the   heart­-shape.  
+Then ,we   added   the   \textit{mk\_hrt()}   function   to   the   include/wdb.h   and  \textit{\textbf{src/libwdb/wdb.c}} files   to   assign   values   from   \textbf{mged}   or   \textbf{archer}   interfaces   to   the  heart-shape's parameters.
+
 %-----------------------------------------------------------------------------------------------------------------------------------
 %----------------------------------------------------------------------------------------
 %	SECTION 2
