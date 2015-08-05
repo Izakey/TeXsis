@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.7.20)  5 AUG 2015 09:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.7.20)  5 AUG 2015 09:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -704,6 +704,36 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 33.
 
 LaTeX Warning: Label `Sphere' multiply defined.
 
+! Missing \endcsname inserted.
+<to be read again> 
+                   \&
+l.77 ...{3}{26}{ANALYSIS \& DESIGN}{chapter.40}{}}
+                                                  
+? 
+
+LaTeX Warning: Label `Analysis \& Design' multiply defined.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \&
+l.77 ...{3}{26}{ANALYSIS \& DESIGN}{chapter.40}{}}
+                                                  
+? 
+! Missing \endcsname inserted.
+<to be read again> 
+                   \&
+l.95 ...{44}{RESULTS \& DISCUSSION}{chapter.57}{}}
+                                                  
+? 
+
+LaTeX Warning: Label `Results \& Discussion' multiply defined.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \&
+l.95 ...{44}{RESULTS \& DISCUSSION}{chapter.57}{}}
+                                                  
+? 
 )
 \openout1 = `main.aux'.
 
@@ -1122,12 +1152,6 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.43 ...t it.}shaped primitive}{42}{subsection.56}
-                                                  
-? 
-! Misplaced alignment tab character &.
-<argument> ...cdestname }{\numberline {4}RESULTS &
-                                                   DISCUSSION}\hyper@linkend 
-l.44 ...e {4}RESULTS & DISCUSSION}{44}{chapter.57}
                                                   
 ? 
 )
@@ -4003,7 +4027,7 @@ l.574 ...rface modeling, solid modeling and non-­
 [25]) (./Chapters/Chapter3.tex
 Chapter 3.
 ------------------------------------------------------------------------------
- 3 ANALYSIS AND DESIGN
+ 3 ANALYSIS \& DESIGN
 ------------------------------------------------------------------------------
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
@@ -7379,19 +7403,9 @@ l.573 heart­
 ? 
 ) (./Chapters/Chapter4.tex [42] [43]
 Chapter 4.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `alignment tab' on input line 3.
-
 ------------------------------------------------------------------------------
- 4 RESULTS & DISCUSSION
+ 4 RESULTS \& DISCUSSION
 ------------------------------------------------------------------------------
-! Misplaced alignment tab character &.
-<argument> RESULTS &
-                     DISCUSSION
-l.3 \chapter{RESULTS & DISCUSSION}
-                                   % Main chapter title
-? 
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
@@ -7427,8 +7441,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.20 each   of   the   heart­
-                              -shape's   geometric  properties work.
+l.20   each   of   the   heart­
+                                -shape's   geometric  properties work.
 ? 
 [44
 
@@ -7446,11 +7460,24 @@ Appendix A.
 No file main.bbl.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 337.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 337.
-(./main.aux)
+(./main.aux
+! Missing \endcsname inserted.
+<to be read again> 
+                   \&
+l.77 ...{3}{26}{ANALYSIS \& DESIGN}{chapter.40}{}}
+                                                  
+? 
+! Missing \endcsname inserted.
+<to be read again> 
+                   \&
+l.95 ...{44}{RESULTS \& DISCUSSION}{chapter.57}{}}
+                                                  
+? 
+)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 337.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 337.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B12DE7AA04A95055D5CF1F495C6AC3EB;9029.
+(rerunfilecheck)             Checksum: 0A104FA695D600B5C2725D9028825B0F;9030.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -7459,8 +7486,8 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 337.
  ) 
 Here is how much of TeX's memory you used:
  13150 strings out of 495025
- 183816 string characters out of 6181515
- 250348 words of memory out of 5000000
+ 183792 string characters out of 6181515
+ 250368 words of memory out of 5000000
  16038 multiletter control sequences out of 15000+600000
  21050 words of font info for 76 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -7481,7 +7508,7 @@ usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (58 pages, 7163515 bytes).
+Output written on main.pdf (58 pages, 7165317 bytes).
 PDF statistics:
  654 PDF objects out of 1000 (max. 8388607)
  546 compressed objects within 6 object streams
