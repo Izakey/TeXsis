@@ -21,7 +21,7 @@ Given the situation of our work in the field of CAD, we   use   images   to   de
 
 %----------------------------------------------------------------------------------------
 
-\section{Type in support for the heart­-shaped primitive}
+\section{Type-in support for the heart­-shaped primitive}
 
 \hspace{30} During   the   modeling   process,   a   designer   using   BRL­-CAD   creates objects   by   typing   
 its   parameters   into   either   the   mged   or   archer   graphical   user  interfaces.   
@@ -49,7 +49,7 @@ heart-­shape object can be created by typing in its parameters through the keyb
 %----------------------------------------------------------------------------------------------------------------
 %	SUBSECTION 1
 %----------------------------------------------------------------------------------------------------------------
-\subsection{Formatted description of the heart­-shaped primitive}
+\section{Formatted description of the heart­-shaped primitive}
 
 After   having   created   objects   for   modeling,   it   sometimes   becomes  
 necessary   to   display   a   description   of   these   objects.   For   us   to   test   that   we   can  
@@ -77,7 +77,7 @@ respectively in the archer command prompt. This is shown in Figure 4.2 below.
 %	SUBSECTION 2
 %-----------------------------------
 
-\subsection{The bounding box of the heart-­shaped primitive}
+\section{The bounding box of the heart-­shaped primitive}
 
 As   we   earlier   stated,   the   $rt\_hrt\_bbox()$   function   was   implemented   to
  calculate   the   bounding   box   of   the   heart-­shaped   primitive.   In   order   to   test   that  
@@ -115,6 +115,27 @@ command prompt.
 \includegraphics[trim=0.0cm 0.5cm 0.1cm 0.1cm, clip=true, totalheight=0.4\textheight]{Pictures/Bounding.png}
 \caption[Testing the bounding box of the heart­-shape]{Testing the bounding box of the heart­-shape}
 \label{Bounding}
+\end{figure}
+
+\section{Plotting the wireframe of the heart­-shaped primitive}
+
+\hspace{30} The   process   of   modeling   sometimes   warrants   the   preview   of   the   skeleton  
+of   a   specific   set   of   objects.   To   test   that   the   wireframe   of   the   heart­-shaped  
+primitive   is   working,   we   use   the   \textit{\textbf{draw}}[41]   command   in   BRL­-CAD.   The   \textit{\textbf{draw}}  
+command   displays   objects   in   either   the   mged   or   archer   interfaces.   It   is  
+synonymous   to   BRL­-CAD's   \textit{\textbf{e}}   command.   The   draw   command's   \textit{\textbf{-­C} (colour)}  
+option   enables   the   user   to   specify   a   colour   that   overrides   all   other   previous  
+colour specifications.  
+
+\hspace{30} To   draw   the   wireframe   of   the   amour   object   using   white   wires,   we   run   the  
+\textit{\textbf{“draw -­C 255/255/255 amour”}}   command.   The   image   in   Figure   4.4   below   shows  
+the wireframe of amour with red iso­contours.  
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[trim=0.0cm 0.5cm 0.1cm 0.1cm, clip=true, totalheight=0.4\textheight]{Pictures/Wireframe.png}
+\caption[Testing the wireframe of the heart­shaped primitive]{Testing the wireframe of the heart­shaped primitive}
+\label{Wireframe}
 \end{figure}
 
 %----------------------------------------------------------------------------------------
