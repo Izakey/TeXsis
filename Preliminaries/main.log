@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.7.20)  5 AUG 2015 20:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.7.20)  5 AUG 2015 21:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1831,7 +1831,7 @@ Type  H <return>  for immediate help.
 l.128 heart­-shaped primitive gives BRL-­
                                            CAD a more loving aura – an
 ? 
-[4] <Figures/Goliath.png, id=387, 1435.3625pt x 1217.54875pt>
+[4] <Figures/Goliath.png, id=377, 1435.3625pt x 1217.54875pt>
 File: Figures/Goliath.png Graphic file (type png)
 
 <use Figures/Goliath.png>
@@ -2096,7 +2096,7 @@ l.89 and bones are edges. In [6], a six ­
                                           step algorithm to generate an obje...
 
 ? 
-[8] <Figures/Sphere.png, id=411, 294.09875pt x 294.09875pt>
+[8] <Figures/Sphere.png, id=401, 294.09875pt x 294.09875pt>
 File: Figures/Sphere.png Graphic file (type png)
 
 <use Figures/Sphere.png>
@@ -2124,7 +2124,7 @@ l.113 ...aic surfaces and curves used within BRL­
                                                   -CAD
 ? 
 [9 <./Figures/Sphere.png>]
-<Figures/Primitives.png, id=420, 460.72125pt x 596.2275pt>
+<Figures/Primitives.png, id=410, 460.72125pt x 596.2275pt>
 File: Figures/Primitives.png Graphic file (type png)
 
 <use Figures/Primitives.png>
@@ -3408,7 +3408,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 353--357
 
  []
 
-<Pictures/Teapot.png, id=457, 406.683pt x 301.2345pt>
+<Pictures/Teapot.png, id=446, 406.683pt x 301.2345pt>
 File: Pictures/Teapot.png Graphic file (type png)
 
 <use Pictures/Teapot.png>
@@ -3478,7 +3478,7 @@ l.385 operations   on   r­
                            sets   which   are   linear   transformations   v...
 
 ? 
-<Pictures/Boolean.png, id=465, 1606.0pt x 345.29pt>
+<Pictures/Boolean.png, id=455, 1606.0pt x 345.29pt>
 File: Pictures/Boolean.png Graphic file (type png)
  <use Pictures/Boolean.png>
 Package pdftex.def Info: Pictures/Boolean.png used on input line 391.
@@ -3540,7 +3540,7 @@ l.408 \hspace{30} Although   BRL-­
                                    CAD   has   become   a   fully   hybrid  ...
 
 ? 
-<Pictures/M1A1.png, id=473, 1094.0875pt x 1154.3125pt>
+<Pictures/M1A1.png, id=463, 1094.0875pt x 1154.3125pt>
 File: Pictures/M1A1.png Graphic file (type png)
  <use Pictures/M1A1.png>
 Package pdftex.def Info: Pictures/M1A1.png used on input line 415.
@@ -3834,7 +3834,7 @@ Type  H <return>  for immediate help.
 l.507 ...  Sphere   Flake   drawn   using   BRL-­
                                                   CAD   represented
 ? 
-<Pictures/Sphere.png, id=490, 1061.9675pt x 1204.5pt>
+<Pictures/Sphere.png, id=480, 1061.9675pt x 1204.5pt>
 File: Pictures/Sphere.png Graphic file (type png)
 
 <use Pictures/Sphere.png>
@@ -3994,7 +3994,7 @@ Type  H <return>  for immediate help.
 l.540 ...vertices,   edges,   and   faces   hang­
                                                   off   the   mapped
 ? 
-<Pictures/NMG.png, id=502, 602.25pt x 130.4875pt>
+<Pictures/NMG.png, id=492, 602.25pt x 130.4875pt>
 File: Pictures/NMG.png Graphic file (type png)
  <use Pictures/NMG.png>
 Package pdftex.def Info: Pictures/NMG.png used on input line 546.
@@ -5172,7 +5172,7 @@ Type  H <return>  for immediate help.
 l.220 ...ich   are   symmetric   about   the   z­
                                                   axis   and
 ? 
-<Pictures/Heart.png, id=540, 718.685pt x 586.19pt>
+<Pictures/Heart.png, id=530, 718.685pt x 586.19pt>
 File: Pictures/Heart.png Graphic file (type png)
  <use Pictures/Heart.png>
 Package pdftex.def Info: Pictures/Heart.png used on input line 225.
@@ -7715,7 +7715,7 @@ l.40 heart-­
 ? 
 [44
 
-] <Pictures/Typein.png, id=603, 1036.87375pt x 550.055pt>
+] <Pictures/Typein.png, id=593, 1036.87375pt x 550.055pt>
 File: Pictures/Typein.png Graphic file (type png)
 
 <use Pictures/Typein.png>
@@ -7802,7 +7802,7 @@ l.69 \hspace{30}
                  To   describe   the   \textit{amour}   object,   we   print...
 
 ? 
-<Pictures/Describe.png, id=611, 1177.39874pt x 657.45625pt>
+<Pictures/Describe.png, id=601, 1177.39874pt x 657.45625pt>
 File: Pictures/Describe.png Graphic file (type png)
 
 <use Pictures/Describe.png>
@@ -7996,7 +7996,7 @@ l.119 \hspace{30}
                   The image above in Figure 4.3 shows the results obtained a...
 
 ? 
-<Pictures/Bounding.png, id=623, 1196.47pt x 581.17125pt>
+<Pictures/Bounding.png, id=613, 1196.47pt x 581.17125pt>
 File: Pictures/Bounding.png Graphic file (type png)
 
 <use Pictures/Bounding.png>
@@ -8122,7 +8122,7 @@ Type  H <return>  for immediate help.
 l.147 the wireframe of amour with red iso­
                                            contours.
 ? 
-<Pictures/Wireframe.png, id=636, 850.17625pt x 623.32875pt>
+<Pictures/Wireframe.png, id=626, 850.17625pt x 623.32875pt>
 File: Pictures/Wireframe.png Graphic file (type png)
 
 <use Pictures/Wireframe.png>
@@ -8457,19 +8457,19 @@ l.199 ....5 below shows some images of the heart­
                                                   -shaped primitive obtained...
 
 ? 
-<Pictures/Besides.png, id=648, 513.92pt x 513.92pt>
+<Pictures/Besides.png, id=638, 513.92pt x 513.92pt>
 File: Pictures/Besides.png Graphic file (type png)
  <use Pictures/Besides.png>
 Package pdftex.def Info: Pictures/Besides.png used on input line 203.
 (pdftex.def)             Requested size: 245.14143pt x 238.31647pt.
 
-<Pictures/Above.png, id=650, 513.92pt x 513.92pt>
+<Pictures/Above.png, id=640, 513.92pt x 513.92pt>
 File: Pictures/Above.png Graphic file (type png)
  <use Pictures/Above.png>
 Package pdftex.def Info: Pictures/Above.png used on input line 206.
 (pdftex.def)             Requested size: 113.80771pt x 101.2844pt.
 
-<Pictures/Below.png, id=652, 513.92pt x 513.92pt>
+<Pictures/Below.png, id=642, 513.92pt x 513.92pt>
 File: Pictures/Below.png Graphic file (type png)
  <use Pictures/Below.png>
 Package pdftex.def Info: Pictures/Below.png used on input line 211.
@@ -8576,7 +8576,7 @@ Chapter 5.
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.9 \hspace{30}
+l.7 \hspace{30}
                 In   this   chapter,   we   note   the   new   and   origina...
 
 ? 
@@ -8587,8 +8587,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.10 the   heart-­
-                   shaped   primitive   to   the   field   of   CAD   and   ...
+l.8 the   heart-­
+                  shaped   primitive   to   the   field   of   CAD   and   h...
 
 ? 
 
@@ -8598,7 +8598,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.12 first   designed   the   heart­
+l.10 first   designed   the   heart­
                                      -shaped   primitive's   structure,   wr...
 
 ? 
@@ -8609,7 +8609,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 functions and tested them using BRL-­
+l.11 functions and tested them using BRL-­
                                            CAD's inbuilt testing infrastruct...
 
 ? 
@@ -8620,7 +8620,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.24 \item We   showed   that   BRL-­
+l.22 \item We   showed   that   BRL-­
                                       CAD's   Laguerre-­based   root   solv...
 
 ? 
@@ -8631,7 +8631,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.24 ... showed   that   BRL-­CAD's   Laguerre-­
+l.22 ... showed   that   BRL-­CAD's   Laguerre-­
                                                   based   root   solver   is...
 
 ? 
@@ -8642,7 +8642,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.25 sure­
+l.23 sure­
            fire   iterative   method   for   finding   roots   of   polynomi...
 
 ? 
@@ -8653,7 +8653,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.29 geometrically­
+l.27 geometrically­
                      useful   properties   for   any   primitive   within BR...
 
 ? 
@@ -8664,7 +8664,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.29 ...es   for   any   primitive   within BRL-­
+l.27 ...es   for   any   primitive   within BRL-­
                                                   CAD.
 ? 
 
@@ -8674,19 +8674,105 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.31 showed   that   BRL­
+l.29 showed   that   BRL­
                           -CAD   is   a   software   package   which   artis...
 
 ? 
 [54
 
 
-]) [55] (./Appendices/AppendixA.tex [56]
+]
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.41 \hspace{30}
+                 In   order   to   invite   more   artists   to   use   BRL-...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 ...nvite   more   artists   to   use   BRL-­
+                                                  CAD   for   the   creation...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 ...ainment   content   and   enhance   BRL-­
+                                                  CAD's   functionality   so...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46 \item Although   the   heart-­
+                                    shaped   primitive   has   been   shown ...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.50 \item BRL­
+                -CAD   is   used   within   the   scientific   community   f...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.52 of   BRL-­
+                CAD's   Laguerre­-based   root   solver   on   septic,   oc...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.52 of   BRL-­CAD's   Laguerre­
+                                  -based   root   solver   on   septic,   oc...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 \item Since   BRL-­
+                         CAD   boasts   of   more   than   400   commands   ...
+
+? 
+[55]) (./Appendices/AppendixA.tex
 Appendix A.
 ------------------------------------------------------------------------------
  A Appendix Title Here
 ------------------------------------------------------------------------------
-) [57
+) [56
+
 
 ]
 ------------------------------------------------------------------------------
@@ -8712,7 +8798,7 @@ l.95 ...{44}{RESULTS \& DISCUSSION}{chapter.57}{}}
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 337.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 337.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: FC40457F2C899D4DEDA2FCAA11881487;10985.
+(rerunfilecheck)             Checksum: DF51834EBA033B421D9FA71043E35734;10684.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -8720,13 +8806,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 337.
  ) 
 Here is how much of TeX's memory you used:
- 13222 strings out of 495025
- 184964 string characters out of 6181515
+ 13217 strings out of 495025
+ 184901 string characters out of 6181515
  250865 words of memory out of 5000000
- 16078 multiletter control sequences out of 15000+600000
+ 16076 multiletter control sequences out of 15000+600000
  21050 words of font info for 76 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 49i,12n,45p,857b,456s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,12n,45p,850b,456s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/te
@@ -8743,10 +8829,10 @@ usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (69 pages, 7531061 bytes).
+Output written on main.pdf (68 pages, 7529737 bytes).
 PDF statistics:
- 771 PDF objects out of 1000 (max. 8388607)
- 633 compressed objects within 7 object streams
- 142 named destinations out of 1000 (max. 500000)
- 585 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 757 PDF objects out of 1000 (max. 8388607)
+ 620 compressed objects within 7 object streams
+ 139 named destinations out of 1000 (max. 500000)
+ 569 words of extra memory for PDF output out of 10000 (max. 10000000)
 
