@@ -44,8 +44,8 @@
 \contentsline {chapter}{\numberline {4}RESULTS \& DISCUSSION}{44}{chapter.57}
 \contentsline {section}{\numberline {4.1}Type in support for the heart\GenericError {(inputenc) }{Package inputenc Error: Unicode char \u 8:­ not set up for use with LaTeX}{See the inputenc package documentation for explanation.}{Your command was ignored.\MessageBreak Type I <command> <return> to replace it with another command,\MessageBreak or <return> to continue without it.}-shaped primitive}{44}{section.58}
 \contentsline {subsection}{\numberline {4.1.1}Formatted description of the heart\GenericError {(inputenc) }{Package inputenc Error: Unicode char \u 8:­ not set up for use with LaTeX}{See the inputenc package documentation for explanation.}{Your command was ignored.\MessageBreak Type I <command> <return> to replace it with another command,\MessageBreak or <return> to continue without it.}-shaped primitive}{45}{subsection.60}
-\contentsline {subsection}{\numberline {4.1.2}Subsection 2}{46}{subsection.62}
-\contentsline {section}{\numberline {4.2}Main Section 2}{47}{section.63}
+\contentsline {subsection}{\numberline {4.1.2}The bounding box of the heart-\GenericError {(inputenc) }{Package inputenc Error: Unicode char \u 8:­ not set up for use with LaTeX}{See the inputenc package documentation for explanation.}{Your command was ignored.\MessageBreak Type I <command> <return> to replace it with another command,\MessageBreak or <return> to continue without it.}shaped primitive}{46}{subsection.62}
+\contentsline {section}{\numberline {4.2}Main Section 2}{48}{section.64}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Appendix Title Here}{48}{appendix.64}
+\contentsline {chapter}{\numberline {A}Appendix Title Here}{49}{appendix.65}
 \vspace {2em}

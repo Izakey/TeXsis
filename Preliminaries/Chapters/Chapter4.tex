@@ -77,8 +77,45 @@ respectively in the archer command prompt. This is shown in Figure 4.2 below.
 %	SUBSECTION 2
 %-----------------------------------
 
-\subsection{Subsection 2}
-Morbi rutrum odio eget arcu adipiscing sodales. Aenean et purus a est pulvinar pellentesque. Cras in elit neque, quis varius elit. Phasellus fringilla, nibh eu tempus venenatis, dolor elit posuere quam, quis adipiscing urna leo nec orci. Sed nec nulla auctor odio aliquet consequat. Ut nec nulla in ante ullamcorper aliquam at sed dolor. Phasellus fermentum magna in augue gravida cursus. Cras sed pretium lorem. Pellentesque eget ornare odio. Proin accumsan, massa viverra cursus pharetra, ipsum nisi lobortis velit, a malesuada dolor lorem eu neque.
+\subsection{The bounding box of the heart-­shaped primitive}
+
+As   we   earlier   stated,   the   $rt\_hrt\_bbox()$   function   was   implemented   to
+ calculate   the   bounding   box   of   the   heart-­shaped   primitive.   In   order   to   test   that  
+the   bounding   box   of   the   heart-­shaped   primitive   is   computed,   we   use  
+BRL­-CAD's \textit{\textbf{bb}}[40] command.
+
+\hspace{30} The   \textit{\textbf{bb (bounding box)}}  command   reports   dimensional   information   about   objects   using  
+bounding   boxes.   It   does   this   by   calculating   an   axis­aligned   bounding   box   for   an  
+object   and   printing   the   dimensions   of   that   box   to   the   command   prompt   of  
+archer.   The   \textit{\textbf{bb}}   command   support   various   options,   most   of   which   control   the  
+type of information reported.  
+
+\begin{itemize}
+\item The \textit{\textbf{-­e} (extent)} option reports the extent of the bounding box by printing its minimal and maximal points.  
+\item The \textit{\textbf{-­d} (default)} option reports the length, width and height of the box.  
+\item The \textit{\textbf{-­v} (volume)} option prints the volume of the bounding box by default too.  
+\item The \textit{\textbf{-­q} (quiet)} option prints the properties of an object in quiet mode by disabling the printing of the default header.
+\end{itemize}
+
+\hspace{30} Once   more   we   use   the   amour   object   and   the   \textit{bb}   command   to   test   how  
+effectively   the   bounding   box   of   the   heart­-shaped   primitive   was   implemented.  
+To   report   the   extent   of   the   bounding   box   of   the   amour   object,   we   print   its  
+minimal   and   maximal   points   by   running   the   \textit{\textbf{“bb   ­-qe   amour”}}   command   in   either  
+the   mged   or   archer   command   prompts.   Then,   we   ran   the   \textit{\textbf{“bb   -­qv   amour”}}  
+command   in   archer   so   that   the   volume   of   the   amour   object   is   reported   in   cubic  
+millimeters.   After,   we   reported   the   length,   width   and   height   of   amour's   bounding  
+box   by   running   the   \textit{\textbf{“bb   ­-qd   amour”}}.   Finally,   to   report   the   volume   and  
+dimensions   of   the   bounding   box,   we   ran   the   \textit{\textbf{“bb   amour”}}   command   in   archer's  
+command prompt. 
+
+\hspace{30} The image above in Figure 4.3 shows the results obtained after running the aforementioned commands. 
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[trim=0.0cm 0.5cm 0.1cm 0.1cm, clip=true, totalheight=0.4\textheight]{Pictures/Bounding.png}
+\caption[Testing the bounding box of the heart­-shape]{Testing the bounding box of the heart­-shape}
+\label{Bounding}
+\end{figure}
 
 %----------------------------------------------------------------------------------------
 %	SECTION 2
