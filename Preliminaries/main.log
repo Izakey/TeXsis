@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.7.20)  4 AUG 2015 17:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.7.20)  5 AUG 2015 09:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1124,6 +1124,12 @@ Type  H <return>  for immediate help.
 l.43 ...t it.}shaped primitive}{42}{subsection.56}
                                                   
 ? 
+! Misplaced alignment tab character &.
+<argument> ...cdestname }{\numberline {4}RESULTS &
+                                                   DISCUSSION}\hyper@linkend 
+l.44 ...e {4}RESULTS & DISCUSSION}{44}{chapter.57}
+                                                  
+? 
 )
 \tf@toc=\write4
 \openout4 = `main.toc'.
@@ -1625,7 +1631,7 @@ Type  H <return>  for immediate help.
 l.128 heart­-shaped primitive gives BRL-­
                                            CAD a more loving aura – an
 ? 
-[4] <Figures/Goliath.png, id=321, 1435.3625pt x 1217.54875pt>
+[4] <Figures/Goliath.png, id=346, 1435.3625pt x 1217.54875pt>
 File: Figures/Goliath.png Graphic file (type png)
 
 <use Figures/Goliath.png>
@@ -1890,7 +1896,7 @@ l.89 and bones are edges. In [6], a six ­
                                           step algorithm to generate an obje...
 
 ? 
-[8] <Figures/Sphere.png, id=345, 294.09875pt x 294.09875pt>
+[8] <Figures/Sphere.png, id=370, 294.09875pt x 294.09875pt>
 File: Figures/Sphere.png Graphic file (type png)
 
 <use Figures/Sphere.png>
@@ -1918,7 +1924,7 @@ l.113 ...aic surfaces and curves used within BRL­
                                                   -CAD
 ? 
 [9 <./Figures/Sphere.png>]
-<Figures/Primitives.png, id=354, 460.72125pt x 596.2275pt>
+<Figures/Primitives.png, id=379, 460.72125pt x 596.2275pt>
 File: Figures/Primitives.png Graphic file (type png)
 
 <use Figures/Primitives.png>
@@ -3202,7 +3208,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 353--357
 
  []
 
-<Pictures/Teapot.png, id=390, 406.683pt x 301.2345pt>
+<Pictures/Teapot.png, id=415, 406.683pt x 301.2345pt>
 File: Pictures/Teapot.png Graphic file (type png)
 
 <use Pictures/Teapot.png>
@@ -3272,7 +3278,7 @@ l.385 operations   on   r­
                            sets   which   are   linear   transformations   v...
 
 ? 
-<Pictures/Boolean.png, id=398, 1606.0pt x 345.29pt>
+<Pictures/Boolean.png, id=423, 1606.0pt x 345.29pt>
 File: Pictures/Boolean.png Graphic file (type png)
  <use Pictures/Boolean.png>
 Package pdftex.def Info: Pictures/Boolean.png used on input line 391.
@@ -3334,7 +3340,7 @@ l.408 \hspace{30} Although   BRL-­
                                    CAD   has   become   a   fully   hybrid  ...
 
 ? 
-<Pictures/M1A1.png, id=406, 1094.0875pt x 1154.3125pt>
+<Pictures/M1A1.png, id=431, 1094.0875pt x 1154.3125pt>
 File: Pictures/M1A1.png Graphic file (type png)
  <use Pictures/M1A1.png>
 Package pdftex.def Info: Pictures/M1A1.png used on input line 415.
@@ -3628,7 +3634,7 @@ Type  H <return>  for immediate help.
 l.507 ...  Sphere   Flake   drawn   using   BRL-­
                                                   CAD   represented
 ? 
-<Pictures/Sphere.png, id=423, 1061.9675pt x 1204.5pt>
+<Pictures/Sphere.png, id=449, 1061.9675pt x 1204.5pt>
 File: Pictures/Sphere.png Graphic file (type png)
 
 <use Pictures/Sphere.png>
@@ -3788,7 +3794,7 @@ Type  H <return>  for immediate help.
 l.540 ...vertices,   edges,   and   faces   hang­
                                                   off   the   mapped
 ? 
-<Pictures/NMG.png, id=435, 602.25pt x 130.4875pt>
+<Pictures/NMG.png, id=461, 602.25pt x 130.4875pt>
 File: Pictures/NMG.png Graphic file (type png)
  <use Pictures/NMG.png>
 Package pdftex.def Info: Pictures/NMG.png used on input line 546.
@@ -4966,7 +4972,7 @@ Type  H <return>  for immediate help.
 l.220 ...ich   are   symmetric   about   the   z­
                                                   axis   and
 ? 
-<Pictures/Heart.png, id=474, 718.685pt x 586.19pt>
+<Pictures/Heart.png, id=499, 718.685pt x 586.19pt>
 File: Pictures/Heart.png Graphic file (type png)
  <use Pictures/Heart.png>
 Package pdftex.def Info: Pictures/Heart.png used on input line 225.
@@ -7371,12 +7377,67 @@ Type  H <return>  for immediate help.
 l.573 heart­
              -shape.
 ? 
-) [42] (./Appendices/AppendixA.tex [43]
+) (./Chapters/Chapter4.tex [42] [43]
+Chapter 4.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `alignment tab' on input line 3.
+
+------------------------------------------------------------------------------
+ 4 RESULTS & DISCUSSION
+------------------------------------------------------------------------------
+! Misplaced alignment tab character &.
+<argument> RESULTS &
+                     DISCUSSION
+l.3 \chapter{RESULTS & DISCUSSION}
+                                   % Main chapter title
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.13 \hspace{30}
+                 In   this   chapter,   we   present   and   discuss   the  ...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 heart­
+            -shaped   primitive.   Without   loss   of   generality,   we   ...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 ...f   generality,   we   used   a   heart-­
+                                                  shaped
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 each   of   the   heart­
+                              -shape's   geometric  properties work.
+? 
+[44
+
+]) (./Appendices/AppendixA.tex [45]
 Appendix A.
 ------------------------------------------------------------------------------
  A Appendix Title Here
 ------------------------------------------------------------------------------
-) [44
+) [46
 
 ]
 ------------------------------------------------------------------------------
@@ -7389,7 +7450,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 337.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 337.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 337.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3C82B8BB43C39C709A9497D9FFB5220A;8254.
+(rerunfilecheck)             Checksum: B12DE7AA04A95055D5CF1F495C6AC3EB;9029.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -7397,13 +7458,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 337.
  ) 
 Here is how much of TeX's memory you used:
- 13134 strings out of 495025
- 183604 string characters out of 6181515
- 250303 words of memory out of 5000000
- 16032 multiletter control sequences out of 15000+600000
+ 13150 strings out of 495025
+ 183816 string characters out of 6181515
+ 250348 words of memory out of 5000000
+ 16038 multiletter control sequences out of 15000+600000
  21050 words of font info for 76 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 49i,12n,45p,712b,456s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,12n,45p,857b,456s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/te
@@ -7420,10 +7481,10 @@ usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (56 pages, 7159536 bytes).
+Output written on main.pdf (58 pages, 7163515 bytes).
 PDF statistics:
- 620 PDF objects out of 1000 (max. 8388607)
- 514 compressed objects within 6 object streams
- 113 named destinations out of 1000 (max. 500000)
- 420 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 654 PDF objects out of 1000 (max. 8388607)
+ 546 compressed objects within 6 object streams
+ 120 named destinations out of 1000 (max. 500000)
+ 460 words of extra memory for PDF output out of 10000 (max. 10000000)
 
