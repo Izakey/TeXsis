@@ -29,12 +29,12 @@ Having   built   this   capacity   into   the   heart-­shaped   primitive,   we
 BRL-­CAD's \textbf{\textit{in}}[38] command to test its mettle.  
 
 The   \textit{\textbf{in}}   command   enables   the   user   to   type   in   the   arguments   needed   to   create   a  shape   alongside   its   name   and   type.   It   supports   various   options   and   may   be  
-invoked   with   no   arguments.   The   -­s   option   invokes   the   primitive   edit   mode   on   a  
+invoked   with   no   arguments.   The   \textit{\textbf{-­s}}   option   invokes   the   primitive   edit   mode   on   a  
 new   object   immediately   it   is   created.   In   order   to   test   the   type   in   support   of   the  
 heart­-shaped   primitive,   we   create   the   \textit{amour}   object   by   typing   its   name,   type   and  
 other   parameters   into   the   archer   interface.   After   opening   the   $heart\_example.g$  
-database   database   destined   to   hold   the   \textit{amour}   object,   we   type   “in   amour   hrt   0  
-0   0   5   0   0   0   5   0   0   0   5   4”   into   archer's   command   line   interface.   The   object's  
+database   database   destined   to   hold   the   \textit{amour}   object,   we   type   \textit{\textbf{“in   amour   hrt   0  
+0   0   5   0   0   0   5   0   0   0   5   4”}}   into   archer's   command   line   interface.   The   object's  
 name,   \textit{amour},   is   printed   on   the   command ­line   indicating   that   the   object   has  
 indeed   been   created. Figure   4.1 below   shows   that   the   \textit{amour}  
 heart-­shape object can be created by typing in its parameters through the keyboard.
@@ -49,9 +49,29 @@ heart-­shape object can be created by typing in its parameters through the keyb
 %----------------------------------------------------------------------------------------------------------------
 %	SUBSECTION 1
 %----------------------------------------------------------------------------------------------------------------
-\subsection{Subsection 1}
+\subsection{Formatted description of the heart­-shaped primitive}
 
-Nunc posuere quam at lectus tristique eu ultrices augue venenatis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam erat volutpat. Vivamus sodales tortor eget quam adipiscing in vulputate ante ullamcorper. Sed eros ante, lacinia et sollicitudin et, aliquam sit amet augue. In hac habitasse platea dictumst.
+After   having   created   objects   for   modeling,   it   sometimes   becomes  
+necessary   to   display   a   description   of   these   objects.   For   us   to   test   that   we   can  
+describe   the   heart­shaped   primitive,   we   used   BRL-­CAD's   \textit{\textbf{l}}[39]   command   on  
+the   amour   object.   The   \textit{\textbf{l (listing)}}   command   displays   a   verbose   description   of   a
+ specific   list   of   objects.   If   the   shape   of   the   object   is   a   primitive,   then   detailed  
+parameters   of   that   shape   are   displayed.   If   the   object   is   a   combination   of   other  
+primitives,   then   the   boolean   formula   for   the   combination   is   listed   while   indicating  
+any   accumulated   transformations.   If   a   shader   and   colour   has   been   assigned   to  
+the   combination,   then   all   details   will   be   listed.   The   \textit{\textbf{-­t}}   (terse)   option   displays   a  
+shorter list of primitive shape parameters.
+
+\hspace{30} To   describe   the   \textit{amour}   object,   we   print   amour's   parameters   in   both   terse  
+and   verbose   forms   by   running   the   \textit{\textbf{“l -t amour”}}   and   \textit{\textbf{“l amour”}}   commands  
+respectively in the archer command prompt. This is shown in Figure 4.2 below.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[trim=0.0cm 0.5cm 0.1cm 0.1cm, clip=true, totalheight=0.4\textheight]{Pictures/Describe.png}
+\caption[Testing the formatted description of the heart­-shaped primitive]{Testing the formatted description of the heart­-shaped primitive}
+\label{Describe}
+\end{figure}
 
 %-----------------------------------
 %	SUBSECTION 2
