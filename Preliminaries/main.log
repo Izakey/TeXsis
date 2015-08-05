@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.7.20)  5 AUG 2015 20:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.7.20)  5 AUG 2015 20:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -8573,6 +8573,46 @@ Chapter 5.
 ------------------------------------------------------------------------------
  5 CONCLUSIONS
 ------------------------------------------------------------------------------
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.9 \hspace{30}
+                In   this   chapter,   we   note   the   new   and   origina...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 the   heart-­
+                   shaped   primitive   to   the   field   of   CAD   and   ...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 first   designed   the   heart­
+                                     -shaped   primitive's   structure,   wr...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 functions and tested them using BRL-­
+                                           CAD's inbuilt testing infrastruct...
+
+? 
 [54
 
 
@@ -8638,7 +8678,7 @@ usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (68 pages, 7529774 bytes).
+Output written on main.pdf (68 pages, 7530107 bytes).
 PDF statistics:
  767 PDF objects out of 1000 (max. 8388607)
  630 compressed objects within 7 object streams
