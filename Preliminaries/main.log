@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.7.20)  5 AUG 2015 09:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.7.20)  5 AUG 2015 10:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1154,6 +1154,22 @@ Type  H <return>  for immediate help.
 l.43 ...t it.}shaped primitive}{42}{subsection.56}
                                                   
 ? 
+
+! Package inputenc Error: Unicode char \u 8:\GenericError {(inputenc)          
+      }{Package inputenc Error: Unicode char \u8:­ not set up for use with LaT
+eX}{See the inputenc package documentation for explanation.}{Your command was i
+gnored.
+(inputenc) Type  I <command> <return>  to replace it with another command,
+(inputenc) or  <return>  to continue without it.} not set up for use with LaTeX
+.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 ...out it.}-shaped primitive}{44}{section.58}
+                                                  
+? 
 )
 \tf@toc=\write4
 \openout4 = `main.toc'.
@@ -1193,6 +1209,22 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.10 ...Manifold Geometry}}{24}{figure.caption.39}
+                                                  
+? 
+
+! Package inputenc Error: Unicode char \u 8:\GenericError {(inputenc)          
+      }{Package inputenc Error: Unicode char \u8:­ not set up for use with LaT
+eX}{See the inputenc package documentation for explanation.}{Your command was i
+gnored.
+(inputenc) Type  I <command> <return>  to replace it with another command,
+(inputenc) or  <return>  to continue without it.} not set up for use with LaTeX
+.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 ...imitive in archer}}{45}{figure.caption.59}
                                                   
 ? 
 )
@@ -1655,7 +1687,7 @@ Type  H <return>  for immediate help.
 l.128 heart­-shaped primitive gives BRL-­
                                            CAD a more loving aura – an
 ? 
-[4] <Figures/Goliath.png, id=346, 1435.3625pt x 1217.54875pt>
+[4] <Figures/Goliath.png, id=348, 1435.3625pt x 1217.54875pt>
 File: Figures/Goliath.png Graphic file (type png)
 
 <use Figures/Goliath.png>
@@ -1920,7 +1952,7 @@ l.89 and bones are edges. In [6], a six ­
                                           step algorithm to generate an obje...
 
 ? 
-[8] <Figures/Sphere.png, id=370, 294.09875pt x 294.09875pt>
+[8] <Figures/Sphere.png, id=372, 294.09875pt x 294.09875pt>
 File: Figures/Sphere.png Graphic file (type png)
 
 <use Figures/Sphere.png>
@@ -1948,7 +1980,7 @@ l.113 ...aic surfaces and curves used within BRL­
                                                   -CAD
 ? 
 [9 <./Figures/Sphere.png>]
-<Figures/Primitives.png, id=379, 460.72125pt x 596.2275pt>
+<Figures/Primitives.png, id=381, 460.72125pt x 596.2275pt>
 File: Figures/Primitives.png Graphic file (type png)
 
 <use Figures/Primitives.png>
@@ -3232,7 +3264,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 353--357
 
  []
 
-<Pictures/Teapot.png, id=415, 406.683pt x 301.2345pt>
+<Pictures/Teapot.png, id=417, 406.683pt x 301.2345pt>
 File: Pictures/Teapot.png Graphic file (type png)
 
 <use Pictures/Teapot.png>
@@ -3302,7 +3334,7 @@ l.385 operations   on   r­
                            sets   which   are   linear   transformations   v...
 
 ? 
-<Pictures/Boolean.png, id=423, 1606.0pt x 345.29pt>
+<Pictures/Boolean.png, id=425, 1606.0pt x 345.29pt>
 File: Pictures/Boolean.png Graphic file (type png)
  <use Pictures/Boolean.png>
 Package pdftex.def Info: Pictures/Boolean.png used on input line 391.
@@ -3364,7 +3396,7 @@ l.408 \hspace{30} Although   BRL-­
                                    CAD   has   become   a   fully   hybrid  ...
 
 ? 
-<Pictures/M1A1.png, id=431, 1094.0875pt x 1154.3125pt>
+<Pictures/M1A1.png, id=433, 1094.0875pt x 1154.3125pt>
 File: Pictures/M1A1.png Graphic file (type png)
  <use Pictures/M1A1.png>
 Package pdftex.def Info: Pictures/M1A1.png used on input line 415.
@@ -3658,7 +3690,7 @@ Type  H <return>  for immediate help.
 l.507 ...  Sphere   Flake   drawn   using   BRL-­
                                                   CAD   represented
 ? 
-<Pictures/Sphere.png, id=449, 1061.9675pt x 1204.5pt>
+<Pictures/Sphere.png, id=451, 1061.9675pt x 1204.5pt>
 File: Pictures/Sphere.png Graphic file (type png)
 
 <use Pictures/Sphere.png>
@@ -3818,7 +3850,7 @@ Type  H <return>  for immediate help.
 l.540 ...vertices,   edges,   and   faces   hang­
                                                   off   the   mapped
 ? 
-<Pictures/NMG.png, id=461, 602.25pt x 130.4875pt>
+<Pictures/NMG.png, id=463, 602.25pt x 130.4875pt>
 File: Pictures/NMG.png Graphic file (type png)
  <use Pictures/NMG.png>
 Package pdftex.def Info: Pictures/NMG.png used on input line 546.
@@ -4996,7 +5028,7 @@ Type  H <return>  for immediate help.
 l.220 ...ich   are   symmetric   about   the   z­
                                                   axis   and
 ? 
-<Pictures/Heart.png, id=499, 718.685pt x 586.19pt>
+<Pictures/Heart.png, id=501, 718.685pt x 586.19pt>
 File: Pictures/Heart.png Graphic file (type png)
  <use Pictures/Heart.png>
 Package pdftex.def Info: Pictures/Heart.png used on input line 225.
@@ -7444,14 +7476,87 @@ Type  H <return>  for immediate help.
 l.20   each   of   the   heart­
                                 -shape's   geometric  properties work.
 ? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 ... support for the heart­-shaped primitive}
+                                                  
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 ...   process,   a   designer   using   BRL­
+                                                  -CAD   creates objects   b...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 ...   this   capacity   into   the   heart-­
+                                                  shaped   primitive,   we  ...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 BRL-­
+           CAD's \textbf{\textit{in}}[38] command to test its mettle.
+? 
+<Pictures/Typein.png, id=559, 1036.87375pt x 550.055pt>
+File: Pictures/Typein.png Graphic file (type png)
+
+<use Pictures/Typein.png>
+Package pdftex.def Info: Pictures/Typein.png used on input line 33.
+(pdftex.def)             Requested size: 462.35796pt x 238.31647pt.
+
+Overfull \hbox (102.35796pt too wide) in paragraph at lines 33--34
+ [][] 
+ []
+
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 ...or the heart­-shaped primitive in archer}
+                                                  
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 ...or the heart­-shaped primitive in archer}
+                                                  
+? 
 [44
 
-]) (./Appendices/AppendixA.tex [45]
+] [45 <./Pictures/Typein.png>]) (./Appendices/AppendixA.tex [46]
 Appendix A.
 ------------------------------------------------------------------------------
  A Appendix Title Here
 ------------------------------------------------------------------------------
-) [46
+) [47
 
 ]
 ------------------------------------------------------------------------------
@@ -7477,7 +7582,7 @@ l.95 ...{44}{RESULTS \& DISCUSSION}{chapter.57}{}}
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 337.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 337.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 0A104FA695D600B5C2725D9028825B0F;9030.
+(rerunfilecheck)             Checksum: 47804E07260B83D663934F3D8A2A0E58;9210.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -7485,10 +7590,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 337.
  ) 
 Here is how much of TeX's memory you used:
- 13150 strings out of 495025
- 183792 string characters out of 6181515
- 250368 words of memory out of 5000000
- 16038 multiletter control sequences out of 15000+600000
+ 13158 strings out of 495025
+ 183929 string characters out of 6181515
+ 250468 words of memory out of 5000000
+ 16043 multiletter control sequences out of 15000+600000
  21050 words of font info for 76 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  49i,12n,45p,857b,456s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -7508,10 +7613,10 @@ usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (58 pages, 7165317 bytes).
+Output written on main.pdf (59 pages, 7250182 bytes).
 PDF statistics:
- 654 PDF objects out of 1000 (max. 8388607)
- 546 compressed objects within 6 object streams
- 120 named destinations out of 1000 (max. 500000)
- 460 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 665 PDF objects out of 1000 (max. 8388607)
+ 553 compressed objects within 6 object streams
+ 122 named destinations out of 1000 (max. 500000)
+ 471 words of extra memory for PDF output out of 10000 (max. 10000000)
 
