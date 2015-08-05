@@ -130,7 +130,7 @@ command prompt.
 %---------------------------------------------------------------------------------------------------------------------
 
 %---------------------------------------------------------------------------------------------------------------------
-				SECTION 4
+%				SECTION 4
 %---------------------------------------------------------------------------------------------------------------------
 \section{Plotting the wireframe of the heart­-shaped primitive}
 
@@ -154,6 +154,35 @@ the wireframe of amour with red iso­contours.
 \end{figure}
 
 %---------------------------------------------------------------------------------------------------------------------
+
+%---------------------------------------------------------------------------------------------------------------------
+%				SECTION 5
+%---------------------------------------------------------------------------------------------------------------------
+
+\section{Ray tracing and surface representation of the heart-­shaped primitive}
+
+\hspace{30} Ray­tracing   the   heart­-shaped   primitive   is   the   most   important   geometric  
+property   because   the   others   lose their relevance without   BRL­-CAD's   capacity   to   render  
+the   heart­-shaped   primitive.   A   major   difficulty   during   the   raytracing   of   the  
+heart­-shaped   primitive   was   the   misunderstanding   that   the   sextic   equation   could  
+be solved in radicals and only algebraic methods can be employed to solve it.  
+
+\hspace{30} In   order   to   test   that   the   ray­tracing   property   of   the   heart­-shaped   primitive  
+works, we use BRL-­CAD's \textit{\textbf{rt}}[42] command. The \textit{\textbf{rt}} command ray­traces a set
+ of objects with the default option of \textit{\textbf{-­s50}}. Like other BRL­-CAD commands, it has various options.
+
+\begin{itemize}
+\item The \textit{\textbf{-a} (azimuth)} option enables the designer to specify the azimuth at which the rendered image will be created.  
+\item The \textit{\textbf{-­e} (elevation)} option enables the designer to specify the elevation at which the rendered image should be created.  
+\item The \textit{\textbf{-w} (width)} option enables the designer to specify the width of the rendered image.  
+\item The \textit{\textbf{-­n} (height)} option enables the designer to specify the height of the rendered image.  
+\item The \textit{\textbf{-­s} (size)} option enables the designer to specify the length of the rendered image (which is a square).  
+\item The \textit{\textbf{-­C} (colour)} option enables the designer to specify the colour of the rendered image's background.  
+\item The \textit{\textbf{-­o} (output)} option enables the designer to specify the name of the rendered image.
+\end{itemize}
+
+\clearpage
+%----------------------------------------------------------------------------------------------------------------------
 
 %----------------------------------------------------------------------------------------
 %	SECTION 2

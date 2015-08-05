@@ -46,7 +46,8 @@
 \contentsline {section}{\numberline {4.2}Formatted description of the heart\GenericError {(inputenc) }{Package inputenc Error: Unicode char \u 8:­ not set up for use with LaTeX}{See the inputenc package documentation for explanation.}{Your command was ignored.\MessageBreak Type I <command> <return> to replace it with another command,\MessageBreak or <return> to continue without it.}-shaped primitive}{46}{section.60}
 \contentsline {section}{\numberline {4.3}The bounding box of the heart-\GenericError {(inputenc) }{Package inputenc Error: Unicode char \u 8:­ not set up for use with LaTeX}{See the inputenc package documentation for explanation.}{Your command was ignored.\MessageBreak Type I <command> <return> to replace it with another command,\MessageBreak or <return> to continue without it.}shaped primitive}{48}{section.62}
 \contentsline {section}{\numberline {4.4}Plotting the wireframe of the heart\GenericError {(inputenc) }{Package inputenc Error: Unicode char \u 8:­ not set up for use with LaTeX}{See the inputenc package documentation for explanation.}{Your command was ignored.\MessageBreak Type I <command> <return> to replace it with another command,\MessageBreak or <return> to continue without it.}-shaped primitive}{50}{section.64}
-\contentsline {section}{\numberline {4.5}Main Section 2}{51}{section.66}
+\contentsline {section}{\numberline {4.5}Ray tracing and surface representation of the heart-\GenericError {(inputenc) }{Package inputenc Error: Unicode char \u 8:­ not set up for use with LaTeX}{See the inputenc package documentation for explanation.}{Your command was ignored.\MessageBreak Type I <command> <return> to replace it with another command,\MessageBreak or <return> to continue without it.}shaped primitive}{51}{section.66}
+\contentsline {section}{\numberline {4.6}Main Section 2}{52}{section.67}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Appendix Title Here}{52}{appendix.67}
+\contentsline {chapter}{\numberline {A}Appendix Title Here}{53}{appendix.68}
 \vspace {2em}
