@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.7.20)  5 AUG 2015 20:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.7.20)  5 AUG 2015 20:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -8613,15 +8613,80 @@ l.13 functions and tested them using BRL-­
                                            CAD's inbuilt testing infrastruct...
 
 ? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 \item We   showed   that   BRL-­
+                                      CAD's   Laguerre-­based   root   solv...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 ... showed   that   BRL-­CAD's   Laguerre-­
+                                                  based   root   solver   is...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 sure­
+           fire   iterative   method   for   finding   roots   of   polynomi...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 geometrically­
+                     useful   properties   for   any   primitive   within BR...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 ...es   for   any   primitive   within BRL-­
+                                                  CAD.
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 showed   that   BRL­
+                          -CAD   is   a   software   package   which   artis...
+
+? 
 [54
 
 
-]) (./Appendices/AppendixA.tex [55]
+]) [55] (./Appendices/AppendixA.tex [56]
 Appendix A.
 ------------------------------------------------------------------------------
  A Appendix Title Here
 ------------------------------------------------------------------------------
-) [56
+) [57
 
 ]
 ------------------------------------------------------------------------------
@@ -8647,7 +8712,7 @@ l.95 ...{44}{RESULTS \& DISCUSSION}{chapter.57}{}}
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 337.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 337.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A364BDF409B134FBC02F584160FE3E67;10978.
+(rerunfilecheck)             Checksum: FC40457F2C899D4DEDA2FCAA11881487;10985.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -8655,8 +8720,8 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 337.
  ) 
 Here is how much of TeX's memory you used:
- 13221 strings out of 495025
- 184957 string characters out of 6181515
+ 13222 strings out of 495025
+ 184964 string characters out of 6181515
  250865 words of memory out of 5000000
  16078 multiletter control sequences out of 15000+600000
  21050 words of font info for 76 fonts, out of 8000000 for 9000
@@ -8678,10 +8743,10 @@ usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (68 pages, 7530107 bytes).
+Output written on main.pdf (69 pages, 7531061 bytes).
 PDF statistics:
- 767 PDF objects out of 1000 (max. 8388607)
- 630 compressed objects within 7 object streams
- 141 named destinations out of 1000 (max. 500000)
+ 771 PDF objects out of 1000 (max. 8388607)
+ 633 compressed objects within 7 object streams
+ 142 named destinations out of 1000 (max. 500000)
  585 words of extra memory for PDF output out of 10000 (max. 10000000)
 
