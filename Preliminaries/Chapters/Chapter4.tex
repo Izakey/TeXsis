@@ -184,6 +184,55 @@ works, we use BRL-­CAD's \textit{\textbf{rt}}[42] command. The \textit{\textbf{
 \clearpage
 %----------------------------------------------------------------------------------------------------------------------
 
+\hspace{30} Using the \textit{\textbf{rt}} command in BRL-­CAD, we produced 360 images each at an  
+azimuth angle of 1 degree from the other and an elevation angle of 35 degrees from our viewpoint.
+The width and height   of   these   images   were   640   and   480  
+pixels   respectively. To   do   this,   we   edited   the   Fly­Around   Animation   script   [43]  
+on BRL­-CAD's website which is shown below;
+
+\begin{verbatim}
+        #!/bin/sh 
+        for i in `loop 000 359 1`; do 
+            rt -­a $i ­-e 35 -­w 640 -­n 480 -­o image$i.png heart_example.g amour 
+        done 
+\end{verbatim}
+
+The figure below shows some images of the heart­-shaped primitive obtained from running the script above.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[trim=0.0cm 0.5cm 0.1cm 0.1cm, clip=true, totalheight=0.4\textheight]{Pictures/Besides.png}
+\begin{minipage}{0.2\textheight}
+\begin{flushleft}
+\includegraphics[width=4cm,height=2cm, clip=true, totalheight=0.17\textheight]{Pictures/Above.png}
+\end{flushleft}
+\end{minipage}
+\begin{minipage}{0.2\textheight}
+\begin{flushleft}
+\includegraphics[width=4cm,height=2cm, clip=true, totalheight=0.17\textheight]{Pictures/Below.png}
+\end{flushleft}
+\end{minipage}
+\caption[Images rendered after ray­tracing the heart­-shaped primitive]{Images rendered after ray­tracing the heart-­shaped primitive}
+\label{Besides}
+\end{figure}
+
+
+
+
+The   first   image   shows   the   heart-­shaped   primitive   upfront   with   its   two   lobes   and  
+2   cusps   just   as   its   data   structure   was   designed.   The   other   two   images   show  
+that   the   heart­-shaped   primitive   is   elliptical   on   the   XY   and   XZ   planes   as   we  
+earlier highlighted when testing its wireframe.
+
+\hspace{30} After   appropriately   sequencing   these   images   with   padded   zeroes,   we  
+used   the   ImageMagick   convert   command   to   composite   them   into   a   single  
+animated   image.   Several   animations   were   produced   showing   the   heart­shaped  
+primitive   spinning   from   several   viewpoints   (above, below and besides )   and  
+these   can   be   viewed   on   my   youtube   channel [44] .These   animations   are   proof   that  
+artists   can   indeed   use   the   BRL-­CAD   software   to   produce   cartoon   animations,  
+design   cards,royal   seals   and   banners,   gifts,   magnificient   embroidery   and  
+presents   for   family   and   communal   celebrations   such   as   weddings,   family  
+reunions and Valentine's day for entertainment and fashion.
 %----------------------------------------------------------------------------------------
 %	SECTION 2
 %----------------------------------------------------------------------------------------
