@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.7.20)  6 AUG 2015 14:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.7.20)  6 AUG 2015 15:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1831,7 +1831,7 @@ Type  H <return>  for immediate help.
 l.128 heart­-shaped primitive gives BRL-­
                                            CAD a more loving aura – an
 ? 
-[4] <Figures/Goliath.png, id=377, 1435.3625pt x 1217.54875pt>
+[4] <Figures/Goliath.png, id=382, 1435.3625pt x 1217.54875pt>
 File: Figures/Goliath.png Graphic file (type png)
 
 <use Figures/Goliath.png>
@@ -2096,7 +2096,7 @@ l.89 and bones are edges. In [6], a six ­
                                           step algorithm to generate an obje...
 
 ? 
-[8] <Figures/Sphere.png, id=401, 294.09875pt x 294.09875pt>
+[8] <Figures/Sphere.png, id=406, 294.09875pt x 294.09875pt>
 File: Figures/Sphere.png Graphic file (type png)
 
 <use Figures/Sphere.png>
@@ -2124,7 +2124,7 @@ l.113 ...aic surfaces and curves used within BRL­
                                                   -CAD
 ? 
 [9 <./Figures/Sphere.png>]
-<Figures/Primitives.png, id=410, 460.72125pt x 596.2275pt>
+<Figures/Primitives.png, id=415, 460.72125pt x 596.2275pt>
 File: Figures/Primitives.png Graphic file (type png)
 
 <use Figures/Primitives.png>
@@ -3408,7 +3408,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 353--357
 
  []
 
-<Pictures/Teapot.png, id=446, 406.683pt x 301.2345pt>
+<Pictures/Teapot.png, id=452, 406.683pt x 301.2345pt>
 File: Pictures/Teapot.png Graphic file (type png)
 
 <use Pictures/Teapot.png>
@@ -3478,7 +3478,7 @@ l.385 operations   on   r­
                            sets   which   are   linear   transformations   v...
 
 ? 
-<Pictures/Boolean.png, id=455, 1606.0pt x 345.29pt>
+<Pictures/Boolean.png, id=460, 1606.0pt x 345.29pt>
 File: Pictures/Boolean.png Graphic file (type png)
  <use Pictures/Boolean.png>
 Package pdftex.def Info: Pictures/Boolean.png used on input line 391.
@@ -3540,7 +3540,7 @@ l.408 \hspace{30} Although   BRL-­
                                    CAD   has   become   a   fully   hybrid  ...
 
 ? 
-<Pictures/M1A1.png, id=463, 1094.0875pt x 1154.3125pt>
+<Pictures/M1A1.png, id=468, 1094.0875pt x 1154.3125pt>
 File: Pictures/M1A1.png Graphic file (type png)
  <use Pictures/M1A1.png>
 Package pdftex.def Info: Pictures/M1A1.png used on input line 415.
@@ -3834,7 +3834,7 @@ Type  H <return>  for immediate help.
 l.507 ...  Sphere   Flake   drawn   using   BRL-­
                                                   CAD   represented
 ? 
-<Pictures/Sphere.png, id=480, 1061.9675pt x 1204.5pt>
+<Pictures/Sphere.png, id=485, 1061.9675pt x 1204.5pt>
 File: Pictures/Sphere.png Graphic file (type png)
 
 <use Pictures/Sphere.png>
@@ -3994,7 +3994,7 @@ Type  H <return>  for immediate help.
 l.540 ...vertices,   edges,   and   faces   hang­
                                                   off   the   mapped
 ? 
-<Pictures/NMG.png, id=492, 602.25pt x 130.4875pt>
+<Pictures/NMG.png, id=497, 602.25pt x 130.4875pt>
 File: Pictures/NMG.png Graphic file (type png)
  <use Pictures/NMG.png>
 Package pdftex.def Info: Pictures/NMG.png used on input line 546.
@@ -5172,7 +5172,7 @@ Type  H <return>  for immediate help.
 l.220 ...ich   are   symmetric   about   the   z­
                                                   axis   and
 ? 
-<Pictures/Heart.png, id=530, 718.685pt x 586.19pt>
+<Pictures/Heart.png, id=535, 718.685pt x 586.19pt>
 File: Pictures/Heart.png Graphic file (type png)
  <use Pictures/Heart.png>
 Package pdftex.def Info: Pictures/Heart.png used on input line 225.
@@ -7715,7 +7715,7 @@ l.40 heart-­
 ? 
 [44
 
-] <Pictures/Typein.png, id=593, 1036.87375pt x 550.055pt>
+] <Pictures/Typein.png, id=598, 1036.87375pt x 550.055pt>
 File: Pictures/Typein.png Graphic file (type png)
 
 <use Pictures/Typein.png>
@@ -7802,7 +7802,7 @@ l.69 \hspace{30}
                  To   describe   the   \textit{amour}   object,   we   print...
 
 ? 
-<Pictures/Describe.png, id=601, 1177.39874pt x 657.45625pt>
+<Pictures/Describe.png, id=606, 1177.39874pt x 657.45625pt>
 File: Pictures/Describe.png Graphic file (type png)
 
 <use Pictures/Describe.png>
@@ -7996,7 +7996,7 @@ l.119 \hspace{30}
                   The image above in Figure 4.3 shows the results obtained a...
 
 ? 
-<Pictures/Bounding.png, id=613, 1196.47pt x 581.17125pt>
+<Pictures/Bounding.png, id=618, 1196.47pt x 581.17125pt>
 File: Pictures/Bounding.png Graphic file (type png)
 
 <use Pictures/Bounding.png>
@@ -8122,7 +8122,7 @@ Type  H <return>  for immediate help.
 l.147 the wireframe of amour with red iso­
                                            contours.
 ? 
-<Pictures/Wireframe.png, id=626, 850.17625pt x 623.32875pt>
+<Pictures/Wireframe.png, id=631, 850.17625pt x 623.32875pt>
 File: Pictures/Wireframe.png Graphic file (type png)
 
 <use Pictures/Wireframe.png>
@@ -8457,19 +8457,19 @@ l.199 ....5 below shows some images of the heart­
                                                   -shaped primitive obtained...
 
 ? 
-<Pictures/Besides.png, id=638, 513.92pt x 513.92pt>
+<Pictures/Besides.png, id=643, 513.92pt x 513.92pt>
 File: Pictures/Besides.png Graphic file (type png)
  <use Pictures/Besides.png>
 Package pdftex.def Info: Pictures/Besides.png used on input line 203.
 (pdftex.def)             Requested size: 245.14143pt x 238.31647pt.
 
-<Pictures/Above.png, id=640, 513.92pt x 513.92pt>
+<Pictures/Above.png, id=645, 513.92pt x 513.92pt>
 File: Pictures/Above.png Graphic file (type png)
  <use Pictures/Above.png>
 Package pdftex.def Info: Pictures/Above.png used on input line 206.
 (pdftex.def)             Requested size: 113.80771pt x 101.2844pt.
 
-<Pictures/Below.png, id=642, 513.92pt x 513.92pt>
+<Pictures/Below.png, id=647, 513.92pt x 513.92pt>
 File: Pictures/Below.png Graphic file (type png)
  <use Pictures/Below.png>
 Package pdftex.def Info: Pictures/Below.png used on input line 211.
@@ -8766,22 +8766,647 @@ l.54 \item Since   BRL-­
                          CAD   boasts   of   more   than   400   commands   ...
 
 ? 
-[55]) (./Appendices/AppendixA.tex
+[55]) (./Appendices/Appendix.tex
 Appendix A.
 ------------------------------------------------------------------------------
- A Appendix Title Here
+ A APPENDIX
 ------------------------------------------------------------------------------
-) [56
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.11 + c 2 ) ­
+                36b 3 c 3 + 3645b 6
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 b y 0  ­
+               108bc(c 2 by 0  + cz 0 b 2 ) ­ 320a 2 ba 3  + 21870y 0 b 5
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 b y 0  ­ 108bc(c 2 by 0  + cz 0 b 2 ) ­
+                                               320a 2 ba 3  + 21870y 0 b 5
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 ... 2  z 02  + c 2 y 02 ) + b 2 (x 02 c 2  ­
+                                                   a 2 ­ c 2 )) ­ 960(a 4 ...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 ...2  + c 2 y 02 ) + b 2 (x 02 c 2  ­ a 2 ­
+                                                   c 2 )) ­ 960(a 4 (1 ­ z...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 ... 02 ) + b 2 (x 02 c 2  ­ a 2 ­ c 2 )) ­
+                                                   960(a 4 (1 ­ z 02 ) + c ...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 ... 02 c 2  ­ a 2 ­ c 2 )) ­ 960(a 4 (1 ­
+                                                   z 02 ) + c 4  + b 2 (a 2 ...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 ...(a 4 (1 ­ z 02 ) + c 4  + b 2 (a 2 y 0 ­
+                                                  
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 b 2 x 02 )) + 4860 (b 4 (x 02 + z 02  ­
+                                              1)) + 4800(a 4 x 02 + c 4 z 02...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 ...c 4 z 02 ) + 29160b 2 y 02 (a 2 + c 2 ) ­
+                                                   108bc(b 2 z 02  + c 2 y 0...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 ...+ c 2 ) ­ 108bc(b 2 z 02  + c 2 y 02 ) ­
+                                                  
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 1920a 2 c 2  ­
+                     54675y 02 b 4  ­ 324z 0 c 2 b 2 y 0  ­ 640ax 0 b 3
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 1920a 2 c 2  ­ 54675y 02 b 4  ­
+                                       324z 0 c 2 b 2 y 0  ­ 640ax 0 b 3
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 ...� 54675y 02 b 4  ­ 324z 0 c 2 b 2 y 0  ­
+                                                   640ax 0 b 3
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...(ax 0  + cz 0 )(a 2 z 02  + c 2  x 02   ­
+                                                   a 2  + c 2  ) + 8640(a x ...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 a 2 y 02  ­
+                  b 2 ) + by 0  (a 2 z 02  + c 2 x 02 ­ a 2 ­ c 2 ) + cz 0...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 ... ­ b 2 ) + by 0  (a 2 z 02  + c 2 x 02 ­
+                                                   a 2 ­ c 2 ) + cz 0  (a 2...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 ... ) + by 0  (a 2 z 02  + c 2 x 02 ­ a 2 ­
+                                                   c 2 ) + cz 0  (a 2 y 02 +...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 ... 2 y 02 + b 2 x 02 + bZ 02  + c 2 y 02  ­
+                                                   b 2 )) + 6400
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 ...3 z 03 ) + 19440by 0 (b 2 (x 02  + z 02 ­
+                                                   1) + y 02 (a 2  + c 2 )) ...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 ... 02  + z 02 ­ 1) + y 02 (a 2  + c 2 )) ­
+                                                   36(b 3 z 03  +c 3 y 03 ) +
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 11520(ax 0 cz 0 (ax 0  + cz 0 ))­
+                                        324by 0 cz 0 (bz 0  + c + y 0 ) + 25...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 ...0 ) + 25920by 0 (z 02 c 2  + x 02 a 2 ) ­
+                                                  
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 ...560ax 0 by 0 cz 0  + 58320ax 0 b 2 y 02 ­
+                                                   1920ax 0 b 2  y 0  +
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 58320cz 0 b 2 y 0  ­
+                           960a 2 by 02
+? 
+[56
 
 
 ]
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 ...60(a 2  (1 + z 04 ) +  c 2  (1 + x 04 ) ­
+                                                   b 2 x 02 y 0 ) + 2160b 2 ...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 ... z 02  + c 2 x 02 ) + b 2 ( x 02  z 02  ­
+                                                    x 02  ­ z 02 )) + 4800(...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 ... 2 x 02 ) + b 2 ( x 02  z 02  ­  x 02  ­
+                                                   z 02 )) + 4800( x 03  a 2...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 ...+ x0 * x0) + x0 * x0 * a * a * (z0 * z0 ­
+                                                   1.0))
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32 +  7680ax 0 cz 0 (x 02 + z 02  ­
+                                       1­ 1920(a 2 z 02  + c 2 x 02  + ax 0...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32 +  7680ax 0 cz 0 (x 02 + z 02  ­ 1­
+                                           1920(a 2 z 02  + c 2 x 02  + ax 0...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32 ...02  + ax 0 y 02 b) + 17280(by 0 (ax 03  ­
+                                                   ax 0  +
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33 cz 03  ­
+               cz 0  + az 02 ) + ax 0 cz 0 y 02 ) + 38880bz 03 (ax 0  + cz 0...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33 ...3 (ax 0  + cz 0 ) + 12960y 02 (a 2 x 02 ­
+                                                   c 2  z 0 2 ) +
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 29160b 2 y 02 (x 02 + z 02  ­
+                                    1) ­ 180y 0 z 0 c 2 y 02  + b 2 z 02 ) ...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 29160b 2 y 02 (x 02 + z 02  ­ 1) ­
+                                          180y 0 z 0 c 2 y 02  + b 2 z 02 ) ...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 ...1) ­ 180y 0 z 0 c 2 y 02  + b 2 z 02 ) ­
+                                                   320a 2 y 03  + 54675y 03 b 2
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.36 ... + 4320by 0 (1 +  x 04  + z 04 ) + 8640(­
+                                                  by 0 z 02 +
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.37 ...  + cz 0  x 02  y 02  + by 02 x 0 z 02  ­
+                                                   ax 0 y 02 + ay 02 + ax 03...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.37 ... 02  ­ ax 0 y 02 + ay 02 + ax 03 y 02  ­
+                                                   cz 0 y 02 + cz 03 y 02  �...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.37 ... ax 03 y 02  ­ cz 0 y 02 + cz 03 y 02  ­
+                                                   by 0 x 02 ) ­
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.37 ... cz 0 y 02 + cz 03 y 02  ­ by 0 x 02 ) ­
+                                                  
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 3840.0(cz 03  + ax 03  + ax 0 z 02  ­
+                                            ax 02 z 02  + cz 0 x 02  ­ cz 0...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ... ax 0 z 02  ­ ax 02 z 02  + cz 0 x 02  ­
+                                                   cz 03 x 02 ) ­ 19440(by ...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ...x 02 z 02  + cz 0 x 02  ­ cz 03 x 02 ) ­
+                                                   19440(by 03 (1 ­ x 02  �...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ...x 02  ­ cz 03 x 02 ) ­ 19440(by 03 (1 ­
+                                                   x 02  ­ z 02 )) +
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ...cz 03 x 02 ) ­ 19440(by 03 (1 ­ x 02  ­
+                                                   z 02 )) +
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 ....0(y 04 (ax 0  + cz 0 )) + 21870(by 04 )­
+                                                   640(ax 0 y 03  ­ by 02 x...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 ...z 0 )) + 21870(by 04 )­ 640(ax 0 y 03  ­
+                                                   by 02 x 02 ) ­ 108(cz 02...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 ...y 04 )­ 640(ax 0 y 03  ­ by 02 x 02 ) ­
+                                                   108(cz 02 y 02  + by 02 y...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.40 C 0  = 320(­
+                  x 06  + z 06  ­ x 02 y 03 ) + 960(x 02  + z 04 x 04  + x ...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.40 C 0  = 320(­x 06  + z 06  ­
+                                   x 02 y 03 ) + 960(x 02  + z 04 x 04  + x ...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.40 ... ) + 960(x 02  + z 04 x 04  + x 02 z 04 ­
+                                                   x 04  ­ z 04 )  + 4320(x...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.40 ...x 02  + z 04 x 04  + x 02 z 04 ­ x 04  ­
+                                                   z 04 )  + 4320(x 02 y 02 ...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.40 ...x 04  ­ z 04 )  + 4320(x 02 y 02 z 02  ­
+                                                  
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 x 02 y 02  ­
+                   z 02 y 02 ) ­ 1920x 02 z 02  ­ 36y 03 y 03  + 2160(y 02...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 x 02 y 02  ­ z 02 y 02 ) ­
+                                  1920x 02 z 02  ­ 36y 03 y 03  + 2160(y 02...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 ... y 02  ­ z 02 y 02 ) ­ 1920x 02 z 02  ­
+                                                   36y 03 y 03  + 2160(y 02 ...
+
+? 
+) [57]
 ------------------------------------------------------------------------------
  Bibliography
 ------------------------------------------------------------------------------
-No file main.bbl.
+(./main.bbl
+
+Package natbib Warning: Empty `thebibliography' environment on input line 8.
+
+)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 337.
+ [58
+
+
+]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 337.
-(./main.aux
+ (./main.aux
 ! Missing \endcsname inserted.
 <to be read again> 
                    \&
@@ -8798,7 +9423,7 @@ l.95 ...{44}{RESULTS \& DISCUSSION}{chapter.57}{}}
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 337.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 337.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: DF51834EBA033B421D9FA71043E35734;10684.
+(rerunfilecheck)             Checksum: 3330FDE464BEDC4154F9667EAC978B4E;10726.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -8806,10 +9431,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 337.
  ) 
 Here is how much of TeX's memory you used:
- 13217 strings out of 495025
- 184901 string characters out of 6181515
- 250865 words of memory out of 5000000
- 16076 multiletter control sequences out of 15000+600000
+ 13226 strings out of 495025
+ 184977 string characters out of 6181515
+ 250886 words of memory out of 5000000
+ 16079 multiletter control sequences out of 15000+600000
  21050 words of font info for 76 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  49i,12n,45p,850b,456s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -8829,10 +9454,10 @@ usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (68 pages, 7529737 bytes).
+Output written on main.pdf (70 pages, 7532708 bytes).
 PDF statistics:
- 757 PDF objects out of 1000 (max. 8388607)
- 620 compressed objects within 7 object streams
- 139 named destinations out of 1000 (max. 500000)
- 569 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 771 PDF objects out of 1000 (max. 8388607)
+ 632 compressed objects within 7 object streams
+ 143 named destinations out of 1000 (max. 500000)
+ 577 words of extra memory for PDF output out of 10000 (max. 10000000)
 
