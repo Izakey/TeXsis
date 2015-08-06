@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.7.20)  6 AUG 2015 16:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.7.20)  6 AUG 2015 17:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -8959,8 +8959,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.29 ...60(a 2  (1 + z 04 ) +  c 2  (1 + x 04 ) ­
-                                                   b 2 x 02 y 0 ) + 2160b 2 ...
+l.30 ... + c^2x_0^2) + b^2(x_0^2 - z_0^2 - x_0^2­
+                                                   - z_0^2)) + 4800(x_0^3 - ...
 
 ? 
 
@@ -8970,8 +8970,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.30 ... z 02  + c 2 x 02 ) + b 2 ( x 02  z 02  ­
-                                                    x 02  ­ z 02 )) + 4800(...
+l.31 ...0(z_0^2c^2(1 + x_0^2) + x_0^2a^2(z0^2 - ­
+                                                  1)) + 7680ax_0cz_0(x_0^2 +...
 
 ? 
 
@@ -8981,8 +8981,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.30 ... 2 x 02 ) + b 2 ( x 02  z 02  ­  x 02  ­
-                                                   z 02 )) + 4800( x 03  a 2...
+l.31 ...- ­1)) + 7680ax_0cz_0(x_0^2 + z_0^2 - 1­
+                                                   - 1920(a^2z_0^2 + c^2x_0^...
 
 ? 
 
@@ -8992,18 +8992,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.30 ...+ x0 * x0) + x0 * x0 * a * a * (z0 * z0 ­
-                                                   1.0))
-? 
-
-! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.31 +  7680ax 0 cz 0 (x 02 + z 02  ­
-                                       1­ 1920(a 2 z 02  + c 2 x 02  + ax 0...
+l.31 ...b) + 17280(by_0(ax_0^3 - ax_0 + cz_0^3 -­
+                                                   cz_0 + az_0^2) + ax_0cz_0...
 
 ? 
 
@@ -9013,8 +9003,18 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.31 +  7680ax 0 cz 0 (x 02 + z 02  ­ 1­
-                                           1920(a 2 z 02  + c 2 x 02  + ax 0...
+l.31 ..._0^3(ax_0 + cz_0) + 12960y_0^2(a^2x_0^2 ­
+                                                   c^2z_0^2) +
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32 29160b^2y_0^2(x_0^2 + z_0^2 -­
+                                     1) ­- 180y_0z_0c^2y_0^2 + b^2z_0^2) ­...
 
 ? 
 
@@ -9024,18 +9024,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.31 ...02  + ax 0 y 02 b) + 17280(by 0 (ax 03  ­
-                                                   ax 0  +
-? 
-
-! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.32 cz 03  ­
-               cz 0  + az 02 ) + ax 0 cz 0 y 02 ) + 38880bz 03 (ax 0  + cz 0...
+l.32 29160b^2y_0^2(x_0^2 + z_0^2 -­ 1) ­
+                                          - 180y_0z_0c^2y_0^2 + b^2z_0^2) ­...
 
 ? 
 
@@ -9045,56 +9035,10 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.32 ...3 (ax 0  + cz 0 ) + 12960y 02 (a 2 x 02 ­
-                                                   c 2  z 0 2 ) +
-? 
-
-! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.33 29160b 2 y 02 (x 02 + z 02  ­
-                                    1) ­ 180y 0 z 0 c 2 y 02  + b 2 z 02 ) ...
+l.32 ...­ 1) ­- 180y_0z_0c^2y_0^2 + b^2z_0^2) ­
+                                                  - 320a^2y_03 + 54675y_0^3b^2$
 
 ? 
-
-! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.33 29160b 2 y 02 (x 02 + z 02  ­ 1) ­
-                                          180y 0 z 0 c 2 y 02  + b 2 z 02 ) ...
-
-? 
-
-! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.33 ...1) ­ 180y 0 z 0 c 2 y 02  + b 2 z 02 ) ­
-                                                   320a 2 y 03  + 54675y 03 ...
-
-? 
-
-Overfull \hbox (24.85512pt too wide) in paragraph at lines 29--34
-\OT1/cmr/m/n/10.95 12960\OML/cmm/m/it/10.95 y\OT1/cmr/m/n/10.95 02(\OML/cmm/m/i
-t/10.95 a\OT1/cmr/m/n/10.95 2\OML/cmm/m/it/10.95 x\OT1/cmr/m/n/10.95 02\OML/cmm
-/m/it/10.95 c\OT1/cmr/m/n/10.95 2\OML/cmm/m/it/10.95 z\OT1/cmr/m/n/10.95 02) + 
-29160\OML/cmm/m/it/10.95 b\OT1/cmr/m/n/10.95 2\OML/cmm/m/it/10.95 y\OT1/cmr/m/n
-/10.95 02(\OML/cmm/m/it/10.95 x\OT1/cmr/m/n/10.95 02 + \OML/cmm/m/it/10.95 z\OT
-1/cmr/m/n/10.95 021)180\OML/cmm/m/it/10.95 y\OT1/cmr/m/n/10.95 0\OML/cmm/m/it/1
-0.95 z\OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 c\OT1/cmr/m/n/10.95 2\OML/cmm/m/i
-t/10.95 y\OT1/cmr/m/n/10.95 02 + \OML/cmm/m/it/10.95 b\OT1/cmr/m/n/10.95 2\OML/
-cmm/m/it/10.95 z\OT1/cmr/m/n/10.95 02)320\OML/cmm/m/it/10.95 a\OT1/cmr/m/n/10.9
-5 2\OML/cmm/m/it/10.95 y\OT1/cmr/m/n/10.95 03 +
- []
-
 [56
 
 
@@ -9106,8 +9050,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.35 ... + 4320by 0 (1 +  x 04  + z 04 ) + 8640(­
-                                                  by 0 z 02 +
+l.34 ...)) + 4320by_0(1 + x_0^4 + z_0^4) + 8640(­
+                                                  by_0z_0^2 +
 ? 
 
 ! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
@@ -9116,19 +9060,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.36 ...  + cz 0  x 02  y 02  + by 02 x 0 z 02  ­
-                                                   ax 0 y 02 + ay 02 + ax 03...
-
-? 
-
-! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.36 ... 02  ­ ax 0 y 02 + ay 02 + ax 03 y 02  ­
-                                                   cz 0 y 02 + cz 03 y 02  �...
+l.35 ..._0^2 + cz_0x_0^2y_0^2 + by_0^2x_0z_0^2 -­
+                                                   ax_0y_0^2 + ay_0^2 + ax_0...
 
 ? 
 
@@ -9138,28 +9071,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.36 ... ax 03 y 02  ­ cz 0 y 02 + cz 03 y 02  ­
-                                                   by 0 x 02 ) ­
-? 
-
-! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.36 ... cz 0 y 02 + cz 03 y 02  ­ by 0 x 02 ) ­
-                                                  
-? 
-
-! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.37 3840.0(cz 03  + ax 03  + ax 0 z 02  ­
-                                            ax 02 z 02  + cz 0 x 02  ­ cz 0...
+l.35 ...2 -­ ax_0y_0^2 + ay_0^2 + ax_0^3y_0^2 -­
+                                                   cz_0y_0^2 + cz_0^3y_0^2 -...
 
 ? 
 
@@ -9169,166 +9082,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.37 ... ax 0 z 02  ­ ax 02 z 02  + cz 0 x 02  ­
-                                                   cz 03 x 02 ) ­ 19440(by ...
-
-? 
-
-! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.37 ...x 02 z 02  + cz 0 x 02  ­ cz 03 x 02 ) ­
-                                                   19440(by 03 (1 ­ x 02  �...
-
-? 
-
-! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.37 ...x 02  ­ cz 03 x 02 ) ­ 19440(by 03 (1 ­
-                                                   x 02  ­ z 02 )) +
-? 
-
-! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.37 ...cz 03 x 02 ) ­ 19440(by 03 (1 ­ x 02  ­
-                                                   z 02 )) +
-? 
-
-! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.38 ....0(y 04 (ax 0  + cz 0 )) + 21870(by 04 )­
-                                                   640(ax 0 y 03  ­ by 02 x...
-
-? 
-
-! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.38 ...z 0 )) + 21870(by 04 )­ 640(ax 0 y 03  ­
-                                                   by 02 x 02 ) ­ 108(cz 02...
-
-? 
-
-! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.38 ...y 04 )­ 640(ax 0 y 03  ­ by 02 x 02 ) ­
-                                                   108(cz 02 y 02  + by 02 y...
-
-? 
-
-Overfull \hbox (0.96167pt too wide) in paragraph at lines 35--39
-[]$\OML/cmm/m/it/10.95 C\OT1/cmr/m/n/10.95 1 = 1920((\OML/cmm/m/it/10.95 ax\OT1
-/cmr/m/n/10.95 0 + \OML/cmm/m/it/10.95 cz\OT1/cmr/m/n/10.95 0)(1 + \OML/cmm/m/i
-t/10.95 x\OT1/cmr/m/n/10.95 04 + \OML/cmm/m/it/10.95 z\OT1/cmr/m/n/10.95 04)) +
- 4320\OML/cmm/m/it/10.95 by\OT1/cmr/m/n/10.95 0(1 + \OML/cmm/m/it/10.95 x\OT1/c
-mr/m/n/10.95 04 + \OML/cmm/m/it/10.95 z\OT1/cmr/m/n/10.95 04) + 8640(\OML/cmm/m
-/it/10.95 by\OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 z\OT1/cmr/m/n/10.95 02 +
- []
-
-
-Overfull \hbox (101.485pt too wide) in paragraph at lines 35--39
-\OML/cmm/m/it/10.95 ax\OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 z\OT1/cmr/m/n/10.
-95 02\OML/cmm/m/it/10.95 y\OT1/cmr/m/n/10.95 02 + \OML/cmm/m/it/10.95 cz\OT1/cm
-r/m/n/10.95 0\OML/cmm/m/it/10.95 x\OT1/cmr/m/n/10.95 02\OML/cmm/m/it/10.95 y\OT
-1/cmr/m/n/10.95 02 + \OML/cmm/m/it/10.95 by\OT1/cmr/m/n/10.95 02\OML/cmm/m/it/1
-0.95 x\OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 z\OT1/cmr/m/n/10.95 02\OML/cmm/m/
-it/10.95 ax\OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 y\OT1/cmr/m/n/10.95 02 + \OM
-L/cmm/m/it/10.95 ay\OT1/cmr/m/n/10.95 02 + \OML/cmm/m/it/10.95 ax\OT1/cmr/m/n/1
-0.95 03\OML/cmm/m/it/10.95 y\OT1/cmr/m/n/10.95 02\OML/cmm/m/it/10.95 cz\OT1/cmr
-/m/n/10.95 0\OML/cmm/m/it/10.95 y\OT1/cmr/m/n/10.95 02 + \OML/cmm/m/it/10.95 cz
-\OT1/cmr/m/n/10.95 03\OML/cmm/m/it/10.95 y\OT1/cmr/m/n/10.95 02\OML/cmm/m/it/10
-.95 by\OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 x\OT1/cmr/m/n/10.95 02)3840\OML/c
-mm/m/it/10.95 :\OT1/cmr/m/n/10.95 0(\OML/cmm/m/it/10.95 cz\OT1/cmr/m/n/10.95 03
- +
- []
-
-
-Overfull \hbox (24.54584pt too wide) in paragraph at lines 35--39
-\OML/cmm/m/it/10.95 ax\OT1/cmr/m/n/10.95 03 + \OML/cmm/m/it/10.95 ax\OT1/cmr/m/
-n/10.95 0\OML/cmm/m/it/10.95 z\OT1/cmr/m/n/10.95 02\OML/cmm/m/it/10.95 ax\OT1/c
-mr/m/n/10.95 02\OML/cmm/m/it/10.95 z\OT1/cmr/m/n/10.95 02 + \OML/cmm/m/it/10.95
- cz\OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 x\OT1/cmr/m/n/10.95 02\OML/cmm/m/it/
-10.95 cz\OT1/cmr/m/n/10.95 03\OML/cmm/m/it/10.95 x\OT1/cmr/m/n/10.95 02)19440(\
-OML/cmm/m/it/10.95 by\OT1/cmr/m/n/10.95 03(1\OML/cmm/m/it/10.95 x\OT1/cmr/m/n/1
-0.95 02\OML/cmm/m/it/10.95 z\OT1/cmr/m/n/10.95 02)) + 9720\OML/cmm/m/it/10.95 :
-\OT1/cmr/m/n/10.95 0(\OML/cmm/m/it/10.95 y\OT1/cmr/m/n/10.95 04(\OML/cmm/m/it/1
-0.95 ax\OT1/cmr/m/n/10.95 0 +
- []
-
-
-! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.40 $C 0  = 320(­
-                   x 06  + z 06  ­ x 02 y 03 ) + 960(x 02  + z 04 x 04  + x...
-
-? 
-
-! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.40 $C 0  = 320(­x 06  + z 06  ­
-                                    x 02 y 03 ) + 960(x 02  + z 04 x 04  + x...
-
-? 
-
-! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.40 ... ) + 960(x 02  + z 04 x 04  + x 02 z 04 ­
-                                                   x 04  ­ z 04 )  + 4320(x...
-
-? 
-
-! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.40 ...x 02  + z 04 x 04  + x 02 z 04 ­ x 04  ­
-                                                   z 04 )  + 4320(x 02 y 02 ...
-
-? 
-
-! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.40 ...x 04  ­ z 04 )  + 4320(x 02 y 02 z 02  ­
+l.35 ...� cz_0y_0^2 + cz_0^3y_0^2 - by_0x_0^2) -­
                                                   
 ? 
 
@@ -9338,8 +9092,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.41 x 02 y 02  ­
-                   z 02 y 02 ) ­ 1920x 02 z 02  ­ 36y 03 y 03  + 2160(y 02...
+l.36 3840(cz_0^3 + ax_0^3 + ax_0z_0^2 - ­
+                                          ax_0^2z_0^2 + cz_0x_0^2 -­ cz_0^3...
 
 ? 
 
@@ -9349,8 +9103,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.41 x 02 y 02  ­ z 02 y 02 ) ­
-                                  1920x 02 z 02  ­ 36y 03 y 03  + 2160(y 02...
+l.36 ... ax_0z_0^2 - ­ax_0^2z_0^2 + cz_0x_0^2 -­
+                                                   cz_0^3x_0^2) -­ 19440(by...
 
 ? 
 
@@ -9360,28 +9114,129 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.41 ... y 02  ­ z 02 y 02 ) ­ 1920x 02 z 02  ­
-                                                   36y 03 y 03  + 2160(y 02 ...
+l.36 ..._0^2z_0^2 + cz_0x_0^2 -­ cz_0^3x_0^2) -­
+                                                   19440(by_0^3(1 -­ x_0^2 ...
 
 ? 
-)
-Overfull \hbox (203.74469pt too wide) in paragraph at lines 40--320
-[]$\OML/cmm/m/it/10.95 C\OT1/cmr/m/n/10.95 0 = 320(\OML/cmm/m/it/10.95 x\OT1/cm
-r/m/n/10.95 06 + \OML/cmm/m/it/10.95 z\OT1/cmr/m/n/10.95 06\OML/cmm/m/it/10.95 
-x\OT1/cmr/m/n/10.95 02\OML/cmm/m/it/10.95 y\OT1/cmr/m/n/10.95 03) + 960(\OML/cm
-m/m/it/10.95 x\OT1/cmr/m/n/10.95 02 + \OML/cmm/m/it/10.95 z\OT1/cmr/m/n/10.95 0
-4\OML/cmm/m/it/10.95 x\OT1/cmr/m/n/10.95 04 + \OML/cmm/m/it/10.95 x\OT1/cmr/m/n
-/10.95 02\OML/cmm/m/it/10.95 z\OT1/cmr/m/n/10.95 04\OML/cmm/m/it/10.95 x\OT1/cm
-r/m/n/10.95 04\OML/cmm/m/it/10.95 z\OT1/cmr/m/n/10.95 04) + 4320(\OML/cmm/m/it/
-10.95 x\OT1/cmr/m/n/10.95 02\OML/cmm/m/it/10.95 y\OT1/cmr/m/n/10.95 02\OML/cmm/
-m/it/10.95 z\OT1/cmr/m/n/10.95 02\OML/cmm/m/it/10.95 x\OT1/cmr/m/n/10.95 02\OML
-/cmm/m/it/10.95 y\OT1/cmr/m/n/10.95 02\OML/cmm/m/it/10.95 z\OT1/cmr/m/n/10.95 0
-2\OML/cmm/m/it/10.95 y\OT1/cmr/m/n/10.95 02)1920\OML/cmm/m/it/10.95 x\OT1/cmr/m
-/n/10.95 02\OML/cmm/m/it/10.95 z\OT1/cmr/m/n/10.95 0236\OML/cmm/m/it/10.95 y\OT
-1/cmr/m/n/10.95 03\OML/cmm/m/it/10.95 y\OT1/cmr/m/n/10.95 03 +
- []
 
-[57]
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.36 ...^2 -­ cz_0^3x_0^2) -­ 19440(by_0^3(1 -­
+                                                   x_0^2 -­ z_0^2)) +
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.36 ...0^3x_0^2) -­ 19440(by_0^3(1 -­ x_0^2 -­
+                                                   z_0^2)) +
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.37 9720.0(y_0^4(ax_0 + cz_0)) + 21870(by_0^4)­
+                                                  - 640(ax_0y_0^3 - by_0^2x_...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.37 ..._0^4)­ - 640(ax_0y_0^3 - by_0^2x_0^2) -­
+                                                   108(cz_0^2y_0^2 + by_0^2y...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 $C_0 = 320(-­
+                   x_0^6 + z_0^6 - x_0^2y_0^3) + 960(x_0^2 + z_0^4x_0^4 + x_...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 ... + 960(x_0^2 + z_0^4x_0^4 + x_0^2z_0^4 -­
+                                                   x_0^4 -­ z_0^4) + 4320(x...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 ...^2 + z_0^4x_0^4 + x_0^2z_0^4 -­ x_0^4 -­
+                                                   z_0^4) + 4320(x_0^2y_0^2z...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 ..._0^4 -­ z_0^4) + 4320(x_0^2y_0^2z_0^2 -­
+                                                  
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.40 x_0^2y_0^2 -­
+                    z_0^2y_0^2) ­- 1920x_0^2z_0^2 - ­36y_0^3y_0^3 + 2160(y...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.40 x_0^2y_0^2 -­ z_0^2y_0^2) ­
+                                  - 1920x_0^2z_0^2 - ­36y_0^3y_0^3 + 2160(y...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.40 ...^2 -­ z_0^2y_0^2) ­- 1920x_0^2z_0^2 - ­
+                                                  36y_0^3y_0^3 + 2160(y_0^2(...
+
+? 
+) [57]
 ------------------------------------------------------------------------------
  Bibliography
 ------------------------------------------------------------------------------
@@ -9423,7 +9278,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 337.
 Here is how much of TeX's memory you used:
  13226 strings out of 495025
  184976 string characters out of 6181515
- 251886 words of memory out of 5000000
+ 252886 words of memory out of 5000000
  16079 multiletter control sequences out of 15000+600000
  21050 words of font info for 76 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -9444,7 +9299,7 @@ usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (70 pages, 7534308 bytes).
+Output written on main.pdf (70 pages, 7534638 bytes).
 PDF statistics:
  771 PDF objects out of 1000 (max. 8388607)
  632 compressed objects within 7 object streams
