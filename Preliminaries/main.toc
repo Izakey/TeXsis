@@ -51,7 +51,7 @@
 \contentsline {chapter}{\numberline {5}CONCLUSIONS}{54}{chapter.68}
 \contentsline {section}{\numberline {5.1}Our Contribution}{54}{section.69}
 \contentsline {section}{\numberline {5.2}Further Research}{55}{section.70}
+\contentsline {chapter}{Bibliography}{57}{dummy.72}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}APPENDIX}{56}{appendix.71}
+\contentsline {chapter}{APPENDIX}{57}{appendix*.73}
 \vspace {2em}
-\contentsline {chapter}{Bibliography}{58}{dummy.72}

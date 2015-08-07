@@ -402,17 +402,17 @@
     \cleardoublepage
 }\end{spacing}
 }
-\newcommand\listsymbolname{Abbreviations}
-\usepackage{longtable}
-\newcommand\listofsymbols[2]{
+%\newcommand\listsymbolname{Abbreviations}
+%\usepackage{longtable}
+%\newcommand\listofsymbols[2]{
 %\btypeout{\listsymbolname}
-\addtotoc{\listsymbolname}
-    \chapter*{\listsymbolname
-      \@mkboth{
-          \MakeUppercase\listsymbolname}{\MakeUppercase\listsymbolname}}
-\begin{longtable}[c]{#1}#2\end{longtable}\par
-    \cleardoublepage
-}
+%\addtotoc{\listsymbolname}
+%    \chapter*{\listsymbolname
+%      \@mkboth{
+%          \MakeUppercase\listsymbolname}{\MakeUppercase\listsymbolname}}
+%\begin{longtable}[c]{#1}#2\end{longtable}\par
+%    \cleardoublepage
+%}
 \newcommand\listconstants{Physical Constants}
 \usepackage{longtable}
 \newcommand\listofconstants[2]{
