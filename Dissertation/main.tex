@@ -1,0 +1,339 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Masters/Doctoral Thesis 
+% LaTeX Template
+% Version 1.43 (17/5/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original authors:
+% Steven Gunn 
+% http://users.ecs.soton.ac.uk/srg/softwaretools/document/templates/
+% and
+% Sunil Patel
+% http://www.sunilpatel.co.uk/thesis-template/
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Note:
+% Make sure to edit document variables in the Thesis.cls file
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt, oneside]{Thesis} % The default font size and one-sided printing (no margin offsets)
+
+\graphicspath{{Pictures/}} % Specifies the directory where pictures are stored
+
+\usepackage[square, numbers, comma, sort&compress]{natbib} % Use the natbib reference package - read up on this to edit the reference style; if you want text (e.g. Smith et al., 2012) for the in-text references (instead of numbers), remove 'numbers' 
+\hypersetup{urlcolor=black, colorlinks=true} % Colors hyperlinks in blue - change to black if annoying
+\title{\ttitle} % Defines the thesis title - don't touch this
+
+\begin{document}
+
+\frontmatter % Use roman page numbering style (i, ii, iii, iv...) for the pre-content pages
+
+\setstretch{1.3} % Line spacing of 1.3
+
+% Define the page headers using the FancyHdr package and set up for one-sided printing
+\fancyhead{} % Clears all page headers and footers
+\rhead{\thepage} % Sets the right side header to show the page number
+\lhead{} % Clears the left side page header
+
+\pagestyle{fancy} % Finally, use the "fancy" page style to implement the FancyHdr headers
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % New command to make the lines in the title page
+
+% PDF meta-data
+\hypersetup{pdftitle={\ttitle}}
+\hypersetup{pdfsubject=\subjectname}
+\hypersetup{pdfauthor=\authornames}
+\hypersetup{pdfkeywords=\keywordnames}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\begin{titlepage}
+\begin{center}
+
+\textsc{\Huge \univname}\\[25pt]\\[2.13cm] % University name
+\textsc{\LARGE \facname}\\[20pt]\\[2.13cm] % Faculty name
+\textsc{\Large \deptname}\\[1.0cm] % Department name 
+
+\HRule  \\[0.5cm]% Draw a Horizontal line above the thesis title
+{\huge \bfseries \textit{\ttitle}}\\[0.4cm] % Thesis title
+\HRule \\[1.0cm] % Draw a Horizontal line below the thesis title
+
+\Large \textit{A thesis submitted to the \facname \\ in partial fulfilment of the requirements for the degree of \\ \degreename \\ By \\ \authornames \\ \textsc{\textit{( SC09B676 )}} }\\[2.2cm] % University requirement text
+ 
+\begin{minipage}{0.5\textwidth}
+\begin{flushleft} \Large
+\emph{Supervisor:}\\
+\href{https://plus.google.com/110910335511198809682}{\supname} % Supervisor name with link to his Google+ profile 
+\end{flushleft}
+\end{minipage}
+\begin{minipage}{0.4\textwidth}
+\begin{flushright} \Large
+\emph{Date:} \\
+\Large \today 
+\end{flushright}
+\end{minipage}
+
+%\includegraphics{Logo} % University/department logo - uncomment to place it
+\end{center}
+\end{titlepage}
+
+%----------------------------------------------------------------------------------------
+%	DECLARATION PAGE
+%	Your institution may give you a different text to place here
+%----------------------------------------------------------------------------------------
+\Declaration{
+
+\addtocontents{toc}%{\vspace{1em}} % Add a gap in the Contents, for aesthetics
+
+I, \textsc{\authornames}, Matriculation Number (SC09B676) declare that this thesis titled, \textit{\ttitle} and the work presented in it are my own. I confirm that this work was done wholly while in candidature for a \degreename\hspace{2}at the \univname. Where I consulted the published work of others, this has been clearly acknowledged. This work has not been previously submitted for a degree or any other qualification at this University or any other institution.\\[6.0cm]
+ 
+% Allowances for my signature and Date
+\begin{minipage}{0.5\textwidth}
+\begin{flushleft} 
+Signed:\\
+\Large
+\rule[1em]{10em}{2.0pt} % This prints a line for my signature
+\end{flushleft}
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
+\begin{flushleft} \Large
+\hspace{20} Date:\\
+\hspace{20} \rule[1em]{10em}{2.0pt} % This prints a line for the date 
+\end{flushleft}
+\end{minipage}
+
+% My name and University matriculation number
+\begin{flushleft}
+\large \textsc{\authornames} \\ \hspace{35}(SC09B676)
+\end{flushleft}
+}
+
+\clearpage % Start a new page
+
+%----------------------------------------------------------------------------------------
+%	DEDICATION PAGE
+%----------------------------------------------------------------------------------------
+\Dedication{
+\pagestyle{empty} % No headers or footers for the following pages
+
+\null\vfill % Add some space to move the quote down the page a bit
+\begin{center}
+\Huge \textit{\textbf{ To My Family }}
+\end{center}
+
+\vfill\vfill\vfill\vfill\vfill\vfill\null % Add some space at the bottom to position the quote just right
+}
+\clearpage % Start a new page
+
+%----------------------------------------------------------------------------------------
+%	CERTIFICATION PAGE
+%	Your institution may give you a different text to place here
+%----------------------------------------------------------------------------------------
+
+\Certification{
+
+\addtocontents{toc}%{\vspace{1em}} % Add a gap in the Contents, for aesthetics
+
+This is to certify that this research project titled \textit{\ttitle} is the original work of \textsc{\authornames}, Matriculation Number (SC09B676), a \degreename\hspace{2} student of the \deptname\hspace{2} in the \facname\hspace{2} at the \univname\hspace{1}.\\[2.5cm]
+ 
+\begin{minipage}{0.5\textwidth}
+\begin{flushleft} 
+Supervisor:\\
+\Large \rule[1em]{10em}{2.0pt} % This prints a line for the signature 
+\end{flushleft}
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
+\begin{flushleft} \Large
+\hspace{30} Date:\\
+\hspace{30} \rule[1em]{10em}{2.0pt} % This prints a line for the signature
+\end{flushleft}
+\end{minipage}
+\large \textsc{\supname}\\[0.5cm] % Prints my Supervisor's name
+
+
+\begin{minipage}{0.5\textwidth}
+\begin{flushleft} 
+HOD/CSC:\\
+\Large \rule[1em]{10em}{2.0pt} % This prints a line for the signature 
+\end{flushleft}
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
+\begin{flushleft} \Large
+\hspace{30} Date:\\
+\hspace{30} \rule[1em]{10em}{2.0pt} % This prints a line for the signature 
+\end{flushleft}
+\end{minipage}
+\large \textsc{Dr Denis Nkweteyim}\\[0.5cm]
+
+\begin{minipage}{0.5\textwidth}
+\begin{flushleft} 
+Dean/FS:\\
+\Large \rule[1em]{10em}{2.0pt} % This prints a line for the signature 
+\end{flushleft}
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
+\begin{flushleft} \Large
+\hspace{30} Date:\\
+\hspace{30} \rule[1em]{10em}{2.0pt} % This prints a line for the signature
+\end{flushleft}
+\end{minipage}
+\large \textsc{Prof Ayonghe Samuel}
+
+}
+
+\clearpage % Start a new page
+
+%----------------------------------------------------------------------------------------
+%	ACKNOWLEDGEMENT
+%----------------------------------------------------------------------------------------
+\Acknowledgement{
+
+\addtocontents{toc}%{\vspace{1em}} % Add a gap in the Contents, for aesthetics
+
+Firstly, I thank our Lord Jesus Christ for giving me
+life and good health during my stay at University Of Buea and for
+granting me the patience to go through this program.
+
+I am grateful to the Vice Chancellor of the University Of Buea and her collaborators for 
+maintaining an enabling environment where graduate students can  
+learn and express their utmost research potential. I am especially indebted  
+to Professor Joyce B.M. Endeley, currently the Director of the Higher  
+Technical Teachers’ Training   College of the University of Buea in Kumba  
+and Professor Theresa   Nkuo­Akenji, the Deputy Vice Chancellor for  
+Internal Control and   Evaluation who authorized the connection of internet  
+facilities to the   Postgraduate Computer Science Laboratory during the  
+implementation of this project.   
+I wish to sincerely thank all the staff of the Department of Computer  
+Science for their advice and stimulating conversations during the writing   of  
+this thesis. Special thanks go to Professor Emmanuel Kamgnia and Dr.  
+Denis Nkweteyim for meticulously proofreading through and correcting this  
+work while making their wide spectrum of research experience and books  
+on graphics available to me.
+
+My appreciation goes to the Google Open Source Programs
+Office (OSPO) – Mary Radomile, Carols Smith, Cat Allman and
+Stephanie Taylor and the United States Army Research Laboratory BRL-CAD team
+ for their sponsorship of this project under the auspices
+of the 2013 Google Summer Of Code program. Special thanks go
+to Mr. Christopher Sean Morrison and Mr. Erik Greenwald for their
+valuable advice and mentorship during the implementation of this
+project. I am also indebted to \textit{Nominal Animal} and the
+mathematician Dr. Titus Piezas for tips on ray-tracing the heart
+surface.
+
+Many thanks go to my family for their assistance and
+encouragement throughout this program.This thesis is dedicated to them.
+I also thank the friends I made during the
+course of this program whether from University of Buea or the Developers community,
+for bringing all the fun they came along with– I appreciate your
+company and I'm happy to know I was not alone.
+}
+\clearpage % Start a new page
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT PAGE
+%----------------------------------------------------------------------------------------
+\Abstract{
+
+\abstract{\addtocontents{toc}%{\vspace{1em}} % Add a gap in the Contents, for aesthetics
+
+\textit{In this thesis titled \textit{\ttitle}, we aimed at demonstrating the engineering of a heart-shaped primitive within BRL-CAD package.Using a case study approach, we designed the heart-shaped primitive's data structure, wrote necessary callback functions and tested them using BRL-CAD's testing infrastructure. We showed that the Laguerre-based root solver is indeed a sure-fire iterative method for finding roots of polynomials and ascertained it's stability on sextic equations. This work provides a guideline for the development of primitives within Computer-Aided Design (CAD) software by highlighting the implementation of geometrically-useful properties for any primitive within BRL-CAD.}
+}
+}
+\clearpage % Start a new page
+
+%----------------------------------------------------------------------------------------
+%	LIST OF CONTENTS/FIGURES/TABLES PAGES
+%----------------------------------------------------------------------------------------
+
+\pagestyle{fancy} % The page style headers have been "empty" all this time, now use the "fancy" headers as defined before to bring them back
+
+\lhead{\emph{Contents}} % Set the left side page header to "Contents"
+\tableofcontents % Write out the Table of Contents
+
+\lhead{\emph{List of Figures}} % Set the left side page header to "List of Figures"
+\listoffigures % Write out the List of Figures
+
+\lhead{\emph{List of Tables}} % Set the left side page header to "List of Tables"
+\listoftables % Write out the List of Tables
+
+%----------------------------------------------------------------------------------------
+%	ABBREVIATIONS
+%----------------------------------------------------------------------------------------
+\Abbreviations{
+
+\addtocontents{toc}%{\vspace{1em}} % Add a gap in the Contents, for aesthetics
+
+\setstretch{1.5} % Set the line spacing to 1.5, this makes the following tables easier to read
+\textbf{CAD} \hspace{25} \textbf{C}omputer \textbf{A}ided \textbf{D}esign \\
+\textbf{BRL-CAD} \textbf{B}allistic \textbf{R}esearch \textbf{L}aboratory \textbf{C}omputer \textbf{A}ided \textbf{D}esign \\
+\textbf{CSG} \hspace{30} \textbf{C}onstructive \textbf{S}olid \textbf{G}eometry \\
+\textbf{NURBS} \hspace{10} \textbf{N}on-\textbf{U}niform \textbf{R}ational \textbf{B}-\textbf{S}plines \\
+\textbf{NMG} \hspace{26} \textbf{N}on - \textbf{M}anifold \textbf{G}eometry \\
+\textbf{B-REPS} \hspace{10} \textbf{B}oundary \textbf{R}epresentations \\
+}
+\clearpage % Start a new page
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - CHAPTERS
+%----------------------------------------------------------------------------------------
+
+\mainmatter % Begin numeric (1,2,3...) page numbering
+
+%\pagestyle{fancy} % Return the page headers back to the "fancy" style
+
+% Include the chapters of the thesis as separate files from the Chapters folder
+% Uncomment the lines as you write the chapters
+
+\input{Chapters/Chapter1}
+\input{Chapters/Chapter2} 
+\input{Chapters/Chapter3}
+\input{Chapters/Chapter4} 
+\input{Chapters/Chapter5} 
+%\input{Chapters/Chapter6} 
+%\input{Chapters/Chapter7} 
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+
+\label{References}
+
+\lhead{\emph{References}} % Change the page header to say "Bibliography"
+
+\bibliographystyle{unsrtnat} % Use the "unsrtnat" BibTeX style for formatting the Bibliography
+
+\bibliography{References} % The references (bibliography) information are stored in the file named "Bibliography.bib"
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - APPENDICES
+%----------------------------------------------------------------------------------------
+
+\backmatter
+
+\addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
+
+\appendix % Cue to tell LaTeX that the following 'chapters' are Appendices
+
+% Include the appendices of the thesis as separate files from the Appendices folder
+% Uncomment the lines as you write the Appendices
+
+\input{Appendices/Appendix}
+%\input{Appendices/AppendixB}
+%\input{Appendices/AppendixC}
+
+\addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
+
+\end{document}  
+
