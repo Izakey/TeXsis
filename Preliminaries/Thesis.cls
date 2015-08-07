@@ -233,7 +233,7 @@
 %	defined as \examname above so you cite it as \examname
 %----------------------------------------------------------------------------------------
 
-\thesistitle{Implementation Of A Heart-shaped Primitive} % Your thesis title - this is used in the title and abstract
+\thesistitle{Implementation Of A Heart-Shaped Primitive} % Your thesis title - this is used in the title and abstract
 %-------------------------------------------------  
 \supervisor{Prof. Emmanuel \textsc{Kamgnia}} % You supervisor's name - this is used in the title page
 %-------------------------------------------------   
@@ -380,7 +380,7 @@
       \@mkboth{\MakeUppercase\listfigurename}
               {\MakeUppercase\listfigurename}}
     \@starttoc{lof}
-    \if@restonecol\twocolumn\fi
+    \if@restonecol\onecolumn\fi
     \cleardoublepage
 }\end{spacing}
 }
