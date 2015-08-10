@@ -29,7 +29,7 @@
 
 \graphicspath{{Pictures/}} % Specifies the directory where pictures are stored
 
-\usepackage[square, numbers, comma, sort&compress]{natbib} % Use the natbib reference package - read up on this to edit the reference style; if you want text (e.g. Smith et al., 2012) for the in-text references (instead of numbers), remove 'numbers' 
+\usepackage[square, numbers, url, comma, sort&compress]{natbib} % Use the natbib reference package - read up on this to edit the reference style; if you want text (e.g. Smith et al., 2012) for the in-text references (instead of numbers), remove 'numbers' 
 \hypersetup{urlcolor=black, colorlinks=true} % Colors hyperlinks in blue - change to black if annoying
 \title{\ttitle} % Defines the thesis title - don't touch this
 
@@ -310,10 +310,12 @@ company and I'm happy to know I was not alone.
 
 \label{References}
 
-\lhead{\emph{References}} % Change the page header to say "References"
+%\lhead{\emph{References}} % Name the Page header "References"
 
-\bibliographystyle{unsrtnat} % Use the "unsrtnat" BibTeX style for formatting the References
+\bibliographystyle{ieeetr} % Use the "unsrtnat" BibTeX style for formatting the References
+
 \nocite{*}
+
 \bibliography{References} % The references (bibliography) information are stored in the file named "References.bib"
 
 %----------------------------------------------------------------------------------------
