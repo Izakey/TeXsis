@@ -207,27 +207,15 @@
 
 %----------------------------------------------------------------------------------------
 %	DOCUMENT VARIABLES
-%	Fill in the lines below to update the thesis template
-%	If you wish to cite each of the variables defined below, look at the
-%	section above for the citation command e.g. \examiner{} below is
-%	defined as \examname above so you cite it as \examname
 %----------------------------------------------------------------------------------------
 
-\thesistitle{Implementation Of A Heart-Shaped Primitive} % Your thesis title - this is used in the title and abstract
+\thesistitle{Implementation Of A Heart-Shaped Primitive} % Your thesis title title and abstract
 %-------------------------------------------------  
-\supervisor{Prof. Emmanuel \textsc{Kamgnia}} % You supervisor's name - this is used in the title page
+\supervisor{Prof. Emmanuel \textsc{Kamgnia}} % You supervisor's name used in the certification page
 %-------------------------------------------------   
-\examiner{} % Your examiner's name - this is not currently used anywhere in the template, cite it with \examname if you want it
-%-------------------------------------------------   
-\degree{Master of Science in Computer Science} % Your degree name - this is currently used in the title page and abstract
+\degree{Master of Science in Computer Science} % Your degree name used title page and assorted 
 %--------------------------------------------------
-\authors{Isaac Kamga Mkounga} % Your name - this is used in the title page and abstract
-%-------------------------------------------------   
-\addresses{} % Your address - this is not currently used anywhere in the template, cite it with \addressnames if you want it
-%-------------------------------------------------   
-\subject{} % Your subject area - this is not currently used anywhere in the template, cite it with \subjectname if you want it
-%-------------------------------------------------   
-\keywords{} % Keywords for your thesis - this is not currently used anywhere in the template, cite it with \keywordnames if you want it
+\authors{Isaac Kamga Mkounga} % Your name as used in the title page and abstract
 %-------------------------------------------------   
 \university{\texorpdfstring{\href{http://www.ubuea.cm} % Your university's URL
                 {University of Buea}} % Your university's name - this is currently used in the title page
@@ -245,14 +233,6 @@
                 {Department of Computer Science}}
                 {DEPARTMENT OF COMPUTER SCIENCE}}
 %-------------------------------------------------                
-\group{\texorpdfstring{\href{Research Group Web Site URL Here (include http://)} % Your research group's URL
-                {Research Group Name}} % Your research group's name - this is currently used in the title page 
-                {Research Group Name}}
-%-------------------------------------------------                
-\GROUP{\texorpdfstring{\href{Research Group Web Site URL Here (include http://)} % Your research group's URL
-                {RESEARCH GROUP NAME (IN BLOCK CAPITALS)}} % Your research group's name in capitals - this is not currently used anywhere in the template, cite it with \GROUPNAME if you want it
-                {RESEARCH GROUP NAME (IN BLOCK CAPITALS)}}
-%-------------------------------------------------                
 \faculty{\texorpdfstring{\href{http://ubuea.cm/academics/faculties-and-schools/faculty-of-science/} % Your faculty's URL
                 {Faculty of Science}}
                 {Faculty Name}}
@@ -262,7 +242,7 @@
                 {FACULTY OF SCIENCE }}
 %----------------------------------------------------------------------------------------    
 
-% The default title page, this is not used in this www.latextemplates.com version            
+% The default title page         
 \renewcommand\maketitle{
   \btypeout{Title Page}
   \hypersetup{pdftitle={\@title}}
@@ -304,7 +284,7 @@
     \@thanks
     \vfil\null
   \end{titlepage}
-  \setcounter{footnote}{0}%
+  \setcounter{footnote}{0}
   \global\let\thanks\relax
   \global\let\maketitle\relax
   \global\let\@thanks\@empty
@@ -382,22 +362,11 @@
     \cleardoublepage
 }\end{spacing}
 }
-%\newcommand\listsymbolname{Abbreviations}
-%\usepackage{longtable}
-%\newcommand\listofsymbols[2]{
-%\btypeout{\listsymbolname}
-%\addtotoc{\listsymbolname}
-%    \chapter*{\listsymbolname
-%      \@mkboth{
-%          \MakeUppercase\listsymbolname}{\MakeUppercase\listsymbolname}}
-%\begin{longtable}[c]{#1}#2\end{longtable}\par
-%    \cleardoublepage
-%}
+
 \newcommand\listconstants{Physical Constants}
 \usepackage{longtable}
 \newcommand\listofconstants[2]{
 \btypeout{\listconstants}
-%\addtotoc{\listconstants}
     \chapter*{\listconstants
       \@mkboth{
           \MakeUppercase\listconstants}{\MakeUppercase\listconstants}}
@@ -408,7 +377,6 @@
 \usepackage{longtable}
 \newcommand\listofnomenclature[2]{
 \btypeout{\listnomenclature}
-%\addtotoc{\listnomenclature}
     \chapter*{\listnomenclature
       \@mkboth{
           \MakeUppercase\listnomenclature}{\MakeUppercase\listnomenclature}}
