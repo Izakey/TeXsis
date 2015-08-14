@@ -1,14 +1,12 @@
-% Chapter 2
-
-\chapter{LITERATURE REVIEW OF GEOMETRIC MODELING} % Main chapter title
-
-\label{Literature Review} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
-
-\lhead{Chapter 2. \emph{Literature Review}} % Change X to a consecutive number; this is for the header on each page - perhaps a shortened title
+%----------------------------------------------------------------------------------------------
+\chapter{LITERATURE REVIEW OF GEOMETRIC MODELING}
+\label{Literature Review}
+\lhead{Chapter 2. \emph{Literature Review}}
 
 %----------------------------------------------------------------------------------------
 %      INTRODUCTORY PARAGRAPHS
 %----------------------------------------------------------------------------------------
+
 \hspace{30} With the advent of computers which could perform millions of floating
 point operations in unit time and which are still growing faster, researchers who
 believed computers could aid the processes of mechanical design and
@@ -124,7 +122,7 @@ as it is the basis for Bezier surfaces and NURBS.
 
 %--------------------------------------------------------------------------------------------
 
-Figure 2.2 above shows a collection of some primitives used within the BRL-­CAD package before the heart-­shaped primitive   was developed – several of which are implicitly and/or parameterically represented by algebraic equations.On the BRL-­CAD's   ideas page\cite{7}, there is a list of primitives which have not yet been implemented such as the Steiner surface, the ring 
+Figure 2.2 above shows a collection of some primitives used within the BRL-­CAD package before the heart-­shaped primitive   was developed – several of which are implicitly and/or parameterically represented by algebraic equations.On the BRL-­CAD's ideas page \cite{7}, there is a list of primitives which have not yet been implemented such as the Steiner surface, the ring 
 cyclide surface, the quartoid, Wallis' conical edge solid, etc.  
 
 %----------------------------------------------------------------------------------------------------
@@ -196,7 +194,7 @@ great practical importance.
 
 Implicitization is the process of converting a parametric representation into an implicit representation.
 
-Sederberg\cite{7} demonstrated in his thesis that, in principle, it is always
+Sederberg \cite{7} demonstrated in his thesis that, in principle, it is always
 possible to convert a parametric surface or curve into implicit form using
 classical elimination theory developed in the early $20^{th}$ century. In fact,
 Sylvester resultants require evaluating a determinant whose entries are
@@ -213,7 +211,7 @@ become inaccurate.
 and is expensive.
 \end{itemize}
 Another method of Implicitization is the Grobner basis technique introduced by
-Buchberger\cite{8} where it was learned that expressing a polynomial as a linear
+Buchberger \cite{8} where it was learned that expressing a polynomial as a linear
 combination of a Grobner basis facilitates finding the solution of the nonlinear
 system of equations as  much as an $\textbf{\mathbb{LU}}$ - ­decomposition brings a system of
 linear equations to heel. A polynomial basis is a set of polynomials which
@@ -306,7 +304,7 @@ adjacency   relationships   between   the   vertices,   edges   and   faces   as
 orientation.   There   are   nine   (9)   ordered   adjacency   relationships   between   the  
 three   (3)   aforementioned   topological   entities.   In   order   to   build   a   complete  
 representation,   it   is   normal   for   one   to   allow   the   retrieval   of   any   topological   entity  
-and   any   of   the   nine   (9)   ordered   adjacency   relationships.   Kevin   Weiler   \cite{14}  
+and   any   of   the   nine   (9)   ordered   adjacency   relationships. Kevin Weiler \cite{14}  
 showed   that   only   three   (3)   ordered   adjacency   relationships   are   sufficient   to  
 obtain   the   others.   From   his   work   ,a   space/time   trade­off   arose:   Maintaining   all   9  
 adjacency   relationships   required   more   space   but   little   time   for   retrieval   while  
@@ -438,7 +436,7 @@ decomposition   and   can   be   differentiated   by   the   type   of   data   
 the   principle   guiding   the   decomposition   process   and   the   resolution   of   that  
 decomposition   (the   number   of   times   the   decomposition   is   applied   –   whether  
 fixed   or   variable).   The   most   common   quadtree   is   the   region   quadtree   due   to  
-Klinger   and   Dyer\cite{24}   and   was   coined   by   Hunter\cite{25}.It   is   based   on   the  
+Klinger   and   Dyer \cite{24}   and   was   coined   by   Hunter \cite{25}.It   is   based   on   the  
 successive   subdivision   of   the   image   array   into   four   (4)   equal-­sized   quadrants  
 which   may   be   recursively   subdivided   until   pixels   are   obtained.   In   the   tree  
 representation,   the   root   node   corresponds   to   the   entire   array,   each   child   of   a  
@@ -448,7 +446,7 @@ black   or   white   depending   on   whether   its   pixel   is   entirely   in
 represented region. It may be gray if it is an internal node of the tree.  
 
 \hspace{30} As   initiated   by   the   aforementioned   research   carried   out   by   Finkel   and  
-Bentley\cite{26},   hierarchical   data   structures   can   be   used   to   represent   images   in  
+Bentley \cite{26},   hierarchical   data   structures   can   be   used   to   represent   images   in  
 three­dimensional   space   and   even   higher.   The   \textit{\textbf{octree}}   data   structure   is   the  
 three­-dimensional   analog   of   the   quadtree.   Here,   an   image   is   first   represented   in  
 the   form   of   a   cubical   volume   and   then   recursively   decomposed   into   eight   (8)  
@@ -461,7 +459,7 @@ this   problem,   it   is   an   efficient   method   which   treats   the   ima
 leaf   nodes   each   of   which   is   encoded   by   a   base   4   number   termed   a   \textit{locational  
 code}. 
 
-\hspace{30} The   second   approach   to cell decomposition due   to   Kawaguchi   and   Endo\cite{27}   is   termed   a  
+\hspace{30} The   second   approach   to cell decomposition due   to   Kawaguchi   and   Endo \cite{27}   is   termed   a  
 $\textit{\textbf{\mathbf{DF}-­expression}}$.   It   represents   the   image   in   the   form   of   a   traversal   of   the   nodes  
 of   its   quadtree   –   a   compact   representation   in   which   each   node   type   is   encoded  
 with   2   bits.   Although   it   is   not   easy   to   use   when   random   access   to   nodes   is  
@@ -473,7 +471,7 @@ pointer­-based implementation.
 which   they   serve   as   the   minimum   rectilinear   enclosing   object.   Indeed,   bounding  
 rectangles   are   used   in   cartographic   applications   to   approximate   lakes,   forests,  
 hills,   etc.   The   first   representation   of   quadtrees   holding   rectangular   data   was  
-due   to   Hinrichs   and   Nievergelt\cite{28}.   In   this   representation,   each   rectangle   is  
+due   to   Hinrichs   and   Nievergelt \cite{28}.   In   this   representation,   each   rectangle   is  
 seen   as   a   cartesian   product   of   two   line   intervals   each   analogous   to   an   interval  
 tree   holding   the   interval's   centroid   and   extent.   The   rectangles   are   reduced   to  
 points   in   three­dimensional   space   and   then   the   problem   is   treated   as   if   dealing  
@@ -482,7 +480,7 @@ with   a   collection   of   points.   Another   such   representation   is   th
 corresponding   to   the   smallest   block   containing   it   entirely.   The   subdivision  
 ceases   whenever   a   node's   block   contains   no   rectangles   or   is   smaller   than   a  
 predetermined   threshold   size.   Yet   another   such   data   structure   arose   called   the  
-\textit{R­-tree}   developed   by   Guttman\cite{29}   in   which   each   node   in   the   R-­tree   is   a  
+\textit{R­-tree}   developed   by   Guttman \cite{29}   in   which   each   node   in   the   R-­tree   is   a  
 d - ­dimensional   rectangle   enclosing   its   child   nodes.   Its   leaf   nodes   are   the  
 rectangles   in   the   database.   Each   rectangle   may   be   contained   in   several   nodes  
 each   of   which   had   to   be   visited   before   ascertaining   the   presence   or   absence   of  
