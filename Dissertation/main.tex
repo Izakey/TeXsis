@@ -158,7 +158,7 @@ Dean/FS:\\
 %----------------------------------------------------------------------------------------
 \Acknowledgement{
 
-\addtocontents{toc}%{\vspace{1em}} % Add a gap in the Contents, for aesthetics
+\addtocontents{toc}% Add a gap in the Contents,
 
 Firstly, I thank our Lord Jesus Christ for giving me
 life and good health during my stay at University Of Buea and for
@@ -205,7 +205,7 @@ company and I'm happy to know I was not alone.
 %----------------------------------------------------------------------------------------
 \Abstract{
 
-\abstract{\addtocontents{toc}%{\vspace{1em}} % Add a gap in the Contents, for aesthetics
+\abstract{\addtocontents{toc}%Add a gap in the Contents
 
 \textit{In this thesis titled \textit{\ttitle}, we aimed at demonstrating the engineering of a heart-shaped primitive within BRL-CAD package.Using a case study approach, we designed the heart-shaped primitive's data structure, wrote necessary callback functions and tested them using BRL-CAD's testing infrastructure. We showed that the Laguerre-based root solver is indeed a sure-fire iterative method for finding roots of polynomials and ascertained it's stability on sextic equations. This work provides a guideline for the development of primitives within Computer-Aided Design (CAD) software by highlighting the implementation of geometrically-useful properties for any primitive within BRL-CAD.}
 }
@@ -216,15 +216,15 @@ company and I'm happy to know I was not alone.
 %	LIST OF CONTENTS/FIGURES/TABLES PAGES
 %----------------------------------------------------------------------------------------
 
-\pagestyle{fancy} % The page style headers have been "empty" all this time, now use the "fancy" headers as defined before to bring them back
+\pagestyle{fancy} % Use the "fancy" headers as defined before to bring them back
 
-\lhead{\emph{Contents}} % Set the left side page header to "Contents"
+\lhead{\emph{Contents}}
 \tableofcontents % Write out the Table of Contents
 
-\lhead{\emph{List of Figures}} % Set the left side page header to "List of Figures"
+\lhead{\emph{List of Figures}}
 \listoffigures % Write out the List of Figures
 
-\lhead{\emph{List of Tables}} % Set the left side page header to "List of Tables"
+\lhead{\emph{List of Tables}}
 \listoftables % Write out the List of Tables
 
 %----------------------------------------------------------------------------------------
@@ -232,7 +232,7 @@ company and I'm happy to know I was not alone.
 %----------------------------------------------------------------------------------------
 \Abbreviations{
 
-\addtocontents{toc}%{\vspace{1em}} % Add a gap in the Contents, for aesthetics
+\addtocontents{toc}%Add a gap in the Contents, for aesthetics
 
 \setstretch{1.5} % Set the line spacing to 1.5, this makes the following tables easier to read
 \textbf{CAD} \hspace{25} \textbf{C}omputer \textbf{A}ided \textbf{D}esign \\
@@ -250,10 +250,7 @@ company and I'm happy to know I was not alone.
 
 \mainmatter % Begin numeric (1,2,3...) page numbering
 
-%\pagestyle{fancy} % Return the page headers back to the "fancy" style
-
 % Include the chapters of the thesis as separate files from the Chapters folder
-% Uncomment the lines as you write the chapters
 
 \input{Chapters/Chapter1}
 \input{Chapters/Chapter2} 
@@ -264,7 +261,7 @@ company and I'm happy to know I was not alone.
 \clearpage % Start a new page
 
 %----------------------------------------------------------------------------------------
-%	BIBLIOGRAPHY
+%	BIBLIOGRAPHY/REFERENCES
 %----------------------------------------------------------------------------------------
 
 \label{References}
@@ -273,19 +270,18 @@ company and I'm happy to know I was not alone.
 
 \bibliographystyle{ieeetr} % Use the "ieeetr" BibTeX style for formatting the References
 
-\bibliography{References} % The references (bibliography) information are stored in the file named "References.bib"
+\bibliography{References} % The references information are stored in the file named "References.bib"
 
 %----------------------------------------------------------------------------------------
-%	THESIS CONTENT - APPENDICES
+%	THESIS CONTENT - APPENDIX
 %----------------------------------------------------------------------------------------
 
 \backmatter
 
-\appendix % Cue to tell LaTeX that the following 'chapters' are Appendices
+\appendix % Tell LaTeX that the following 'chapters' are Appendices
 
-\lhead{\emph{Appendix}} % Name the Page header "Appendix"
+\lhead{\emph{Appendix}}
 
 \input{Appendices/Appendix}
 
 \end{document}  
-
