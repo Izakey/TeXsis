@@ -262,7 +262,7 @@
                 {DEPARTMENT OF COMPUTER SCIENCE}}
 %-------------------------------------------------                
 \DEPARTMENT{\texorpdfstring{\href{http://ubuea.cm/academics/faculties-and-schools/faculty-of-science/} % Your department's URL
-                {Department of Computer Science}} % Your department's name in capitals - this is not currently used anywhere in the template, cite it with \DEPTNAME if you want it
+                {Department of Computer Science}}
                 {DEPARTMENT OF COMPUTER SCIENCE}}
 %-------------------------------------------------                
 \group{\texorpdfstring{\href{Research Group Web Site URL Here (include http://)} % Your research group's URL
@@ -274,11 +274,11 @@
                 {RESEARCH GROUP NAME (IN BLOCK CAPITALS)}}
 %-------------------------------------------------                
 \faculty{\texorpdfstring{\href{http://ubuea.cm/academics/faculties-and-schools/faculty-of-science/} % Your faculty's URL
-                {Faculty of Science}} % Your faculty's name - this is currently used in the abstract page
+                {Faculty of Science}}
                 {Faculty Name}}
 %-------------------------------------------------                
 \FACULTY{\texorpdfstring{\href{http://ubuea.cm/academics/faculties-and-schools/faculty-of-science/} % Your faculty's URL
-                {FACULTY OF SCIENCE}} % Your faculty's name in capitals - this is not currently used anywhere in the template, cite it with \FACNAME if you want it
+                {FACULTY OF SCIENCE}}
                 {FACULTY OF SCIENCE }}
 %----------------------------------------------------------------------------------------    
 
