@@ -1,26 +1,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Thesis LaTeX Template - THESIS CLASS FILE
 %
-% This template has been downloaded from:
-% http://www.latextemplates.com
-%
-% This class file defines the structure and design of the template. 
-%
-% There is one part of this file that needs to be filled out - the variables
-% dictating the document particulars such as the author name, university
-% name, etc. You will find these in the commented "DOCUMENT VARIABLES"
-% section below.
-%
-% The other two easily-editable sections are the margin sizes and abstract.
-% These have both been commented for easy editing. Advanced LaTeX
-% users will have no trouble editing the rest of the document to their liking.
-%
-% Original header:
-%% This is file `Thesis.cls', based on 'ECSthesis.cls', by Steve R. Gunn
-%% generated with the docstrip utility.
-%%
-%% Created by Steve R. Gunn, modified by Sunil Patel: www.sunilpatel.co.uk
-%% Further modified by www.latextemplates.com
+% The Thesis class file 
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
