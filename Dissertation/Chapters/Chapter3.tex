@@ -464,18 +464,17 @@ the   coordinates   of   the   intersection   points   by   substituting   the  
 The   Algorithm   below   shows   the   intersection   of   an   arbitrary   light   ray   and   the  heart­-shape's surface.
 
 \hspace{50} \textit{Algorithm 2. Intersect a ray with the heart­-shape's surface }
-\begin{verbatim}
-1. Normalize distance from the heart-­shape 
-2. Generate sextic equation 
-3. Pass equation through Laguerre-­based root finder  
-4. if (root finder returns other than 6 roots) 
-      throw exceptions  // root finder did not find roots 
-   else         // Real roots indicate an intersection in real space 
-      select real roots among the 6 //complex roots with very small imaginary parts 
-5. for each real root returned by root finder 
+\small{\begin{verbatim}
+Normalize distance from the heart-­shape 
+Generate sextic equation 
+Pass equation through Laguerre-­based root finder  
+if (root finder returns other than 6 roots) 
+    throw exceptions	  // root finder did not find roots 
+else         	// Real roots indicate an intersection in real space 
+    select real roots among the 6 //complex roots with very small imaginary parts 
+for each real root returned by root finder 
        Determine the entry and exit points of the light ray 
-\end{verbatim}
-
+\end{verbatim}}
 \hspace{30} The   normal   to   the   surface   $N$   at   the   point   of   intersection   is   in   the   direction  
 of   the   gradient   of   \textit{f(x,y,z)}. N := ($f_x$,$f_y$,$f_z$)   where   $f_x$, $f_y$ and $f_z$   are   the   partials  
 derivative   functions   of   \textit{f(x,y,z)}   with   respect   to   x,   y   and   z   respectively.   The  
