@@ -112,7 +112,7 @@ box   by   running   the   \textit{\textbf{“bb   ­-qd   amour”}}.   Finally
 dimensions   of   the   bounding   box,   we   ran   the   \textit{\textbf{“bb   amour”}}   command   in   archer's  
 command prompt. 
 
-\hspace{30} The image above in Figure 4.3 shows the results obtained after running the aforementioned commands. 
+\hspace{30} The image below in Figure 4.3 shows the results obtained after running the aforementioned commands. 
 
 \begin{figure}[htbp]
 \centering
@@ -176,8 +176,6 @@ works, we use BRL-­CAD's \textit{\textbf{rt}} \cite{41} command. The \textit{\t
 \item The \textit{\textbf{-­C} (colour)} option enables the designer to specify the colour of the rendered image's background.  
 \item The \textit{\textbf{-­o} (output)} option enables the designer to specify the name of the rendered image.
 \end{itemize}
-
-\clearpage
 %----------------------------------------------------------------------------------------------------------------------
 
 \hspace{30} Using the \textit{\textbf{rt}} command in BRL-­CAD, we produced 360 images each at an  
@@ -185,13 +183,11 @@ azimuth angle of 1 degree from the other and an elevation angle of 35 degrees fr
 The width and height   of   these   images   were   640   and   480  
 pixels   respectively. To   do   this,   we   edited   the   Fly­Around   Animation   script   \cite{42}  
 on BRL­-CAD's website which is shown below;
-
 \begin{verbatim}
 #!/bin/sh 
     for i in `loop 000 359 1`; do 
         rt -­a $i ­-e 35 -­w 640 -­n 480 -­o image$i.png heart_example.g amour 
 done \end{verbatim}
-
 Figure 4.5 below shows some images of the heart­-shaped primitive obtained from running the script above.
 
 \begin{figure}[htbp]
