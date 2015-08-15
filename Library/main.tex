@@ -1,0 +1,287 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Masters Degree Thesis 
+% Use pdflatex to compile  
+% Note:
+% All document variables are stored in the Thesis.cls file
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt, oneside]{Thesis} % The default font size and one-sided printing
+
+\graphicspath{{Pictures/}} % The directory where pictures are stored
+
+\usepackage[square, numbers, url, comma, sort&compress, cite]{natbib}
+\hypersetup{urlcolor=black, colorlinks=true} % Colors hyperlinks in black
+\title{\ttitle} % Defines the thesis title
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+\frontmatter % Use Roman page numbering style (i, ii, iii, iv...) for pre-content pages
+
+\begin{titlepage}
+\begin{center}
+\textsc{\Huge \univname}\\[25pt]\\[3.0cm] % University of Buea
+\end{center}
+
+\Large{\begin{verbatim}
+FACULTY OF SCIENCE       DEPARTMENT OF COMPUTER SCIENCE
+
+\end{verbatim}}
+
+\hspace{200}\\
+
+\begin{center}
+\\[0.5cm]
+{\Huge \bfseries \textit{\ttitle}}\\[0.4cm] % Implementation of a Heart-Shaped Primitive
+\\[2.5cm]
+
+\Large \textit{A thesis submitted to the \facname \\ in partial fulfilment of the requirements for the degree of \\ \degreename \\}\\[1.5cm]
+\Large \textit{\textbf{ By } \\} \\[1.0cm]
+\Large \textit{\authornames \\ B.Sc. Mathematics and Computer Science \\ \textsc{\textit{( SC09B676 )}}}
+\end{center}
+
+\end{titlepage}
+
+%----------------------------------------------------------------------------------------
+%	DECLARATION PAGE
+%----------------------------------------------------------------------------------------
+\Declaration{
+
+\addtocontents{toc}% Add a gap in the Contents
+
+I, \textsc{\authornames}, Matriculation Number (SC09B676) declare that this thesis titled, \textit{\ttitle} and the work presented in it are my own. I confirm that this work was done wholly while in candidature for a \degreename\hspace{2}at the \univname. Where I consulted the published work of others, this has been clearly acknowledged. This work has not been previously submitted for a degree or any other qualification at this University or any other institution.\\[6.0cm]
+ 
+% Allowances for my signature and Date
+\begin{minipage}{0.5\textwidth}
+\begin{flushleft} 
+Signed:\\
+\Large
+\rule[1em]{10em}{2.0pt} % This prints a line for my signature
+\end{flushleft}
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
+\begin{flushleft} \Large
+\hspace{20} Date:\\
+\hspace{20} \rule[1em]{10em}{2.0pt} % This prints a line for the date 
+\end{flushleft}
+\end{minipage}
+
+% My name and University matriculation number
+\begin{flushleft}
+\large \textsc{\authornames} \\ \hspace{35}(SC09B676)
+\end{flushleft}
+}
+
+\clearpage % Start a new page
+
+%----------------------------------------------------------------------------------------
+%	DEDICATION PAGE
+%----------------------------------------------------------------------------------------
+\Dedication{
+\pagestyle{empty} % No headers or footers for the following pages
+
+\null\vfill % Add some space to move the quote down the page a bit
+\begin{center}
+\Huge \textit{\textbf{ To My Family }}
+\end{center}
+
+\vfill\vfill\vfill\vfill\vfill\vfill\null % Add some space at the bottom to position the quote just right
+}
+\clearpage % Start a new page
+
+%----------------------------------------------------------------------------------------
+%	CERTIFICATION PAGE
+%----------------------------------------------------------------------------------------
+
+\Certification{
+
+\addtocontents{toc}Add a gap in the Contents
+
+This is to certify that this research project titled \textit{\ttitle} is the original work of \textsc{\authornames}, Matriculation Number (SC09B676), a \degreename\hspace{2} student of the \deptname\hspace{2} in the \facname\hspace{2} at the \univname\hspace{1}.\\[2.5cm]
+ 
+\begin{minipage}{0.5\textwidth}
+\begin{flushleft} 
+Supervisor:\\
+\Large \rule[1em]{10em}{2.0pt} % This prints a line for the signature 
+\end{flushleft}
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
+\begin{flushleft} \Large
+\hspace{30} Date:\\
+\hspace{30} \rule[1em]{10em}{2.0pt} % This prints a line for the signature
+\end{flushleft}
+\end{minipage}
+\large \textsc{\supname}\\[0.5cm] % Prints my Supervisor's name
+
+
+\begin{minipage}{0.5\textwidth}
+\begin{flushleft} 
+HOD/CSC:\\
+\Large \rule[1em]{10em}{2.0pt} % This prints a line for the signature 
+\end{flushleft}
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
+\begin{flushleft} \Large
+\hspace{30} Date:\\
+\hspace{30} \rule[1em]{10em}{2.0pt} % This prints a line for the signature 
+\end{flushleft}
+\end{minipage}
+\large \textsc{Dr Denis Nkweteyim}\\[0.5cm]
+
+\begin{minipage}{0.5\textwidth}
+\begin{flushleft} 
+Dean/FS:\\
+\Large \rule[1em]{10em}{2.0pt} % This prints a line for the signature 
+\end{flushleft}
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
+\begin{flushleft} \Large
+\hspace{30} Date:\\
+\hspace{30} \rule[1em]{10em}{2.0pt} % This prints a line for the signature
+\end{flushleft}
+\end{minipage}
+\large \textsc{Prof Ayonghe Samuel}
+
+}
+
+\clearpage % Start a new page
+
+%----------------------------------------------------------------------------------------
+%	ACKNOWLEDGEMENT
+%----------------------------------------------------------------------------------------
+\Acknowledgement{
+
+\addtocontents{toc}% Add a gap in the Contents,
+
+Firstly, I thank our Lord Jesus Christ for giving me
+life and good health during my stay at University Of Buea and for
+granting me the patience to go through this program.
+
+I am grateful to the Vice Chancellor of the University Of Buea and her collaborators for 
+maintaining an enabling environment where graduate students can  
+learn and express their utmost research potential. I am especially indebted  
+to Professor Joyce B.M. Endeley, currently the Director of the Higher  
+Technical Teachers’ Training   College of the University of Buea in Kumba  
+and Professor Theresa   Nkuo­Akenji, the Deputy Vice Chancellor for  
+Internal Control and   Evaluation who authorized the connection of internet  
+facilities to the   Postgraduate Computer Science Laboratory during the  
+implementation of this project.   
+I wish to sincerely thank all the staff of the Department of Computer  
+Science for their advice and stimulating conversations during the writing   of  
+this thesis. Special thanks go to Professor Emmanuel Kamgnia and Dr.  
+Denis Nkweteyim for meticulously proofreading through and correcting this  
+work while making their wide spectrum of research experience and books  
+on graphics available to me.
+
+My appreciation goes to the Google Open Source Programs
+Office (OSPO) – Mary Radomile, Carols Smith, Cat Allman and
+Stephanie Taylor and the United States Army Research Laboratory BRL-CAD team
+ for their sponsorship of this project under the auspices
+of the 2013 Google Summer Of Code program. Special thanks go
+to Mr. Christopher Sean Morrison and Mr. Erik Greenwald for their
+valuable advice and mentorship during the implementation of this
+project. I am also indebted to \textit{Nominal Animal} and the
+mathematician Dr. Titus Piezas for tips on ray-tracing the heart
+surface.
+
+Many thanks go to my family for their assistance and
+encouragement throughout this program.This thesis is dedicated to them.
+I also thank the friends I made during the
+course of this program whether from University of Buea or the Developers community,
+for bringing all the fun they came along with– I appreciate your
+company and I'm happy to know I was not alone.
+}
+\clearpage % Start a new page
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT PAGE
+%----------------------------------------------------------------------------------------
+\Abstract{
+
+\abstract{\addtocontents{toc}%Add a gap in the Contents
+
+\textit{In this thesis titled \textit{\ttitle}, we aimed at demonstrating the engineering of a heart-shaped primitive within BRL-CAD package.Using a case study approach, we designed the heart-shaped primitive's data structure, wrote necessary callback functions and tested them using BRL-CAD's testing infrastructure. We showed that the Laguerre-based root solver is indeed a sure-fire iterative method for finding roots of polynomials and ascertained it's stability on sextic equations. This work provides a guideline for the development of primitives within Computer-Aided Design (CAD) software by highlighting the implementation of geometrically-useful properties for any primitive within BRL-CAD.}
+}
+}
+\clearpage % Start a new page
+
+%----------------------------------------------------------------------------------------
+%	LIST OF CONTENTS/FIGURES/TABLES PAGES
+%----------------------------------------------------------------------------------------
+
+\pagestyle{fancy} % Use the "fancy" headers as defined before to bring them back
+
+\lhead{\emph{Contents}}
+\tableofcontents % Write out the Table of Contents
+
+\lhead{\emph{List of Figures}}
+\listoffigures % Write out the List of Figures
+
+\lhead{\emph{List of Tables}}
+\listoftables % Write out the List of Tables
+
+%----------------------------------------------------------------------------------------
+%	ABBREVIATIONS
+%----------------------------------------------------------------------------------------
+\Abbreviations{
+
+\addtocontents{toc}%Add a gap in the Contents, for aesthetics
+
+\setstretch{1.5} % Set the line spacing to 1.5, this makes the following tables easier to read
+\textbf{CAD} \hspace{25} \textbf{C}omputer \textbf{A}ided \textbf{D}esign \\
+\textbf{BRL-CAD} \textbf{B}allistic \textbf{R}esearch \textbf{L}aboratory \textbf{C}omputer \textbf{A}ided \textbf{D}esign \\
+\textbf{CSG} \hspace{30} \textbf{C}onstructive \textbf{S}olid \textbf{G}eometry \\
+\textbf{NURBS} \hspace{10} \textbf{N}on-\textbf{U}niform \textbf{R}ational \textbf{B}-\textbf{S}plines \\
+\textbf{NMG} \hspace{26} \textbf{N}on - \textbf{M}anifold \textbf{G}eometry \\
+\textbf{B-REPS} \hspace{10} \textbf{B}oundary \textbf{R}epresentations \\
+}
+\clearpage % Start a new page
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - CHAPTERS
+%----------------------------------------------------------------------------------------
+
+\mainmatter % Begin numeric (1,2,3...) page numbering
+
+% Include the chapters of the thesis as separate files from the Chapters folder
+
+\input{Chapters/Chapter1}
+\input{Chapters/Chapter2} 
+\input{Chapters/Chapter3}
+\input{Chapters/Chapter4} 
+\input{Chapters/Chapter5} 
+
+\clearpage % Start a new page
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY/REFERENCES
+%----------------------------------------------------------------------------------------
+
+\label{References}
+
+\lhead{\emph{References}} % Name the Page header "References"
+
+\bibliographystyle{ieeetr} % Use the "ieeetr" BibTeX style for formatting the References
+
+\bibliography{References} % The references information are stored in the file named "References.bib"
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - APPENDIX
+%----------------------------------------------------------------------------------------
+
+\backmatter
+
+\appendix % Tell LaTeX that the following 'chapters' are Appendices
+
+\lhead{\emph{Appendix}}
+
+\input{Appendices/Appendix}
+
+\end{document}  
