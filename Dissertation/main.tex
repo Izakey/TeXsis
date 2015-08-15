@@ -13,7 +13,7 @@
 \documentclass[11pt, oneside]{Thesis} % The default font size and one-sided printing
 
 \graphicspath{{Pictures/}} % The directory where pictures are stored
-
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
 \usepackage[square, numbers, url, comma, sort&compress, cite]{natbib}
 \hypersetup{urlcolor=black, colorlinks=true} % Colors hyperlinks in black
 \title{\ttitle} % Defines the thesis title
@@ -27,26 +27,19 @@
 
 \begin{titlepage}
 \begin{center}
-\textsc{\Huge \univname}\\[25pt]\\[3.0cm] % University of Buea
-\end{center}
 
-\Large{\begin{verbatim}
-FACULTY OF SCIENCE       DEPARTMENT OF COMPUTER SCIENCE
+\textsc{\Huge \univname}\\[25pt]\\[2.13cm] 
+\textsc{\LARGE \facname}\\[20pt]\\[2.13cm] 
+\textsc{\Large \deptname}\\[1.1cm]
 
-\end{verbatim}}
-
-\hspace{200}\\
-
-\begin{center}
-\\[0.5cm]
-{\Huge \bfseries \textit{\ttitle}}\\[0.4cm] % Implementation of a Heart-Shaped Primitive
-\\[2.5cm]
+\HRule  \\[0.5cm]
+{\huge \bfseries \textit{\ttitle}}\\[0.4cm]
+\HRule \\[1.0cm] 
 
 \Large \textit{A thesis submitted to the \facname \\ in partial fulfilment of the requirements for the degree of \\ \degreename \\}\\[1.5cm]
-\Large \textit{\textbf{ By } \\} \\[1.0cm]
-\Large \textit{\authornames \\ B.Sc. Mathematics and Computer Science \\ \textsc{\textit{( SC09B676 )}}}
+\Large \textit{\textbf{ By \\}}\\[1.0cm]
+\Large \authornames \\ \textsc{\textit{( SC09B676 )}} }
 \end{center}
-
 \end{titlepage}
 
 %----------------------------------------------------------------------------------------
