@@ -1,3 +1,3 @@
 # TeXsis
 TeXsis = LaTeX + Thesis.
-A port of my M.Sc. Dissertation into LaTeX format.
+A port of my M.Sc. Dissertation into LaTeX format. Dissertation/ contains the Faculty's version of the Thesis
