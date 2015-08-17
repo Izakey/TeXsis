@@ -217,6 +217,8 @@
 %--------------------------------------------------
 \authors{Isaac Kamga Mkounga} % Your name as used in the title page and abstract
 %-------------------------------------------------   
+\keywords{heart-shape, sextic, primitive, BRL-CAD} % Keywords for my thesis use \keywordnames to cite 
+%---------------------------------------------------
 \university{\texorpdfstring{\href{http://www.ubuea.cm} % Your university's URL
                 {University of Buea}} % Your university's name - this is currently used in the title page
                 {University of Buea}}
