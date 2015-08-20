@@ -103,19 +103,6 @@
 
 \RequirePackage[utf8]{inputenc} % Allows the use of international characters (e.g. Umlauts)
 
-%----------------------------------------------------------------------------------------
-%	MARGINS
-%----------------------------------------------------------------------------------------
-%\setmarginsrb  { 1.5in}  % left margin
-%                        { 0.6in}  % top margin
-%                        { 1.0in}  % right margin
-%                        { 0.8in}  % bottom margin
-%                        {  20pt}  % head height
-%                        {0.25in}  % head sep
-%                        {   9pt}  % foot height
-%                        { 0.3in}  % foot sep
-%----------------------------------------------------------------------------------------
-\raggedbottom
 \setlength{\topskip}{1\topskip \@plus 5\p@}
 \doublehyphendemerits=10000       % No consecutive line hyphens.
 \brokenpenalty=10000              % No broken words across columns/pages.
