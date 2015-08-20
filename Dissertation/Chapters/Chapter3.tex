@@ -79,7 +79,7 @@ based   on   a   UNIX methodology   of   command   of   the   command ­line   s
 providing   many   tools   that   work   in   harmony   to   complete   a   specific   task.   These  
 tools   include   geometry   and   image   converters,signal   and   image   processing  
 tools,   various   ray   tracing   applications,geometry   manipulators,   and   much   more.  
-They   will   also   be   used   to   test   that   the   geometric   properties   of   the   heart­shaped  
+They   will   also   be   used   to   test   that   the   geometric   properties   of   the   heart­-shaped  
 primitive works as we will see in Chapter Four.
 
 \hspace{30} The   basic   layout   of   its   code   places   public   API   headers   in   the   top­level  
@@ -119,15 +119,15 @@ is organised in a typical checkout or source distribution.
 intent   of   strictly   conforming   with   the   C   standard.   The   core   libraries   are   all   C   API  
 though   several   such   as   the   Utility   and   Ray­tracing   libraries   use   C++   for  
 implementation   details.   Major   components   of   the   system   are   written   in   C,   C++,  
-Tcl/Tk,   Bash   and   Php   with   source   code   files   using   extensions   such   as   *.c,   *.h,  
+Tcl/Tk,   Bash   and   PHP   with   source   code   files   using   extensions   such   as   *.c,   *.h,  
 *.cpp,   *.tcl,   *.tk,   *.sh   and   *.php.   BRL­CAD   uses   the   CMake   build   system   for  
-compilation and an inbuilt testing infrastructure in regress/ for unit testing.  
+compilation and an in built testing infrastructure in regress/ for unit testing.  
 
 \hspace{30} BRL-­CAD   has   a   long­lasting   heritage   of   maintaining   verifiable,   validated  
 and   repeatable   results   in   critical   portions   of   the   software   package,   particularly  
-within   the   ray   tracing   library.   It   has   an   inbuilt   testing   infrastructure   which  
+within   the   ray   tracing   library.   It   has   an   in built   testing   infrastructure   which  
 compares   all   program   output   against   benchmark   results   during   each   build.   The  
-ray   tracing   library   is   a   multi­representational   library   which   lies   at   the   heart   of  
+ray   tracing   library   is   a   multi-­representational   library   which   lies   at   the   heart   of  
 BRL­-CAD   and   uses   a   suite   of   other   libraries   for   other   basic   application  
 functionality.   Considerable   attention   is   put   into   verification   and   validation  
 throughout   the   package   which   includes   regression   tests   that   compare   runtime  
@@ -158,7 +158,7 @@ Government   for   the   modeling   of   military   artillery   and   simulating
 In   a   bid   to   solve   the   aforementioned   problems,   we   embarked   on   a   journey   to  
 develop   a   heart-­shaped   primitive   for   BRL­-CAD.   In   the   following   section,   we  
 document   how   we   wrote   various   callback   functions   which   compute   useful  
-geometric   properties   for   the   heart­shaped   primitive   such   as   formatted  
+geometric   properties   for   the   heart-­shaped   primitive   such   as   formatted  
 description,   database   importation   and   exportation,   computation   of   the   bounding  
 box, plotting the wireframe and ray tracing.
 
@@ -169,7 +169,7 @@ box, plotting the wireframe and ray tracing.
 \section{Design}
 
 \hspace{30} After   having   stated   our   goal   of   contributing   to   the   BRL-­CAD   project,   we  
-now   explain   how   we   implemented   the   heart­shaped   primitive.   Currently,  
+now   explain   how   we   implemented   the   heart­-shaped   primitive.   Currently,  
 BRL­-CAD   aspires   to   become   the   most   widely   used   open   source  
 CAD   software   package   in   existence.   Presently,   it   is   mostly  
 used   by   the   United   States   of   America's   government   agencies   which   fund   its  
@@ -195,7 +195,7 @@ primitive into BRL­-CAD's ray tracing library using the following steps;
 \item We made room for the heart-shaped primitive in BRL­-CAD by hooking it unto the raytracing library.  
 \item Wrote callback   functions   for   the   heart   and   tested   them   using   BRL-­CAD's  
 inbuilt testing infrastructure in the \textit{\textbf{regress/}} directory.  
-\item Built   support   for   typing   in   parameters   for   the   heart­shaped   primitive   in   the  
+\item Built   support   for   typing   in   parameters   for   the   heart­-shaped   primitive   in   the  
 display interfaces viz mged or archer.
 \end{itemize}
 
@@ -239,7 +239,7 @@ These   3    vectors viz \textit{\textbf{xdir}}, \textit{\textbf{ydir}} and \tex
 \subsection{A bare bones heart­-shape}
 
 The   signatures   of   the   functions   which   are   called   to   compute   the  
-geometric   properties   for   the   heart­shaped   primitive   were   casted   and   enlisted   in  
+geometric   properties   for   the   heart-­shaped   primitive   were   casted   and   enlisted   in  
 a   function   table   in   \textit{src/librt/primitives/table.c}.   Then,   we   added   the  
 \textit{src/librt/primitives/hrt/}   directory   to   the   source   code   repository   and   committed  
 the   hrt.c   file   to   it.   The   hrt.c   file   consisted   of   introductory   comments,   include  
@@ -296,18 +296,18 @@ also printed.
 \subsection{Database importation and exportation of the heart­-shaped primitive}
 
 \hspace{30} BRL-­CAD   provides   CSG   modeling   features   and   its   models   are   usually  
-stored   in   it's   Geometric   Editing   database   called   GED.   For   the   heart­shaped  
+stored   in   it's   Geometric   Editing   database   called   GED.   For   the   heart-­shaped  
 primitive   to   be   used   in   CSG,   we   wrote   functions   that  
 import and export data in between the database format and the internal format. 
   
 The   \textit{rt\_hrt\_import5()}   function   imports   a   heart   from   the   database   format   to   the  
 internal   format.   Firstly,   we   check   that   the   primitive   being   imported   is   the  
 heart-­shaped   primitive   by   verifying   that   the   primitive's   magic   number   is   the  
-same   as   the   heart­shape's.   Then,   this   function   assigns   integers   held   in   an   array  
+same   as   the   heart­-shape's.   Then,   this   function   assigns   integers   held   in   an   array  
 buffer to the different parameters of the \textit{rt\_hrt\_internal} structure.
    
-We   wrote   the   \textit{rt\_hrt\_export5()}   function   to   export   the   heart­shape's   internal  
-format   into   the   database   format.   The   database   format   for   the   heart­shape  
+We   wrote   the   \textit{rt\_hrt\_export5()}   function   to   export   the   heart-­shape's   internal  
+format   into   the   database   format.   The   database   format   for   the   heart­-shape  
 consists   rather   of   only   the   heart's   center   and   the   3   radial   vectors   in   the   X,   Y   and  
 Z   directions.   It   is   not   really   useful   storing   value   for   d   in   the   database   as   it   is  
 equivalent   to   some   components   of   the   radial   vectors.   After   checking   that   the  
@@ -359,7 +359,7 @@ obtained, we obtain the bounding box of the heart-­shape.
 
 \hspace{30} As   we   earlier   discussed,   the   wireframe   of   an   object   enables   the  
 sketching   and   preview   of   objects   before   adding   colour   and   texture   to   them.   In  
-order   to   build   the   wireframe   of   the   heart­shaped   primitive   into   BRL-­CAD's  
+order   to   build   the   wireframe   of   the   heart-­shaped   primitive   into   BRL-­CAD's  
 functionality,   we   wrote   the   \textit{rt\_hrt\_plot()}   and   \textit{rt\_hrt\_24pts()}   functions.   The  
 heart-­shaped   primitive's   wireframe   is   made   up   of   several   ellipses   aligned   along  
 the   Z   axis   each   of   which   consists   of   24   edges.   As   we   progress   in   the   positive  
