@@ -103,7 +103,6 @@
 
 \RequirePackage[utf8]{inputenc} % Allows the use of international characters (e.g. Umlauts)
 
-\raggedbottom
 \setlength{\topskip}{1\topskip \@plus 5\p@}
 \doublehyphendemerits=10000       % No consecutive line hyphens.
 \brokenpenalty=10000              % No broken words across columns/pages.
@@ -111,6 +110,18 @@
 \clubpenalty=9999                 % Almost no orphans at top of page.
 \interfootnotelinepenalty=9999    % Almost never break footnotes.
 \usepackage{fancyhdr}
+\lhead[\rm\thepage]{\fancyplain{}{\sl{\rightmark}}}
+\rhead[\fancyplain{}{\sl{\leftmark}}]{\rm\thepage}
+\chead{}\lfoot{}\rfoot{}\cfoot{}
+\pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{\btypeout{\thechapter\space #1}\markboth{\@chapapp\ \thechapter\ #1}{\@chapapp\ \thechapter\ #1}}
+\renewcommand{\sectionmark}[1]{}
+\renewcommand{\subsectionmark}[1]{}
+\def\cleardoublepage{\clearpage\if@twoside \ifodd\c@page\else
+\hbox{}
+\thispagestyle{empty}
+\newpage
+\if@twocolumn\hbox{}\newpage\fi\fi\fi}
 \usepackage{amsmath,amsfonts,amssymb,amscd,amsthm,xspace}
 \theoremstyle{plain}
 \newtheorem{example}{Example}[chapter]
@@ -192,9 +203,9 @@
 \degree{Master of Science in Computer Science} % Your degree name used title page and assorted 
 %--------------------------------------------------
 \authors{Isaac Kamga Mkounga} % Your name as used in the title page and abstract
-%--------------------------------------------------
-\keywords{heart-shape, sextic, primitive, BRL-CAD} % Keywords for my thesis use \keywordnames to cite 
 %-------------------------------------------------   
+\keywords{heart-shape, sextic, primitive, BRL-CAD} % Keywords for my thesis use \keywordnames to cite 
+%---------------------------------------------------
 \university{\texorpdfstring{\href{http://www.ubuea.cm} % Your university's URL
                 {University of Buea}} % Your university's name - this is currently used in the title page
                 {University of Buea}}
