@@ -242,7 +242,7 @@ The   signatures   of   the   functions   which   are   called   to   compute   
 geometric   properties   for   the   heart-­shaped   primitive   were   casted   and   enlisted   in  
 a   function   table   in   \textit{src/librt/primitives/table.c}.   Then,   we   added   the  
 \textit{src/librt/primitives/hrt/}   directory   to   the   source   code   repository   and   committed  
-the   hrt.c   file   to   it.   The   hrt.c   file   consisted   of   introductory   comments,   include  
+the   hrt.c   file   to   it.   The   \textit{hrt.c}   file   consisted   of   introductory   comments,   include  
 files,   structures   for   raytracing   and   storage   of   the   heart­-shaped   primitive   in   the  
 database   as   well   as   stubs   for   all   callback   functions   which   all   print   a  
 \textit{\textbf{\“rt\_hrt\_???:Not   implemented   yet!\”}}   message   when   called.   For   surface  
@@ -261,7 +261,7 @@ elaborate C-­like structure called \textit{hrt\_specific} with the following pa
 \item A vector for the inverse of the squared magnitudes of the three (3) aforementioned unit vectors \textit{\textbf{hrt\_invsq}}  
 \end{itemize}
 
-The   location   of   the   hrt.c   file   in   the   raytracing   library   was   added   to  
+The   location   of   the   \textit{hrt.c}   file   in   the   raytracing   library   was   added   to  
 \textit{src/librt/CMakeLists.txt} for compilation purposes  and test ­driven development.\\
    
 \hspace{30} After   hooking   the   heart-­shaped   primitive   into   BRL-­CAD's   source   code  
