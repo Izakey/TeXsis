@@ -329,27 +329,21 @@ equidistant   from   the   heart-­shape's   center   and   differ   from   the 
 a single  component.  
 
 \hspace{30} The   X   component   of   the   minimal   point   (closest   lower   left   hand   corner  
-point)   is   obtained   by   subtracting   a   factor   of   2/3   from   the   unit   vector   from   the  
-heart-­shape's   center.   The   X   component   of   the   maximal   point   (closest   lower   left  
-hand   corner   point)   is   obtained   by   adding   a   factor   of   2/3   of   the   X   component   of  
-the   unit   vector   to   the   heart-­shape's   center.
+point) is obtained by subtracting a factor of 2/3 of the radial vector \textit{xdir} from the unit vector of the  
+heart-­shape's center \textit{v}.   The   X   component   of   the   maximal   point (furthest upper right hand corner point) is obtained   by   adding  a factor of 2/3 of the radial vector \textit{xdir} to the unit vector of the heart-­shape's center \textit{v}.
 
-\hspace{30} The   Y   component   of   the   minimal  point   (closest   lower   left   hand   corner   point)
-and   maximal   point   is   obtained   by  subtracting   and   adding   the   unit   vector   from   the   
-heart-­shape's   center.   
+\hspace{30}The Y component of the minimal point (closest lower left hand corner point) is obtained by subtracting the radial vector \textit{ydir} from the heart-­shape's center  \textit{v}. The Y component of the maximal point (furthest upper right hand corner point) is obtained by adding the radial vector \textit{ydir} to the heart-­shape's center \textit{v}.    
 
 \hspace{30} The   Z component   of   the   minimal   point   (closest   lower   left   hand   corner   point)   is  
-obtained   by   subtracting   the   unit   vector   from   the   heart-­shape's   center   while   the   Z  
+obtained   by   subtracting   the   radial   vector \textit{zdir}  from   the   heart-­shape's   center  \textit{v}. The   Z  
 component   of   the   maximal   point   (furthest   upper   right   hand   corner   point)   is  
-obtained   by   adding   another   factor   of   1.25   to   the   unit   vector   to   the   heart­-shape's  
-center   in   a   component­wise   manner.   The   factor   of   1.25   in   the   calculation   of   the  
-Z   component   of   the   maximal   point   represents   the   distance   from   the   heart's  
+obtained   by   adding a factor   of   1.25 of the radial vector \textit{zdir}  to   the   vector   to   the   heart­-shape's  
+center \textit{v}. This   factor   of   1.25 represents   the   distance   from   the   heart's  
 center   to   either   of   its   cusps   (which   is   1.0)   and   the   additional   0.25   closely  
 approximates   the   displacement   from   the   upper   cusp   to   the   highest   point   on  
-either   of   its   lobes.
+either   of   the heart-shape's   lobes.
 
-With   the   coordinates   of   the   maximal   and   minimal   points  
-obtained, we obtain the bounding box of the heart-­shape.  
+Hence, with   the   coordinates   of   the   maximal   and   minimal   points obtained, we obtain the bounding box of the heart-­shape.
 
 \subsection{Plotting the wireframe of the heart-­shaped primitive}
 
