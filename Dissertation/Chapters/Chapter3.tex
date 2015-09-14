@@ -33,9 +33,7 @@ maintaining   mailing   lists,   moderating   news   groups,   etc   without   a
 compensation.   The   word   \textit{\textbf{hacker}}   was   coined   by   a   shared   community   of   expert  
 programmers   and   networking   masters   which   traces   its   history   back   to   the   days  
 of   the   earliest   ARPAnet   experiments   and   time­sharing   minicomputers   who  
-made   the   unix   operating   systems   and   the   world­wide   web   work.   As   opposed   to  
-hackers,   \textit{\textbf{crackers}}   who   are   more   interested   in   breaking   software   and   perturbing  
-phone systems.   
+made   the   unix   operating   systems   and   the   world­wide   web   work.   
 
 \hspace{30} Today,   the   open   source   community   has   become   a   self­organizing  
 collaborative   social   network   of   hackers   driven   by   a   passion   to   solve   problems  
@@ -154,12 +152,11 @@ to traditional ones such as cones, cylinders, spheres, tori, etc.
 Government   for   the   modeling   of   military   artillery   and   simulating   combat  vehicle   systems   and   environments.   This   severely   limits   is   user   base   to  the   military   sector   and   gives   it   an   “­warring”   flare   which   repels   users   who  would have used it for more entertainment purposes.
 \end{itemize}
 
-In   a   bid   to   solve   the   aforementioned   problems,   we   embarked   on   a   journey   to  
-develop   a   heart-­shaped   primitive   for   BRL­-CAD.   In   the   following   section,   we  
+In   a   bid   to contribute to BRL-CAD, we developed   a   heart-­shaped   primitive. In   the   following   section,   we  
 document   how   we   wrote   various   callback   functions   which   compute   useful  
 geometric   properties   for   the   heart-­shaped   primitive   such   as   formatted  
 description,   database   importation   and   exportation,   computation   of   the   bounding  
-box, plotting the wireframe and ray tracing.
+box and plotting the wireframe and ray tracing.
 
 %---------------------------------------------------------------------------------------------------------------------------------
 %	DESIGN
@@ -253,7 +250,7 @@ elaborate C-­like structure called \textit{hrt\_specific} with the following pa
 \item A unit vector in the X ­axis direction \textbf{\textit{hrt\_X}}  
 \item A unit vector in the Y axis direction \textbf{\textit{hrt\_Y}}  
 \item A unit vector in the Z axis direction \textbf{\textit{hrt\_Z}}  
-\item A unit vector in the Z ­axis direction \textit{\textbf{hrt\_d}}  
+\item A vector in the Z ­axis direction \textit{\textbf{hrt\_d}}  
 \item A matrix for scaling and rotating \textit{\textbf{hrt\_SoR}}  
 \item A matrix for scaling and transposing a rotated heart \textbf{\textit{hrt\_invRSSR}}  
 \item A matrix for transposing a rotated heart \textit{\textbf{hrt\_invR}}  
@@ -401,9 +398,9 @@ was used to develop the wireframe of the heart­-shape.
 
 \hspace{30} The   heart-­shaped   primitive   endowed   with   a   surface   representation   by  
 raytracing   it.   Ray­tracing   at   its   very   core   consists   of   solving   for   the   intersection  
-points   of   a   line   and   a   surface.   Many   interesting   surfaces   have   been   written   as  
+point   of   a   line   and   a   surface.   Many   interesting   surfaces   have   been   written   as  
 polynomial   functions   of   position   and   the   heart­-shape   is   not   left   out.   The  
-peculiarity   of   our   work   is   that   we   proved   that   ray­tracing   using   the  
+peculiarity   of   our   work   is   that   we   showed   that   ray­tracing   using   the  
 Laguerre­-based   root­finder   works   for   sextic   equations   (those   with   a   degree   of  
 6).   In   order   to   do   this,   we   wrote   \textit{rt\_hrt\_prep()},   \textit{rt\_hrt\_norm()},   \textit{rt\_hrt\_shot()}   and  
 \textit{rt\_hrt\_print()} functions.
@@ -413,8 +410,8 @@ verifying   that   the   object   in   question   is   a   valid   heart-­shape
 valid   heart,   then   a   specific   heart   structure   called   \textit{hrt\_specific}   is   created   and  
 stored   in   memory   for   use   by   the   \textit{rt\_hrt\_shot()}   function.   To   check   the   validity   of  
 the   heart,   we   first   check   that   at least   one   of   the   three   radial   vectors   has   a  
-positive   magnitude.   Secondly,   we   check   that   the   value   for   parameter   d   is  
-non­zero   and   is   not   too   large.   After,   we   check   that   the   3   radial   vectors   are  
+non-zero   magnitude.   Secondly,   we   check   that   the   value   for   parameter   d   is  
+non­zero.   After,   we   check   that   the   3   radial   vectors   are  
 perpendicular   to   each other.   If   they   are   indeed   perpendicular   to   each   other,   then  
 the   heart­-shaped   primitive   is   a   valid   hear.   Finally,   we   compute   values   for   \textit{d},   \textit{v},  
 \textit{hrt\_invRSSR},   \textit{hrt\_invsq}   and   the   heart-shape's   bounding   sphere   centered   at   \textit{v}.   After  
@@ -486,7 +483,7 @@ function   \textit{rt\_hrt\_norm()}   computes   the   surface   normal   N   to
 
 By substituting   $w = x^2 + 9/4y^2 + z^2 – 1$,   (6)   becomes   
 
-\hspace{100} $w^3 – z^3(x^2 + 9/80y^2) = 0$ 
+\hspace{100} $­­­­­­­­­­­­­­f(x,y,z) = w^3 – z^3(x^2 + 9/80y^2)$ 
 
 and the surface normal is given by the system of equations in below.
 
@@ -519,8 +516,8 @@ result, only numerical methods can be employed to solve it.
  
 Fortunately,   BRL-­CAD   has   a   root­solver   which   is   based   on   a   numerical  
 method   called   the   Laguerre   method.   Named   after   the   French   mathematician  
-Edmund   Laguerre,   the   Laguerre   method   is   a   root­finding   algorithm   used   to  
-solve   polynomials.   Extensive   empirical   studies   show   that   this   method   has   come  
+Edmund   Laguerre,   the   Laguerre   method   is   a   root­finding   algorithm   used   
+to find the roots of polynomials.   Extensive   empirical   studies   show   that   this   method   has   come  
 close   to   being   a   sure­fire   method   because   it   almost   always   converges   to   some  
 root   of   the   polynomial   no   matter   what   initial   guess   is   chosen.   This   is   in   contrast  
 to   the   other   methods   like   the   Newton­-Raphson   method   which   may   fail   to  
@@ -563,12 +560,5 @@ primitive   using   the   keyboard   into   the   mged   or   archer   interface
 implemented.   To   do   this,   we   first   wrote   the   \textit{p\_hrt[]}   array   and   \textit{hrt\_in()}   routine   in  
 \textit{\textbf{src/libged/typein.c}}   to   prompt   users   to   input   parameters   for   the   heart­-shape.  
 Then ,we   added   the   \textit{mk\_hrt()}   function   to   the   include/wdb.h   and  \textit{\textbf{src/libwdb/wdb.c}} files   to   assign   values   from   \textbf{mged}   or   \textbf{archer}   interfaces   to   the  heart-shape's parameters.
-
-
-\hspace{30} In   this   chapter,   we   introduced   the   concept   of   open   source   software  
-because   our   research   was   carried   out   within   this   context.   Secondly,   we   described  
-the   procedure   for   constructing   the   heart­-shaped   primitive. After, we   outlined   the  
-design   of   the   heart­-shaped   primitive   and   the   implementation   of   appropriate  
-callback   functions   to   compute   geometrically   important   properties   for   the  
-heart­-shape.  
+ 
 %-----------------------------------------------------------------------------------------------------------------------------------

@@ -17,24 +17,13 @@ represent this reality and the most appropriate algorithms to manipulate these r
 \hspace{30} BRL-­CAD supports a wide variety of geometric representations including an 
 extensive set of traditional implicit primitive shapes as well as explicit primitives
 made from collections of uniform B­spline surfaces, non­uniform rational B­spline (NURBS)
-surfaces, n­on-manifold   geometry   (NMG)   and purely faceted polygonal mesh geometry.
+surfaces, n­on-manifold   geometry  (NMG) and purely faceted polygonal mesh geometry.
 Consequently, in this chapter, we review the existing work done by scholars in the 
 field of geometric modeling which have been applied to the development of BRL-­CAD. 
 First of all, it introduces the issue of representation and the notion of representation
  schemes. Then, it summarizes developments in wireframe modeling, surface modeling, solid
 modeling and non­-manifold modeling (aka non­manifold geometry or nmg for short) with a keen
- eye on the algorithms underlying them.
-
-\hspace{30} As we progress in our literature review from older forms of geometric
-modeling to newer ones, we will discover that representation schemes were
-closely linked to algorithmic efficiency and that it has always been normal to
-expect designers to switch to newer ones in response to the improvements in
-algorithmic performance. Despite these enhancements in algorithmic efficiency
-within the designer community, we cannot say with complete certainty whether
-traditional representation schemes have been relegated to the background. We
-can only conclude that old and new representation paradigms co­exist and that
-research led to representation schemes which supplemented the repertoire of
-geometric modeling.  
+ eye on the algorithms underlying them.  
 
 %-----------------------------------------------------------------------------------------
 
@@ -54,7 +43,7 @@ formal language for describing the geometric properties of solids and they also
 threw more light on the mathematical characteristics of solids such as a solid's
 interior, boundary, complement, closure, boundedness and regularity.
 Requicha \cite{4} insisted that to be computationally useful, a representation should  
-formally capture the following properties ;
+formally have the following properties ;
 
 \begin{itemize}
 \item \textit{\textbf{Rigidity:}} Representations should have an invariant configuration
@@ -66,16 +55,15 @@ the interior of that solid.
 \item \textit{\textbf{Closure}}: Representations of solids which are manipulated by rigid
 motions and regularized boolean operations should produce representations of solids too.
 \end{itemize}
-These formal characteristics leave representations no choice than to be
-bounded, closed, regularized and semi­analytic, hence their coinage \textit{\textbf{r - ­sets}}
-according to \cite{5}. 
+These formal characteristics left representations bounded, closed, regularized and semi­analytic,
+hence they were termed \textit{\textbf{r - ­sets}} according to \cite{5}. 
 \begin{Def2}
 An \textit{\textbf{r - ­set}} is simply a regular and bounded set in $\mathbb{E}^3$.
 \end{Def2}
 \hspace{30} A representation scheme is simply a relation between physical solids and their representations which can be characterized by the following properties;
 \begin{itemize}
 \item \textit{\textbf{Domain}}: A representation scheme must represent quite a number of useful geometric solids. 
-\item \textit{\textbf{Unambiguity}}: A representation scheme should produce representations which intuitively capture the properties of the physical solid so that it can be easily distinguished from other representations.
+\item \textit{\textbf{Unambiguity}}: A representation scheme should produce representations which have the properties of the physical solid so that it can be easily distinguished from other representations.
 \item \textit{\textbf{Uniqueness}}: A representation scheme should uniquely represent a solid object within a software's database.  
 \item \textit{\textbf{Validity}}: Representation schemes should yield representations of solids which do not exist or are valid.  
 \item \textit{\textbf{Closure}}: A Representation scheme which transforms (reflects, scales, rotates) a representation should yield other representations too.
@@ -87,7 +75,7 @@ An \textit{\textbf{r - ­set}} is simply a regular and bounded set in $\mathbb{E
 \section{Wireframe Modeling}
 
 For rectilinear objects whose edges are straight lines and whose faces are planar, the ordered pair of vertices
- $\textbf{\mathfrak{V}} \in \mathbb{E}^3$ and edges $\textbf{\mathfrak{E}} \in \mathbb{E}^3$ denoted by $(\textbf{\mathfrak{V}} , \textbf{\mathfrak{E}})$ is the object's wireframe.  
+$(\textbf{\mathfrak{V}} , \textbf{\mathfrak{E}})$ where V $\in \mathbb{E}^3$ and $\textbf{\mathfrak{E}} \in \mathbb{E}^3$ is the object's wireframe.
 In a practical sense, it is the skeleton of an object wherein joints are vertices
 and bones are edges. In \cite{6}, a six ­step algorithm to generate an object's
 wireframe was developed wherein an object's wireframe was represented by a vertex table and an edge table. 
@@ -166,7 +154,7 @@ y = h_2(u,v) ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­\IEEEyesn
 z = h_3(u,v) \\
 \end{IEEEeqnarray*} where $h_i$ are rational functions and, u and v are restricted to particular closed intervals in $\mathbb{R}$.
 
-As an example, the unit sphere given implicitly by $x^2 + y^2 + z^2 – 1 = 0$ can be parameterized by equation (2) viz;
+As an example, the unit sphere given implicitly by $x^2 + y^2 + z^2 – 1 = 0$ can be parameterized by the following equation where $t \in [0,1]$ ;
 
 \begin{IEEEeqnarray*}
 \centering
@@ -175,7 +163,7 @@ y = 2s / (1 + s^2 + t^2) \IEEEyesnumber \\
 z = 2t / (1 + s^2 + t^2) \\
 \end{IEEEeqnarray*}
 
-Also, some algebraic curves possess parametric forms. A parameterization of the unit circle is given by the system of  equations in (3) below;
+Also, some algebraic curves possess parametric forms. A parameterization of the unit circle is given by the system of equations below;
 
 \begin{IEEEeqnarray*}
 \centering
@@ -304,10 +292,10 @@ Solid Geometry} and \textit{Spatial Subdivision.}
 \hspace{30} Just as Rome was not built in a day, the transition from surface modeling
 representation schemes   to   solid   modeling   representation   schemes   was   a  
 gradual   process   which   started   off   with   boundary   representations.   The   boundary  
-representations   popularly   known   as   as   B­REPS   describe   a   solid   as   a   set   of  
+representations   popularly   known   as   as   B­-REPS   describe   a   solid   as   a   set   of  
 surfaces which separate an object's interior from its exterior. 
 
-\hspace{30} With   B­REPS,   the   boundary   of   a   solid   consists   of   vertices,   edges   and  
+\hspace{30} With   B-­REPS,   the   boundary   of   a   solid   consists   of   vertices,   edges   and  
 faces.   For   each   vertex,   edge   and   face,   the   geometric   section   of   the  
 representation   holds   the   shape   and   location   of   the   object   in   space   possibly  
 using   an   equation   while   the   topological   section   of   the   representation   holds   the  
@@ -362,7 +350,7 @@ and \textit{\textbf{kill}}.
 \hspace{30} Some   representation   schemes   are   hybrids   such   as   the   \textbf{B-­rep index}   which  
 is   a   mixture   of   the   boundary   representation   and   cell   decomposition   schemes.  
 BRL-­CAD   is   one   of   the   few   solid   modeling   systems   which   supports   the  
-BREP and NURBS   representation   format.  The   image   shown   in   Figure   2.3   below   is   the   classic   computer   graphics   Utah  teapot model prepared for 3D printing and rendered via BRL-­CAD ray tracing.\\
+B-REPS and NURBS   representation   format.  The   image   shown   in   Figure   2.3   below   is   the   classic   computer   graphics   Utah  teapot model prepared for 3D printing and rendered via BRL-­CAD ray tracing.\\
 
 \begin{figure}[htbp]
 \centering
@@ -426,10 +414,10 @@ implicit primitives and CSG boolean operations.
 \label{M1A1}
 \end{figure}  
 
-\subsection{Cell Decomposition}
+\subsection{Spacial Subdivision}
 
 \hspace{30} Despite   the   wide   applicability   and   attention   received   by   boundary  
-representations,   it   gradually   became   exciting   to   research   new   ways   of  
+representations,   it   gradually   became   exciting   to look for   new   ways   of  
 representing   objects   explicitly   by   their   volume   –   a   collection   of   minute   cells   of   a  
 partition   of   $\mathbb{E}^3 $.   Some   widely   used   data   structures   under  
 this   representational   paradigm   are   hierarchical   in   nature   and   recursively  
