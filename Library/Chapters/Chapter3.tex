@@ -518,17 +518,17 @@ to   the   other   methods   like   the   Newton­-Raphson   method   which   ma
 converge   for   poorly   chosen   initial   guesses.   Algorithm   3   below   shows   how   the  
 Laguerre method works;  
 
-\hspace{85} \textit{Algorithm 3. The Laguerre Root­-finding Method  }
+\hspace{85} \textit{Algorithm 3. The Laguerre Root­-finding Method}
 
-1. Choose an initial guess $x_0$  \\
-2. while ($k \leq N+1$  or  $a \approx 0$) \\
-\hspace{10}2.1. for k = 0$\div$N \\
-\hspace{30}Compute  G := f'($x_k$)/f($x_k$) \\ 
-\hspace{30}Compute  H := G^2 – f''($x_k$)/f($x_k$) \\ 
-\hspace{30}Compute  a := $n/G + \sqrt{(n–1)(nH – G^2f(x))}$ ,n = degree of f(x) \\
-\hspace{10}end for loop \\
-\hspace{10}2.2 Set $x_{k+1}$ := $x_{k – a}$\\ 
-end while loop \\
+Choose an initial guess $x_0$  \\
+\hspace{40}while ($k \leq N+1$  or  $a \approx 0$) \\
+\hspace{60}for k = 0$\div$N \\
+\hspace{90}Compute  G := f'($x_k$)/f($x_k$) \\ 
+\hspace{90}Compute  H := G^2 – f''($x_k$)/f($x_k$) \\ 
+\hspace{90}Compute  a := $n/G + \sqrt{(n–1)(nH – G^2f(x))}$ ,n = degree of f(x) \\
+\hspace{60}end for loop \\
+\hspace{40}Set $x_{k+1}$ := $x_{k – a}$\\ 
+\hspace{40}end while loop \\
 
 If   a   root   is   found,   then   the   corresponding   linear   factor   is   removed   from   the  
 polynomial.   This   deflation   step   reduces   the   degree   of   the   polynomial   by   one  
