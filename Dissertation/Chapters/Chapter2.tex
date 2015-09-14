@@ -33,6 +33,7 @@ modeling and non­-manifold modeling (aka non­manifold geometry or nmg for shor
 
 \section{Representation Schemes}
 
+\theoremstyle{definition} \newtheorem{Def0}{Definition}[section]
 \theoremstyle{definition} \newtheorem{Def1}{Definition}[section]
 \theoremstyle{remark} \newtheorem{Def2}{Remark}[section]
 \begin{Def1}
@@ -130,7 +131,7 @@ An algebraic surface in $\mathbb{E}^3$ is expressed as the set of points satisfy
 \end{equation*} in the unknowns x,y and z.
 \theoremstyle{remark} \newtheorem{Def3}{Definition}[section]
 \begin{Def3}
-A polynomial \textit{\textbf{f(x,y,z)}} over a field $\textbf{\mathbb{F}}$ is said to be irreducible over $\textbf{\mathbb{F}}$ if the degree of \textit{\textbf{f(x,y,z)}} is positive and its only factors are \textit{c} and \textit{cf(x,y,z)} where \textit{c} is a non­zero constant in $\textbf{\mathbb{F}}$.
+A polynomial \textit{\textbf{f(x,y,z)}} over a field $\textbf{\mathbb{F}}$ is said to be irreducible over $\textbf{\mathbb{F}}$ if the degree of \textit{\textbf{f(x,y,z)}} is positive and its only factors are \textit{c} and \textit{cf(x,y,z)} where \textit{c} is a non­-zero constant in $\textbf{\mathbb{F}}$.
 \end{Def3}
 The requirement of irreducibility is so that a surface represented by an equation
 should not be decomposed into two separate surfaces, each of which can be
@@ -144,13 +145,12 @@ described by an implicit equation.
 
 \subsection{Parametric Representation}
 
-Some algebraic surfaces possess a parametric representation which  
-consists of a system of equations similar to the ones listed in (1) below;  
+Some algebraic surfaces possess a parametric representation which consists of a system of equations similar to the ones listed below;  
 
 \begin{IEEEeqnarray*}
 \centering
 x = h_1(u,v)  \\
-y = h_2(u,v) ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­\IEEEyesnumber \\
+y = h_2(u,v) ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­\tag{1} \\
 z = h_3(u,v) \\
 \end{IEEEeqnarray*} where $h_i$ are rational functions and, u and v are restricted to particular closed intervals in $\mathbb{R}$.
 
@@ -159,7 +159,7 @@ As an example, the unit sphere given implicitly by $x^2 + y^2 + z^2 – 1 = 0$ c
 \begin{IEEEeqnarray*}
 \centering
 x = (1 – s^2 - t^2)/(1 + s^2 + t^2) \\  
-y = 2s / (1 + s^2 + t^2) \IEEEyesnumber \\
+y = 2s / (1 + s^2 + t^2) \tag{2} \\
 z = 2t / (1 + s^2 + t^2) \\
 \end{IEEEeqnarray*}
 
@@ -168,7 +168,7 @@ Also, some algebraic curves possess parametric forms. A parameterization of the 
 \begin{IEEEeqnarray*}
 \centering
 x = (1 – t^2)/ (1 + t^2)­ \\
-y = 2t / (1 + t^2) \IEEEyesnumber \\
+y = 2t / (1 + t^2) \tag{3} \\
 \end{IEEEeqnarray*}
 
 When the parametric representation is employed, it is easier to generate points on an algebraic surface or curve as compared to the implicit representation. Also, parametric equations are useful for interactive design
@@ -240,7 +240,11 @@ Parameterization is the process of converting an implicit representation of
 an object into its parametric equivalent, if it exists. Parameterization is not
 always possible since not all implicit surfaces can be expressed as rational
 parameterizations. Noether's theorem states that a plane algebraic curve
-possesses a rational parameterization if and only if it has genus zero. \cite{13} used
+possesses a rational parameterization if and only if it has genus zero.
+\begin{Def0}
+An algebraic surface is said to have genus zero if it cannot be cut along non-intersecting closed curve without disconnecting the resultant manifold.
+\end{Def0}
+\cite{13} used
 a numerically stable Jacobi rotation adapted from \cite{12} to parameterize several
 conics and parametric surfaces. Table 2.1 below shows a list of
 parameterizations of some popular conics – circle, ellipse, hyperbola and
@@ -338,10 +342,10 @@ representation in two-­dimensional space.
 \hspace{30} The   \textit{Euler - ­Poincare   characterization}   has   been   used   as   a   necessary  
 condition   for   the   validity   of   a   solid   using   its   topological   information   viz   edges  
 (E),   vertices   (V),   faces   (F),   loops   (L),   Holes   (G)   and   shells   (S).   It   is   given   by   the  
-equation (5) below.
+equation (1) below.
 \begin{equation*}
 \centering
- V – E + F -­ ( L – F ) - 2(S – G ) = 0 ­­­­­­­­­­­­­­ \tag{5}
+ V – E + F -­ ( L – F ) - 2(S – G ) = 0 ­­­­­­­­­­­­­­ \tag{1}
 \end{equation*}
 Mantyla   showed   that   any   topologically   valid   polyhedron   can   be   constructed  
 from   an   initial   polyhedron   by   a   finite   sequence   of   Euler   operations   viz   \textit{\textbf{make}}  

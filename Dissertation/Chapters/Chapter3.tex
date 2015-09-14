@@ -423,11 +423,11 @@ are correct.
 \hspace{30} Millions   of   light   rays   are   shot   at   the   surface   of   the   heart   and   the   pixels  
 where   intersections   occur   are   rendered.   The   \textit{rt\_hrt\_shot()}   function   came   in  
 handy   at   this   point   of   our   development   of   the   heart-­shape.   Each   point   in $ \mathbb{E}^3 $
-   is   represented   by   a   treble   (x,y,z)   and   the heart-­shaped   primitive's   surface   is   implicitly   represented   as   a   sextic   equation as shown in (6) below.  
+   is   represented   by   a   treble   (x,y,z)   and   the heart-­shaped   primitive's   surface   is   implicitly   represented   as   a   sextic   equation as shown in (2) below.  
 
 \begin{equation*}
 \centering
-  ­­­­­­­­­­­­­­f(x,y,z) = {(x^2 + 9/4y^2 + z^2 - 1 )}^3 - z^3(x^2 + 9/80y^2) \tag{6}
+  ­­­­­­­­­­­­­­f(x,y,z) = {(x^2 + \frac{9}{4}y^2 + z^2 - 1 )}^3 - z^3(x^2 + \frac{9}{80}y^2) \tag{2}
 \end{equation*}
 
 Each   light   ray   is   modeled   as   a   line   in   $ \mathbb{E}^3 $   written  
@@ -438,21 +438,21 @@ equations for the components of W is given below
 \begin{IEEEeqnarray*}
 \centering
 x = at + $x_0$ \\
-y = bt + $y_0$ ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­\IEEEyesnumber \\
+y = bt + $y_0$ ­­­­­­­­­­­­­­­­­­­­­­­­­­­­ \tag{3} \\
 z = ct + $z_0$ \\
 \end{IEEEeqnarray*} 
 
-This   equation   (6)   indicates   that   each   point   on   the   line   is   represented   by   a  
+Equation (3) above indicates   that   each   point   on   the   line   is   represented   by   a  
 unique   value   for   t.   To   find   the   points   of   intersection   of   the   light   ray   and   the  
-surface   of   the   heart-­shaped   primitive,   we   substituted   x,   y   and   z   from   (6)   above  
-into equation (5). This yielded a new sextic equation (7) in t shown below
+surface   of   the   heart-­shaped   primitive,   we   substituted   x,   y   and   z   from   (3)   above  
+into equation (2). This yielded a new sextic equation (4) in t shown below
 \begin{equation*}
 \centering
-S(t) = C_6t^6  + C_5t^5 + C_4t^4 + C_3t^3 + C_2t^2 + C_1t + C_0  = 0 ­­­­­ \tag{7}  
+S(t) = C_6t^6  + C_5t^5 + C_4t^4 + C_3t^3 + C_2t^2 + C_1t + C_0  = 0 ­­­­­ \tag{4}  
 \end{equation*}
-where   Ci,i = 0$\div$6 are the coefficients of equation (7) which can be viewed in the Appendix.
+where   Ci,i = 0$\div$6 are the coefficients of equation (4) which can be viewed in the Appendix.
 
-The   real   zeroes   of   (7)   indicate   an   intersection   in $ \mathbb{E}^3 $.
+The   real   zeroes   of   (4)   indicate   an   intersection   in $ \mathbb{E}^3 $.
 Even   if   complex   roots   are   returned   by   the   root­finder,   the   roots   with  
 imaginary   components   sufficiently   close   to   zero   are   considered   to   be   real  
 zeroes   and   are   also   used   as   values   for   t   in   intersection   points. 
@@ -481,7 +481,7 @@ of   the   gradient   of   \textit{f(x,y,z)}. N := ($f_x$,$f_y$,$f_z$)   where  
 derivative   functions   of   \textit{f(x,y,z)}   with   respect   to   x,   y   and   z   respectively.   The  
 function   \textit{rt\_hrt\_norm()}   computes   the   surface   normal   N   to   the   surface   of   the  heart-­shaped primitive.
 
-By substituting   $w = x^2 + 9/4y^2 + z^2 – 1$,   (6)   becomes   
+By substituting   $w = x^2 + 9/4y^2 + z^2 – 1$,   (2)   becomes   
 
 \hspace{100} $­­­­­­­­­­­­­­f(x,y,z) = w^3 – z^3(x^2 + 9/80y^2)$ 
 
@@ -494,21 +494,21 @@ $f_y(x,y,z)$ = 6y(12/27w^2 – 88/3z^3) ­­­­­­­­­­­­­­­­­­­­
 $f_z(x,y,z)$ = 6z(w^2 – z/2(x^2 + 9/80y^2))   \\
 \end{IEEEeqnarray*}
 
-\hspace{30} Computing   the   exact   algebraic   expression   for   the   coefficients   of   (7) above   is  
+\hspace{30} Computing   the   exact   algebraic   expression   for   the   coefficients   of   (3) above   is  
 cumbersome   and   error-­prone.   Instead,   we   use   several   polynomial   variables   to  
-hold   the   coefficients   of   (7)   and   gradually   build   equation   (7).   Starting   with  
+hold   the   coefficients   of   (3)   and   gradually   build   equation   (3).   Starting   with  
 polynomials   for   $x^2$, $9/4y^2$ and $z^2 ­- 1$,   we   obtain   w. With   $y^2$ + $9/4x^3$   and   $z^3$ ,   we  
-obtain $z^3(x^3 + 9/80x^3)$. Hence, we obtain coefficients of (7). 
+obtain $z^3(x^3 + 9/80x^3)$. Hence, we obtain coefficients of (3). 
 
-\hspace{30} Once   the   coefficients   of   (7)   are   determined,   it   is   parsed   through  
+\hspace{30} Once   the   coefficients   of   (3)   are   determined,   it   is   parsed   through  
 BRL­-CAD's   root   finder.   For   polynomials   with   degrees   less   than   five,   there  
 exists   exact   solutions   in   radicals.   Indeed,   linear   and   quadratic   equations   can   be  
 trivially   solved   by   the   substitution   method   and   the   quadratic   formula  
 respectively.   A   method   for   solving   cubics   was   discovered   by   Cardan   and   a  
 method   for   solving   quartics   was   discovered   by   Ferrari.   Although   some  
 methods   exist   to   determine   the   exact   solutions   of   higher   order   polynomials  
-(with   degrees   greater   than   4)   in   radicals   from   Galois   theory,   the   equation   (7)  
-does   not   satisfy   these   conditions.   Indeed,   the   Galois   group   of   equation   (7)   is  
+(with   degrees   greater   than   4)   in   radicals   from   Galois   theory,   the   equation   (3)  
+does   not   satisfy   these   conditions.   Indeed,   the   Galois   group   of   equation   (3)   is  
 contained   neither   in   the   group   of   order   48   which   stabilizes   a   partition   of   the   set  
 of   the   roots   into   three   subsets   of   two   roots   nor   in   the   group   of   order   72   which  
 stabilizes   a   partition   of   the   set   of   the   roots   into   two   subsets   of   three   roots.   As   a  
@@ -542,15 +542,15 @@ and approximations for all roots of the polynomial are obtained.
  
 \hspace{30} BRL-­CAD's   root­finder   \textit{rt\_poly\_findroot()}   function   is   found   in  
 \textit{\textbf{src/librt/roots.c}}.   We   tested   the   root   solver   to   show   that   it   solves   sextic  
-equations by parsing an arbitrarily chosen equation (8) below.  
+equations by parsing an arbitrarily chosen equation (5) below.  
 
 \begin{equation*}
 \centering
- x^6 -­ 8x^5 + 32x^4 - 78x^3 + 121x^2 - ­110x + 50 = 0­­­­­ \tag{8}  
+ x^6 -­ 8x^5 + 32x^4 - 78x^3 + 121x^2 - ­110x + 50 = 0­­­­­ \tag{5}  
 \end{equation*}
-Equation (8) is parsed through the   root­finder   to   obtain   its   roots   $x_1 = 1 – i$, $x_2 = 1 + i$, $x_3 = 2 – i$, $x_4 = 2 +
+Equation (5) is parsed through the   root­finder   to   obtain   its   roots   $x_1 = 1 – i$, $x_2 = 1 + i$, $x_3 = 2 – i$, $x_4 = 2 +
 i$, $x_5 = 1­ - 2i$, $x_6 = 1 + 2i$. This   test   is   implemented   in   \textit{\textbf{src/util/roots\_example.c}}.  
-Besides   this   test,   the   call   to   the   root­finder   by   (6)   worked   and   rendered   the  
+Besides   this   test,   the   call   to   the   root­finder   by   (2)   worked   and   rendered   the  
 heart-shape as our discussion of results in the next chapter will show.  
 
 \subsection{Type in support for the heart-­shaped primitive}
