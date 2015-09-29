@@ -32,7 +32,6 @@ modeling and non­ - manifold modeling (aka non - ­manifold geometry or nmg for
 %----------------------------------------------------------------------------------------
 
 \section{Representation Schemes}
-
 \theoremstyle{definition} \newtheorem{Def0}{Definition}[section]
 \theoremstyle{definition} \newtheorem{Def1}{Definition}[section]
 \theoremstyle{remark} \newtheorem{Def2}{Remark}[section]
@@ -51,13 +50,14 @@ formally have the following properties ;
 irrespective of their location and orientation.
 \item \textit{\textbf{Homogeneity:}} A representation should have an interior.
 \item \textit{\textbf{Finiteness:}} A representation must occupy a finite amount of space.
-\item \textit{\textbf{Boundary determinism:}} A representation must unambiguously determine
+\item \textit{\textbf{Boundary   determinism:}} A representation must unambiguously determine
 the interior of that solid.
 \item \textit{\textbf{Closure}}: Representations of solids which are manipulated by rigid
 motions and regularized boolean operations should produce representations of solids too.
 \end{itemize}
 These formal characteristics left representations bounded, closed, regularized and semi­analytic,
-hence they were termed \textit{\textbf{r - ­sets}} according to \cite{5}. 
+hence they were called \textit{\textbf{r -­ sets}}
+according to \cite{5}. 
 \begin{Def2}
 An \textit{\textbf{r - ­set}} is simply a regular and bounded set in $\mathbb{E}^3$.
 \end{Def2}
@@ -76,7 +76,7 @@ An \textit{\textbf{r - ­set}} is simply a regular and bounded set in $\mathbb{E
 \section{Wireframe Modeling}
 
 For rectilinear objects whose edges are straight lines and whose faces are planar, the ordered pair of vertices
-$(\textbf{\mathfrak{V}} , \textbf{\mathfrak{E}})$ where V $\in \mathbb{E}^3$ and $\textbf{\mathfrak{E}} \in \mathbb{E}^3$ is the object's wireframe.
+$(\textbf{\mathfrak{V}} , \textbf{\mathfrak{E}})$ where V $\in \mathbb{E}^3$ and $\textbf{\mathfrak{E}} \in \mathbb{E}^3$ is the object's wireframe. 
 In a practical sense, it is the skeleton of an object wherein joints are vertices
 and bones are edges. In \cite{6}, a six ­step algorithm to generate an object's
 wireframe was developed wherein an object's wireframe was represented by a vertex table and an edge table. 
@@ -102,8 +102,8 @@ on both rectilinear and topological polyhedra. Figure 2.1 below shows the wirefr
 
 After breakthroughs in wireframe modeling, research efforts in geometric modeling were directed 
 towards extending the geometric coverage of CAD packages by incorporating complex free­form surfaces
- and curves. In this section, we emphasize on algebraic surfaces and curves, the basis for Bezier 
-surfaces and NURBS used within BRL­-CAD. 
+ and curves. This section emphasizes algebraic surfaces and curves, the basis for Bezier 
+surfaces and NURBS used within BRL­-CAD.
 
 %--------------------------------------------------------------------------------------------
 
@@ -131,7 +131,7 @@ An algebraic surface in $\mathbb{E}^3$ is expressed as the set of points satisfy
 \end{equation*} in the unknowns x,y and z.
 \theoremstyle{remark} \newtheorem{Def3}{Definition}[section]
 \begin{Def3}
-A polynomial \textit{\textbf{f(x,y,z)}} over a field $\textbf{\mathbb{F}}$ is said to be irreducible over $\textbf{\mathbb{F}}$ if the degree of \textit{\textbf{f(x,y,z)}} is positive and its only factors are \textit{c} and \textit{cf(x,y,z)} where \textit{c} is a non­-zero constant in $\textbf{\mathbb{F}}$.
+A polynomial \textit{\textbf{f(x,y,z)}} over a field $\textbf{\mathbb{F}}$ is said to be irreducible over $\textbf{\mathbb{F}}$ if the degree of \textit{\textbf{f(x,y,z)}} is positive and its only factors are \textit{c} and \textit{cf(x,y,z)} where \textit{c} is a non­zero constant in $\textbf{\mathbb{F}}$.
 \end{Def3}
 The requirement of irreducibility is so that a surface represented by an equation
 should not be decomposed into two separate surfaces, each of which can be
@@ -154,7 +154,7 @@ y = h_2(u,v) ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­\tag{1} \
 z = h_3(u,v) \\
 \end{IEEEeqnarray*} where $h_i$ are rational functions and, u and v are restricted to particular closed intervals in $\mathbb{R}$.
 
-As an example, the unit sphere given implicitly by $x^2 + y^2 + z^2 – 1 = 0$ can be parameterized by the following equation where $t \in [0,1]$ ;
+As an example, the unit sphere given implicitly by $x^2 + y^2 + z^2 – 1 = 0$ can be parameterized by the following equation where $t \in [0,1]$;
 
 \begin{IEEEeqnarray*}
 \centering
@@ -208,13 +208,13 @@ Another method of Implicitization is the Gr\"\o bner basis technique introduced 
 Buchberger \cite{8} where it was learned that expressing a polynomial as a linear
 combination of a Gr\"\o bner basis facilitates finding the solution of the nonlinear
 system of equations as  much as an $\textbf{\mathbb{LU}}$ - ­decomposition brings a system of
-linear equations to heel.
+linear equations to heel. 
 \theoremstyle{remark} \newtheorem{Def4}{Definition}[section]
 \begin{Def4}
 A polynomial basis is a set of polynomials which
 can be used to express any polynomial and can be viewed as a vector space
 over the field of coefficients $\mathbb{F}$.
-\end{Def4}
+\end{Def4} 
 \hspace{20}In \cite{9}, Lazard constructed a Gr\"\o bner basis with  
 respect to a term ordering known as the elimination order. In \cite{10}, Hoffmann
 improved upon a basis conversion algorithm developed in \cite{11} by first
@@ -287,7 +287,7 @@ within BRL-­CAD based on their boundaries, volumes or constructing from
 primitives using regularized boolean operations, a boolean set theoretic
 operations applied to the context of r­sets which were developed in \cite{4}.
 
-In this section, we review the literature that has grown around classical
+This section reviews the literature around classical
 representation paradigms such as \textit{Boundary   Representations}, \textit{Constructive  
 Solid Geometry} and \textit{Spatial Subdivision.}
 
@@ -299,7 +299,7 @@ gradual   process   which   started   off   with   boundary   representations.  
 representations   popularly   known   as   as   B­-REPS   describe   a   solid   as   a   set   of  
 surfaces which separate an object's interior from its exterior. 
 
-\hspace{30} With   B-­REPS,   the   boundary   of   a   solid   consists   of   vertices,   edges   and  
+\hspace{30} With   B­-REPS,   the   boundary   of   a   solid   consists   of   vertices,   edges   and  
 faces.   For   each   vertex,   edge   and   face,   the   geometric   section   of   the  
 representation   holds   the   shape   and   location   of   the   object   in   space   possibly  
 using   an   equation   while   the   topological   section   of   the   representation   holds   the  
@@ -328,12 +328,12 @@ structure   where   each   face   consists   of   one   or   more   edge   loops
 each   hole   in   that   face.   In   the   same   vein,   Yamaguchi   and   Tokieda   \cite{18}   modified  
 the   winged ­edge   data   structure   by   introducing   yet   another   topological   entity  
 called   the   \textbf{bridge   edge}   (or   auxillary   edge   which   is   simply   a   double   edge 
-connecting two (2) edge cycles of a given face.  
+connecting two (2) edge cycles of a given face.
 
-\hspace{30} The   reader   is   invited   to   explore   other   existing   boundary   representations  
-such   as   the   \textbf{half ­edge}   data   structure   by   Mantyla   \cite{19},   Hanharan's   \textbf{face ­edge}  
+\hspace{30} The  reader   is   invited   to   explore   other   existing   boundary   representations  
+such   as   the  \textbf{half ­edge}   data   structure   by   Mantyla   \cite{19},   Hanharan's   \textbf{face ­edge}  
 representation   \cite{20}   and   Ansaldi   \textit {et al}'s   hierarchical   \textbf{face   adjacency}   hypergraph  
-\cite{21}.   In   order   to   accomodate   solids   with   internal   cavities   and   permit   single  
+\cite{21}.   In  order   to   accomodate   solids   with   internal   cavities   and   permit   single  
 volumes   to   contain   multiple   faces,   a   new   topological   entity   called   the   \textbf{shell}   was  
 introduced   in   \cite{21}.   As   regards   conversion,   Shapiro   and   Vossler   \cite{22}   developed  
 an   algorithm   which   converts   a   boundary   representation   to   an   equivalent   CSG  
@@ -352,7 +352,7 @@ from   an   initial   polyhedron   by   a   finite   sequence   of   Euler   ope
 and \textit{\textbf{kill}}.
 
 \hspace{30} Some   representation   schemes   are   hybrids   such   as   the   \textbf{B-­rep index}   which  
-is   a   mixture   of   the   boundary   representation   and   spacial subdivision schemes.  
+is   a   mixture   of   the   boundary   representation   and   spacial subdivision   schemes.  
 BRL-­CAD   is   one   of   the   few   solid   modeling   systems   which   supports   the  
 B-REPS and NURBS   representation   format.  The   image   shown   in   Figure   2.3   below   is   the   classic   computer   graphics   Utah  teapot model prepared for 3D printing and rendered via BRL-­CAD ray tracing.\\
 
@@ -383,7 +383,7 @@ difference}.
 \hspace{30} His   work   even   went   forward   to   show   that   the   r-­sets   and   the   regularized  
 boolean   operations   formed   not   just   a   boolean   algebra   but   also   a   ring.   Besides  
 these   regularized   boolean   operations   on   solids,   there   also   existed   other   valid  
-operations   on   r­-sets   which   are   linear   transformations   viz   reflection,   scaling,  
+operations   on   r-­sets   which   are   linear   transformations   viz   reflection,   scaling,  
 rotation,   shearing,   etc.   The   image   in   Figure   2.4   below   illustrates   how   the  
 regularized boolean operations result to new shapes.
 
@@ -421,17 +421,17 @@ implicit primitives and CSG boolean operations.
 \subsection{Spacial Subdivision}
 
 \hspace{30} Despite   the   wide   applicability   and   attention   received   by   boundary  
-representations,   it   gradually   became   exciting   to look for   new   ways   of  
+representations,   it   gradually   became   exciting   to look for  new   ways   of  
 representing   objects   explicitly   by   their   volume   –   a   collection   of   minute   cells   of   a  
 partition   of   $\mathbb{E}^3 $.   Some   widely   used   data   structures   under  
 this   representational   paradigm   are   hierarchical   in   nature   and   recursively  
 decompose   space   until   they   obtain   atomic   blocks   for   which   no   further  
  decomposition   is   necessary.   Although   this   representation   scheme   is   not   widely  
-used   within   the   BRL-­CAD   package,   we   thought   it   important   to   highlight   the   prolific  
-developments   in   this   area   of   research.   Due   to   the   frequent   use   of   hierarchical  
-data   structures   in   representing   images   in   the   domains   of   computer   vision,  
-image   processing   and   computer   graphics,   the   atomic   blocks   obtained   from  
-recursive decomposition are called \textit{picture elements} or \textbf{\textit{pixels}} for short. 
+used   within   the   BRL-­CAD   package, the   prolific developments   in   this   area   of   
+research were highlighted. Due   to   the   frequent   use   of   hierarchical data   structures 
+in representing   images   in   the   domains   of   computer   vision,  image   processing   and 
+computer   graphics, the   atomic   blocks   obtained   from recursive decomposition are called
+ \textit{picture elements} or \textbf{\textit{pixels}} for short. 
 
 \hspace{30} The   term   \textit{\textbf{quadtree}}   has   been   used   to   describe   hierarchical   data  
 structures   which   are   based   on   the   common   property   of   recursive  
@@ -489,20 +489,17 @@ rectangles   in   the   database.   Each   rectangle   may   be   contained   in
 each   of   which   had   to   be   visited   before   ascertaining   the   presence   or   absence   of  
 a   particular   rectangle.   This   lead   the   retrieval   of   rectangles   to   be   to   slow; a  
 problem   which   was   alleviated   by   the   implementation   of   an   \textit{${R^{+}}$-tree}   in   which  
-each   rectangle   is   associated   with   with   several   non-­overlapping   bounding  
+each   rectangle   is   associated   with   with   several   non­-overlapping   bounding  
 rectangles.   The   retrieval   time   of   the   R­-tree   is   sped   up   at   the   expense   of   an  
 increase in the tree's height.
 
-\hspace{30} We   now   conclude   our   review   of   hierarchical   data   structures   by   looking   at  
-data   structures   which   explicitly   specify   the   boundaries   of   regions.   They   are  
-called   Polygonal   Maps   ($\mathbf{PM}$) – a   collection   of   polygons   which   can   either   be  
-vertex-­based   or   edge-­based.   The   vertex-­based   Polygon   Maps   quadtree   or   $PM_1$
+\hspace{30} By looking at data   structures   which   explicitly   specify   the   boundaries   of   regions, the   review   of   hierarchical   data structures was concluded. These structures include Polygonal   Maps   ($\mathbf{PM}$) – a   collection   of   polygons   which   can   either   be vertex-­based   or   edge-­based.   The   vertex-­based   Polygon   Maps   quadtree   or   $PM_1$
  quadtree   in   two­-dimensions   was   due   to   \cite{30}.   The   \textbf{\textit{$PM_1$   quadtree}}   was   based   on   a  
 decomposition   rule   stipulating   that   positioning   occurs   as   long   as   a   block  
 contained   more   than   one   line   segment   unless   the   line   segments   are   all   incident  
 at   the   same   vertex   in   the   same   block.   The   three-­dimensional   $PM_1$   octree   data  
 structure   is   quite   useful   as   it   is   more   forgiving   on   memory   than   the   conventional  
-octree   when   representing   objects.   The   edge­-based   variant   of   the PM quadtree also dubbed the \textit{\textbf{PMR quadtree}}   uses   a   probabilistic   splitting   rule   in   which   nodes   contain   a  
+octree   when   representing   objects.   The   edge­-based   variant   of   the   PM   quadtree also dubbed the \textit{\textbf{PMR quadtree}}   uses   a   probabilistic   splitting   rule   in   which   nodes   contain   a  
 variable number of line segments.
 
 \hspace{30} Shown   below   in Figure 2.6 is   a   Sphere   Flake   drawn   using   BRL-­CAD   represented  
@@ -525,16 +522,16 @@ occlusion, and soft shadows.
 %-------------------------------------------------------------------------------------------------------
 \section{Non-manifold Geometry}
 
-\hspace{30} So   far,   we   have   explored   the   modeling   of   manifold   objects – objects   with  
+\hspace{30} So   far, the   modeling   of   manifold   objects – objects   with  
 the   property   that   each   of   their   points   have   neighbourhoods   which   are  
-homeomorphic   to   $\mathbb{E}^3$.   These   manifolds   can  also   be   seen   as   
+homeomorphic   to   $\mathbb{E}^3$ has been explored.   These   manifolds   can  also   be   seen   as   
 r-­sets   which   were   defined   by   Requicha   in   \cite{5}.   Lines   and   circles  are   
 one-­dimensional   manifolds   while   primitives   such   as   tori,   spheres,   cones, 
 cylinders,heart­-shape,etc are examples of three­-dimensional manifolds.
 
-\hspace{30} We   now   throw   some   light   on   geometric   algorithms   used   to   represent  
-non­manifold objects   which   have   points   with   neighbourhoods   which   are   not  
-homeomorphic   to   $\mathbb{E}^3$ .   While   lines   and   circles   are   one-­dimensional   manifolds,  
+\hspace{30} Now, some   light is shed on geometric   algorithms   used   to   represent  
+non - ­manifold objects ( objects which  have   points   with   neighbourhoods   which   are   not  
+homeomorphic   to   $\mathbb{E}^3$ ).   While   lines   and   circles   are   one-­dimensional   manifolds,  
 figure   eights   are   one­-dimensional   non­-manifolds.   Examples   of   two-­dimensional  
 non­-manifolds   may   include   a   cone   touching   another   surface   at   a   single   point,  
 faces   meeting   along   a   common   edge,   etc.   Non-­manifolds   usually   arise   when  
@@ -564,13 +561,13 @@ information   stored   in   a   non­-manifold   model   consists   of   adjacen
 topological   elements.   An   adjacency   relationship   is   the   adjacency   of   a   group   of  
 topological   elements   of   one   type   around   some   other   specific   single   element.
 
-\hspace{30} Thirty­-six   (36)   adjacency   relationships   are   possible   in   non­ manifold   boundary  
-representations.   The   radial-­edge   data   structure   employs   \textit{up­pointers}   and  
+\hspace{30} Thirty­-six   (36)   adjacency   relationships   are   possible   in   non ­manifold   boundary  
+representations.   The   radial­-edge   data   structure   employs   \textit{up­pointers}   and  
 \textit{down­pointers}   to   depict   the   relative   \textit{“hierarchy”}   which   exists   between   topological  
 elements.   The   reader   can   find   more   information   about   data   structures   used   for  
 non-­manifold geometric modeling at \cite{31} and \cite{32}. 
  
-\hspace{30} In this chapter, we reviewed the work done by researchers in the field of  
+\hspace{30} This chapter reviewed the work done by researchers in the field of  
 geometric modeling which has been applied in the development of the BRL-­CAD viz 
 wireframe modeling, surface modeling, solid modeling and non-­manifold modeling.  
 

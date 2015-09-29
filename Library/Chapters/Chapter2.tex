@@ -102,7 +102,7 @@ on both rectilinear and topological polyhedra. Figure 2.1 below shows the wirefr
 
 After breakthroughs in wireframe modeling, research efforts in geometric modeling were directed 
 towards extending the geometric coverage of CAD packages by incorporating complex free­form surfaces
- and curves. In this section, we emphasize on algebraic surfaces and curves, the basis for Bezier 
+ and curves. This section emphasizes algebraic surfaces and curves, the basis for Bezier 
 surfaces and NURBS used within BRL­-CAD.
 
 %--------------------------------------------------------------------------------------------
@@ -287,7 +287,7 @@ within BRL-­CAD based on their boundaries, volumes or constructing from
 primitives using regularized boolean operations, a boolean set theoretic
 operations applied to the context of r­sets which were developed in \cite{4}.
 
-In this section, we review the literature that has grown around classical
+This section reviews the literature around classical
 representation paradigms such as \textit{Boundary   Representations}, \textit{Constructive  
 Solid Geometry} and \textit{Spatial Subdivision.}
 
@@ -427,11 +427,11 @@ partition   of   $\mathbb{E}^3 $.   Some   widely   used   data   structures   u
 this   representational   paradigm   are   hierarchical   in   nature   and   recursively  
 decompose   space   until   they   obtain   atomic   blocks   for   which   no   further  
  decomposition   is   necessary.   Although   this   representation   scheme   is   not   widely  
-used   within   the   BRL-­CAD   package,   we   thought   it   important   to   highlight   the   prolific  
-developments   in   this   area   of   research.   Due   to   the   frequent   use   of   hierarchical  
-data   structures   in   representing   images   in   the   domains   of   computer   vision,  
-image   processing   and   computer   graphics,   the   atomic   blocks   obtained   from  
-recursive decomposition are called \textit{picture elements} or \textbf{\textit{pixels}} for short. 
+used   within   the   BRL-­CAD   package, the   prolific developments   in   this   area   of   
+research were highlighted. Due   to   the   frequent   use   of   hierarchical data   structures 
+in representing   images   in   the   domains   of   computer   vision,  image   processing   and 
+computer   graphics, the   atomic   blocks   obtained   from recursive decomposition are called
+ \textit{picture elements} or \textbf{\textit{pixels}} for short. 
 
 \hspace{30} The   term   \textit{\textbf{quadtree}}   has   been   used   to   describe   hierarchical   data  
 structures   which   are   based   on   the   common   property   of   recursive  
@@ -493,10 +493,7 @@ each   rectangle   is   associated   with   with   several   non­-overlapping  
 rectangles.   The   retrieval   time   of   the   R­-tree   is   sped   up   at   the   expense   of   an  
 increase in the tree's height.
 
-\hspace{30} We   now   conclude   our   review   of   hierarchical   data   structures   by   looking   at  
-data   structures   which   explicitly   specify   the   boundaries   of   regions.   They   are  
-called   Polygonal   Maps   ($\mathbf{PM}$) – a   collection   of   polygons   which   can   either   be  
-vertex-­based   or   edge-­based.   The   vertex-­based   Polygon   Maps   quadtree   or   $PM_1$
+\hspace{30} By looking at data   structures   which   explicitly   specify   the   boundaries   of   regions, the   review   of   hierarchical   data structures was concluded. These structures include Polygonal   Maps   ($\mathbf{PM}$) – a   collection   of   polygons   which   can   either   be vertex-­based   or   edge-­based.   The   vertex-­based   Polygon   Maps   quadtree   or   $PM_1$
  quadtree   in   two­-dimensions   was   due   to   \cite{30}.   The   \textbf{\textit{$PM_1$   quadtree}}   was   based   on   a  
 decomposition   rule   stipulating   that   positioning   occurs   as   long   as   a   block  
 contained   more   than   one   line   segment   unless   the   line   segments   are   all   incident  
@@ -525,16 +522,16 @@ occlusion, and soft shadows.
 %-------------------------------------------------------------------------------------------------------
 \section{Non-manifold Geometry}
 
-\hspace{30} So   far,   we   have   explored   the   modeling   of   manifold   objects – objects   with  
+\hspace{30} So   far, the   modeling   of   manifold   objects – objects   with  
 the   property   that   each   of   their   points   have   neighbourhoods   which   are  
-homeomorphic   to   $\mathbb{E}^3$.   These   manifolds   can  also   be   seen   as   
+homeomorphic   to   $\mathbb{E}^3$ has been explored.   These   manifolds   can  also   be   seen   as   
 r-­sets   which   were   defined   by   Requicha   in   \cite{5}.   Lines   and   circles  are   
 one-­dimensional   manifolds   while   primitives   such   as   tori,   spheres,   cones, 
 cylinders,heart­-shape,etc are examples of three­-dimensional manifolds.
 
-\hspace{30} We   now   throw   some   light   on   geometric   algorithms   used   to   represent  
-non­manifold objects   which   have   points   with   neighbourhoods   which   are   not  
-homeomorphic   to   $\mathbb{E}^3$ .   While   lines   and   circles   are   one-­dimensional   manifolds,  
+\hspace{30} Now, some   light is shed on geometric   algorithms   used   to   represent  
+non - ­manifold objects ( objects which  have   points   with   neighbourhoods   which   are   not  
+homeomorphic   to   $\mathbb{E}^3$ ).   While   lines   and   circles   are   one-­dimensional   manifolds,  
 figure   eights   are   one­-dimensional   non­-manifolds.   Examples   of   two-­dimensional  
 non­-manifolds   may   include   a   cone   touching   another   surface   at   a   single   point,  
 faces   meeting   along   a   common   edge,   etc.   Non-­manifolds   usually   arise   when  
@@ -570,7 +567,7 @@ representations.   The   radial­-edge   data   structure   employs   \textit{up
 elements.   The   reader   can   find   more   information   about   data   structures   used   for  
 non-­manifold geometric modeling at \cite{31} and \cite{32}. 
  
-\hspace{30} In this chapter, we reviewed the work done by researchers in the field of  
+\hspace{30} This chapter reviewed the work done by researchers in the field of  
 geometric modeling which has been applied in the development of the BRL-­CAD viz 
 wireframe modeling, surface modeling, solid modeling and non-­manifold modeling.  
 
