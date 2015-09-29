@@ -6,9 +6,9 @@
 %	SECTION 1
 %----------------------------------------------------------------------------------------
 
-\hspace{30} In this chapter,   we   state   our   aim   of   contributing   to   the   BRL-­CAD   project  
-and   explain   how   we   implemented   a   heart-shaped   primitive   in   the   project   design  
-section.   Firstly,   we   introduce   the   concept   of   free   and   open   source   software. Secondly,   we   do   an   overview   of   the   BRL-­CAD   software   package.   After,   we  state   our   aim   of   contributing   to   the   BRL-­CAD   project.   Finally,   we   give   a   detailed  explanation   of   the   design   which   we   employed   to   implement   the   heart-­shaped primitive for BRL-CAD.
+\hspace{30} This chapter states the aim   of   contributing   to   the BRL-­CAD project  
+and   explains   how a   heart-shaped   primitive was implemented in the project design  
+section.   First of all,   it   introduces   the   concept   of   free   and   open   source   software. Secondly,   the BRL-­CAD   software   package is overviewed. Later, it states the   aim   of   contributing   to   the   BRL-­CAD   project.   And finally,  it explains the   design used to implement the heart-­shaped primitive for BRL-CAD.
 
 %------------------------------------------------------------------------------------------------------------------------------
 %		OPEN SOURCE COMMUNITY
@@ -332,10 +332,10 @@ a single  component.
 point) is obtained by subtracting a factor of 2/3 of the radial vector \textit{xdir} from the unit vector of the  
 heart-­shape's center \textit{v}.   The   X   component   of   the   maximal   point (furthest upper right hand corner point) is obtained   by   adding  a factor of 2/3 of the radial vector \textit{xdir} to the unit vector of the heart-­shape's center \textit{v}.
 
-\hspace{30}The Y component of the minimal point (closest lower left hand corner point) is obtained by subtracting the radial vector \textit{ydir} from the heart-­shape's center \textit{v}. The Y component of the maximal point (furthest upper right hand corner point) is obtained by adding the radial vector \textit{ydir} to the heart-­shape's center \textit{v}.    
+\hspace{30}The Y component of the minimal point (closest lower left hand corner point) is obtained by subtracting the radial vector \textit{ydir} from the heart-­shape's center  \textit{v}. The Y component of the maximal point (furthest upper right hand corner point) is obtained by adding the radial vector \textit{ydir} to the heart-­shape's center \textit{v}.    
 
 \hspace{30} The   Z component   of   the   minimal   point   (closest   lower   left   hand   corner   point)   is  
-obtained   by   subtracting   the   radial   vector \textit{zdir}  from   the   heart-­shape's   center \textit{v}. The   Z  
+obtained   by   subtracting   the   radial   vector \textit{zdir}  from   the   heart-­shape's   center  \textit{v}. The   Z  
 component   of   the   maximal   point   (furthest   upper   right   hand   corner   point)   is  
 obtained   by   adding a factor   of   1.25 of the radial vector \textit{zdir}  to   the   vector   to   the   heart­-shape's  
 center \textit{v}. This   factor   of   1.25 represents   the   distance   from   the   heart's  
@@ -343,7 +343,7 @@ center   to   either   of   its   cusps   (which   is   1.0)   and   the   addit
 approximates   the   displacement   from   the   upper   cusp   to   the   highest   point   on  
 either   of   the heart-shape's   lobes.
 
-Hence, with   the   coordinates   of   the   maximal   and   minimal   points obtained, we obtain the bounding box of the heart-­shape.  
+Hence, with   the   coordinates   of   the   maximal   and   minimal   points obtained, we obtain the bounding box of the heart-­shape.
 
 \subsection{Plotting the wireframe of the heart-­shaped primitive}
 
@@ -436,7 +436,7 @@ y = bt + $y_0$ ­­­­­­­­­­­­­­­­­­­­­­­­­­­­ \tag{3} 
 z = ct + $z_0$ \\
 \end{IEEEeqnarray*} 
 
-Equation   (3) above indicates   that   each   point   on   the   line   is   represented   by   a  
+Equation (3) above indicates   that   each   point   on   the   line   is   represented   by   a  
 unique   value   for   t.   To   find   the   points   of   intersection   of   the   light   ray   and   the  
 surface   of   the   heart-­shaped   primitive,   we   substituted   x,   y   and   z   from   (3)   above  
 into equation (2). This yielded a new sextic equation (4) in t shown below
