@@ -320,7 +320,7 @@ Here,   an   edge   node   holds   information   about   the   edge   orientatio
 adjacencies   and   the   clockwise/counterclockwise   successor   and   predecessor  
 edges   about   adjacent   faces.   This   work   was   based   on   the   assumption   that  
 faces   are   simply   connected.   The   winged ­edge   data   structure   has   to   be  
-modified   to   accommodate   solids   with   multiply   connected   faces   which   contain  
+modified   to   accommodate   solids   with   multiple   connected   faces   which   contain  
 holes   (genus).   In   \cite{17},   Braid   \textit{et   al}   modified   the   winged ­edge   data   structure   by  
 introducing   a   fourth   topological   entity   called   a   \textbf{loop}   into   a   proposed   data  
 structure   where   each   face   consists   of   one   or   more   edge   loops   surrounding  
@@ -417,7 +417,7 @@ implicit primitives and CSG boolean operations.
 \label{M1A1}
 \end{figure}  
 
-\subsection{Spacial Subdivision}
+\subsection{Spatial Subdivision}
 
 \hspace{30} Despite   the   wide   applicability   and   attention   received   by   boundary  
 representations,   it   gradually   became   exciting   to look for  new   ways   of  
@@ -425,9 +425,11 @@ representing   objects   explicitly   by   their   volume   –   a   collection
 partition   of   $\mathbb{E}^3 $.   Some   widely   used   data   structures   under  
 this   representational   paradigm   are   hierarchical   in   nature   and   recursively  
 decompose   space   until   they   obtain   atomic   blocks   for   which   no   further  
- decomposition   is   necessary.   Although   this   representation   scheme   is   not   widely  
-used   within   the   BRL-­CAD   package, the   prolific developments   in   this   area   of   
-research were highlighted. Due   to   the   frequent   use   of   hierarchical data   structures 
+ decomposition   is   necessary. This representation scheme is used within the BRL-­CAD package during 
+the raytracing of Non - Uniform Rational B - Splines ( NURBS ) surfaces where the raytracer builds 
+a Boundary Volume Hierarchy (BVH) tree which guides the ray to patches before the final iterative 
+solution is obtained. Hence, the developments in this area of research were highlighted here.
+Due   to   the   frequent   use   of   hierarchical data   structures 
 in representing   images   in   the   domains   of   computer   vision,  image   processing   and 
 computer   graphics, the   atomic   blocks   obtained   from recursive decomposition are called
  \textit{picture elements} or \textbf{\textit{pixels}} for short. 

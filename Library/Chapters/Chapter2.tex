@@ -425,9 +425,11 @@ representing   objects   explicitly   by   their   volume   –   a   collection
 partition   of   $\mathbb{E}^3 $.   Some   widely   used   data   structures   under  
 this   representational   paradigm   are   hierarchical   in   nature   and   recursively  
 decompose   space   until   they   obtain   atomic   blocks   for   which   no   further  
- decomposition   is   necessary.   Although   this   representation   scheme   is   not   widely  
-used   within   the   BRL-­CAD   package, the   prolific developments   in   this   area   of   
-research were highlighted. Due   to   the   frequent   use   of   hierarchical data   structures 
+ decomposition   is   necessary. This representation scheme is used within the BRL-­CAD package during 
+the raytracing of Non - Uniform Rational B - Splines ( NURBS ) surfaces where the raytracer builds 
+a Boundary Volume Hierarchy (BVH) tree which guides the ray to patches before the final iterative 
+solution is obtained. Hence, the developments in this area of research were highlighted here.
+Due   to   the   frequent   use   of   hierarchical data   structures 
 in representing   images   in   the   domains   of   computer   vision,  image   processing   and 
 computer   graphics, the   atomic   blocks   obtained   from recursive decomposition are called
  \textit{picture elements} or \textbf{\textit{pixels}} for short. 
