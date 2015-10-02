@@ -266,7 +266,7 @@ repository,  callback functions which compute geometrically useful properties fo
 \item Database importation and exportation  
 \item Computing the bounding box of the heart­-shaped primitive  
 \item Plotting the wireframe of the heart­-shaped primitive  
-\item Implicit surface representation of the heart-­shaped primitive
+\item Surface representation and raytracing of the heart-­shaped primitive
 \end{enumerate}
 
 \hspace{30} Now, we explain how the written functions actually compute each of these properties.
@@ -404,7 +404,7 @@ the   heart,   we   first   check   that   at least   one   of   the   three   r
 non-zero   magnitude.   Secondly,   we   check   that   the   value   for   parameter   d   is  
 non­zero.   After,   we   check   that   the   3   radial   vectors   are  
 perpendicular   to   each other.   If   they   are   indeed   perpendicular   to   each   other,   then  
-the   heart­-shaped   primitive   is   a   valid   hear.   Finally,  values   for   \textit{d},   \textit{v},  
+the   heart­-shaped   primitive   is   a   valid   heart-shape.   Finally,  values   for   \textit{d},   \textit{v},  
 \textit{hrt\_invRSSR},   \textit{hrt\_invsq}   and   the   heart-shape's   bounding   sphere   centered   at   \textit{v} are computed.   After  
 computing   these   requisite   parameters   for   the   heart   in   \textit{rt\_hrt\_prep()},   the  
 \textit{rt\_hrt\_print()}   function   prints   the   position   vector   of   the   heart-­shape's   center   and  
@@ -426,12 +426,14 @@ as   a   linear   equation   written   in   the   form   $W   =   Dt   +   P$   
 P   =   ($x_0,y_0 ,z_0$) and $a$,$ b$, $ c$,$x_0$,$y_0$ and $z_0$ are constants in $ \mathbb{R} $.   The   system   of  
 equations for the components of W is given below
 
-\begin{IEEEeqnarray*}
-\centering
+\begin{equation}
+\renewcommand{\arraystretch}{1.2}% To spread out the equations
+\begin{array}{r@{\;}3}
 x = at + $x_0$ \\
-y = bt + $y_0$ ­­­­­­­­­­­­­­­­­­­­­­­­­­­­ \tag{3} \\
+y = bt + $y_0$ ­­­­­­­­­­­­­­­­­­­­­­­­­­­­\tag{3}\\
 z = ct + $z_0$ \\
-\end{IEEEeqnarray*} 
+\end{array} \label{eq}
+\end{equation}
 
 Equation (3) above indicates   that   each   point   on   the   line   is   represented   by   a  
 unique   value   for   t.   To   find   the   points   of   intersection   of   the   light   ray   and   the  
