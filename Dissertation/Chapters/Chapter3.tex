@@ -152,8 +152,8 @@ to traditional ones such as cones, cylinders, spheres, tori, etc.
 Government   for   the   modeling   of   military   artillery   and   simulating   combat  vehicle   systems   and   environments.   This   severely limits   its   user   base   to  the   military   sector   and   repels   users   who  would have used it for more entertainment purposes.
 \end{itemize}
 
-In   a   bid   to contribute to BRL-CAD, a   heart-­shaped   primitive was developed. The 
- following section documents the development of various   callback   functions   which   compute   useful  
+In a bid to contribute to BRL-CAD, a heart-­shaped primitive was developed. 
+The following section documents the development of various callback functions which compute   useful  
 geometric   properties   of   the   heart-­shaped   primitive   such   as   formatted  
 description,   database   importation   and   exportation,   computation   of   the   bounding  
 box and plotting the wireframe and ray tracing.
@@ -175,14 +175,11 @@ revelation   that   less   than   1\%   of   the   world's   population   works 
 is   indicative   of   the   fact   that   BRL-­CAD's   usage   must   go   beyond   the   military  
 sector to break the status­ quo.   
 
-\hspace{30} In   a   bid   to   increase   BRL-­CAD's   user   base   by   inviting   designers   and  
-artists   from   the   entertainment   industry, a heart-­shaped primitive was developed.
- This   heart­-shaped   primitive   (or   simply   heart),   a   symbol of   romantic   love, 
-  would   go   a   long   way   to   entertain   families   and   communities  
-weddings,   marriage   anniversaries,   valentine's   day   celebrations,   etc.   It   would  
-also   be   used   by   fashion   designers   to   create   magnificient   embroidery   on  
-clothing.   Lastly,   it   would   also   be   used   to   design   banners   and   royal   coat   of   arms  
-in cartoons movies as well as animate embroidery on clothing.   
+\hspace{30} In a bid to increase BRL-­CAD's user base from the entertainment industry, 
+a heart-­shaped primitive, a symbol of love, was developed to entertain families at weddings,
+ marriage   anniversaries,   valentine's   day   celebrations,   etc. It can also be used by
+ fashion   designers   to   create   magnificient   embroidery like on  
+clothing for real-life and cartoon movies.    
 
 \hspace{30} While   adhering   to   its   coding   style,  the heart-­shaped  
 primitive was incorporated into BRL­-CAD's ray tracing library using the following steps;  
@@ -209,19 +206,20 @@ equivalent   of   “?hrt?”   and   increment   the   maximum   number   of   
 
 \subsection{Data Structure of Heart-shaped primitive }
 
-\hspace{30} The   heart-­shape   has   two   lobes   which   are   symmetric   about   the   z­axis   and  
+\hspace{30} The   heart-­shape   has   two   lobes   which   are   symmetric   about   the   z - ­axis   and  
 meet at each of its two cusps as the picture in Figure 3.1 shows.  
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[trim=0.0cm 0.5cm 0.1cm 0.1cm, clip=true, totalheight=0.4\textheight]{Pictures/Heart.png}
+\includegraphics[trim=0.0cm 0.5cm 0.1cm 0.1cm, clip=true, totalheight=0.37\textheight]{Pictures/Heart.png}
 \caption[Diagram of the heart-shaped primitive]{Diagram of the heart-shaped primitive}
 \label{Heart}
 \end{figure}
 
 The   heart-­shape   was   stored   in   the   \textit{\textbf{include/}rtgeom.h}   file   as   an   Abstract   Data  
 Type   ( C-­like   structure )   called   \textit{rt\_hrt\_internal}   with   the   following   fields  
-representing its parameters.
+representing its parameters.\\
+
 \begin{itemize}  
 \item A magic number \textit{\textbf{hrt\_magic }} 
 \item A center point \textit{\textbf{v }} 
@@ -230,7 +228,7 @@ representing its parameters.
 \item A vector in the direction of the Z­-axis \textit{\textbf{zdir}}  
 \item Distance from center point to either cusps \textit{\textbf{d}} 
 \end{itemize} 
-These   3    vectors viz \textit{\textbf{xdir}}, \textit{\textbf{ydir}} and \textit{\textbf{zdir}}   are   also   called   radial   vectors   because   they   radiate   in   the  X,   Y   and   Z   directions   and   the   aforementioned   structure   is   also   known   in  BRL-­CAD's parlance as the heart-­shape's internal format.
+These 3 vectors in $ \mathbb{E}^3 $ viz \textit{\textbf{xdir}}, \textit{\textbf{ydir}} and \textit{\textbf{zdir}}   are   also   called   radial   vectors   because   they   radiate   in   the  X,   Y   and   Z   directions   and   the   aforementioned   structure   is   also   known   in  BRL-­CAD's parlance as the heart-­shape's internal format.
 
 \subsection{A bare bones heart­-shape}
 
