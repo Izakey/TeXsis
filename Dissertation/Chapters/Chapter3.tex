@@ -6,7 +6,7 @@
 %	SECTION 1
 %----------------------------------------------------------------------------------------
 
-\hspace{30} This chapter states the aim   of   contributing   to   the BRL-­CAD project  
+\hspace{30} This chapter states the aim of   contributing   to   the BRL-­CAD project  
 and   explains   how a   heart-shaped   primitive was implemented in the project design  
 section.   First of all,   it   introduces   the   concept   of   free   and   open   source   software. Secondly,   the BRL-­CAD   software   package is overviewed. Later, it states the   aim   of   contributing   to   the   BRL-­CAD   project.   And finally,  it explains the   design used to implement the heart-­shaped primitive for BRL-CAD.
 
@@ -15,7 +15,7 @@ section.   First of all,   it   introduces   the   concept   of   free   and   o
 %------------------------------------------------------------------------------------------------------------------------------
 \section{The Open Source Community}
 
-\hspace{30} Depending   on   how   we   choose   to   call   it, \textit{Free/Libre/Open   Source  
+\hspace{30} Depending   on   how it is termed, \textit{Free/Libre/Open   Source  
 Software   (FLOSS)},   \textit{Free   and   Open   Source   Software   (FOSS)}   or   simply   \textit{Open  
 Source   Software   OSS)}   is   software   for   which   users   have   access   to   both   the  
 source   code   and   binary   executables   and   is   licensed   under   a   license   which  
@@ -78,7 +78,7 @@ providing   many   tools   that   work   in   harmony   to   complete   a   spec
 tools   include   geometry   and   image   converters,signal   and   image   processing  
 tools,   various   ray   tracing   applications, geometry   manipulators,   and   much   more.  
 They   will   also   be   used   to   test   that   the   geometric   properties   of   the   heart­-shaped  
-primitive works as we will see in Chapter Four.
+primitive works in Chapter Four.
 
 \hspace{30} The   basic   layout   of   its   code   places   public   API   headers   in   the   top­level  
 \textit{\textbf{include/}}   directory   and   source   code   for   both   applications   and   libraries   in   the  
@@ -152,9 +152,9 @@ to traditional ones such as cones, cylinders, spheres, tori, etc.
 Government   for   the   modeling   of   military   artillery   and   simulating   combat  vehicle   systems   and   environments.   This   severely   limits   is   user   base   to  the   military   sector   and   gives   it   an   “­warring”   flare   which   repels   users   who  would have used it for more entertainment purposes.
 \end{itemize}
 
-In   a   bid   to contribute to BRL-CAD, we developed   a   heart-­shaped   primitive. In   the   following   section,   we  
-document   how   we   wrote   various   callback   functions   which   compute   useful  
-geometric   properties   for   the   heart-­shaped   primitive   such   as   formatted  
+In   a   bid   to contribute to BRL-CAD, a   heart-­shaped   primitive was developed. The 
+ following section documents the development of various   callback   functions   which   compute   useful  
+geometric   properties   of   the   heart-­shaped   primitive   such   as   formatted  
 description,   database   importation   and   exportation,   computation   of   the   bounding  
 box and plotting the wireframe and ray tracing.
 
@@ -164,8 +164,8 @@ box and plotting the wireframe and ray tracing.
 
 \section{Design}
 
-\hspace{30} After   having   stated   our   goal   of   contributing   to   the   BRL-­CAD   project,   we  
-now   explain   how   we   implemented   the   heart­-shaped   primitive.   Currently,  
+\hspace{30} After   having   stated   the overall   goal   of   contributing   to   the   BRL-­CAD   
+project, the development of the heart-shape is explained. Currently,  
 BRL­-CAD   aspires   to   become   the   most   widely   used   open   source  
 CAD   software   package   in   existence.   Presently,   it   is   mostly  
 used   by   the   United   States   of   America's   Government   agencies   which   fund   its  
@@ -176,27 +176,27 @@ is   indicative   of   the   fact   that   BRL-­CAD's   usage   must   go   bey
 sector to break the status­ quo.   
 
 \hspace{30} In   a   bid   to   increase   BRL-­CAD's   user   base   by   inviting   designers   and  
-artists   from   the   entertainment   industry,   we   thought   of   developing   a  
-heart-­shaped   primitive.   This   heart­-shaped   primitive   (or   simply   heart),   a   symbol  
-of   romantic   love,   would   go   a   long   way   to   entertain   families   and   communities  
+artists   from   the   entertainment   industry, a heart-­shaped primitive was developed.
+ This   heart­-shaped   primitive   (or   simply   heart),   a   symbol of   romantic   love, 
+  would   go   a   long   way   to   entertain   families   and   communities  
 weddings,   marriage   anniversaries,   valentine's   day   celebrations,   etc.   It   would  
 also   be   used   by   fashion   designers   to   create   magnificient   embroidery   on  
 clothing.   Lastly,   it   would   also   be   used   to   design   banners   and   royal   coat   of   arms  
 in cartoons movies as well as animate embroidery on clothing.   
 
-\hspace{30} While   adhering   to   its   coding   style,   we   incorporated   the   heart-­shaped  
-primitive into BRL­-CAD's ray tracing library using the following steps;  
+\hspace{30} While   adhering   to   its   coding   style,  the heart-­shaped  
+primitive was incorporated into BRL­-CAD's ray tracing library using the following steps;  
 
 \begin{itemize}
-\item We made room for the heart-shaped primitive in BRL­-CAD by hooking it unto the raytracing library.  
+\item Room for the heart-shaped primitive was created in BRL­-CAD by hooking it unto the raytracing library.  
 \item Wrote callback   functions   for   the   heart   and   tested   them   using   BRL-­CAD's  
 inbuilt testing infrastructure in the \textit{\textbf{regress/}} directory.  
 \item Built   support   for   typing   in   parameters   for   the   heart­-shaped   primitive   in   the  
 display interfaces viz \textit{mged} or \textit{archer}.
 \end{itemize}
 
-In   order   to   make   room   for   the   heart­-shape   in   BRL-­CAD,   we   tagged   the   heart  
-primitive,   designed   a   data   structure   for   it   and   stubbed   a   skeletal   \textit{hrt.c}   file   into  
+In   order   to   make   room   for   the   heart­-shape   in   BRL-­CAD, the   heart-shaped  
+primitive was tagged, a data   structure designed and  a skeletal   \textit{hrt.c}   file stubbed  into  
 the source code repository in \textbf{\textit{src/librt/primitives/hrt/hrt.c.}}
 
 \subsection{Tagging the heart­-shaped primitive}
@@ -236,9 +236,9 @@ These   3    vectors viz \textit{\textbf{xdir}}, \textit{\textbf{ydir}} and \tex
 
 The   signatures   of   the   functions   which   are   called   to   compute   the  
 geometric   properties   for   the   heart-­shaped   primitive   were   casted   and   enlisted   in  
-a   function   table   in   \textit{src/librt/primitives/table.c}.   Then,   we   added   the  
-\textit{src/librt/primitives/hrt/}   directory   to   the   source   code   repository   and   committed  
-the   hrt.c   file   to   it.   The   \textit{hrt.c}   file   consisted   of   introductory   comments,   include  
+a   function   table   in   \textit{src/librt/primitives/table.c}. The \textit{src/librt/primitives/hrt/}
+ directory was added to the source code repository   and  the   hrt.c   file   to   it commited to it. 
+The   \textit{hrt.c}   file   consisted   of   introductory   comments,   include  
 files,   structures   for   raytracing   and   storage   of   the   heart­-shaped   primitive   in   the  
 database   as   well   as   stubs   for   all   callback   functions   which   all   print   a  
 \textit{\textbf{\“rt\_hrt\_???:Not   implemented   yet!\”}}   message   when   called.   For   surface  
@@ -261,19 +261,18 @@ The   location   of   the   \textit{hrt.c}   file   in   the   raytracing   libr
 \textit{src/librt/CMakeLists.txt} for compilation purposes  and test ­driven development.\\
    
 \hspace{30} After   hooking   the   heart-­shaped   primitive   into   BRL-­CAD's   source   code  
-repository,   we   wrote   callback   functions   which   compute   geometrically   useful  
-properties for the primitive such as;  
+repository,  callback functions which compute geometrically useful properties for the heart were written such as;  
  
 \begin{enumerate}
 \item Formatted description  
 \item Database importation and exportation  
 \item Computing the bounding box of the heart­-shaped primitive  
 \item Plotting the wireframe of the heart­-shaped primitive  
-\item Implicit surface representation of the heart-­shaped primitive  
+\item Implicit surface representation of the heart-­shaped primitive
 \end{enumerate}
 
-\hspace{30} We   now   explain   how   the   functions   we   wrote   actually   compute   each
-of   these properties.   Each   property   was   tested   using   BRL-­CAD's   commands \cite{36}   after  having   
+\hspace{30} Now, we explain how the written functions actually compute each of these properties.
+ Each   property   was   tested   using   BRL-­CAD's   commands \cite{36}   after  having   
 written   the   requisite   function(s)   that   compute   it.   It   is   worth   highlighting  
 here   that   the   \textit{“rt\_hrt\_”}   prefix   is   attached   to   the   heart­-shaped   primitive's   structure  
 and   its   functions'   signatures   because   \textit{“rt”}   and   \textit{“hrt”}   denote   the   raytracing   library  
@@ -283,8 +282,8 @@ and the heart-shape respectively.
 
 \hspace{30} It   often   arises   that   engineers   and   scientists   working   on   geometric   models  
 ask   to   know   the   exact   values   of   the   objects   in   question.   In   order   to   know   a  
-solid's   type   and   the   values   of   its   key   parameters,   we   wrote   the   \textit{rt\_hrt\_describe()}  
-function   which   simply   prints   the   heart-shape's   parameters   in   human   readable   format.  
+solid's   type   and   the   values   of   its   key   parameters,  the   \textit{rt\_hrt\_describe()}  
+function was written  which   simply   prints   the   heart-shape's   parameters   in   human   readable   format.  
 The   radial   vectors   in   the   X,   Y   and   Z   directions   are   printed   alongside   their  
 magnitudes   and   the   distance   from   the   heart-shape's   center   to   either   of   its   cusps   is  
 also printed.
@@ -293,12 +292,12 @@ also printed.
 
 \hspace{30} BRL-­CAD   provides   CSG   modeling   features   and   its   models   are   usually  
 stored   in   it's   Geometric   Editing   database   called   GED.   For   the   heart-­shaped  
-primitive   to   be   used   in   CSG,   we   wrote   functions   that  
-import and export data in between the database format and the internal format. 
+primitive   to   be   used   in   CSG, functions that import and export data in between 
+the database format and the internal format were written. 
   
 The   \textit{rt\_hrt\_import5()}   function   imports   a   heart   from   the   database   format   to   the  
-internal   format.   Firstly,   we   check   that   the   primitive   being   imported   is   the  
-heart-­shaped   primitive   by   verifying   that   the   primitive's   magic   number   is   the  
+internal   format.   Firstly,  a check   that   the   primitive   being   imported   is   the  
+heart-­shaped   primitive is done  by   verifying   that   the   primitive's   magic   number   is   the  
 same   as   the   heart­-shape's.   Then,   this   function   assigns   integers   held   in   an   array  
 buffer to the different parameters of the \textit{rt\_hrt\_internal} structure.
    
@@ -307,7 +306,7 @@ format   into   the   database   format.   The   database   format   for   the  
 consists   rather   of   only   the   heart's   center   and   the   3   radial   vectors   in   the   X,   Y   and  
 Z   directions.   It   is   not   really   useful   storing   value   for   d   in   the   database   as   it   is  
 equivalent   to   some   components   of   the   radial   vectors.   After   checking   that   the  
-primitive   in   question   is   the   heart,   we   store   the   values   for   \textit{v},   \textit{xdir},   \textit{ydir}   and   \textit{zdir} in an array buffer holding the integer values for the heart's parameters
+primitive   in   question   is   the   heart-shape, the   values   for   \textit{v},   \textit{xdir},   \textit{ydir}   and   \textit{zdir} are stored in an array buffer holding the integer values for the heart's parameters
 
 \subsection{Computing the bounding box of the heart-­shaped primitive}
 
@@ -319,9 +318,9 @@ lies.   It   is   a   useful   property   to   compute   for   a   model   as   
 orient   an   object   (within   its   model   coordinates)   while   positioning   the   camera  
 (within its world coordinates) and casting lights towards it.   
 
-\hspace{30} In   order   to   compute   the   bounding   box   of   the   heart­-shape,   we   wrote   the  
-\textit{rt\_hrt\_bbox()}   function   which   had   two   interesting   three­-dimensional   points   as  
-parameters.   These   points   are   the   minimal   and   maximal   points   located   at   the  
+\hspace{30} In   order   to   compute   the   bounding   box   of   the   heart­-shape, the  
+\textit{rt\_hrt\_bbox()} function was implemented which had two three­-dimensional points as  
+parameters. These   points   are   the   minimal   and   maximal   points   located   at   the  
 closest   lower   left   hand   corner   and   the   furthest   upper   right   hand   corner   of   the  
 bounding   box.   Obtaining   the   coordinates   of   these   two   points   suffices   to  
 compute   the   bounding   as   they   are   located   at   opposite   ends   of   the   box,  
@@ -343,17 +342,17 @@ center   to   either   of   its   cusps   (which   is   1.0)   and   the   addit
 approximates   the   displacement   from   the   upper   cusp   to   the   highest   point   on  
 either   of   the heart-shape's   lobes.
 
-Hence, with   the   coordinates   of   the   maximal   and   minimal   points obtained, we obtain the bounding box of the heart-­shape.
+Hence, with the coordinates of the maximal and minimal points obtained, the bounding box of the heart-­shape was obtained.
 
 \subsection{Plotting the wireframe of the heart-­shaped primitive}
 
-\hspace{30} As   we   earlier   discussed,   the   wireframe   of   an   object   enables   the  
+\hspace{30} As  earlier   discussed,   the   wireframe   of   an   object   enables   the  
 sketching   and   preview   of   objects   before   adding   colour   and   texture   to   them.   In  
 order   to   build   the   wireframe   of   the   heart-­shaped   primitive   into   BRL-­CAD's  
-functionality,   we   wrote   the   \textit{rt\_hrt\_plot()}   and   \textit{rt\_hrt\_24pts()}   functions.   The  
+functionality, \textit{rt\_hrt\_plot()}   and   \textit{rt\_hrt\_24pts()}   functions were written.   The  
 heart-­shaped   primitive's   wireframe   is   made   up   of   several   ellipses   aligned   along  
-the   Z   axis   each   of   which   consists   of   24   edges.   As   we   progress   in   the   positive  
- Z - ­axis   direction,   we   use   8   ellipses   (with   decreasing   radii)   to   frame   the   upper  
+the   Z   axis   each   of   which   consists   of   24   edges. With  progress   in   the   positive  
+ Z - ­axis   direction,   8   ellipses   (with   decreasing   radii) were used  to   frame   the   upper  
 portions   of   the   left   and   right   lobes.   The   24   required   points   for   each   ellipse   are  
 computed   by   the   \textit{rt\_hrt\_24pts()} function which computes 24 points which are $15^{\circ}$ apart.
 Finally,   the   different   ellipses   are  connected   together   to   enrich   the   wireframe   
@@ -394,10 +393,10 @@ was used to develop the wireframe of the heart­-shape.
 raytracing   it.   Ray­tracing   at   its   very   core   consists   of   solving   for   the   intersection  
 point   of   a   line   and   a   surface.   Many   interesting   surfaces   have   been   written   as  
 polynomial   functions   of   position   and   the   heart­-shape   is   not   left   out.   The  
-peculiarity   of   our   work   is   that   we   showed   that   ray­tracing   using   the  
+peculiarity   of   our   work   is   that   it  showed   that   ray­tracing   using   the  
 Laguerre­-based   root­finder   works   for   sextic   equations   (those   with   a   degree   of  
-6).   In   order   to   do   this,   we   wrote   \textit{rt\_hrt\_prep()},   \textit{rt\_hrt\_norm()},   \textit{rt\_hrt\_shot()}   and  
-\textit{rt\_hrt\_print()} functions.
+6). To   do   this,  \textit{rt\_hrt\_prep()},   \textit{rt\_hrt\_norm()},   \textit{rt\_hrt\_shot()}   and  
+\textit{rt\_hrt\_print()} functions were written.
 
 \hspace{30} The   \textit{rt\_hrt\_prep()}   function   prepares   a   heart-­shape   for   ray­tracing   by  
 verifying   that   the   object   in   question   is   a   valid   heart-­shape.   If   the   primitive   is   a  
@@ -407,8 +406,8 @@ the   heart,   we   first   check   that   at least   one   of   the   three   r
 non-zero   magnitude.   Secondly,   we   check   that   the   value   for   parameter   d   is  
 non­zero.   After,   we   check   that   the   3   radial   vectors   are  
 perpendicular   to   each other.   If   they   are   indeed   perpendicular   to   each   other,   then  
-the   heart­-shaped   primitive   is   a   valid   hear.   Finally,   we   compute   values   for   \textit{d},   \textit{v},  
-\textit{hrt\_invRSSR},   \textit{hrt\_invsq}   and   the   heart-shape's   bounding   sphere   centered   at   \textit{v}.   After  
+the   heart­-shaped   primitive   is   a   valid   hear.   Finally,  values   for   \textit{d},   \textit{v},  
+\textit{hrt\_invRSSR},   \textit{hrt\_invsq}   and   the   heart-shape's   bounding   sphere   centered   at   \textit{v} are computed.   After  
 computing   these   requisite   parameters   for   the   heart   in   \textit{rt\_hrt\_prep()},   the  
 \textit{rt\_hrt\_print()}   function   prints   the   position   vector   of   the   heart-­shape's   center   and  
 the   two   (2)   matrices   for   transposing,   rotating   and   scaling   just   to   make   sure   that  
@@ -438,8 +437,8 @@ z = ct + $z_0$ \\
 
 Equation (3) above indicates   that   each   point   on   the   line   is   represented   by   a  
 unique   value   for   t.   To   find   the   points   of   intersection   of   the   light   ray   and   the  
-surface   of   the   heart-­shaped   primitive,   we   substituted   x,   y   and   z   from   (3)   above  
-into equation (2). This yielded a new sextic equation (4) in t shown below
+surface   of   the   heart-­shaped   primitive,  x,   y   and   z   from   (3)   above were substituted in equation (2).
+ This yielded a new sextic equation (4) in t shown below
 \begin{equation*}
 \centering
 S(t) = C_6t^6  + C_5t^5 + C_4t^4 + C_3t^3 + C_2t^2 + C_1t + C_0  = 0 ­­­­­ \tag{4}  
@@ -450,8 +449,7 @@ The   real   zeroes   of   (4)   indicate   an   intersection   in $ \mathbb{E}^
 Even   if   complex   roots   are   returned   by   the   root­finder,   the   roots   with  
 imaginary   components   sufficiently   close   to   zero   are   considered   to   be   real  
 zeroes   and   are   also   used   as   values   for   t   in   intersection   points. 
-If   there   are   no  real   solutions,   then   the   ray   does   not   intersect   the   heart's   surface.   We   determine  
-the   coordinates   of   the   intersection   points   by   substituting   the   values   for   real   $t_i$ in $ W $ above.  
+If   there   are   no  real   solutions,   then   the   ray   does   not   intersect   the   heart's   surface. The   coordinates   of   the   intersection   points were determined  by   substituting   the   values   for   real   $t_i$ in $ W $ above.  
 
 The   Algorithm   below   shows   the   intersection   of   an   arbitrary   light   ray   and   the  heart­-shape's surface.
 
@@ -489,10 +487,10 @@ $f_z(x,y,z)$ = 6z(w^2 – z/2(x^2 + 9/80y^2))   \\
 \end{IEEEeqnarray*}
 
 \hspace{30} Computing   the   exact   algebraic   expression   for   the   coefficients   of   (3) above   is  
-cumbersome   and   error-­prone.   Instead,   we   use   several   polynomial   variables   to  
+cumbersome   and   error-­prone.   Instead,  several   polynomial   variables  were used to  
 hold   the   coefficients   of   (3)   and   gradually   build   equation   (3).   Starting   with  
-polynomials   for   $x^2$, $9/4y^2$ and $z^2 ­- 1$,   we   obtain   w. With   $y^2$ + $9/4x^3$   and   $z^3$ ,   we  
-obtain $z^3(x^3 + 9/80x^3)$. Hence, we obtain coefficients of (3). 
+polynomials   for   $x^2$, $9/4y^2$ and $z^2 ­- 1$,  w was obtained. 
+With $y^2$ + $9/4x^3$ and $z^3$ , $z^3(x^3 + 9/80x^3)$ was obtained. Hence, the coefficients of (3) were determined. 
 
 \hspace{30} Once   the   coefficients   of   (3)   are   determined,   it   is   parsed   through  
 BRL­-CAD's   root   finder.   For   polynomials   with   degrees   less   than   five,   there  
@@ -535,8 +533,8 @@ polynomial.   This   deflation   step   reduces   the   degree   of   the   poly
 and approximations for all roots of the polynomial are obtained. 
  
 \hspace{30} BRL-­CAD's   root­finder   \textit{rt\_poly\_findroot()}   function   is   found   in  
-\textit{\textbf{src/librt/roots.c}}.   We   tested   the   root   solver   to   show   that   it   solves   sextic  
-equations by parsing an arbitrarily chosen equation (5) below.  
+\textit{\textbf{src/librt/roots.c}}.To test that the   root   solver solves sextic  
+equations, an arbitrarily chosen equation (5)  was passed.  
 
 \begin{equation*}
 \centering
@@ -551,8 +549,8 @@ heart-shape as our discussion of results in the next chapter will show.
 
 Finally,   appropriate   support   for   typing   the   parameters   of   the   heart­-shaped  
 primitive   using   the   keyboard   into   the   mged   or   archer   interfaces   was  
-implemented.   To   do   this,   we   first   wrote   the   \textit{p\_hrt[]}   array   and   \textit{hrt\_in()}   routine   in  
-\textit{\textbf{src/libged/typein.c}}   to   prompt   users   to   input   parameters   for   the   heart­-shape.  
+implemented.   To   do   this, the   \textit{p\_hrt[]}   array was developed  and   \textit{hrt\_in()}   routine   in  
+\textit{\textbf{src/libged/typein.c}} written  to   prompt   users   to   input   parameters   for   the   heart­-shape.  
 Then ,we   added   the   \textit{mk\_hrt()}   function   to   the   include/wdb.h   and  \textit{\textbf{src/libwdb/wdb.c}} files   to   assign   values   from   \textbf{mged}   or   \textbf{archer}   interfaces   to   the  heart-shape's parameters.
  
 %-----------------------------------------------------------------------------------------------------------------------------------
