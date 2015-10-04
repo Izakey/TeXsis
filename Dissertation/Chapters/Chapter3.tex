@@ -149,7 +149,9 @@ Constructive   Solid   Geometry,   BRL-­CAD's   set   of   primitives   is   st
 to traditional ones such as cones, cylinders, spheres, tori, etc.
 
 \item BRL­-CAD   is   widely   used   within   agencies   within   the   United   States  
-Government   for   the   modeling   of   military   artillery   and   simulating   combat  vehicle   systems   and   environments.   This   severely limits   its   user   base   to  the   military   sector   and   repels   users   who  would have used it for more entertainment purposes.
+Government   for   the   modeling   of   military   artillery   and   simulating   combat
+ vehicle   systems   and   environments. This limits its user base to the  
+military sector and repels users who  would have used it for more entertainment purposes.
 \end{itemize}
 
 In a bid to contribute to BRL-CAD, a heart-­shaped primitive was developed. 
@@ -256,7 +258,7 @@ elaborate C-­like structure called \textit{hrt\_specific} with the following pa
 \end{itemize}
 
 The   location   of   the   \textit{hrt.c}   file   in   the   raytracing   library   was   added   to  
-\textit{src/librt/CMakeLists.txt} for compilation purposes  and test ­driven development.
+\textit{src/librt/CMakeLists.txt} for compilation purposes and test ­driven development.
    
 \hspace{30} After   hooking   the   heart-­shaped   primitive   into   BRL-­CAD's   source   code  
 repository,  callback functions which compute geometrically useful properties for the heart were written such as;  
@@ -387,7 +389,7 @@ was used to develop the wireframe of the heart­-shape.
 
 \subsection{Surface   representation   and   raytracing   of   the   heart­-shaped primitive}
 
-\hspace{30} The   heart-­shaped   primitive   endowed   with   a   surface   representation   by  
+\hspace{30} The   heart-­shaped   primitive was  endowed   with   a   surface   representation   by  
 raytracing   it.   Ray­tracing   at   its   very   core   consists   of   solving   for   the   intersection  
 point   of   a   line   and   a   surface.   Many   interesting   surfaces   have   been   written   as  
 polynomial   functions   of   position   and   the   heart­-shape   is   not   left   out.   The  
@@ -489,8 +491,8 @@ $f_z(x,y,z)$ = 6z(w^2 – z/2(x^2 + 9/80y^2))   \\
 \hspace{30} Computing   the   exact   algebraic   expression   for   the   coefficients   of   (3) above   is  
 cumbersome   and   error-­prone.   Instead,  several   polynomial   variables  were used to  
 hold   the   coefficients   of   (3)   and   gradually   build   equation   (3).   Starting   with  
-polynomials   for   $x^2$, $9/4y^2$ and $z^2 ­- 1$,  w was obtained. 
-With $y^2$ + $9/4x^3$ and $z^3$ , $z^3(x^3 + 9/80x^3)$ was obtained. Hence, the coefficients of (3) were determined. 
+polynomial variables   for   $x^2$, $9/4y^2$ and $z^2 ­- 1$,  w was obtained. 
+With polynomial variables holding $y^2$ + $9/4x^3$ and $z^3$ , $z^3(x^3 + 9/80x^3)$ was obtained. Hence, the coefficients of (3) were determined. 
 
 \hspace{30} Once   the   coefficients   of   (3)   are   determined,   it   is   parsed   through  
 BRL­-CAD's   root   finder.   For   polynomials   with   degrees   less   than   five,   there  
@@ -506,7 +508,7 @@ of   the   roots   into   three   subsets   of   two   roots   nor   in   the   
 stabilizes   a   partition   of   the   set   of   the   roots   into   two   subsets   of   three   roots.   As   a  
 result, only numerical methods can be employed to solve it.  
  
-Fortunately,   BRL-­CAD   has   a   root­solver   which   is   based   on   a   numerical  
+\hspace{30} Fortunately,   BRL-­CAD   has   a   root­solver   which   is   based   on   a   numerical  
 method   called   the   Laguerre   method.   Named   after   the   French   mathematician  
 Edmund   Laguerre,   the   Laguerre   method   is   a   root­finding   algorithm   used   
 to find the roots of polynomials.   Extensive   empirical   studies   show   that   this   method   has   come  
@@ -527,13 +529,12 @@ Choose an initial guess $x_0$  \\
 \hspace{60}end for loop \\
 \hspace{40}Set $x_{k+1}$ := $x_{k – a}$\\ 
 \hspace{40}end while loop \\
-
-If   a   root   is   found,   then   the   corresponding   linear   factor   is   removed   from   the  
+If a root is found, then the corresponding linear factor is removed   from   the  
 polynomial.   This   deflation   step   reduces   the   degree   of   the   polynomial   by   one  
-and approximations for all roots of the polynomial are obtained. 
+and approximations for all roots of the polynomial are obtained likewise. 
  
 \hspace{30} BRL-­CAD's   root­finder   \textit{rt\_poly\_findroot()}   function   is   found   in  
-\textit{\textbf{src/librt/roots.c}}.To test that the   root   solver solves sextic  
+\textit{\textbf{src/librt/roots.c}}.To test that the   root  solver solves sextic  
 equations, an arbitrarily chosen equation (5)  was passed.  
 
 \begin{equation*}
@@ -542,7 +543,7 @@ equations, an arbitrarily chosen equation (5)  was passed.
 \end{equation*}
 Equation (5) is parsed through the   root­finder   to   obtain   its   roots   $x_1 = 1 – i$, $x_2 = 1 + i$, $x_3 = 2 – i$, $x_4 = 2 +
 i$, $x_5 = 1­ - 2i$, $x_6 = 1 + 2i$. This   test   is   implemented   in   \textit{\textbf{src/util/roots\_example.c}}.  
-Besides   this   test,   the   call   to   the   root­finder   by   (2)   worked   and   rendered   the  
+Besides   this   test,   the   call   to   the   root­finder   by passing equation (2)   worked   and   rendered   the  
 heart-shape as our discussion of results in the next chapter will show.  
 
 \subsection{Type in support for the heart-­shaped primitive}
@@ -553,4 +554,4 @@ implemented.   To   do   this, the   \textit{p\_hrt[]}   array was developed  an
 \textit{\textbf{src/libged/typein.c}} written  to   prompt   users   to   input   parameters   for   the   heart­-shape.  
 Then ,we   added   the   \textit{mk\_hrt()}   function   to   the   include/wdb.h   and  \textit{\textbf{src/libwdb/wdb.c}} files   to   assign   values   from   \textbf{mged}   or   \textbf{archer}   interfaces   to   the  heart-shape's parameters.
  
-%-----------------------------------------------------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------------------------------------------------------------
