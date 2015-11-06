@@ -56,12 +56,7 @@
 \btypeout{Abstract}
 \addtotoc{Abstract}
 \thispagestyle{plain}
-\thispagestyle{empty}
-\null%\vfil
-\begin{center}
-\bigskip
-{\Huge{\textit{\textbf{Abstract}}} \par}
-\bigskip\end{center}
+\begin{center}{\Large \textbf{ABSTRACT} \par}\end{center}
 {\normalsize #1}
 }
 
