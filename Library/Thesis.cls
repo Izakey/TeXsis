@@ -32,7 +32,6 @@
 \begin{center}{\Large\bf DEDICATION \par}\end{center}
 {\normalsize #1}
 \vfil\vfil\null
-
 }
 
 \newcommand\Certification[1]{
@@ -64,12 +63,7 @@
 \btypeout{Abbreviations}
 \addtotoc{Abbreviations}
 \thispagestyle{plain}
-\thispagestyle{empty}
-\null%\vfil
-\begin{center}
-\bigskip
-{\Huge{\textit{\textbf{Abbreviations}}} \par}
-\bigskip\end{center}
+\begin{center}{\Large \textbf{LIST OF ABBREVIATIONS} \par}\end{center}
 {\normalsize #1}
 }
 
