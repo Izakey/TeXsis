@@ -45,10 +45,10 @@
 }
 
 \newcommand\Acknowledgement[1]{
-\btypeout{Acknowledgement}
-\addtotoc{Acknowledgement}
+\btypeout{Acknowledgements}
+\addtotoc{Acknowledgements}
 \thispagestyle{plain}
-\begin{center}{\Large\bf ACKNOWLEDGEMENT \par}\end{center}
+\begin{center}{\Large\bf ACKNOWLEDGEMENTS \par}\end{center}
 {\normalsize #1}
 }
 
