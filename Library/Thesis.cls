@@ -48,7 +48,7 @@
 \btypeout{Acknowledgement}
 \addtotoc{Acknowledgement}
 \thispagestyle{plain}
-\begin{center}{\huge\bf Acknowledgement \par}\end{center}
+\begin{center}{\Large\bf ACKNOWLEDGEMENT \par}\end{center}
 {\normalsize #1}
 }
 
