@@ -25,16 +25,6 @@
 \LoadClass{\baseclass}
 \newcommand\bhrule{\typeout{------------------------------------------------------------------------------}}
 
-\newcommand\Declaration[1]{
-\btypeout{Declaration}
-\addtotoc{Declaration}
-\thispagestyle{plain}
-\null\vfil
-\begin{center}{\huge\bf Declaration\par}\end{center}
-{\normalsize #1}
-\vfil\vfil\null
-}
-
 \newcommand\Dedication[1]{
 \btypeout{Dedication}
 \addtotoc{Dedication}
@@ -49,8 +39,7 @@
 \btypeout{Certification}
 \addtotoc{Certification}
 \thispagestyle{plain}
-\null\vfil
-\begin{center}{\huge\bf Certification \par}\end{center}
+\begin{center}{\Large\bf CERTIFICATION \par}\end{center}
 {\normalsize #1}
 \vfil\vfil\null
 }
