@@ -59,6 +59,25 @@
 {\normalsize #1}
 }
 
+\newcommand\Listoftables[1]{
+\btypeout{List of Tables}
+\addtotoc{List of Tables}
+\thispagestyle{plain}
+\begin{center}{\Large\bf LIST OF TABLES \par}\end{center}
+{\normalsize #1}
+\vfil\vfil\null
+}
+
+\newcommand\Listoffigures[1]{
+\btypeout{List of Figures}
+\addtotoc{List of Figures}
+\thispagestyle{plain}
+\begin{center}{\Large\bf LIST OF FIGURES \par}\end{center}
+{\normalsize #1}
+\vfil\vfil\null
+}
+
+
 \newcommand\Abbreviations[1]{
 \btypeout{Abbreviations}
 \addtotoc{Abbreviations}
@@ -292,81 +311,7 @@
    \cleardoublepage
 }\end{spacing}
 }
-\renewcommand\listoffigures{
-\btypeout{List of Figures}
-\addtotoc{List of Figures}
-\begin{spacing}{1}{
-    \setlength{\parskip}{1pt}
-    \if@twocolumn
-      \@restonecoltrue\onecolumn
-    \else
-      \@restonecolfalse
-    \fi
-    \chapter*{\listfigurename
-      \@mkboth{\MakeUppercase\listfigurename}
-              {\MakeUppercase\listfigurename}}
-    \@starttoc{lof}
-    \if@restonecol\onecolumn\fi
-    \cleardoublepage
-}\end{spacing}
-}
-\renewcommand\listoftables{
-\btypeout{List of Tables}
-\addtotoc{List of Tables}
-\begin{spacing}{1}{
-    \setlength{\parskip}{1pt}
-    \if@twocolumn
-      \@restonecoltrue\onecolumn
-    \else
-      \@restonecolfalse
-    \fi
-    \chapter*{\listtablename
-      \@mkboth{
-          \MakeUppercase\listtablename}{\MakeUppercase\listtablename}}
-    \@starttoc{lot}
-    \if@restonecol\twocolumn\fi
-    \cleardoublepage
-}\end{spacing}
-}
 
-\newcommand\listconstants{Physical Constants}
-\usepackage{longtable}
-\newcommand\listofconstants[2]{
-\btypeout{\listconstants}
-    \chapter*{\listconstants
-      \@mkboth{
-          \MakeUppercase\listconstants}{\MakeUppercase\listconstants}}
-\begin{longtable}[c]{#1}#2\end{longtable}\par
-    \cleardoublepage
-}
-\newcommand\listnomenclature{Symbols}
-\usepackage{longtable}
-\newcommand\listofnomenclature[2]{
-\btypeout{\listnomenclature}
-    \chapter*{\listnomenclature
-      \@mkboth{
-          \MakeUppercase\listnomenclature}{\MakeUppercase\listnomenclature}}
-\begin{longtable}[c]{#1}#2\end{longtable}\par
-    \cleardoublepage
-}
-\newcommand\acknowledgements[1]{
-\btypeout{Acknowledgements}
-\addtotoc{Acknowledgements}
-\thispagestyle{plain}
-\begin{center}{\huge{\textit{Acknowledgements}} \par}\end{center}
-{\normalsize #1}
-\vfil\vfil\null
-
-}
-\newcommand\dedicatory[1]{
-\btypeout{Dedicatory}
-\thispagestyle{plain}
-\null\vfil
-\vskip 60\p@
-\begin{center}{\Large \sl #1}\end{center}
-\vfil\null
-\cleardoublepage
-}
 \renewcommand\backmatter{
   \if@openright
     \cleardoublepage
