@@ -39,8 +39,7 @@
 \btypeout{Dedication}
 \addtotoc{Dedication}
 \thispagestyle{plain}
-\null\vfil
-\begin{center}{\huge\bf Dedication \par}\end{center}
+\begin{center}{\Large\bf DEDICATION \par}\end{center}
 {\normalsize #1}
 \vfil\vfil\null
 
