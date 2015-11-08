@@ -283,13 +283,14 @@
   \cleardoublepage
 }
 
-{
-  \vfil\vfil\vfil\null
-  \cleardoublepage
-}
+%{
+%  \vfil\vfil\vfil\null
+%  \cleardoublepage
+%}
 \addtocounter{secnumdepth}{1}
 \setcounter{tocdepth}{6}
 \newcounter{dummy}
+\renewcommand{\contentsname}{\hspace*{2em}TABLE OF CONTENTS}
 \newcommand\addtotoc[1]{
 \refstepcounter{dummy}
 \addcontentsline{toc}{chapter}{#1}}
