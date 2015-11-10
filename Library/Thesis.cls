@@ -298,7 +298,7 @@
 \btypeout{Table of Contents}
 \addtotoc{Table of Contents}
 \begin{spacing}{1}{
-    \setlength{\parskip}{2pt}
+    \setlength{\parskip}{3pt}
     \if@twocolumn
       \@restonecoltrue\onecolumn
     \else
