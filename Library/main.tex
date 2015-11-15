@@ -20,9 +20,15 @@
 \usepackage[center]{titlesec}
 \hypersetup{urlcolor=black, colorlinks=true} % Colors hyperlinks in black
 \title{\ttitle} % Defines the thesis title
-\chapterfont{\centering}
-\sectionfont{\left}
-\subsectionfont{\left}
+\newcommand*{\justifyheading}{\raggedright}
+\newcommand*{\justifyhead}{\centering}
+\titleformat{\chapter}[display]
+  {\normalfont\huge\bfseries\justifyhead}{\chaptertitlename\ \thechapter}
+  {20pt}{\Huge}
+\titleformat{\section}
+  {\normalfont\Large\bfseries\justifyheading}{\thesection}{1em}{}
+\titleformat{\subsection}
+  {\normalfont\large\bfseries\justifyheading}{\thesubsection}{1em}{}
 \begin{document}
 
 %----------------------------------------------------------------------------------------
