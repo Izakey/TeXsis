@@ -82,7 +82,7 @@
 \btypeout{Abbreviations}
 \addtotoc{Abbreviations}
 \thispagestyle{plain}
-\begin{center}{\Large \textbf{LIST OF ABBREVIATIONS} \par}\end{center}
+\begin{center}{\Large \bf LIST OF ABBREVIATIONS \par}\end{center}
 {\normalsize #1}
 }
 
