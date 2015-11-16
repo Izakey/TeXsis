@@ -290,7 +290,7 @@
 \addtocounter{secnumdepth}{1}
 \setcounter{tocdepth}{6}
 \newcounter{dummy}
-\renewcommand{\contentsname}{\Large \hspace*{8em}TABLE OF CONTENTS}
+\renewcommand{\contentsname}{\Large \hspace*{2em}TABLE OF CONTENTS}
 \newcommand\addtotoc[1]{
 \refstepcounter{dummy}
 \addcontentsline{toc}{chapter}{#1}}
