@@ -81,7 +81,7 @@
 %	DEDICATION PAGE
 %----------------------------------------------------------------------------------------
 \Dedication{
-\pagestyle{empty} % No headers or footers for the following pages
+\pagestyle{plain} % No headers or footers for the following pages
 \begin{center}\Large To My Family \end{center}
 
 \vfill\vfill\vfill\vfill\vfill\vfill\null % Add some space at the bottom to position the quote just right
@@ -213,7 +213,7 @@ This thesis titled \ttitle \hspace{2} was aimed at demonstrating the engineering
 %	TABLE OF CONTENTS
 %----------------------------------------------------------------------------------------
 
-\pagestyle{empty} % Use the "fancy" headers as defined before to bring them back
+\pagestyle{plain} % Use the "fancy" headers as defined before to bring them back
 \newgeometry{a4paper,lmargin=2.6in,rmargin=0in,tmargin=1.5in,bmargin=0in}
 \lhead{\emph{Table of Contents}}
 
@@ -226,7 +226,7 @@ This thesis titled \ttitle \hspace{2} was aimed at demonstrating the engineering
 %----------------------------------------------------------------------------------------
 \newgeometry{a4paper,lmargin=2.6in,rmargin=0in,tmargin=2.5in,bmargin=0in}
 \Listoftables{
-\pagestyle{empty} % No headers or footers for the following pages
+\pagestyle{plain} % No headers or footers for the following pages
 Table 2.1: Implicit and parametric equations of some BRL-CAD primitives. . . . . 12 % Write out the List of Tables
 
 \vfill\vfill\vfill\vfill\vfill\vfill\null % Add some space at the bottom to position the quote just right
@@ -238,7 +238,7 @@ Table 2.1: Implicit and parametric equations of some BRL-CAD primitives. . . . .
 %----------------------------------------------------------------------------------------
 
 \Listoffigures{
-\pagestyle{empty} % No headers or footers for the following pages
+\pagestyle{plain} % No headers or footers for the following pages
 Figure 1.1: Model of a Goliath tracked mine . . . . . . . . . . . . . . . . . . . . . . . . 5\\
 Figure 2.1: A wireframe of a sphere . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8\\
 Figure 2.2: BRL-CAD Solid Primitive Shapes . . . . . . . . . . . . . . . . . . . . . . . .9\\
@@ -280,8 +280,6 @@ Figure 4.5: Images rendered after raytracing the heart-shaped primitive . . . . 
 %----------------------------------------------------------------------------------------
 
 \mainmatter % Begin numeric (1,2,3...) page numbering
-\setcounter{page}{1}
-\pagenumbering{arabic}
 % Include the chapters of the thesis as separate files from the Chapters folder
 
 \input{Chapters/Chapter1}

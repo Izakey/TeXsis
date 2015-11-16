@@ -2,7 +2,7 @@
 %
 % The Thesis class file 
 %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%sd%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \NeedsTeXFormat{LaTeX2e}[1996/12/01]
 \ProvidesClass{Thesis}
@@ -115,7 +115,7 @@
 \renewcommand{\subsectionmark}[1]{}
 \def\cleardoublepage{\clearpage\if@twoside \ifodd\c@page\else
 \hbox{}
-\thispagestyle{empty}
+\thispagestyle{plain}
 \newpage
 \if@twocolumn\hbox{}\newpage\fi\fi\fi}
 \usepackage{amsmath,amsfonts,amssymb,amscd,amsthm,xspace}
@@ -234,7 +234,7 @@
   \hypersetup{pdfsubject=\subjectname}
   \hypersetup{pdfauthor=\authornames}
   \hypersetup{pdfkeywords=\keywordnames}
-  \thispagestyle{empty}
+  \thispagestyle{plain}
   \begin{titlepage}
     \let\footnotesize\small
     \let\footnoterule\relax
