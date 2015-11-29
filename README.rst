@@ -1,8 +1,4 @@
 .. -*- restructuredtext -*-
-TeXsis := LaTeX + Thesis.
-
-A port of my M.Sc. Thesis into LaTeX format. 
-
 Dissertation/ and Library/ contain the Faculty and Library version of the Thesis.
 
 Click on the main.pdf file to read the thesis here and now !
