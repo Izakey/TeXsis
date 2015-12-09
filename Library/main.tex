@@ -14,7 +14,7 @@
 
 \graphicspath{{Pictures/}} % The directory where pictures are stored
 
-\usepackage[square, numbers, url, comma, sort&compress, tocloft, cite]{natbib}
+\usepackage[square, graphicx, numbers, url, comma, sort&compress, tocloft, cite]{natbib}
 \usepackage[a4paper,lmargin=2.6in,rmargin=0in,tmargin=2.5in,bmargin=0in]{geometry}
 \usepackage{sectsty}
 \usepackage[center]{titlesec}
@@ -91,50 +91,57 @@
 %----------------------------------------------------------------------------------------
 %	CERTIFICATION PAGE
 %----------------------------------------------------------------------------------------
+%\newgeometry{a4paper,lmargin=2.0in,rmargin=0in,tmargin=1.4in,bmargin=0in}
+\newgeometry{a4paper,lmargin=0.9in,rmargin=0.5in,tmargin=0.8in,bmargin=-1.0in}
+\begin{figure}[htbp]
+\centering
+%\includegraphics[width=\textwidth, height=\textheight]{Figures/certification.jpg}
+\includegraphics[trim=0.0cm 0.0cm 0.0cm 0.0cm, clip=true, totalheight=1.0\textheight]{Figures/certification.jpg}
+\end{figure}
 
-\begin{center}
-\textsc{\Large \textbf{UNIVERSITY OF BUEA}}\\[25pt]\\[0.5cm] % University of Buea
-\end{center}
+%\begin{center}
+%\textsc{\Large \textbf{UNIVERSITY OF BUEA}}\\[25pt]\\[0.5cm] % University of Buea
+%\end{center}
 
-\begin{minipage}{0.5\textwidth}
-\begin{flushleft}
-\large\textbf{FACULTY OF SCIENCE}
-\end{flushleft}
-\end{minipage}
-\begin{minipage}{0.5\textwidth}
-\begin{flushright}
-\large\textbf{DEPARTMENT OF COMPUTER}
-\end{flushright}
-\end{minipage}
-\large \hspace*{275} \textbf{SCIENCE}
+%\begin{minipage}{0.5\textwidth}
+%\begin{flushleft}
+%\large\textbf{FACULTY OF SCIENCE}
+%\end{flushleft}
+%\end{minipage}
+%\begin{minipage}{0.5\textwidth}
+%\begin{flushright}
+%\large\textbf{DEPARTMENT OF COMPUTER}
+%\end{flushright}
+%\end{minipage}
+%\large \hspace*{275} \textbf{SCIENCE}
 
-\Certification{
+%\Certification{
 
-\addtocontents{toc} % Add a gap in the Contents
+%\addtocontents{toc} % Add a gap in the Contents
 
-The thesis of \authornames\hspace{2}(SC09B676) entitled: “\textbf{\ttitle}” submitted to the \deptname, \facname\hspace{4}at the \univname\hspace{3} in partial fulfillment of the requirements for the award of the Master of Science (M.Sc.) degree in Computer Science has been examined and approved by the examination panel composed of:\\
+%The thesis of \authornames\hspace{2}(SC09B676) entitled: “\textbf{\ttitle}” submitted to the \deptname, \facname\hspace{4}at the %\univname\hspace{3} in partial fulfillment of the requirements for the award of the Master of Science (M.Sc.) degree in Computer %Science has been examined and approved by the examination panel composed of:\\
 
-\hspace*{1em}Ngwa A. Gideon (Ph.D), Chairperson ( Associate Professor of Mathematics )\\
-\hspace*{1em}Nkweteyim L. Denis (Ph.D), Examiner ( Lecturer of Computer Science )\\
-\hspace*{1em}Kamgnia Emmanuel (Ph.D), Supervisor (Lecturer of Computer Science )\\[0.5cm]
+%\hspace*{1em}Ngwa A. Gideon (Ph.D), Chairperson ( Associate Professor of Mathematics )\\
+%\hspace*{1em}Nkweteyim L. Denis (Ph.D), Examiner ( Lecturer of Computer Science )\\
+%\hspace*{1em}Kamgnia Emmanuel (Ph.D), Supervisor (Lecturer of Computer Science )\\[0.5cm]
 
-\Large \textbf{-------------------------------}\hspace*{80}\textbf{--------------------------------}
-\Large \hspace{95} Nkweteyim L. Denis (PhD) \hspace*{80} Kamgnia Emmanuel (PhD)\\
-\large\hspace*{2em} (Head of Department) \hspace*{155} (Supervisor)\\[1.0cm]
+%\Large \textbf{-------------------------------}\hspace*{80}\textbf{--------------------------------}
+%\Large \hspace{95} Nkweteyim L. Denis (PhD) \hspace*{80} Kamgnia Emmanuel (PhD)\\
+%\large\hspace*{2em} (Head of Department) \hspace*{155} (Supervisor)\\[1.0cm]
 
-\Large This thesis has been accepted by the Faculty of Science.\\[0.5cm]
+%\Large This thesis has been accepted by the Faculty of Science.\\[0.5cm]
 
-\Large \textbf{Date:}\textbf{----------------------------}\hspace*{80}\textbf{---------------------------} 
-\hspace*{19em}Prof. Ayonghe N. Samuel\\ 
-\large \hspace*{28em}( Dean )
-}
+%\Large \textbf{Date:}\textbf{----------------------------}\hspace*{80}\textbf{---------------------------} 
+%\hspace*{19em}Prof. Ayonghe N. Samuel\\ 
+%\large \hspace*{28em}( Dean )
+%}
 \clearpage % Start a new page
 
 %----------------------------------------------------------------------------------------
 %	ACKNOWLEDGEMENTS
 %----------------------------------------------------------------------------------------
+\newgeometry{a4paper,lmargin=2.6in,rmargin=0in,tmargin=2.5in,bmargin=0in}
 \Acknowledgement{
-
 \addtocontents{toc}% Add a gap in the Contents,
 \\
 Firstly, I thank our Lord Jesus Christ for giving me
