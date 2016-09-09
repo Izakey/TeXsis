@@ -1,4 +1,6 @@
 .. -*- restructuredtext -*-
+Fork This Repo To Create Your Dissertation/Internship Report in LaTeX
+
 Dissertation/ and Library/ contain the Faculty and Library version of the Thesis.
 
 Click on the main.pdf file to read the thesis here and now !
@@ -30,4 +32,4 @@ Notes
 You are free to fork this TeXsis repository and modify it to create yours. Just make sure you star the repository before forking. However, you're prohibited to use it for anything else without my permission! Be bonafide and act in Good faith !
 
 At Your Service!
-
+Isaac Kamga.
